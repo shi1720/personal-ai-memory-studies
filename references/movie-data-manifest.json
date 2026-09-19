@@ -1,0 +1,8 @@
+{
+  "source": "https://files.grouplens.org/datasets/movielens/ml-100k.zip",
+  "sha256": "50d2a982c66986937beb9ffb3aa76efe955bf3d5c6b761f4e3a7cd717c6a3229",
+  "publisher_md5": "0e33842e24a9c977be4e0107933c0723",
+  "bytes": 4924029,
+  "license": "GroupLens research-use terms; no redistribution; see official README",
+  "citation": "Harper and Konstan (2015), doi:10.1145/2827872"
+}

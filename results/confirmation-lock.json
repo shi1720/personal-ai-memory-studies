@@ -1,0 +1,18 @@
+{
+  "status": "frozen before reserved-user inference; published in next Git commit",
+  "hashes": {
+    "docs/confirmation-protocol.md": "9cc0b9b8bfe3a000c43ea52d91733318f4bb47a84c2b8ee64869804b24903d7d",
+    "src/confirmation_common.py": "e0f5c0aaffbbd585e540dc19492ae11181629dc7d9cedc6afb60ec80ab77c64b",
+    "src/run_confirmation.py": "84989bba2880b4f787d5c8d92e397e982b24effa5f3c2a0ceb1507898f2302e2",
+    "src/analyze_confirmation.py": "546bfa096f7566ae641aacc795d16fcc7eaac9d9f4b6c3e2ebf00d1745bf7607",
+    "src/coat_memory_reader.py": "0fc760509606a1c86549af70cf4f8e69346d974459cc9f22e2ac7343738aea51",
+    "src/run_coat_memory_development.py": "6b4cd7f5943a0b13fb93e2ee5d0bc80e1a10b6efad12edbd836ded227a202040",
+    "src/coat_baselines.py": "7f8e876c8508cb2c02a3c14849ae44d16f304dfcc48c330228271d1e7d4590f5",
+    "results/coat-user-split.json": "a666e2eb35b61752ce9fb1edad2a991696eb0c655d373feb88ec4e037f47fe1b",
+    "results/confirmation-baseline-selection.json": "80e5a6ca65e89179b30aab40d69228a9c5032e7f99315d779a50b5390ed0f129",
+    "results/mem0-native-complete-preflight.json": "40517b31c169cc54b9d5f9d3a8c2230b075f872f28ca354d6e64c011c3595137",
+    "references/mem0-native-complete-environment.txt": "9820bd1ce5561f7e4dbd67e85ad8d69f57e5ca5b44cd4b9221e9add301b1f061",
+    "references/local-model-manifest.json": "539676dc2ffde3643d164f8bf20cfa5e560b0be04b59c6f092aa62987f7207a9",
+    "references/phi-model-manifest.json": "590c8f5465bd6d0c9216db820a4d4b06aa71b7dfcdea411ef6069e0f2e74d331"
+  }
+}

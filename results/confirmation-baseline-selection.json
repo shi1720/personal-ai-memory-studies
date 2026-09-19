@@ -1,0 +1,59 @@
+{
+  "scope": "development selection only; no reserved-user scores",
+  "selected_history_ridge_penalty": 1.0,
+  "results": [
+    {
+      "penalty": 0.1,
+      "macro_mae": 1.0207255236776542
+    },
+    {
+      "penalty": 1.0,
+      "macro_mae": 0.9467503449987281
+    },
+    {
+      "penalty": 10.0,
+      "macro_mae": 1.0764267160229786
+    },
+    {
+      "penalty": 100.0,
+      "macro_mae": 1.258098797052935
+    }
+  ],
+  "users": [
+    152,
+    271,
+    3,
+    244,
+    141,
+    26,
+    234,
+    185,
+    42,
+    188,
+    2,
+    9,
+    16,
+    66,
+    194,
+    183,
+    131,
+    275,
+    15,
+    166,
+    210,
+    43,
+    223,
+    260,
+    24,
+    111,
+    94,
+    231,
+    228,
+    31
+  ],
+  "hashes": {
+    "src/confirmation_common.py": "e0f5c0aaffbbd585e540dc19492ae11181629dc7d9cedc6afb60ec80ab77c64b",
+    "src/select_confirmation_baselines.py": "8cfd31ce59f7a2a503e815ca99725b9e3e50862ebb9616f8e57d9dad7f0ee584",
+    "results/coat-user-split.json": "a666e2eb35b61752ce9fb1edad2a991696eb0c655d373feb88ec4e037f47fe1b"
+  }
+}

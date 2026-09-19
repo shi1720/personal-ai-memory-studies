@@ -1,0 +1,23 @@
+{
+  "scope": "development only; evaluation unscored",
+  "selected_history_ridge_penalty": 10.0,
+  "results": [
+    {
+      "penalty": 0.1,
+      "macro_mae": 1.0022383033709832
+    },
+    {
+      "penalty": 1.0,
+      "macro_mae": 0.9155998013105101
+    },
+    {
+      "penalty": 10.0,
+      "macro_mae": 0.8727050058785693
+    },
+    {
+      "penalty": 100.0,
+      "macro_mae": 0.961142092647635
+    }
+  ],
+  "split_sha256": "495ac8f1196c1260a58058ae9f1a06dfb468da969abff9922aadae06addaceef"
+}

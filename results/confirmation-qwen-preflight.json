@@ -1,0 +1,263 @@
+{
+  "scope": "fitting-user format preflight only; no accuracy calculated",
+  "model": "qwen",
+  "concurrency": 4,
+  "max_tokens": 256,
+  "results": [
+    {
+      "user_row": 153,
+      "context": "full_history",
+      "targets": 15,
+      "valid": true,
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 46,
+        "prompt_tokens": 1509,
+        "total_tokens": 1555,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cache_write_tokens": null,
+          "cached_tokens": 144,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      },
+      "raw_sha256": "66f7ddf35e6bab621f65c69c5716fb7a272bb9c6b6e486820dce9cf67986ffb8"
+    },
+    {
+      "user_row": 153,
+      "context": "native_memory",
+      "targets": 15,
+      "valid": true,
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 46,
+        "prompt_tokens": 1274,
+        "total_tokens": 1320,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cache_write_tokens": null,
+          "cached_tokens": 98,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      },
+      "raw_sha256": "6c234ae60e4d606e792d90026159f8968f00cd85b2f213eed742465f30eeabd7"
+    },
+    {
+      "user_row": 153,
+      "context": "no_history",
+      "targets": 15,
+      "valid": true,
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 46,
+        "prompt_tokens": 603,
+        "total_tokens": 649,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cache_write_tokens": null,
+          "cached_tokens": 119,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      },
+      "raw_sha256": "6540f2f55be3abb2a85af337a88824ecb9afccbb2b4b2640373335ce880d3a4f"
+    },
+    {
+      "user_row": 153,
+      "context": "shuffled_history",
+      "targets": 15,
+      "valid": true,
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 46,
+        "prompt_tokens": 1509,
+        "total_tokens": 1555,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cache_write_tokens": null,
+          "cached_tokens": 144,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      },
+      "raw_sha256": "5a122bca0cb497c5badaf2bd5021c4bf6cd367e5f96bd615b5af65e4e8e18710"
+    },
+    {
+      "user_row": 159,
+      "context": "full_history",
+      "targets": 16,
+      "valid": true,
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 49,
+        "prompt_tokens": 1535,
+        "total_tokens": 1584,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cache_write_tokens": null,
+          "cached_tokens": 144,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      },
+      "raw_sha256": "f507fb0a65d1f904efcb5fd72834c694353a3e72849b90a986a71e485b851518"
+    },
+    {
+      "user_row": 159,
+      "context": "native_memory",
+      "targets": 16,
+      "valid": true,
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 49,
+        "prompt_tokens": 1019,
+        "total_tokens": 1068,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cache_write_tokens": null,
+          "cached_tokens": 99,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      },
+      "raw_sha256": "4c03500d4997264a76280e92b59b7e9ddc2f750449f23e6e30840642d7401414"
+    },
+    {
+      "user_row": 159,
+      "context": "no_history",
+      "targets": 16,
+      "valid": true,
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 49,
+        "prompt_tokens": 636,
+        "total_tokens": 685,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cache_write_tokens": null,
+          "cached_tokens": 119,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      },
+      "raw_sha256": "9ffa2ab2d08c39263347631fb2c81d78305fbb460eecf08ac5f192c0f6bebf80"
+    },
+    {
+      "user_row": 159,
+      "context": "shuffled_history",
+      "targets": 16,
+      "valid": true,
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 49,
+        "prompt_tokens": 1535,
+        "total_tokens": 1584,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cache_write_tokens": null,
+          "cached_tokens": 144,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      },
+      "raw_sha256": "18503ec7a52de4a70e05b0884fd71dea76470733e44754708df127e18933cdbf"
+    },
+    {
+      "user_row": 165,
+      "context": "full_history",
+      "targets": 16,
+      "valid": true,
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 49,
+        "prompt_tokens": 1533,
+        "total_tokens": 1582,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      },
+      "raw_sha256": "6e8d163a25ea64c6f3dbfa0bd54b724e7157f1e4f3571364b9d978c413f6417c"
+    },
+    {
+      "user_row": 165,
+      "context": "native_memory",
+      "targets": 16,
+      "valid": false,
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 46,
+        "prompt_tokens": 1055,
+        "total_tokens": 1101,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      },
+      "raw_sha256": "8d4db829c24fe8d58be6fad5e2ccb7e53fdd1d0e8add7144d101b3f15528f7a7"
+    },
+    {
+      "user_row": 165,
+      "context": "no_history",
+      "targets": 16,
+      "valid": true,
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 49,
+        "prompt_tokens": 632,
+        "total_tokens": 681,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      },
+      "raw_sha256": "c57115d9ee177b899a3433e7a207dc63f78e1ee4cf84bf5c975d406cb6d22b14"
+    },
+    {
+      "user_row": 165,
+      "context": "shuffled_history",
+      "targets": 16,
+      "valid": true,
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 49,
+        "prompt_tokens": 1533,
+        "total_tokens": 1582,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      },
+      "raw_sha256": "bf7b32abea1b45dc89c110822366aa2995fc90d5fe9d1e6c4289757ccbe72791"
+    }
+  ],
+  "valid": 11,
+  "total": 12,
+  "source_sha256": "f3e7161ce1466b4640d7542fdc961dee66a281f6e68ec51ecc96bbcf865acd91"
+}
