@@ -1,0 +1,338 @@
+[
+  {
+    "id": "extract-00",
+    "rendering": "plain",
+    "journal_text": "V01 | Day 01: I attended a swimming session. I enjoyed the session.\nV02 | Day 02: I attended a swimming session. I enjoyed the session.\nV03 | Day 03: I attended a cycling session. I enjoyed the session.\nV04 | Day 04: I attended a swimming session. I enjoyed the session.\nV05 | Day 05: I attended a cycling session. I enjoyed the session.\nV06 | Day 06: I attended a swimming session. I enjoyed the session.\nV07 | Day 07: I attended a cycling session. I enjoyed the session.\nV08 | Day 08: I attended a swimming session. I enjoyed the session.\nV09 | Day 09: I attended a cycling session. I enjoyed the session.\nV10 | Day 10: I attended a swimming session. I enjoyed the session.\nV11 | Day 11: I attended a swimming session. I did not enjoy the session.\nV12 | Day 12: I attended a swimming session. I enjoyed the session.\nV13 | Day 13: I attended a swimming session. I enjoyed the session.\nV14 | Day 14: I attended a cycling session. I did not enjoy the session.\nV15 | Day 15: I attended a cycling session. I did not enjoy the session.\nV16 | Day 16: I attended a swimming session. I did not enjoy the session.\nV17 | Day 17: I attended a cycling session. I did not enjoy the session.\nV18 | Day 18: I attended a cycling session. I enjoyed the session.\nV19 | Day 19: I attended a cycling session. I did not enjoy the session.\nV20 | Day 20: I attended a cycling session. I enjoyed the session.\nV21 | Day 21: I attended a cycling session. I did not enjoy the session.\nV22 | Day 22: I attended a cycling session. I did not enjoy the session.\nV23 | Day 23: I attended a swimming session. I enjoyed the session.\nV24 | Day 24: I attended a swimming session. I did not enjoy the session.",
+    "ledger": "Counts covering all visits in the complete journal:\nswimming: total 12; enjoyed 9; did not enjoy 3.\ncycling: total 12; enjoyed 6; did not enjoy 6.",
+    "queries": [
+      {
+        "kind": "rate",
+        "question": "Across all 24 visits in this complete journal, which activity has the higher fraction of visits that I enjoyed?",
+        "options": {
+          "A": "The evidence does not determine the comparison.",
+          "B": "Both activities have the same enjoyed-visit fraction.",
+          "C": "cycling",
+          "D": "swimming"
+        }
+      },
+      {
+        "kind": "event",
+        "question": "Did I enjoy the swimming session recorded on Day 13?",
+        "options": {
+          "A": "No, I did not enjoy that session.",
+          "B": "Yes, I enjoyed that session.",
+          "C": "The evidence does not determine the outcome of that dated session.",
+          "D": "I explicitly reported both enjoying and not enjoying that same session."
+        }
+      }
+    ]
+  },
+  {
+    "id": "extract-01",
+    "rendering": "positive_detail",
+    "journal_text": "V01 | Day 01: I attended a painting session. I did not enjoy the session.\nV02 | Day 02: I attended a painting session. I enjoyed the session.\nV03 | Day 03: I attended a painting session. I did not enjoy the session.\nV04 | Day 04: I attended a pottery session. I did not enjoy the session.\nV05 | Day 05: I attended a pottery session. I enjoyed the session.\nV06 | Day 06: I attended a pottery session. I enjoyed the session.\nV07 | Day 07: I attended a painting session. I enjoyed the session.\nV08 | Day 08: I attended a painting session. I enjoyed the session.\nV09 | Day 09: I attended a pottery session. I enjoyed the session.\nV10 | Day 10: I attended a pottery session. I did not enjoy the session.\nV11 | Day 11: I attended a painting session. I did not enjoy the session.\nV12 | Day 12: I attended a pottery session. I enjoyed the session. A blue mural covered the entrance wall.\nV13 | Day 13: I attended a pottery session. I enjoyed the session. A brass clock stood beside the window.\nV14 | Day 14: I attended a pottery session. I enjoyed the session.\nV15 | Day 15: I attended a painting session. I did not enjoy the session.\nV16 | Day 16: I attended a pottery session. I enjoyed the session.\nV17 | Day 17: I attended a painting session. I did not enjoy the session.\nV18 | Day 18: I attended a painting session. I enjoyed the session.\nV19 | Day 19: I attended a pottery session. I did not enjoy the session.\nV20 | Day 20: I attended a painting session. I did not enjoy the session.\nV21 | Day 21: I attended a painting session. I enjoyed the session.\nV22 | Day 22: I attended a painting session. I enjoyed the session.\nV23 | Day 23: I attended a pottery session. I enjoyed the session. A purple umbrella rested by the door.\nV24 | Day 24: I attended a pottery session. I enjoyed the session.",
+    "ledger": "Counts covering all visits in the complete journal:\npottery: total 12; enjoyed 9; did not enjoy 3.\npainting: total 12; enjoyed 6; did not enjoy 6.",
+    "queries": [
+      {
+        "kind": "rate",
+        "question": "Across all 24 visits in this complete journal, which activity has the higher fraction of visits that I enjoyed?",
+        "options": {
+          "A": "painting",
+          "B": "pottery",
+          "C": "The evidence does not determine the comparison.",
+          "D": "Both activities have the same enjoyed-visit fraction."
+        }
+      },
+      {
+        "kind": "event",
+        "question": "Did I enjoy the pottery session recorded on Day 10?",
+        "options": {
+          "A": "No, I did not enjoy that session.",
+          "B": "The evidence does not determine the outcome of that dated session.",
+          "C": "I explicitly reported both enjoying and not enjoying that same session.",
+          "D": "Yes, I enjoyed that session."
+        }
+      }
+    ]
+  },
+  {
+    "id": "extract-02",
+    "rendering": "negative_detail",
+    "journal_text": "V01 | Day 01: I attended a pilates session. I enjoyed the session.\nV02 | Day 02: I attended a pilates session. I did not enjoy the session.\nV03 | Day 03: I attended a yoga session. I enjoyed the session.\nV04 | Day 04: I attended a yoga session. I enjoyed the session.\nV05 | Day 05: I attended a pilates session. I enjoyed the session.\nV06 | Day 06: I attended a pilates session. I did not enjoy the session. A purple umbrella rested by the door.\nV07 | Day 07: I attended a yoga session. I enjoyed the session.\nV08 | Day 08: I attended a pilates session. I enjoyed the session.\nV09 | Day 09: I attended a pilates session. I did not enjoy the session.\nV10 | Day 10: I attended a pilates session. I did not enjoy the session.\nV11 | Day 11: I attended a yoga session. I did not enjoy the session. A brass clock stood beside the window.\nV12 | Day 12: I attended a pilates session. I did not enjoy the session.\nV13 | Day 13: I attended a pilates session. I enjoyed the session.\nV14 | Day 14: I attended a yoga session. I did not enjoy the session.\nV15 | Day 15: I attended a yoga session. I enjoyed the session.\nV16 | Day 16: I attended a yoga session. I enjoyed the session.\nV17 | Day 17: I attended a yoga session. I enjoyed the session.\nV18 | Day 18: I attended a pilates session. I enjoyed the session.\nV19 | Day 19: I attended a yoga session. I enjoyed the session.\nV20 | Day 20: I attended a yoga session. I enjoyed the session.\nV21 | Day 21: I attended a yoga session. I enjoyed the session.\nV22 | Day 22: I attended a pilates session. I did not enjoy the session. A blue mural covered the entrance wall.\nV23 | Day 23: I attended a yoga session. I did not enjoy the session.\nV24 | Day 24: I attended a pilates session. I enjoyed the session.",
+    "ledger": "Counts covering all visits in the complete journal:\nyoga: total 12; enjoyed 9; did not enjoy 3.\npilates: total 12; enjoyed 6; did not enjoy 6.",
+    "queries": [
+      {
+        "kind": "rate",
+        "question": "Across all 24 visits in this complete journal, which activity has the higher fraction of visits that I enjoyed?",
+        "options": {
+          "A": "The evidence does not determine the comparison.",
+          "B": "Both activities have the same enjoyed-visit fraction.",
+          "C": "yoga",
+          "D": "pilates"
+        }
+      },
+      {
+        "kind": "event",
+        "question": "Did I enjoy the yoga session recorded on Day 17?",
+        "options": {
+          "A": "No, I did not enjoy that session.",
+          "B": "The evidence does not determine the outcome of that dated session.",
+          "C": "I explicitly reported both enjoying and not enjoying that same session.",
+          "D": "Yes, I enjoyed that session."
+        }
+      }
+    ]
+  },
+  {
+    "id": "extract-03",
+    "rendering": "plain",
+    "journal_text": "V01 | Day 01: I attended a pottery session. I did not enjoy the session.\nV02 | Day 02: I attended a pottery session. I did not enjoy the session.\nV03 | Day 03: I attended a pottery session. I did not enjoy the session.\nV04 | Day 04: I attended a painting session. I enjoyed the session.\nV05 | Day 05: I attended a painting session. I did not enjoy the session.\nV06 | Day 06: I attended a painting session. I enjoyed the session.\nV07 | Day 07: I attended a painting session. I enjoyed the session.\nV08 | Day 08: I attended a painting session. I enjoyed the session.\nV09 | Day 09: I attended a painting session. I enjoyed the session.\nV10 | Day 10: I attended a pottery session. I did not enjoy the session.\nV11 | Day 11: I attended a painting session. I did not enjoy the session.\nV12 | Day 12: I attended a pottery session. I did not enjoy the session.\nV13 | Day 13: I attended a pottery session. I did not enjoy the session.\nV14 | Day 14: I attended a pottery session. I did not enjoy the session.\nV15 | Day 15: I attended a pottery session. I did not enjoy the session.\nV16 | Day 16: I attended a pottery session. I enjoyed the session.\nV17 | Day 17: I attended a painting session. I did not enjoy the session.\nV18 | Day 18: I attended a pottery session. I enjoyed the session.\nV19 | Day 19: I attended a painting session. I did not enjoy the session.\nV20 | Day 20: I attended a pottery session. I enjoyed the session.\nV21 | Day 21: I attended a pottery session. I did not enjoy the session.\nV22 | Day 22: I attended a painting session. I enjoyed the session.\nV23 | Day 23: I attended a painting session. I did not enjoy the session.\nV24 | Day 24: I attended a painting session. I did not enjoy the session.",
+    "ledger": "Counts covering all visits in the complete journal:\npottery: total 12; enjoyed 3; did not enjoy 9.\npainting: total 12; enjoyed 6; did not enjoy 6.",
+    "queries": [
+      {
+        "kind": "rate",
+        "question": "Across all 24 visits in this complete journal, which activity has the higher fraction of visits that I enjoyed?",
+        "options": {
+          "A": "pottery",
+          "B": "The evidence does not determine the comparison.",
+          "C": "painting",
+          "D": "Both activities have the same enjoyed-visit fraction."
+        }
+      },
+      {
+        "kind": "event",
+        "question": "Did I enjoy the pottery session recorded on Day 15?",
+        "options": {
+          "A": "No, I did not enjoy that session.",
+          "B": "Yes, I enjoyed that session.",
+          "C": "The evidence does not determine the outcome of that dated session.",
+          "D": "I explicitly reported both enjoying and not enjoying that same session."
+        }
+      }
+    ]
+  },
+  {
+    "id": "extract-04",
+    "rendering": "positive_detail",
+    "journal_text": "V01 | Day 01: I attended a yoga session. I enjoyed the session.\nV02 | Day 02: I attended a pilates session. I enjoyed the session.\nV03 | Day 03: I attended a pilates session. I did not enjoy the session.\nV04 | Day 04: I attended a yoga session. I did not enjoy the session.\nV05 | Day 05: I attended a pilates session. I did not enjoy the session.\nV06 | Day 06: I attended a yoga session. I did not enjoy the session.\nV07 | Day 07: I attended a pilates session. I enjoyed the session. A brass clock stood beside the window.\nV08 | Day 08: I attended a pilates session. I did not enjoy the session.\nV09 | Day 09: I attended a yoga session. I did not enjoy the session.\nV10 | Day 10: I attended a pilates session. I did not enjoy the session.\nV11 | Day 11: I attended a pilates session. I enjoyed the session. A blue mural covered the entrance wall.\nV12 | Day 12: I attended a pilates session. I enjoyed the session.\nV13 | Day 13: I attended a yoga session. I enjoyed the session.\nV14 | Day 14: I attended a pilates session. I enjoyed the session. A purple umbrella rested by the door.\nV15 | Day 15: I attended a pilates session. I did not enjoy the session.\nV16 | Day 16: I attended a yoga session. I did not enjoy the session.\nV17 | Day 17: I attended a pilates session. I enjoyed the session.\nV18 | Day 18: I attended a yoga session. I did not enjoy the session.\nV19 | Day 19: I attended a yoga session. I did not enjoy the session.\nV20 | Day 20: I attended a yoga session. I enjoyed the session.\nV21 | Day 21: I attended a yoga session. I did not enjoy the session.\nV22 | Day 22: I attended a pilates session. I did not enjoy the session.\nV23 | Day 23: I attended a yoga session. I did not enjoy the session.\nV24 | Day 24: I attended a yoga session. I did not enjoy the session.",
+    "ledger": "Counts covering all visits in the complete journal:\nyoga: total 12; enjoyed 3; did not enjoy 9.\npilates: total 12; enjoyed 6; did not enjoy 6.",
+    "queries": [
+      {
+        "kind": "rate",
+        "question": "Across all 24 visits in this complete journal, which activity has the higher fraction of visits that I enjoyed?",
+        "options": {
+          "A": "The evidence does not determine the comparison.",
+          "B": "pilates",
+          "C": "yoga",
+          "D": "Both activities have the same enjoyed-visit fraction."
+        }
+      },
+      {
+        "kind": "event",
+        "question": "Did I enjoy the yoga session recorded on Day 01?",
+        "options": {
+          "A": "Yes, I enjoyed that session.",
+          "B": "No, I did not enjoy that session.",
+          "C": "The evidence does not determine the outcome of that dated session.",
+          "D": "I explicitly reported both enjoying and not enjoying that same session."
+        }
+      }
+    ]
+  },
+  {
+    "id": "extract-05",
+    "rendering": "negative_detail",
+    "journal_text": "V01 | Day 01: I attended a chess session. I did not enjoy the session.\nV02 | Day 02: I attended a badminton session. I did not enjoy the session.\nV03 | Day 03: I attended a chess session. I did not enjoy the session.\nV04 | Day 04: I attended a chess session. I did not enjoy the session.\nV05 | Day 05: I attended a chess session. I enjoyed the session.\nV06 | Day 06: I attended a badminton session. I enjoyed the session.\nV07 | Day 07: I attended a chess session. I did not enjoy the session.\nV08 | Day 08: I attended a badminton session. I enjoyed the session.\nV09 | Day 09: I attended a chess session. I enjoyed the session.\nV10 | Day 10: I attended a badminton session. I enjoyed the session.\nV11 | Day 11: I attended a badminton session. I did not enjoy the session. A blue mural covered the entrance wall.\nV12 | Day 12: I attended a chess session. I enjoyed the session.\nV13 | Day 13: I attended a badminton session. I did not enjoy the session. A purple umbrella rested by the door.\nV14 | Day 14: I attended a chess session. I did not enjoy the session.\nV15 | Day 15: I attended a badminton session. I did not enjoy the session.\nV16 | Day 16: I attended a badminton session. I did not enjoy the session.\nV17 | Day 17: I attended a badminton session. I did not enjoy the session. A brass clock stood beside the window.\nV18 | Day 18: I attended a chess session. I enjoyed the session.\nV19 | Day 19: I attended a badminton session. I did not enjoy the session.\nV20 | Day 20: I attended a chess session. I did not enjoy the session.\nV21 | Day 21: I attended a badminton session. I did not enjoy the session.\nV22 | Day 22: I attended a chess session. I enjoyed the session.\nV23 | Day 23: I attended a chess session. I enjoyed the session.\nV24 | Day 24: I attended a badminton session. I did not enjoy the session.",
+    "ledger": "Counts covering all visits in the complete journal:\nbadminton: total 12; enjoyed 3; did not enjoy 9.\nchess: total 12; enjoyed 6; did not enjoy 6.",
+    "queries": [
+      {
+        "kind": "rate",
+        "question": "Across all 24 visits in this complete journal, which activity has the higher fraction of visits that I enjoyed?",
+        "options": {
+          "A": "badminton",
+          "B": "chess",
+          "C": "The evidence does not determine the comparison.",
+          "D": "Both activities have the same enjoyed-visit fraction."
+        }
+      },
+      {
+        "kind": "event",
+        "question": "Did I enjoy the chess session recorded on Day 01?",
+        "options": {
+          "A": "The evidence does not determine the outcome of that dated session.",
+          "B": "No, I did not enjoy that session.",
+          "C": "Yes, I enjoyed that session.",
+          "D": "I explicitly reported both enjoying and not enjoying that same session."
+        }
+      }
+    ]
+  },
+  {
+    "id": "extract-06",
+    "rendering": "plain",
+    "journal_text": "V01 | Day 01: I attended a yoga session. I did not enjoy the session.\nV02 | Day 02: I attended a yoga session. I enjoyed the session.\nV03 | Day 03: I attended a yoga session. I did not enjoy the session.\nV04 | Day 04: I attended a pilates session. I enjoyed the session.\nV05 | Day 05: I attended a pilates session. I enjoyed the session.\nV06 | Day 06: I attended a pilates session. I enjoyed the session.\nV07 | Day 07: I attended a pilates session. I did not enjoy the session.\nV08 | Day 08: I attended a yoga session. I enjoyed the session.\nV09 | Day 09: I attended a pilates session. I did not enjoy the session.\nV10 | Day 10: I attended a yoga session. I enjoyed the session.\nV11 | Day 11: I attended a yoga session. I enjoyed the session.\nV12 | Day 12: I attended a pilates session. I enjoyed the session.\nV13 | Day 13: I attended a yoga session. I did not enjoy the session.\nV14 | Day 14: I attended a pilates session. I did not enjoy the session.\nV15 | Day 15: I attended a pilates session. I enjoyed the session.\nV16 | Day 16: I attended a pilates session. I enjoyed the session.\nV17 | Day 17: I attended a pilates session. I enjoyed the session.\nV18 | Day 18: I attended a yoga session. I did not enjoy the session.\nV19 | Day 19: I attended a yoga session. I enjoyed the session.\nV20 | Day 20: I attended a pilates session. I enjoyed the session.\nV21 | Day 21: I attended a yoga session. I did not enjoy the session.\nV22 | Day 22: I attended a yoga session. I did not enjoy the session.\nV23 | Day 23: I attended a pilates session. I enjoyed the session.\nV24 | Day 24: I attended a yoga session. I enjoyed the session.",
+    "ledger": "Counts covering all visits in the complete journal:\nyoga: total 12; enjoyed 6; did not enjoy 6.\npilates: total 12; enjoyed 9; did not enjoy 3.",
+    "queries": [
+      {
+        "kind": "rate",
+        "question": "Across all 24 visits in this complete journal, which activity has the higher fraction of visits that I enjoyed?",
+        "options": {
+          "A": "Both activities have the same enjoyed-visit fraction.",
+          "B": "The evidence does not determine the comparison.",
+          "C": "yoga",
+          "D": "pilates"
+        }
+      },
+      {
+        "kind": "event",
+        "question": "Did I enjoy the pilates session recorded on Day 05?",
+        "options": {
+          "A": "No, I did not enjoy that session.",
+          "B": "I explicitly reported both enjoying and not enjoying that same session.",
+          "C": "Yes, I enjoyed that session.",
+          "D": "The evidence does not determine the outcome of that dated session."
+        }
+      }
+    ]
+  },
+  {
+    "id": "extract-07",
+    "rendering": "positive_detail",
+    "journal_text": "V01 | Day 01: I attended a chess session. I enjoyed the session. A blue mural covered the entrance wall.\nV02 | Day 02: I attended a chess session. I enjoyed the session.\nV03 | Day 03: I attended a badminton session. I enjoyed the session.\nV04 | Day 04: I attended a chess session. I enjoyed the session.\nV05 | Day 05: I attended a badminton session. I enjoyed the session.\nV06 | Day 06: I attended a chess session. I enjoyed the session. A brass clock stood beside the window.\nV07 | Day 07: I attended a badminton session. I enjoyed the session.\nV08 | Day 08: I attended a chess session. I enjoyed the session. A purple umbrella rested by the door.\nV09 | Day 09: I attended a badminton session. I did not enjoy the session.\nV10 | Day 10: I attended a chess session. I enjoyed the session.\nV11 | Day 11: I attended a chess session. I did not enjoy the session.\nV12 | Day 12: I attended a badminton session. I enjoyed the session.\nV13 | Day 13: I attended a chess session. I enjoyed the session.\nV14 | Day 14: I attended a badminton session. I did not enjoy the session.\nV15 | Day 15: I attended a badminton session. I did not enjoy the session.\nV16 | Day 16: I attended a chess session. I did not enjoy the session.\nV17 | Day 17: I attended a badminton session. I did not enjoy the session.\nV18 | Day 18: I attended a badminton session. I did not enjoy the session.\nV19 | Day 19: I attended a chess session. I did not enjoy the session.\nV20 | Day 20: I attended a badminton session. I did not enjoy the session.\nV21 | Day 21: I attended a badminton session. I enjoyed the session.\nV22 | Day 22: I attended a badminton session. I enjoyed the session.\nV23 | Day 23: I attended a chess session. I enjoyed the session.\nV24 | Day 24: I attended a chess session. I enjoyed the session.",
+    "ledger": "Counts covering all visits in the complete journal:\nbadminton: total 12; enjoyed 6; did not enjoy 6.\nchess: total 12; enjoyed 9; did not enjoy 3.",
+    "queries": [
+      {
+        "kind": "rate",
+        "question": "Across all 24 visits in this complete journal, which activity has the higher fraction of visits that I enjoyed?",
+        "options": {
+          "A": "The evidence does not determine the comparison.",
+          "B": "Both activities have the same enjoyed-visit fraction.",
+          "C": "badminton",
+          "D": "chess"
+        }
+      },
+      {
+        "kind": "event",
+        "question": "Did I enjoy the badminton session recorded on Day 09?",
+        "options": {
+          "A": "Yes, I enjoyed that session.",
+          "B": "No, I did not enjoy that session.",
+          "C": "I explicitly reported both enjoying and not enjoying that same session.",
+          "D": "The evidence does not determine the outcome of that dated session."
+        }
+      }
+    ]
+  },
+  {
+    "id": "extract-08",
+    "rendering": "negative_detail",
+    "journal_text": "V01 | Day 01: I attended a cycling session. I enjoyed the session.\nV02 | Day 02: I attended a cycling session. I enjoyed the session.\nV03 | Day 03: I attended a swimming session. I enjoyed the session.\nV04 | Day 04: I attended a swimming session. I enjoyed the session.\nV05 | Day 05: I attended a cycling session. I enjoyed the session.\nV06 | Day 06: I attended a swimming session. I enjoyed the session.\nV07 | Day 07: I attended a swimming session. I enjoyed the session.\nV08 | Day 08: I attended a swimming session. I did not enjoy the session.\nV09 | Day 09: I attended a cycling session. I enjoyed the session.\nV10 | Day 10: I attended a cycling session. I did not enjoy the session. A purple umbrella rested by the door.\nV11 | Day 11: I attended a swimming session. I enjoyed the session.\nV12 | Day 12: I attended a cycling session. I enjoyed the session.\nV13 | Day 13: I attended a cycling session. I did not enjoy the session.\nV14 | Day 14: I attended a swimming session. I enjoyed the session.\nV15 | Day 15: I attended a cycling session. I enjoyed the session.\nV16 | Day 16: I attended a swimming session. I did not enjoy the session.\nV17 | Day 17: I attended a cycling session. I did not enjoy the session. A brass clock stood beside the window.\nV18 | Day 18: I attended a cycling session. I enjoyed the session.\nV19 | Day 19: I attended a swimming session. I did not enjoy the session. A blue mural covered the entrance wall.\nV20 | Day 20: I attended a cycling session. I enjoyed the session.\nV21 | Day 21: I attended a cycling session. I enjoyed the session.\nV22 | Day 22: I attended a swimming session. I did not enjoy the session.\nV23 | Day 23: I attended a swimming session. I did not enjoy the session.\nV24 | Day 24: I attended a swimming session. I did not enjoy the session.",
+    "ledger": "Counts covering all visits in the complete journal:\nswimming: total 12; enjoyed 6; did not enjoy 6.\ncycling: total 12; enjoyed 9; did not enjoy 3.",
+    "queries": [
+      {
+        "kind": "rate",
+        "question": "Across all 24 visits in this complete journal, which activity has the higher fraction of visits that I enjoyed?",
+        "options": {
+          "A": "Both activities have the same enjoyed-visit fraction.",
+          "B": "cycling",
+          "C": "swimming",
+          "D": "The evidence does not determine the comparison."
+        }
+      },
+      {
+        "kind": "event",
+        "question": "Did I enjoy the swimming session recorded on Day 06?",
+        "options": {
+          "A": "Yes, I enjoyed that session.",
+          "B": "No, I did not enjoy that session.",
+          "C": "The evidence does not determine the outcome of that dated session.",
+          "D": "I explicitly reported both enjoying and not enjoying that same session."
+        }
+      }
+    ]
+  },
+  {
+    "id": "extract-09",
+    "rendering": "plain",
+    "journal_text": "V01 | Day 01: I attended a badminton session. I did not enjoy the session.\nV02 | Day 02: I attended a chess session. I enjoyed the session.\nV03 | Day 03: I attended a badminton session. I did not enjoy the session.\nV04 | Day 04: I attended a chess session. I enjoyed the session.\nV05 | Day 05: I attended a chess session. I did not enjoy the session.\nV06 | Day 06: I attended a chess session. I enjoyed the session.\nV07 | Day 07: I attended a chess session. I did not enjoy the session.\nV08 | Day 08: I attended a chess session. I did not enjoy the session.\nV09 | Day 09: I attended a badminton session. I did not enjoy the session.\nV10 | Day 10: I attended a chess session. I did not enjoy the session.\nV11 | Day 11: I attended a chess session. I enjoyed the session.\nV12 | Day 12: I attended a badminton session. I did not enjoy the session.\nV13 | Day 13: I attended a chess session. I enjoyed the session.\nV14 | Day 14: I attended a badminton session. I did not enjoy the session.\nV15 | Day 15: I attended a chess session. I did not enjoy the session.\nV16 | Day 16: I attended a badminton session. I enjoyed the session.\nV17 | Day 17: I attended a badminton session. I did not enjoy the session.\nV18 | Day 18: I attended a badminton session. I enjoyed the session.\nV19 | Day 19: I attended a badminton session. I enjoyed the session.\nV20 | Day 20: I attended a badminton session. I enjoyed the session.\nV21 | Day 21: I attended a badminton session. I enjoyed the session.\nV22 | Day 22: I attended a badminton session. I enjoyed the session.\nV23 | Day 23: I attended a chess session. I did not enjoy the session.\nV24 | Day 24: I attended a chess session. I enjoyed the session.",
+    "ledger": "Counts covering all visits in the complete journal:\nbadminton: total 12; enjoyed 6; did not enjoy 6.\nchess: total 12; enjoyed 6; did not enjoy 6.",
+    "queries": [
+      {
+        "kind": "rate",
+        "question": "Across all 24 visits in this complete journal, which activity has the higher fraction of visits that I enjoyed?",
+        "options": {
+          "A": "Both activities have the same enjoyed-visit fraction.",
+          "B": "chess",
+          "C": "The evidence does not determine the comparison.",
+          "D": "badminton"
+        }
+      },
+      {
+        "kind": "event",
+        "question": "Did I enjoy the badminton session recorded on Day 09?",
+        "options": {
+          "A": "The evidence does not determine the outcome of that dated session.",
+          "B": "Yes, I enjoyed that session.",
+          "C": "I explicitly reported both enjoying and not enjoying that same session.",
+          "D": "No, I did not enjoy that session."
+        }
+      }
+    ]
+  },
+  {
+    "id": "extract-10",
+    "rendering": "positive_detail",
+    "journal_text": "V01 | Day 01: I attended a swimming session. I did not enjoy the session.\nV02 | Day 02: I attended a cycling session. I did not enjoy the session.\nV03 | Day 03: I attended a swimming session. I did not enjoy the session.\nV04 | Day 04: I attended a swimming session. I enjoyed the session. A blue mural covered the entrance wall.\nV05 | Day 05: I attended a cycling session. I did not enjoy the session.\nV06 | Day 06: I attended a swimming session. I enjoyed the session. A brass clock stood beside the window.\nV07 | Day 07: I attended a cycling session. I did not enjoy the session.\nV08 | Day 08: I attended a cycling session. I enjoyed the session.\nV09 | Day 09: I attended a swimming session. I enjoyed the session.\nV10 | Day 10: I attended a cycling session. I enjoyed the session.\nV11 | Day 11: I attended a cycling session. I enjoyed the session.\nV12 | Day 12: I attended a swimming session. I enjoyed the session. A purple umbrella rested by the door.\nV13 | Day 13: I attended a cycling session. I did not enjoy the session.\nV14 | Day 14: I attended a cycling session. I did not enjoy the session.\nV15 | Day 15: I attended a swimming session. I did not enjoy the session.\nV16 | Day 16: I attended a cycling session. I enjoyed the session.\nV17 | Day 17: I attended a cycling session. I did not enjoy the session.\nV18 | Day 18: I attended a cycling session. I enjoyed the session.\nV19 | Day 19: I attended a swimming session. I did not enjoy the session.\nV20 | Day 20: I attended a swimming session. I enjoyed the session.\nV21 | Day 21: I attended a swimming session. I enjoyed the session.\nV22 | Day 22: I attended a swimming session. I did not enjoy the session.\nV23 | Day 23: I attended a cycling session. I enjoyed the session.\nV24 | Day 24: I attended a swimming session. I did not enjoy the session.",
+    "ledger": "Counts covering all visits in the complete journal:\nswimming: total 12; enjoyed 6; did not enjoy 6.\ncycling: total 12; enjoyed 6; did not enjoy 6.",
+    "queries": [
+      {
+        "kind": "rate",
+        "question": "Across all 24 visits in this complete journal, which activity has the higher fraction of visits that I enjoyed?",
+        "options": {
+          "A": "The evidence does not determine the comparison.",
+          "B": "cycling",
+          "C": "swimming",
+          "D": "Both activities have the same enjoyed-visit fraction."
+        }
+      },
+      {
+        "kind": "event",
+        "question": "Did I enjoy the cycling session recorded on Day 08?",
+        "options": {
+          "A": "Yes, I enjoyed that session.",
+          "B": "The evidence does not determine the outcome of that dated session.",
+          "C": "No, I did not enjoy that session.",
+          "D": "I explicitly reported both enjoying and not enjoying that same session."
+        }
+      }
+    ]
+  },
+  {
+    "id": "extract-11",
+    "rendering": "negative_detail",
+    "journal_text": "V01 | Day 01: I attended a painting session. I enjoyed the session.\nV02 | Day 02: I attended a pottery session. I enjoyed the session.\nV03 | Day 03: I attended a pottery session. I did not enjoy the session.\nV04 | Day 04: I attended a pottery session. I did not enjoy the session. A blue mural covered the entrance wall.\nV05 | Day 05: I attended a painting session. I enjoyed the session.\nV06 | Day 06: I attended a painting session. I enjoyed the session.\nV07 | Day 07: I attended a pottery session. I enjoyed the session.\nV08 | Day 08: I attended a pottery session. I did not enjoy the session.\nV09 | Day 09: I attended a painting session. I did not enjoy the session.\nV10 | Day 10: I attended a pottery session. I enjoyed the session.\nV11 | Day 11: I attended a painting session. I did not enjoy the session. A brass clock stood beside the window.\nV12 | Day 12: I attended a painting session. I enjoyed the session.\nV13 | Day 13: I attended a painting session. I enjoyed the session.\nV14 | Day 14: I attended a painting session. I enjoyed the session.\nV15 | Day 15: I attended a pottery session. I enjoyed the session.\nV16 | Day 16: I attended a painting session. I did not enjoy the session.\nV17 | Day 17: I attended a painting session. I did not enjoy the session.\nV18 | Day 18: I attended a pottery session. I enjoyed the session.\nV19 | Day 19: I attended a pottery session. I enjoyed the session.\nV20 | Day 20: I attended a pottery session. I did not enjoy the session.\nV21 | Day 21: I attended a painting session. I did not enjoy the session.\nV22 | Day 22: I attended a pottery session. I did not enjoy the session. A purple umbrella rested by the door.\nV23 | Day 23: I attended a pottery session. I did not enjoy the session.\nV24 | Day 24: I attended a painting session. I did not enjoy the session.",
+    "ledger": "Counts covering all visits in the complete journal:\npottery: total 12; enjoyed 6; did not enjoy 6.\npainting: total 12; enjoyed 6; did not enjoy 6.",
+    "queries": [
+      {
+        "kind": "rate",
+        "question": "Across all 24 visits in this complete journal, which activity has the higher fraction of visits that I enjoyed?",
+        "options": {
+          "A": "The evidence does not determine the comparison.",
+          "B": "pottery",
+          "C": "Both activities have the same enjoyed-visit fraction.",
+          "D": "painting"
+        }
+      },
+      {
+        "kind": "event",
+        "question": "Did I enjoy the painting session recorded on Day 09?",
+        "options": {
+          "A": "I explicitly reported both enjoying and not enjoying that same session.",
+          "B": "No, I did not enjoy that session.",
+          "C": "Yes, I enjoyed that session.",
+          "D": "The evidence does not determine the outcome of that dated session."
+        }
+      }
+    ]
+  }
+]

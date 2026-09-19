@@ -1,0 +1,2084 @@
+{
+  "status": "post hoc development screen; not a trained-method reproduction",
+  "unit": "one fictional journal; same twelve journals used in both models",
+  "models": {
+    "qwen": {
+      "scheduled_records": 36,
+      "actual_generations": 36,
+      "unique_prompts": 34,
+      "duplicate_prompt_checks": [
+        {
+          "cases": [
+            [
+              "extract-00",
+              "native"
+            ],
+            [
+              "extract-00",
+              "count_aware"
+            ]
+          ],
+          "identical_text": true,
+          "identical_token_measurements": true
+        },
+        {
+          "cases": [
+            [
+              "extract-01",
+              "native"
+            ],
+            [
+              "extract-01",
+              "count_aware"
+            ]
+          ],
+          "identical_text": true,
+          "identical_token_measurements": true
+        }
+      ],
+      "generation_seconds": 291.19232674999876,
+      "summaries": {
+        "full": {
+          "status_counts": {
+            "unscored": 12
+          },
+          "primary_entropy_nats": {
+            "available": 0,
+            "mean": null
+          },
+          "first_32_entropy_nats": {
+            "available": 12,
+            "mean": 0.19941783124756163
+          }
+        },
+        "native": {
+          "status_counts": {
+            "unscored": 12
+          },
+          "primary_entropy_nats": {
+            "available": 0,
+            "mean": null
+          },
+          "first_32_entropy_nats": {
+            "available": 12,
+            "mean": 0.23987906684745444
+          }
+        },
+        "count_aware": {
+          "status_counts": {
+            "unscored": 12
+          },
+          "primary_entropy_nats": {
+            "available": 0,
+            "mean": null
+          },
+          "first_32_entropy_nats": {
+            "available": 12,
+            "mean": 0.22472836886962377
+          }
+        }
+      },
+      "comparisons": {
+        "primary_entropy_nats": {
+          "strict_outcome": {
+            "eligible_journals": 0,
+            "excluded_journals": [
+              "extract-00",
+              "extract-01",
+              "extract-02",
+              "extract-03",
+              "extract-04",
+              "extract-05",
+              "extract-06",
+              "extract-07",
+              "extract-08",
+              "extract-09",
+              "extract-10",
+              "extract-11"
+            ],
+            "selected_counts": {},
+            "selected_correct": 0,
+            "always_native_correct": 0,
+            "uniform_expected_correct": 0,
+            "candidate_correctness_differs": 0,
+            "pairs": []
+          },
+          "format_outcome": {
+            "eligible_journals": 0,
+            "excluded_journals": [
+              "extract-00",
+              "extract-01",
+              "extract-02",
+              "extract-03",
+              "extract-04",
+              "extract-05",
+              "extract-06",
+              "extract-07",
+              "extract-08",
+              "extract-09",
+              "extract-10",
+              "extract-11"
+            ],
+            "selected_counts": {},
+            "selected_correct": 0,
+            "always_native_correct": 0,
+            "uniform_expected_correct": 0,
+            "candidate_correctness_differs": 0,
+            "pairs": []
+          }
+        },
+        "first_32_entropy_nats": {
+          "strict_outcome": {
+            "eligible_journals": 12,
+            "excluded_journals": [],
+            "selected_counts": {
+              "native/count_aware": 2,
+              "count_aware": 8,
+              "native": 2
+            },
+            "selected_correct": 9.0,
+            "always_native_correct": 9,
+            "uniform_expected_correct": 9.0,
+            "candidate_correctness_differs": 0,
+            "pairs": [
+              {
+                "journal": "extract-00",
+                "native_entropy": 0.2423506504669716,
+                "count_aware_entropy": 0.2423506504669716,
+                "native_outcome": "correct",
+                "count_aware_outcome": "correct",
+                "selected": [
+                  "native",
+                  "count_aware"
+                ],
+                "selected_correct": 1.0,
+                "always_native_correct": 1,
+                "uniform_expected_correct": 1.0,
+                "candidate_correctness_differs": false
+              },
+              {
+                "journal": "extract-01",
+                "native_entropy": 0.23876695836767609,
+                "count_aware_entropy": 0.23876695836767609,
+                "native_outcome": "correct",
+                "count_aware_outcome": "correct",
+                "selected": [
+                  "native",
+                  "count_aware"
+                ],
+                "selected_correct": 1.0,
+                "always_native_correct": 1,
+                "uniform_expected_correct": 1.0,
+                "candidate_correctness_differs": false
+              },
+              {
+                "journal": "extract-02",
+                "native_entropy": 0.2267548447436055,
+                "count_aware_entropy": 0.2139779161622481,
+                "native_outcome": "correct",
+                "count_aware_outcome": "correct",
+                "selected": [
+                  "count_aware"
+                ],
+                "selected_correct": 1.0,
+                "always_native_correct": 1,
+                "uniform_expected_correct": 1.0,
+                "candidate_correctness_differs": false
+              },
+              {
+                "journal": "extract-03",
+                "native_entropy": 0.23047375799225497,
+                "count_aware_entropy": 0.17703537877241152,
+                "native_outcome": "correct",
+                "count_aware_outcome": "correct",
+                "selected": [
+                  "count_aware"
+                ],
+                "selected_correct": 1.0,
+                "always_native_correct": 1,
+                "uniform_expected_correct": 1.0,
+                "candidate_correctness_differs": false
+              },
+              {
+                "journal": "extract-04",
+                "native_entropy": 0.21764395507619144,
+                "count_aware_entropy": 0.2025187722964064,
+                "native_outcome": "correct",
+                "count_aware_outcome": "correct",
+                "selected": [
+                  "count_aware"
+                ],
+                "selected_correct": 1.0,
+                "always_native_correct": 1,
+                "uniform_expected_correct": 1.0,
+                "candidate_correctness_differs": false
+              },
+              {
+                "journal": "extract-05",
+                "native_entropy": 0.23228908976326673,
+                "count_aware_entropy": 0.20458917331682902,
+                "native_outcome": "correct",
+                "count_aware_outcome": "correct",
+                "selected": [
+                  "count_aware"
+                ],
+                "selected_correct": 1.0,
+                "always_native_correct": 1,
+                "uniform_expected_correct": 1.0,
+                "candidate_correctness_differs": false
+              },
+              {
+                "journal": "extract-06",
+                "native_entropy": 0.2556603946413081,
+                "count_aware_entropy": 0.23514020763495203,
+                "native_outcome": "wrong",
+                "count_aware_outcome": "wrong",
+                "selected": [
+                  "count_aware"
+                ],
+                "selected_correct": 0.0,
+                "always_native_correct": 0,
+                "uniform_expected_correct": 0.0,
+                "candidate_correctness_differs": false
+              },
+              {
+                "journal": "extract-07",
+                "native_entropy": 0.2453724908702658,
+                "count_aware_entropy": 0.25327303470650336,
+                "native_outcome": "correct",
+                "count_aware_outcome": "correct",
+                "selected": [
+                  "native"
+                ],
+                "selected_correct": 1.0,
+                "always_native_correct": 1,
+                "uniform_expected_correct": 1.0,
+                "candidate_correctness_differs": false
+              },
+              {
+                "journal": "extract-08",
+                "native_entropy": 0.22704369996740753,
+                "count_aware_entropy": 0.2234337241720514,
+                "native_outcome": "correct",
+                "count_aware_outcome": "correct",
+                "selected": [
+                  "count_aware"
+                ],
+                "selected_correct": 1.0,
+                "always_native_correct": 1,
+                "uniform_expected_correct": 1.0,
+                "candidate_correctness_differs": false
+              },
+              {
+                "journal": "extract-09",
+                "native_entropy": 0.2867175436120605,
+                "count_aware_entropy": 0.22931309452106333,
+                "native_outcome": "correct",
+                "count_aware_outcome": "correct",
+                "selected": [
+                  "count_aware"
+                ],
+                "selected_correct": 1.0,
+                "always_native_correct": 1,
+                "uniform_expected_correct": 1.0,
+                "candidate_correctness_differs": false
+              },
+              {
+                "journal": "extract-10",
+                "native_entropy": 0.26122037720334934,
+                "count_aware_entropy": 0.25083703299844123,
+                "native_outcome": "wrong",
+                "count_aware_outcome": "wrong",
+                "selected": [
+                  "count_aware"
+                ],
+                "selected_correct": 0.0,
+                "always_native_correct": 0,
+                "uniform_expected_correct": 0.0,
+                "candidate_correctness_differs": false
+              },
+              {
+                "journal": "extract-11",
+                "native_entropy": 0.2142550394650957,
+                "count_aware_entropy": 0.22550448301993173,
+                "native_outcome": "wrong",
+                "count_aware_outcome": "wrong",
+                "selected": [
+                  "native"
+                ],
+                "selected_correct": 0.0,
+                "always_native_correct": 0,
+                "uniform_expected_correct": 0.0,
+                "candidate_correctness_differs": false
+              }
+            ]
+          },
+          "format_outcome": {
+            "eligible_journals": 12,
+            "excluded_journals": [],
+            "selected_counts": {
+              "native/count_aware": 2,
+              "count_aware": 8,
+              "native": 2
+            },
+            "selected_correct": 9.0,
+            "always_native_correct": 9,
+            "uniform_expected_correct": 9.0,
+            "candidate_correctness_differs": 0,
+            "pairs": [
+              {
+                "journal": "extract-00",
+                "native_entropy": 0.2423506504669716,
+                "count_aware_entropy": 0.2423506504669716,
+                "native_outcome": "correct",
+                "count_aware_outcome": "correct",
+                "selected": [
+                  "native",
+                  "count_aware"
+                ],
+                "selected_correct": 1.0,
+                "always_native_correct": 1,
+                "uniform_expected_correct": 1.0,
+                "candidate_correctness_differs": false
+              },
+              {
+                "journal": "extract-01",
+                "native_entropy": 0.23876695836767609,
+                "count_aware_entropy": 0.23876695836767609,
+                "native_outcome": "correct",
+                "count_aware_outcome": "correct",
+                "selected": [
+                  "native",
+                  "count_aware"
+                ],
+                "selected_correct": 1.0,
+                "always_native_correct": 1,
+                "uniform_expected_correct": 1.0,
+                "candidate_correctness_differs": false
+              },
+              {
+                "journal": "extract-02",
+                "native_entropy": 0.2267548447436055,
+                "count_aware_entropy": 0.2139779161622481,
+                "native_outcome": "correct",
+                "count_aware_outcome": "correct",
+                "selected": [
+                  "count_aware"
+                ],
+                "selected_correct": 1.0,
+                "always_native_correct": 1,
+                "uniform_expected_correct": 1.0,
+                "candidate_correctness_differs": false
+              },
+              {
+                "journal": "extract-03",
+                "native_entropy": 0.23047375799225497,
+                "count_aware_entropy": 0.17703537877241152,
+                "native_outcome": "correct",
+                "count_aware_outcome": "correct",
+                "selected": [
+                  "count_aware"
+                ],
+                "selected_correct": 1.0,
+                "always_native_correct": 1,
+                "uniform_expected_correct": 1.0,
+                "candidate_correctness_differs": false
+              },
+              {
+                "journal": "extract-04",
+                "native_entropy": 0.21764395507619144,
+                "count_aware_entropy": 0.2025187722964064,
+                "native_outcome": "correct",
+                "count_aware_outcome": "correct",
+                "selected": [
+                  "count_aware"
+                ],
+                "selected_correct": 1.0,
+                "always_native_correct": 1,
+                "uniform_expected_correct": 1.0,
+                "candidate_correctness_differs": false
+              },
+              {
+                "journal": "extract-05",
+                "native_entropy": 0.23228908976326673,
+                "count_aware_entropy": 0.20458917331682902,
+                "native_outcome": "correct",
+                "count_aware_outcome": "correct",
+                "selected": [
+                  "count_aware"
+                ],
+                "selected_correct": 1.0,
+                "always_native_correct": 1,
+                "uniform_expected_correct": 1.0,
+                "candidate_correctness_differs": false
+              },
+              {
+                "journal": "extract-06",
+                "native_entropy": 0.2556603946413081,
+                "count_aware_entropy": 0.23514020763495203,
+                "native_outcome": "wrong",
+                "count_aware_outcome": "wrong",
+                "selected": [
+                  "count_aware"
+                ],
+                "selected_correct": 0.0,
+                "always_native_correct": 0,
+                "uniform_expected_correct": 0.0,
+                "candidate_correctness_differs": false
+              },
+              {
+                "journal": "extract-07",
+                "native_entropy": 0.2453724908702658,
+                "count_aware_entropy": 0.25327303470650336,
+                "native_outcome": "correct",
+                "count_aware_outcome": "correct",
+                "selected": [
+                  "native"
+                ],
+                "selected_correct": 1.0,
+                "always_native_correct": 1,
+                "uniform_expected_correct": 1.0,
+                "candidate_correctness_differs": false
+              },
+              {
+                "journal": "extract-08",
+                "native_entropy": 0.22704369996740753,
+                "count_aware_entropy": 0.2234337241720514,
+                "native_outcome": "correct",
+                "count_aware_outcome": "correct",
+                "selected": [
+                  "count_aware"
+                ],
+                "selected_correct": 1.0,
+                "always_native_correct": 1,
+                "uniform_expected_correct": 1.0,
+                "candidate_correctness_differs": false
+              },
+              {
+                "journal": "extract-09",
+                "native_entropy": 0.2867175436120605,
+                "count_aware_entropy": 0.22931309452106333,
+                "native_outcome": "correct",
+                "count_aware_outcome": "correct",
+                "selected": [
+                  "count_aware"
+                ],
+                "selected_correct": 1.0,
+                "always_native_correct": 1,
+                "uniform_expected_correct": 1.0,
+                "candidate_correctness_differs": false
+              },
+              {
+                "journal": "extract-10",
+                "native_entropy": 0.26122037720334934,
+                "count_aware_entropy": 0.25083703299844123,
+                "native_outcome": "wrong",
+                "count_aware_outcome": "wrong",
+                "selected": [
+                  "count_aware"
+                ],
+                "selected_correct": 0.0,
+                "always_native_correct": 0,
+                "uniform_expected_correct": 0.0,
+                "candidate_correctness_differs": false
+              },
+              {
+                "journal": "extract-11",
+                "native_entropy": 0.2142550394650957,
+                "count_aware_entropy": 0.22550448301993173,
+                "native_outcome": "wrong",
+                "count_aware_outcome": "wrong",
+                "selected": [
+                  "native"
+                ],
+                "selected_correct": 0.0,
+                "always_native_correct": 0,
+                "uniform_expected_correct": 0.0,
+                "candidate_correctness_differs": false
+              }
+            ]
+          }
+        }
+      },
+      "measurements": [
+        {
+          "journal": "extract-00",
+          "context": "full",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.18668686437476745,
+          "strict_outcome": "correct",
+          "format_outcome": "correct"
+        },
+        {
+          "journal": "extract-00",
+          "context": "native",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.2423506504669716,
+          "strict_outcome": "correct",
+          "format_outcome": "correct",
+          "audit": {
+            "dated_claims": 24,
+            "false_dated_claims": 0,
+            "count_claims": 0,
+            "false_count_claims": 0,
+            "matching_outcome_days": 24,
+            "unparsed_residuals": 0
+          }
+        },
+        {
+          "journal": "extract-00",
+          "context": "count_aware",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.2423506504669716,
+          "strict_outcome": "correct",
+          "format_outcome": "correct",
+          "audit": {
+            "dated_claims": 24,
+            "false_dated_claims": 0,
+            "count_claims": 0,
+            "false_count_claims": 0,
+            "matching_outcome_days": 24,
+            "unparsed_residuals": 0
+          }
+        },
+        {
+          "journal": "extract-01",
+          "context": "full",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.212979221840028,
+          "strict_outcome": "correct",
+          "format_outcome": "correct"
+        },
+        {
+          "journal": "extract-01",
+          "context": "native",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.23876695836767609,
+          "strict_outcome": "correct",
+          "format_outcome": "correct",
+          "audit": {
+            "dated_claims": 24,
+            "false_dated_claims": 0,
+            "count_claims": 0,
+            "false_count_claims": 0,
+            "matching_outcome_days": 24,
+            "unparsed_residuals": 3
+          }
+        },
+        {
+          "journal": "extract-01",
+          "context": "count_aware",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.23876695836767609,
+          "strict_outcome": "correct",
+          "format_outcome": "correct",
+          "audit": {
+            "dated_claims": 24,
+            "false_dated_claims": 0,
+            "count_claims": 0,
+            "false_count_claims": 0,
+            "matching_outcome_days": 24,
+            "unparsed_residuals": 3
+          }
+        },
+        {
+          "journal": "extract-02",
+          "context": "full",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.22617252119501235,
+          "strict_outcome": "correct",
+          "format_outcome": "correct"
+        },
+        {
+          "journal": "extract-02",
+          "context": "native",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.2267548447436055,
+          "strict_outcome": "correct",
+          "format_outcome": "correct",
+          "audit": {
+            "dated_claims": 24,
+            "false_dated_claims": 0,
+            "count_claims": 0,
+            "false_count_claims": 0,
+            "matching_outcome_days": 24,
+            "unparsed_residuals": 3
+          }
+        },
+        {
+          "journal": "extract-02",
+          "context": "count_aware",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.2139779161622481,
+          "strict_outcome": "correct",
+          "format_outcome": "correct",
+          "audit": {
+            "dated_claims": 24,
+            "false_dated_claims": 0,
+            "count_claims": 0,
+            "false_count_claims": 0,
+            "matching_outcome_days": 24,
+            "unparsed_residuals": 3
+          }
+        },
+        {
+          "journal": "extract-03",
+          "context": "full",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.23547556204688833,
+          "strict_outcome": "correct",
+          "format_outcome": "correct"
+        },
+        {
+          "journal": "extract-03",
+          "context": "native",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.23047375799225497,
+          "strict_outcome": "correct",
+          "format_outcome": "correct",
+          "audit": {
+            "dated_claims": 24,
+            "false_dated_claims": 0,
+            "count_claims": 0,
+            "false_count_claims": 0,
+            "matching_outcome_days": 24,
+            "unparsed_residuals": 0
+          }
+        },
+        {
+          "journal": "extract-03",
+          "context": "count_aware",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.17703537877241152,
+          "strict_outcome": "correct",
+          "format_outcome": "correct",
+          "audit": {
+            "dated_claims": 42,
+            "false_dated_claims": 18,
+            "count_claims": 0,
+            "false_count_claims": 0,
+            "matching_outcome_days": 24,
+            "unparsed_residuals": 0
+          }
+        },
+        {
+          "journal": "extract-04",
+          "context": "full",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.20702056639811453,
+          "strict_outcome": "correct",
+          "format_outcome": "correct"
+        },
+        {
+          "journal": "extract-04",
+          "context": "native",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.21764395507619144,
+          "strict_outcome": "correct",
+          "format_outcome": "correct",
+          "audit": {
+            "dated_claims": 24,
+            "false_dated_claims": 0,
+            "count_claims": 0,
+            "false_count_claims": 0,
+            "matching_outcome_days": 24,
+            "unparsed_residuals": 3
+          }
+        },
+        {
+          "journal": "extract-04",
+          "context": "count_aware",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.2025187722964064,
+          "strict_outcome": "correct",
+          "format_outcome": "correct",
+          "audit": {
+            "dated_claims": 24,
+            "false_dated_claims": 0,
+            "count_claims": 0,
+            "false_count_claims": 0,
+            "matching_outcome_days": 24,
+            "unparsed_residuals": 3
+          }
+        },
+        {
+          "journal": "extract-05",
+          "context": "full",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.11026171627682424,
+          "strict_outcome": "correct",
+          "format_outcome": "correct"
+        },
+        {
+          "journal": "extract-05",
+          "context": "native",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.23228908976326673,
+          "strict_outcome": "correct",
+          "format_outcome": "correct",
+          "audit": {
+            "dated_claims": 51,
+            "false_dated_claims": 4,
+            "count_claims": 0,
+            "false_count_claims": 0,
+            "matching_outcome_days": 24,
+            "unparsed_residuals": 3
+          }
+        },
+        {
+          "journal": "extract-05",
+          "context": "count_aware",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.20458917331682902,
+          "strict_outcome": "correct",
+          "format_outcome": "correct",
+          "audit": {
+            "dated_claims": 24,
+            "false_dated_claims": 0,
+            "count_claims": 0,
+            "false_count_claims": 0,
+            "matching_outcome_days": 24,
+            "unparsed_residuals": 3
+          }
+        },
+        {
+          "journal": "extract-06",
+          "context": "full",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.22569449406468323,
+          "strict_outcome": "correct",
+          "format_outcome": "correct"
+        },
+        {
+          "journal": "extract-06",
+          "context": "native",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.2556603946413081,
+          "strict_outcome": "wrong",
+          "format_outcome": "wrong",
+          "audit": {
+            "dated_claims": 24,
+            "false_dated_claims": 0,
+            "count_claims": 0,
+            "false_count_claims": 0,
+            "matching_outcome_days": 24,
+            "unparsed_residuals": 0
+          }
+        },
+        {
+          "journal": "extract-06",
+          "context": "count_aware",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.23514020763495203,
+          "strict_outcome": "wrong",
+          "format_outcome": "wrong",
+          "audit": {
+            "dated_claims": 24,
+            "false_dated_claims": 0,
+            "count_claims": 0,
+            "false_count_claims": 0,
+            "matching_outcome_days": 24,
+            "unparsed_residuals": 0
+          }
+        },
+        {
+          "journal": "extract-07",
+          "context": "full",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.16267391918215687,
+          "strict_outcome": "correct",
+          "format_outcome": "correct"
+        },
+        {
+          "journal": "extract-07",
+          "context": "native",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.2453724908702658,
+          "strict_outcome": "correct",
+          "format_outcome": "correct",
+          "audit": {
+            "dated_claims": 24,
+            "false_dated_claims": 0,
+            "count_claims": 0,
+            "false_count_claims": 0,
+            "matching_outcome_days": 24,
+            "unparsed_residuals": 3
+          }
+        },
+        {
+          "journal": "extract-07",
+          "context": "count_aware",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.25327303470650336,
+          "strict_outcome": "correct",
+          "format_outcome": "correct",
+          "audit": {
+            "dated_claims": 24,
+            "false_dated_claims": 0,
+            "count_claims": 0,
+            "false_count_claims": 0,
+            "matching_outcome_days": 24,
+            "unparsed_residuals": 3
+          }
+        },
+        {
+          "journal": "extract-08",
+          "context": "full",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.17181271011234156,
+          "strict_outcome": "correct",
+          "format_outcome": "correct"
+        },
+        {
+          "journal": "extract-08",
+          "context": "native",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.22704369996740753,
+          "strict_outcome": "correct",
+          "format_outcome": "correct",
+          "audit": {
+            "dated_claims": 24,
+            "false_dated_claims": 0,
+            "count_claims": 0,
+            "false_count_claims": 0,
+            "matching_outcome_days": 24,
+            "unparsed_residuals": 3
+          }
+        },
+        {
+          "journal": "extract-08",
+          "context": "count_aware",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.2234337241720514,
+          "strict_outcome": "correct",
+          "format_outcome": "correct",
+          "audit": {
+            "dated_claims": 24,
+            "false_dated_claims": 0,
+            "count_claims": 0,
+            "false_count_claims": 0,
+            "matching_outcome_days": 24,
+            "unparsed_residuals": 3
+          }
+        },
+        {
+          "journal": "extract-09",
+          "context": "full",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.2361225105059095,
+          "strict_outcome": "wrong",
+          "format_outcome": "wrong"
+        },
+        {
+          "journal": "extract-09",
+          "context": "native",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.2867175436120605,
+          "strict_outcome": "correct",
+          "format_outcome": "correct",
+          "audit": {
+            "dated_claims": 24,
+            "false_dated_claims": 0,
+            "count_claims": 0,
+            "false_count_claims": 0,
+            "matching_outcome_days": 24,
+            "unparsed_residuals": 0
+          }
+        },
+        {
+          "journal": "extract-09",
+          "context": "count_aware",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.22931309452106333,
+          "strict_outcome": "correct",
+          "format_outcome": "correct",
+          "audit": {
+            "dated_claims": 24,
+            "false_dated_claims": 0,
+            "count_claims": 0,
+            "false_count_claims": 0,
+            "matching_outcome_days": 24,
+            "unparsed_residuals": 0
+          }
+        },
+        {
+          "journal": "extract-10",
+          "context": "full",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.24907980166101082,
+          "strict_outcome": "wrong",
+          "format_outcome": "wrong"
+        },
+        {
+          "journal": "extract-10",
+          "context": "native",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.26122037720334934,
+          "strict_outcome": "wrong",
+          "format_outcome": "wrong",
+          "audit": {
+            "dated_claims": 24,
+            "false_dated_claims": 0,
+            "count_claims": 0,
+            "false_count_claims": 0,
+            "matching_outcome_days": 24,
+            "unparsed_residuals": 3
+          }
+        },
+        {
+          "journal": "extract-10",
+          "context": "count_aware",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.25083703299844123,
+          "strict_outcome": "wrong",
+          "format_outcome": "wrong",
+          "audit": {
+            "dated_claims": 24,
+            "false_dated_claims": 0,
+            "count_claims": 0,
+            "false_count_claims": 0,
+            "matching_outcome_days": 24,
+            "unparsed_residuals": 3
+          }
+        },
+        {
+          "journal": "extract-11",
+          "context": "full",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.16903408731300237,
+          "strict_outcome": "wrong",
+          "format_outcome": "wrong"
+        },
+        {
+          "journal": "extract-11",
+          "context": "native",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.2142550394650957,
+          "strict_outcome": "wrong",
+          "format_outcome": "wrong",
+          "audit": {
+            "dated_claims": 24,
+            "false_dated_claims": 0,
+            "count_claims": 0,
+            "false_count_claims": 0,
+            "matching_outcome_days": 24,
+            "unparsed_residuals": 3
+          }
+        },
+        {
+          "journal": "extract-11",
+          "context": "count_aware",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.22550448301993173,
+          "strict_outcome": "wrong",
+          "format_outcome": "wrong",
+          "audit": {
+            "dated_claims": 24,
+            "false_dated_claims": 0,
+            "count_claims": 0,
+            "false_count_claims": 0,
+            "matching_outcome_days": 24,
+            "unparsed_residuals": 3
+          }
+        }
+      ]
+    },
+    "phi": {
+      "scheduled_records": 36,
+      "actual_generations": 33,
+      "unique_prompts": 33,
+      "duplicate_prompt_checks": [],
+      "generation_seconds": 680.6064609149907,
+      "summaries": {
+        "full": {
+          "status_counts": {
+            "unscored": 11,
+            "complete": 1
+          },
+          "primary_entropy_nats": {
+            "available": 1,
+            "mean": 0.27445349597066426
+          },
+          "first_32_entropy_nats": {
+            "available": 12,
+            "mean": 0.7969739092649172
+          }
+        },
+        "native": {
+          "status_counts": {
+            "unscored": 12
+          },
+          "primary_entropy_nats": {
+            "available": 0,
+            "mean": null
+          },
+          "first_32_entropy_nats": {
+            "available": 12,
+            "mean": 0.35766842218284367
+          }
+        },
+        "count_aware": {
+          "status_counts": {
+            "complete": 6,
+            "blocked_writer": 3,
+            "unscored": 3
+          },
+          "primary_entropy_nats": {
+            "available": 6,
+            "mean": 0.33100330582386267
+          },
+          "first_32_entropy_nats": {
+            "available": 9,
+            "mean": 0.7309649324297829
+          }
+        }
+      },
+      "comparisons": {
+        "primary_entropy_nats": {
+          "strict_outcome": {
+            "eligible_journals": 0,
+            "excluded_journals": [
+              "extract-00",
+              "extract-01",
+              "extract-02",
+              "extract-03",
+              "extract-04",
+              "extract-05",
+              "extract-06",
+              "extract-07",
+              "extract-08",
+              "extract-09",
+              "extract-10",
+              "extract-11"
+            ],
+            "selected_counts": {},
+            "selected_correct": 0,
+            "always_native_correct": 0,
+            "uniform_expected_correct": 0,
+            "candidate_correctness_differs": 0,
+            "pairs": []
+          },
+          "format_outcome": {
+            "eligible_journals": 0,
+            "excluded_journals": [
+              "extract-00",
+              "extract-01",
+              "extract-02",
+              "extract-03",
+              "extract-04",
+              "extract-05",
+              "extract-06",
+              "extract-07",
+              "extract-08",
+              "extract-09",
+              "extract-10",
+              "extract-11"
+            ],
+            "selected_counts": {},
+            "selected_correct": 0,
+            "always_native_correct": 0,
+            "uniform_expected_correct": 0,
+            "candidate_correctness_differs": 0,
+            "pairs": []
+          }
+        },
+        "first_32_entropy_nats": {
+          "strict_outcome": {
+            "eligible_journals": 9,
+            "excluded_journals": [
+              "extract-01",
+              "extract-02",
+              "extract-11"
+            ],
+            "selected_counts": {
+              "native": 9
+            },
+            "selected_correct": 7.0,
+            "always_native_correct": 7,
+            "uniform_expected_correct": 5.5,
+            "candidate_correctness_differs": 3,
+            "pairs": [
+              {
+                "journal": "extract-00",
+                "native_entropy": 0.3459485933348345,
+                "count_aware_entropy": 0.793689114290129,
+                "native_outcome": "invalid",
+                "count_aware_outcome": "invalid",
+                "selected": [
+                  "native"
+                ],
+                "selected_correct": 0.0,
+                "always_native_correct": 0,
+                "uniform_expected_correct": 0.0,
+                "candidate_correctness_differs": false
+              },
+              {
+                "journal": "extract-03",
+                "native_entropy": 0.36005264813037785,
+                "count_aware_entropy": 0.7618613482939054,
+                "native_outcome": "correct",
+                "count_aware_outcome": "correct",
+                "selected": [
+                  "native"
+                ],
+                "selected_correct": 1.0,
+                "always_native_correct": 1,
+                "uniform_expected_correct": 1.0,
+                "candidate_correctness_differs": false
+              },
+              {
+                "journal": "extract-04",
+                "native_entropy": 0.3307944089219017,
+                "count_aware_entropy": 0.8191780641654418,
+                "native_outcome": "correct",
+                "count_aware_outcome": "correct",
+                "selected": [
+                  "native"
+                ],
+                "selected_correct": 1.0,
+                "always_native_correct": 1,
+                "uniform_expected_correct": 1.0,
+                "candidate_correctness_differs": false
+              },
+              {
+                "journal": "extract-05",
+                "native_entropy": 0.3358628136206203,
+                "count_aware_entropy": 0.7471397795817758,
+                "native_outcome": "correct",
+                "count_aware_outcome": "wrong",
+                "selected": [
+                  "native"
+                ],
+                "selected_correct": 1.0,
+                "always_native_correct": 1,
+                "uniform_expected_correct": 0.5,
+                "candidate_correctness_differs": true
+              },
+              {
+                "journal": "extract-06",
+                "native_entropy": 0.3433754416552688,
+                "count_aware_entropy": 0.7366929240862987,
+                "native_outcome": "correct",
+                "count_aware_outcome": "correct",
+                "selected": [
+                  "native"
+                ],
+                "selected_correct": 1.0,
+                "always_native_correct": 1,
+                "uniform_expected_correct": 1.0,
+                "candidate_correctness_differs": false
+              },
+              {
+                "journal": "extract-07",
+                "native_entropy": 0.35022872806407457,
+                "count_aware_entropy": 0.8244454970465895,
+                "native_outcome": "correct",
+                "count_aware_outcome": "invalid",
+                "selected": [
+                  "native"
+                ],
+                "selected_correct": 1.0,
+                "always_native_correct": 1,
+                "uniform_expected_correct": 0.5,
+                "candidate_correctness_differs": true
+              },
+              {
+                "journal": "extract-08",
+                "native_entropy": 0.36804071821885254,
+                "count_aware_entropy": 0.5361795091832064,
+                "native_outcome": "correct",
+                "count_aware_outcome": "correct",
+                "selected": [
+                  "native"
+                ],
+                "selected_correct": 1.0,
+                "always_native_correct": 1,
+                "uniform_expected_correct": 1.0,
+                "candidate_correctness_differs": false
+              },
+              {
+                "journal": "extract-09",
+                "native_entropy": 0.39015469662484037,
+                "count_aware_entropy": 0.9149723693429053,
+                "native_outcome": "wrong",
+                "count_aware_outcome": "wrong",
+                "selected": [
+                  "native"
+                ],
+                "selected_correct": 0.0,
+                "always_native_correct": 0,
+                "uniform_expected_correct": 0.0,
+                "candidate_correctness_differs": false
+              },
+              {
+                "journal": "extract-10",
+                "native_entropy": 0.3917232798757011,
+                "count_aware_entropy": 0.44452578587779423,
+                "native_outcome": "correct",
+                "count_aware_outcome": "wrong",
+                "selected": [
+                  "native"
+                ],
+                "selected_correct": 1.0,
+                "always_native_correct": 1,
+                "uniform_expected_correct": 0.5,
+                "candidate_correctness_differs": true
+              }
+            ]
+          },
+          "format_outcome": {
+            "eligible_journals": 9,
+            "excluded_journals": [
+              "extract-01",
+              "extract-02",
+              "extract-11"
+            ],
+            "selected_counts": {
+              "native": 9
+            },
+            "selected_correct": 8.0,
+            "always_native_correct": 8,
+            "uniform_expected_correct": 7.0,
+            "candidate_correctness_differs": 2,
+            "pairs": [
+              {
+                "journal": "extract-00",
+                "native_entropy": 0.3459485933348345,
+                "count_aware_entropy": 0.793689114290129,
+                "native_outcome": "correct",
+                "count_aware_outcome": "correct",
+                "selected": [
+                  "native"
+                ],
+                "selected_correct": 1.0,
+                "always_native_correct": 1,
+                "uniform_expected_correct": 1.0,
+                "candidate_correctness_differs": false
+              },
+              {
+                "journal": "extract-03",
+                "native_entropy": 0.36005264813037785,
+                "count_aware_entropy": 0.7618613482939054,
+                "native_outcome": "correct",
+                "count_aware_outcome": "correct",
+                "selected": [
+                  "native"
+                ],
+                "selected_correct": 1.0,
+                "always_native_correct": 1,
+                "uniform_expected_correct": 1.0,
+                "candidate_correctness_differs": false
+              },
+              {
+                "journal": "extract-04",
+                "native_entropy": 0.3307944089219017,
+                "count_aware_entropy": 0.8191780641654418,
+                "native_outcome": "correct",
+                "count_aware_outcome": "correct",
+                "selected": [
+                  "native"
+                ],
+                "selected_correct": 1.0,
+                "always_native_correct": 1,
+                "uniform_expected_correct": 1.0,
+                "candidate_correctness_differs": false
+              },
+              {
+                "journal": "extract-05",
+                "native_entropy": 0.3358628136206203,
+                "count_aware_entropy": 0.7471397795817758,
+                "native_outcome": "correct",
+                "count_aware_outcome": "wrong",
+                "selected": [
+                  "native"
+                ],
+                "selected_correct": 1.0,
+                "always_native_correct": 1,
+                "uniform_expected_correct": 0.5,
+                "candidate_correctness_differs": true
+              },
+              {
+                "journal": "extract-06",
+                "native_entropy": 0.3433754416552688,
+                "count_aware_entropy": 0.7366929240862987,
+                "native_outcome": "correct",
+                "count_aware_outcome": "correct",
+                "selected": [
+                  "native"
+                ],
+                "selected_correct": 1.0,
+                "always_native_correct": 1,
+                "uniform_expected_correct": 1.0,
+                "candidate_correctness_differs": false
+              },
+              {
+                "journal": "extract-07",
+                "native_entropy": 0.35022872806407457,
+                "count_aware_entropy": 0.8244454970465895,
+                "native_outcome": "correct",
+                "count_aware_outcome": "correct",
+                "selected": [
+                  "native"
+                ],
+                "selected_correct": 1.0,
+                "always_native_correct": 1,
+                "uniform_expected_correct": 1.0,
+                "candidate_correctness_differs": false
+              },
+              {
+                "journal": "extract-08",
+                "native_entropy": 0.36804071821885254,
+                "count_aware_entropy": 0.5361795091832064,
+                "native_outcome": "correct",
+                "count_aware_outcome": "correct",
+                "selected": [
+                  "native"
+                ],
+                "selected_correct": 1.0,
+                "always_native_correct": 1,
+                "uniform_expected_correct": 1.0,
+                "candidate_correctness_differs": false
+              },
+              {
+                "journal": "extract-09",
+                "native_entropy": 0.39015469662484037,
+                "count_aware_entropy": 0.9149723693429053,
+                "native_outcome": "wrong",
+                "count_aware_outcome": "wrong",
+                "selected": [
+                  "native"
+                ],
+                "selected_correct": 0.0,
+                "always_native_correct": 0,
+                "uniform_expected_correct": 0.0,
+                "candidate_correctness_differs": false
+              },
+              {
+                "journal": "extract-10",
+                "native_entropy": 0.3917232798757011,
+                "count_aware_entropy": 0.44452578587779423,
+                "native_outcome": "correct",
+                "count_aware_outcome": "wrong",
+                "selected": [
+                  "native"
+                ],
+                "selected_correct": 1.0,
+                "always_native_correct": 1,
+                "uniform_expected_correct": 0.5,
+                "candidate_correctness_differs": true
+              }
+            ]
+          }
+        }
+      },
+      "measurements": [
+        {
+          "journal": "extract-00",
+          "context": "full",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.812126809653949,
+          "strict_outcome": "correct",
+          "format_outcome": "correct"
+        },
+        {
+          "journal": "extract-00",
+          "context": "native",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.3459485933348345,
+          "strict_outcome": "invalid",
+          "format_outcome": "correct",
+          "audit": {
+            "dated_claims": 46,
+            "false_dated_claims": 3,
+            "count_claims": 0,
+            "false_count_claims": 0,
+            "matching_outcome_days": 22,
+            "unparsed_residuals": 0
+          }
+        },
+        {
+          "journal": "extract-00",
+          "context": "count_aware",
+          "status": "complete",
+          "finish_reason": "stop",
+          "generation_tokens": 218,
+          "primary_entropy_nats": 0.3140530765263442,
+          "first_32_entropy_nats": 0.793689114290129,
+          "strict_outcome": "invalid",
+          "format_outcome": "correct",
+          "audit": {
+            "dated_claims": 24,
+            "false_dated_claims": 0,
+            "count_claims": 6,
+            "false_count_claims": 2,
+            "matching_outcome_days": 0,
+            "unparsed_residuals": 0
+          }
+        },
+        {
+          "journal": "extract-01",
+          "context": "full",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.46222073105591877,
+          "strict_outcome": "correct",
+          "format_outcome": "correct"
+        },
+        {
+          "journal": "extract-01",
+          "context": "native",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.35935029014977804,
+          "strict_outcome": "correct",
+          "format_outcome": "correct",
+          "audit": {
+            "dated_claims": 47,
+            "false_dated_claims": 0,
+            "count_claims": 0,
+            "false_count_claims": 0,
+            "matching_outcome_days": 23,
+            "unparsed_residuals": 3
+          }
+        },
+        {
+          "journal": "extract-01",
+          "context": "count_aware",
+          "status": "blocked_writer",
+          "finish_reason": null,
+          "generation_tokens": null,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": null,
+          "strict_outcome": "blocked_writer",
+          "format_outcome": "blocked_writer",
+          "audit": {
+            "dated_claims": 24,
+            "false_dated_claims": 0,
+            "count_claims": 0,
+            "false_count_claims": 0,
+            "matching_outcome_days": 24,
+            "unparsed_residuals": 3
+          }
+        },
+        {
+          "journal": "extract-02",
+          "context": "full",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.895819600561726,
+          "strict_outcome": "correct",
+          "format_outcome": "correct"
+        },
+        {
+          "journal": "extract-02",
+          "context": "native",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.4353498001465148,
+          "strict_outcome": "correct",
+          "format_outcome": "correct",
+          "audit": {
+            "dated_claims": 48,
+            "false_dated_claims": 0,
+            "count_claims": 0,
+            "false_count_claims": 0,
+            "matching_outcome_days": 24,
+            "unparsed_residuals": 3
+          }
+        },
+        {
+          "journal": "extract-02",
+          "context": "count_aware",
+          "status": "blocked_writer",
+          "finish_reason": null,
+          "generation_tokens": null,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": null,
+          "strict_outcome": "blocked_writer",
+          "format_outcome": "blocked_writer",
+          "audit": {
+            "dated_claims": 24,
+            "false_dated_claims": 0,
+            "count_claims": 0,
+            "false_count_claims": 0,
+            "matching_outcome_days": 24,
+            "unparsed_residuals": 3
+          }
+        },
+        {
+          "journal": "extract-03",
+          "context": "full",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.8210918992976843,
+          "strict_outcome": "correct",
+          "format_outcome": "correct"
+        },
+        {
+          "journal": "extract-03",
+          "context": "native",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.36005264813037785,
+          "strict_outcome": "correct",
+          "format_outcome": "correct",
+          "audit": {
+            "dated_claims": 48,
+            "false_dated_claims": 0,
+            "count_claims": 0,
+            "false_count_claims": 0,
+            "matching_outcome_days": 24,
+            "unparsed_residuals": 0
+          }
+        },
+        {
+          "journal": "extract-03",
+          "context": "count_aware",
+          "status": "complete",
+          "finish_reason": "stop",
+          "generation_tokens": 201,
+          "primary_entropy_nats": 0.34246112220375247,
+          "first_32_entropy_nats": 0.7618613482939054,
+          "strict_outcome": "correct",
+          "format_outcome": "correct",
+          "audit": {
+            "dated_claims": 0,
+            "false_dated_claims": 0,
+            "count_claims": 6,
+            "false_count_claims": 4,
+            "matching_outcome_days": 0,
+            "unparsed_residuals": 0
+          }
+        },
+        {
+          "journal": "extract-04",
+          "context": "full",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.932911258061381,
+          "strict_outcome": "correct",
+          "format_outcome": "correct"
+        },
+        {
+          "journal": "extract-04",
+          "context": "native",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.3307944089219017,
+          "strict_outcome": "correct",
+          "format_outcome": "correct",
+          "audit": {
+            "dated_claims": 48,
+            "false_dated_claims": 2,
+            "count_claims": 0,
+            "false_count_claims": 0,
+            "matching_outcome_days": 23,
+            "unparsed_residuals": 0
+          }
+        },
+        {
+          "journal": "extract-04",
+          "context": "count_aware",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.8191780641654418,
+          "strict_outcome": "correct",
+          "format_outcome": "correct",
+          "audit": {
+            "dated_claims": 48,
+            "false_dated_claims": 2,
+            "count_claims": 6,
+            "false_count_claims": 4,
+            "matching_outcome_days": 23,
+            "unparsed_residuals": 1
+          }
+        },
+        {
+          "journal": "extract-05",
+          "context": "full",
+          "status": "complete",
+          "finish_reason": "stop",
+          "generation_tokens": 199,
+          "primary_entropy_nats": 0.27445349597066426,
+          "first_32_entropy_nats": 0.4730427816727758,
+          "strict_outcome": "correct",
+          "format_outcome": "correct"
+        },
+        {
+          "journal": "extract-05",
+          "context": "native",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.3358628136206203,
+          "strict_outcome": "correct",
+          "format_outcome": "correct",
+          "audit": {
+            "dated_claims": 48,
+            "false_dated_claims": 1,
+            "count_claims": 0,
+            "false_count_claims": 0,
+            "matching_outcome_days": 23,
+            "unparsed_residuals": 3
+          }
+        },
+        {
+          "journal": "extract-05",
+          "context": "count_aware",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.7471397795817758,
+          "strict_outcome": "wrong",
+          "format_outcome": "wrong",
+          "audit": {
+            "dated_claims": 0,
+            "false_dated_claims": 0,
+            "count_claims": 6,
+            "false_count_claims": 4,
+            "matching_outcome_days": 0,
+            "unparsed_residuals": 3
+          }
+        },
+        {
+          "journal": "extract-06",
+          "context": "full",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.8607658636633424,
+          "strict_outcome": "correct",
+          "format_outcome": "correct"
+        },
+        {
+          "journal": "extract-06",
+          "context": "native",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.3433754416552688,
+          "strict_outcome": "correct",
+          "format_outcome": "correct",
+          "audit": {
+            "dated_claims": 45,
+            "false_dated_claims": 0,
+            "count_claims": 0,
+            "false_count_claims": 0,
+            "matching_outcome_days": 22,
+            "unparsed_residuals": 0
+          }
+        },
+        {
+          "journal": "extract-06",
+          "context": "count_aware",
+          "status": "complete",
+          "finish_reason": "stop",
+          "generation_tokens": 195,
+          "primary_entropy_nats": 0.33057757234580204,
+          "first_32_entropy_nats": 0.7366929240862987,
+          "strict_outcome": "correct",
+          "format_outcome": "correct",
+          "audit": {
+            "dated_claims": 23,
+            "false_dated_claims": 0,
+            "count_claims": 6,
+            "false_count_claims": 2,
+            "matching_outcome_days": 0,
+            "unparsed_residuals": 0
+          }
+        },
+        {
+          "journal": "extract-07",
+          "context": "full",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.8085915152545793,
+          "strict_outcome": "invalid",
+          "format_outcome": "correct"
+        },
+        {
+          "journal": "extract-07",
+          "context": "native",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.35022872806407457,
+          "strict_outcome": "correct",
+          "format_outcome": "correct",
+          "audit": {
+            "dated_claims": 47,
+            "false_dated_claims": 0,
+            "count_claims": 0,
+            "false_count_claims": 0,
+            "matching_outcome_days": 23,
+            "unparsed_residuals": 3
+          }
+        },
+        {
+          "journal": "extract-07",
+          "context": "count_aware",
+          "status": "complete",
+          "finish_reason": "stop",
+          "generation_tokens": 193,
+          "primary_entropy_nats": 0.3708789562503519,
+          "first_32_entropy_nats": 0.8244454970465895,
+          "strict_outcome": "invalid",
+          "format_outcome": "correct",
+          "audit": {
+            "dated_claims": 17,
+            "false_dated_claims": 0,
+            "count_claims": 6,
+            "false_count_claims": 2,
+            "matching_outcome_days": 17,
+            "unparsed_residuals": 3
+          }
+        },
+        {
+          "journal": "extract-08",
+          "context": "full",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.7938896366068031,
+          "strict_outcome": "correct",
+          "format_outcome": "correct"
+        },
+        {
+          "journal": "extract-08",
+          "context": "native",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.36804071821885254,
+          "strict_outcome": "correct",
+          "format_outcome": "correct",
+          "audit": {
+            "dated_claims": 48,
+            "false_dated_claims": 1,
+            "count_claims": 0,
+            "false_count_claims": 0,
+            "matching_outcome_days": 24,
+            "unparsed_residuals": 3
+          }
+        },
+        {
+          "journal": "extract-08",
+          "context": "count_aware",
+          "status": "complete",
+          "finish_reason": "stop",
+          "generation_tokens": 255,
+          "primary_entropy_nats": 0.3632084366435691,
+          "first_32_entropy_nats": 0.5361795091832064,
+          "strict_outcome": "correct",
+          "format_outcome": "correct",
+          "audit": {
+            "dated_claims": 0,
+            "false_dated_claims": 0,
+            "count_claims": 6,
+            "false_count_claims": 5,
+            "matching_outcome_days": 0,
+            "unparsed_residuals": 3
+          }
+        },
+        {
+          "journal": "extract-09",
+          "context": "full",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.8573749236234143,
+          "strict_outcome": "wrong",
+          "format_outcome": "wrong"
+        },
+        {
+          "journal": "extract-09",
+          "context": "native",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.39015469662484037,
+          "strict_outcome": "wrong",
+          "format_outcome": "wrong",
+          "audit": {
+            "dated_claims": 45,
+            "false_dated_claims": 0,
+            "count_claims": 0,
+            "false_count_claims": 0,
+            "matching_outcome_days": 22,
+            "unparsed_residuals": 0
+          }
+        },
+        {
+          "journal": "extract-09",
+          "context": "count_aware",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.9149723693429053,
+          "strict_outcome": "wrong",
+          "format_outcome": "wrong",
+          "audit": {
+            "dated_claims": 24,
+            "false_dated_claims": 0,
+            "count_claims": 6,
+            "false_count_claims": 5,
+            "matching_outcome_days": 24,
+            "unparsed_residuals": 0
+          }
+        },
+        {
+          "journal": "extract-10",
+          "context": "full",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.9139487084336295,
+          "strict_outcome": "wrong",
+          "format_outcome": "wrong"
+        },
+        {
+          "journal": "extract-10",
+          "context": "native",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.3917232798757011,
+          "strict_outcome": "correct",
+          "format_outcome": "correct",
+          "audit": {
+            "dated_claims": 48,
+            "false_dated_claims": 0,
+            "count_claims": 0,
+            "false_count_claims": 0,
+            "matching_outcome_days": 24,
+            "unparsed_residuals": 3
+          }
+        },
+        {
+          "journal": "extract-10",
+          "context": "count_aware",
+          "status": "complete",
+          "finish_reason": "stop",
+          "generation_tokens": 187,
+          "primary_entropy_nats": 0.26484067097335634,
+          "first_32_entropy_nats": 0.44452578587779423,
+          "strict_outcome": "wrong",
+          "format_outcome": "wrong",
+          "audit": {
+            "dated_claims": 3,
+            "false_dated_claims": 0,
+            "count_claims": 6,
+            "false_count_claims": 2,
+            "matching_outcome_days": 3,
+            "unparsed_residuals": 3
+          }
+        },
+        {
+          "journal": "extract-11",
+          "context": "full",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.9319031832938034,
+          "strict_outcome": "wrong",
+          "format_outcome": "wrong"
+        },
+        {
+          "journal": "extract-11",
+          "context": "native",
+          "status": "unscored",
+          "finish_reason": "length",
+          "generation_tokens": 256,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": 0.2811396474513601,
+          "strict_outcome": "wrong",
+          "format_outcome": "wrong",
+          "audit": {
+            "dated_claims": 56,
+            "false_dated_claims": 13,
+            "count_claims": 0,
+            "false_count_claims": 0,
+            "matching_outcome_days": 23,
+            "unparsed_residuals": 3
+          }
+        },
+        {
+          "journal": "extract-11",
+          "context": "count_aware",
+          "status": "blocked_writer",
+          "finish_reason": null,
+          "generation_tokens": null,
+          "primary_entropy_nats": null,
+          "first_32_entropy_nats": null,
+          "strict_outcome": "blocked_writer",
+          "format_outcome": "blocked_writer",
+          "audit": {
+            "dated_claims": 24,
+            "false_dated_claims": 0,
+            "count_claims": 0,
+            "false_count_claims": 0,
+            "matching_outcome_days": 24,
+            "unparsed_residuals": 3
+          }
+        }
+      ]
+    }
+  },
+  "hashes": {
+    "src/analyze_memory_probe.py": "a734be9430464808b50a37a62453a18962d04c367014cc7fea0cac6e9db1e738",
+    "results/pilot-004-answer-format-budget.json": "256524ae5fdd94453e8d1126fa74ff270cda7dd7191ca3b4ac79f4f3e366f34d",
+    "results/memory-probe-qwen-manifest.json": "259743f0a749b5ff4c7cf35b1deb425adc8c70a45714ef6daa595a279e336e73",
+    "results/memory-probe-qwen-predictions.jsonl": "5248dca91b61b27486990a05209e540c2413b73430669a7eabbf9c9004f5762c",
+    "results/pilot-004-qwen-claim-audit.json": "85cb2cae8a133325e22a54f6a66901d788179811e70560f9f2f933b28f4f96c2",
+    "results/memory-probe-phi-manifest.json": "16df17c7046bd100f3713c4ee3aa040ce7f9a23096eaec8b759e5feb2422eba5",
+    "results/memory-probe-phi-predictions.jsonl": "aa452695dff37817f6758393e5c3e93dcb7ef67dd6a0564efd7887eba834ed80",
+    "results/pilot-004-phi-claim-audit.json": "dc60e3af08ed7e341ab5794c739bf4f8656e35b162bd28a0d6fef63c09a14766"
+  }
+}

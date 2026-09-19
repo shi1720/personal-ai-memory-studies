@@ -1,0 +1,26 @@
+{
+  "status": "exploratory prompt-component test; not end-to-end Mem0",
+  "model": "qwen",
+  "temperature": 0,
+  "seed": 0,
+  "max_prompt_tokens": 4096,
+  "max_writer_tokens": 1536,
+  "max_reader_tokens": 256,
+  "planned_writer_cases": 24,
+  "planned_reader_cases": 96,
+  "hashes": {
+    "src/run_extraction_pilot.py": "99760fda535f955fcfdf312b654fe942fbedc4cfadd0aa9ce0154aec18c00e50",
+    "src/extraction_pilot_data.py": "3b9c4a8efe1731f9a03d9427d83b481b6d60c0d1eb833bb3d0d0a029eb413a54",
+    "src/run_retention_pilot.py": "b7eceb5e61e6c9b0c51ad77ca8a938b3bdee703aafdfea7382cc74dfca51c464",
+    "docs/pilot-004.md": "9bfc904ce78a8d903ef87c7ad0ff105f1c64ccbfd679b89caee35c7e6b9712c0",
+    "results/pilot-004-inputs.json": "31006e8ada8d59698878dfae83ac8a683e30054983adfbf7edc1e7ab7ac6e899",
+    "results/pilot-004-extraction-prompt.txt": "488e8dcb43eba9ef8fa8690c3a2219cfa4398c0ee43f788a6edd4d434807e830",
+    "references/mem0-prompt-screen.json": "5c5a8ac6b4efa656dd70e4a044acfd05ce7dd5eb1324846a234c723b1e25a995",
+    "references/local-model-manifest.json": "539676dc2ffde3643d164f8bf20cfa5e560b0be04b59c6f092aa62987f7207a9"
+  },
+  "versions": {
+    "mlx": "0.32.2",
+    "mlx-lm": "0.31.3",
+    "transformers": "5.17.0"
+  }
+}

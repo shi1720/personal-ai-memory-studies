@@ -1,0 +1,24 @@
+{
+  "status": "post hoc output-budget sensitivity, not replacement of initial results",
+  "model": "phi",
+  "max_output_tokens": 768,
+  "max_prompt_tokens": 4096,
+  "temperature": 0,
+  "seed": 0,
+  "planned_cases": 48,
+  "hashes": {
+    "src/run_extraction_budget_sensitivity.py": "20b15ef425ecf9b33c17b9b12de3397192bf08e1819c67992873aa78adb20518",
+    "src/extraction_pilot_data.py": "3b9c4a8efe1731f9a03d9427d83b481b6d60c0d1eb833bb3d0d0a029eb413a54",
+    "src/run_retention_pilot.py": "b7eceb5e61e6c9b0c51ad77ca8a938b3bdee703aafdfea7382cc74dfca51c464",
+    "docs/pilot-004-reader-budget-sensitivity.md": "cfd4fcf25ea9091f7048803386eb8f62d8604a1fe751cd4139d9a9a00296478e",
+    "results/pilot-004-inputs.json": "31006e8ada8d59698878dfae83ac8a683e30054983adfbf7edc1e7ab7ac6e899",
+    "results/pilot-004-phi-predictions.jsonl": "bb42d0fa8ed165515f19213bfdf72699078e72f344dfaaffea6d6f4c75a93634",
+    "results/pilot-004-phi-manifest.json": "4fb71d756e99b1f7a56827238f21170758f2e58bc2e17c168a5543cebe3b16f3",
+    "references/phi-model-manifest.json": "590c8f5465bd6d0c9216db820a4d4b06aa71b7dfcdea411ef6069e0f2e74d331"
+  },
+  "versions": {
+    "mlx": "0.32.2",
+    "mlx-lm": "0.31.3",
+    "transformers": "5.17.0"
+  }
+}

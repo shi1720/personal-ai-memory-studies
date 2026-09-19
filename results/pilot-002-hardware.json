@@ -1,0 +1,8 @@
+{
+  "architecture": "arm64",
+  "os": "Darwin",
+  "macos": "27.0",
+  "physical_memory_bytes": 25769803776,
+  "logical_cpu_count": 12,
+  "measurement_note": "Hardware context, not a wall-clock speedup measurement. Reader times exclude model load and input preparation; run includes an interruption and verified resumption."
+}

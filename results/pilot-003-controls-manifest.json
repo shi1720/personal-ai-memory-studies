@@ -1,0 +1,20 @@
+{
+  "status": "post-result diagnostic; not independent confirmation",
+  "hashes": {
+    "src/run_retention_controls.py": "aa50f1627f383412d9de6aba6924d803b44e18c4dde73dbeb4431ef72167c3f0",
+    "src/retention_pilot_data.py": "b098fb95d1fa21b61dd39260e4ad627e3a8cb543ce5661ddbd7ceb5d7f3da7bd",
+    "src/run_retention_pilot.py": "b7eceb5e61e6c9b0c51ad77ca8a938b3bdee703aafdfea7382cc74dfca51c464",
+    "docs/pilot-003-controls.md": "412e875624e524073bc6e78b3c7eb6f055a21adc80b41319b886168d7915ba9c",
+    "results/pilot-003-journals.json": "faecfc662a6783963ed61a9989ed4a18c0311773a9db655f299b5ac453f08204",
+    "references/local-model-manifest.json": "539676dc2ffde3643d164f8bf20cfa5e560b0be04b59c6f092aa62987f7207a9"
+  },
+  "expected_calls": 72,
+  "temperature": 0,
+  "seed": 0,
+  "max_output_tokens": 160,
+  "versions": {
+    "mlx": "0.32.2",
+    "mlx-lm": "0.31.3",
+    "transformers": "5.17.0"
+  }
+}

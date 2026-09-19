@@ -1,0 +1,128 @@
+{
+  "status": "exact constructed estimand check, not LLM or user experiments",
+  "settings": {
+    "logging_probability_A": "4/5",
+    "reference_probability_A": "1/2",
+    "success_A": "4/5",
+    "success_B": "1/5",
+    "decay": 1,
+    "propensities": "known exactly; positive; unclipped"
+  },
+  "cases": {
+    "constant": {
+      "observed_mean": {
+        "fraction": "17/25",
+        "decimal": 0.68
+      },
+      "target_mean": {
+        "fraction": "1/2",
+        "decimal": 0.5
+      },
+      "ungated_propensity_mean": {
+        "fraction": "1/2",
+        "decimal": 0.5
+      },
+      "gated_ratio": {
+        "fraction": "1/2",
+        "decimal": 0.5
+      },
+      "target_gate_mass": {
+        "fraction": "1/2",
+        "decimal": 0.5
+      },
+      "target_covariance": {
+        "fraction": "0",
+        "decimal": 0.0
+      },
+      "bias": {
+        "fraction": "0",
+        "decimal": 0.0
+      },
+      "covariance_identity": {
+        "fraction": "0",
+        "decimal": 0.0
+      },
+      "exact_100_event_recursion": {
+        "value": "1/2",
+        "weight_mass": "50"
+      }
+    },
+    "action_dependent": {
+      "observed_mean": {
+        "fraction": "17/25",
+        "decimal": 0.68
+      },
+      "target_mean": {
+        "fraction": "1/2",
+        "decimal": 0.5
+      },
+      "ungated_propensity_mean": {
+        "fraction": "1/2",
+        "decimal": 0.5
+      },
+      "gated_ratio": {
+        "fraction": "37/50",
+        "decimal": 0.74
+      },
+      "target_gate_mass": {
+        "fraction": "1/2",
+        "decimal": 0.5
+      },
+      "target_covariance": {
+        "fraction": "3/25",
+        "decimal": 0.12
+      },
+      "bias": {
+        "fraction": "6/25",
+        "decimal": 0.24
+      },
+      "covariance_identity": {
+        "fraction": "6/25",
+        "decimal": 0.24
+      },
+      "exact_100_event_recursion": {
+        "value": "37/50",
+        "weight_mass": "50"
+      }
+    },
+    "outcome_dependent": {
+      "observed_mean": {
+        "fraction": "17/25",
+        "decimal": 0.68
+      },
+      "target_mean": {
+        "fraction": "1/2",
+        "decimal": 0.5
+      },
+      "ungated_propensity_mean": {
+        "fraction": "1/2",
+        "decimal": 0.5
+      },
+      "gated_ratio": {
+        "fraction": "9/10",
+        "decimal": 0.9
+      },
+      "target_gate_mass": {
+        "fraction": "1/2",
+        "decimal": 0.5
+      },
+      "target_covariance": {
+        "fraction": "1/5",
+        "decimal": 0.2
+      },
+      "bias": {
+        "fraction": "2/5",
+        "decimal": 0.4
+      },
+      "covariance_identity": {
+        "fraction": "2/5",
+        "decimal": 0.4
+      },
+      "exact_100_event_recursion": {
+        "value": "9/10",
+        "weight_mass": "50"
+      }
+    }
+  },
+  "code_sha256": "d4795f1bfc70c8ad8b805550ae06cc477ee92b210096a32dce0f99834846650f"
+}

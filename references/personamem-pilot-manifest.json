@@ -1,0 +1,932 @@
+{
+  "dataset": "bowen-upenn/PersonaMem-v2",
+  "revision": "ed956dea41521fc4499acbc63f966e0fd3c053ba",
+  "license": "CC-BY-4.0",
+  "source": "https://huggingface.co/datasets/bowen-upenn/PersonaMem-v2",
+  "citation": "https://arxiv.org/abs/2512.06688",
+  "protocol": "docs/pilot-002.md",
+  "personas": [
+    "608",
+    "913",
+    "925",
+    "710",
+    "953",
+    "639",
+    "518",
+    "496",
+    "847",
+    "367",
+    "832",
+    "369",
+    "374",
+    "241",
+    "41",
+    "456",
+    "87",
+    "875",
+    "105",
+    "999",
+    "887",
+    "187",
+    "864",
+    "781",
+    "574",
+    "637",
+    "93",
+    "290",
+    "982",
+    "344",
+    "17",
+    "258",
+    "166",
+    "24",
+    "349",
+    "785",
+    "269",
+    "21",
+    "380",
+    "333",
+    "113",
+    "935",
+    "696",
+    "744",
+    "699",
+    "587",
+    "2",
+    "222",
+    "828",
+    "360",
+    "238",
+    "694",
+    "134",
+    "148",
+    "341",
+    "970",
+    "768",
+    "648",
+    "9",
+    "182",
+    "119",
+    "728",
+    "484",
+    "870",
+    "965",
+    "34",
+    "746",
+    "406",
+    "900",
+    "300",
+    "801",
+    "190",
+    "551",
+    "756",
+    "563",
+    "490",
+    "126",
+    "568",
+    "730",
+    "909",
+    "795",
+    "641",
+    "419",
+    "276",
+    "108",
+    "273",
+    "536",
+    "731",
+    "389",
+    "897",
+    "735",
+    "335",
+    "868",
+    "591",
+    "994",
+    "607",
+    "129",
+    "538",
+    "155",
+    "157",
+    "503",
+    "666",
+    "509",
+    "797",
+    "566",
+    "624",
+    "485",
+    "807",
+    "114",
+    "491",
+    "150",
+    "610",
+    "375",
+    "782",
+    "437",
+    "28",
+    "926",
+    "135",
+    "459",
+    "358",
+    "646",
+    "675",
+    "915",
+    "426",
+    "531",
+    "983",
+    "460",
+    "340"
+  ],
+  "calibration_personas": [
+    "608",
+    "913",
+    "925",
+    "710",
+    "953",
+    "639",
+    "518",
+    "496",
+    "847",
+    "367",
+    "832",
+    "369",
+    "374",
+    "241",
+    "41",
+    "456",
+    "87",
+    "875",
+    "105",
+    "999",
+    "887",
+    "187",
+    "864",
+    "781",
+    "574",
+    "637",
+    "93",
+    "290",
+    "982",
+    "344",
+    "17",
+    "258",
+    "166",
+    "24",
+    "349",
+    "785",
+    "269",
+    "21",
+    "380",
+    "333",
+    "113",
+    "935",
+    "696",
+    "744",
+    "699",
+    "587",
+    "2",
+    "222",
+    "828",
+    "360",
+    "238",
+    "694",
+    "134",
+    "148",
+    "341",
+    "970",
+    "768",
+    "648",
+    "9",
+    "182",
+    "119",
+    "728",
+    "484",
+    "870"
+  ],
+  "evaluation_personas": [
+    "965",
+    "34",
+    "746",
+    "406",
+    "900",
+    "300",
+    "801",
+    "190",
+    "551",
+    "756",
+    "563",
+    "490",
+    "126",
+    "568",
+    "730",
+    "909",
+    "795",
+    "641",
+    "419",
+    "276",
+    "108",
+    "273",
+    "536",
+    "731",
+    "389",
+    "897",
+    "735",
+    "335",
+    "868",
+    "591",
+    "994",
+    "607",
+    "129",
+    "538",
+    "155",
+    "157",
+    "503",
+    "666",
+    "509",
+    "797",
+    "566",
+    "624",
+    "485",
+    "807",
+    "114",
+    "491",
+    "150",
+    "610",
+    "375",
+    "782",
+    "437",
+    "28",
+    "926",
+    "135",
+    "459",
+    "358",
+    "646",
+    "675",
+    "915",
+    "426",
+    "531",
+    "983",
+    "460",
+    "340"
+  ],
+  "files": [
+    {
+      "name": "README.md",
+      "sha256": "18b068b91e3bfc5615806ebf5c74b143b79cbce22d41e7e26df50bbf5cc7b98a",
+      "bytes": 16613
+    },
+    {
+      "name": "column_descriptions.md",
+      "sha256": "7a5a652a187230067088abc600d9b1527b8d72a0abb8cdc5ec9533eb792c3163",
+      "bytes": 3709
+    },
+    {
+      "name": "benchmark/text/val.csv",
+      "sha256": "a47a7dd3879de5e282c6d15266437ed44cf69c0c93c79634645dbd73d655b29a",
+      "bytes": 17474290
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona105.json",
+      "sha256": "74a2c5b210eb5943e34fd39681a4d55c699070849da7f86fd065386981a7d806",
+      "bytes": 170438
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona108.json",
+      "sha256": "03c10e129d05922126242012134f58b7183a01133308c0f9bf278b8241a399e4",
+      "bytes": 172965
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona113.json",
+      "sha256": "0e0e53b4f7b22541cd0e272a67b4e1e6b35efeae72f5ad292e3218f3efad7d5f",
+      "bytes": 172719
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona114.json",
+      "sha256": "6c5b781f604190420d91773ac8ba980a341d0b958351e28f84fee84704cb2f7b",
+      "bytes": 179009
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona119.json",
+      "sha256": "6a27880dd7e8540611d438376efe337fb6f3604d71179a621ae1444e002a2ddd",
+      "bytes": 164936
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona126.json",
+      "sha256": "056786e1d03a825f2bc4663599062d46cfa0e6d35dbc1973f75fc832d22adf36",
+      "bytes": 177886
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona129.json",
+      "sha256": "813918556bc96894e07c63270ac85a081e3c9b977af7836eb65cca67309f621d",
+      "bytes": 179300
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona134.json",
+      "sha256": "f57a669ef5c5364f47ff0c3154f5a738507ae635002ce193cb987aed6d519f2a",
+      "bytes": 177154
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona135.json",
+      "sha256": "885087ab6f11d02a0506a9c6b4da76ee52a48c2920b68ace665d2a865acf6387",
+      "bytes": 179032
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona148.json",
+      "sha256": "e0bc549a8c71786d877916bd606296101053e1194170e8ba258a793a4a9e36ad",
+      "bytes": 181975
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona150.json",
+      "sha256": "1d7784c17a1151b9808949247469cb508340fa85628e61cb7a887ec7ddf6055a",
+      "bytes": 179996
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona155.json",
+      "sha256": "c307d0f737892792fb43991b443e80030caf5cb6df09bd7e5c7957b5ce3c529a",
+      "bytes": 178573
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona157.json",
+      "sha256": "1161588d40c0cce5823bcc52db00d60ff37c5b0c9e12e19b28292eba6cc69847",
+      "bytes": 174256
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona166.json",
+      "sha256": "310019a98696967b30188ccf13d722a965b726ea16c3784c21a1fa554ec87d76",
+      "bytes": 177187
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona17.json",
+      "sha256": "995fdfcf6dc47cdb48f6493f4fe26b37261089618398b238cbb1e805329bb47c",
+      "bytes": 178490
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona182.json",
+      "sha256": "5a552f21cb2ef1c30962efa231a4d664ebfdd191cfabff27bc7c8a66b5cd8e0b",
+      "bytes": 181072
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona187.json",
+      "sha256": "9ef9d3e1dd10f8026d413b2a4ded1822787db905794032f02525aaf4a93e3f60",
+      "bytes": 180386
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona190.json",
+      "sha256": "f0e628e9bab8c3bdc82c327ca976eb1af49c7b10c6d5f884e3090b64dff4c9b5",
+      "bytes": 176764
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona2.json",
+      "sha256": "394b886d1df212f25ef96448935b7b57bbedf5302751c11b921b8225bd2d0c6a",
+      "bytes": 180770
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona21.json",
+      "sha256": "c8bbbd3f494099fb568b325ade8506868613bb90c73e8fe8a58caa240c7260fc",
+      "bytes": 175896
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona222.json",
+      "sha256": "744cf3ba70e7e6b55a85b31894764445add1ddbd8842c7e1a4dc9feae476c4d5",
+      "bytes": 177138
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona238.json",
+      "sha256": "ec32d0c21d20c8137361f6ede55a1f0322612502152db2d7d28c53087c7b09e6",
+      "bytes": 186048
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona24.json",
+      "sha256": "269d5260b9bfcd54059602c7ed67e722a41415257ff68a715f35425b97441a02",
+      "bytes": 182448
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona241.json",
+      "sha256": "cec1f375efe61d059fb8ff3b5c06265a81a895f03351422aa2157e974082d831",
+      "bytes": 175100
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona258.json",
+      "sha256": "60097cf90c9f04bd73e74df298b64989a3e7911e786e7534cf6dddb78a9cd9c1",
+      "bytes": 180835
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona269.json",
+      "sha256": "7f8b2d7e46adae571ddbb5ccb3dd42b7a1ab46a8fdefac7fac647d28ab6026d7",
+      "bytes": 177896
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona273.json",
+      "sha256": "0c991c56bf6fe6a37969a4d6c0e5d8c82190bebb9bb6924f4b2ec131e0eaca2f",
+      "bytes": 179635
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona276.json",
+      "sha256": "b132bdbdb1f013a49478e0350a470a2e03b9b231f12d91b812fad9813a2d1bc0",
+      "bytes": 153863
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona28.json",
+      "sha256": "90fe0501870f77b36e79596dace568ed5c1c07bb191463ded9b7fa46315d7e98",
+      "bytes": 182011
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona290.json",
+      "sha256": "0ca124be86fb30e044dcd60e7e283874317210721815bc5509e2009e3089467b",
+      "bytes": 185042
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona300.json",
+      "sha256": "584693c24ccb64924b987557584e24d81c37be725292aa609df0f48c8e9b184c",
+      "bytes": 143309
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona333.json",
+      "sha256": "5f10fcd2386876e17b22882130d8bca68c9f9a3546317e31e5e48bdf2606ea88",
+      "bytes": 170990
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona335.json",
+      "sha256": "5dfe9184aac86636738501216169a02885e593246c1b5b7af09ba2a3ee46689c",
+      "bytes": 169694
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona34.json",
+      "sha256": "8f0c99c2821c3914241ac93e46342e908c1abd94dba34b6e21f49c95cbbcc80b",
+      "bytes": 177640
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona340.json",
+      "sha256": "85f27d2873da2f7b18c894cb23fb299bc0db25a042666e84be1c8dbe573eb3d6",
+      "bytes": 184936
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona341.json",
+      "sha256": "ea86d612d9b31b14ab5fb4e10d0e5bcfff859af9d5aba1ec51a4275db340339e",
+      "bytes": 177681
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona344.json",
+      "sha256": "d86e58ffc4376b928ea2bc5abc72b08fb5e1ba75eb469f15846e70231886bb15",
+      "bytes": 164356
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona349.json",
+      "sha256": "e71ed6674014ad90305be982225bcbe1aa5a86da6989ae67916e68dbcf6e483f",
+      "bytes": 167108
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona358.json",
+      "sha256": "0958ad23fdbcdca763891f5bf4282302c935d02c861365d5a329ce13ccb30cc4",
+      "bytes": 172226
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona360.json",
+      "sha256": "ef7e94cdae7f7332189cd07c15c80991ad5d93f4f49000b862e620eda10d63f4",
+      "bytes": 181719
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona367.json",
+      "sha256": "1e3b2c85a65c35c0dde8044b008cab663ce24e93c7003391b02198988d117046",
+      "bytes": 188616
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona369.json",
+      "sha256": "01e42a9595f2e085722679d0168017702dbf2e168d5d7704f7a557fa34fd21a4",
+      "bytes": 185617
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona374.json",
+      "sha256": "cd71b50eeb50e2d4eb4768fb53c073adbe844f1e561747e0add82da63eff9c35",
+      "bytes": 177484
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona375.json",
+      "sha256": "9bc8bc9136f05fe97ee93cc55f6f5f701530345b2160cee90f8f3ff650a5cc47",
+      "bytes": 176224
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona380.json",
+      "sha256": "a38c5dbc46ece22dddc2bffcb6164bc522d172bd518b48acdca1bde6f8917bc3",
+      "bytes": 174267
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona389.json",
+      "sha256": "f6366bfcd617df0cd50f16c02e7dc62931bd2e51ac458efce55393b5d99ad7fe",
+      "bytes": 186254
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona406.json",
+      "sha256": "b8f9624f25181a4143f8de8c1cd07bc1b8231d5320baf8b38893e8bf5c6d88df",
+      "bytes": 153874
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona41.json",
+      "sha256": "fd6679daba93b1abd8fcfc3c31d1d44282282aaff211a9ea5b0bfcf9f1b9b7a6",
+      "bytes": 174014
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona419.json",
+      "sha256": "130c0d9fb6fb8441547883af0ed18495ae587e7bdb41a8393798c7fbce863b17",
+      "bytes": 176503
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona426.json",
+      "sha256": "f6803d86eacae21142dec86d1bc35f40ada6afe0ac5203e7952c457cbdf5a729",
+      "bytes": 179110
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona437.json",
+      "sha256": "95a165b8de43e7e618a6b3a84c6e14e255249ce3d7163ae59a51aa9dfc71f7e6",
+      "bytes": 176563
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona456.json",
+      "sha256": "3ba0771866d5ccc6c3b8d799ed3fa3d9dd5c3f50286d33310fef351a15817b2f",
+      "bytes": 179697
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona459.json",
+      "sha256": "4ee3662daa879e2d723777ea04479643cdcbc728d6332825d834149249e406d1",
+      "bytes": 186638
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona460.json",
+      "sha256": "63c62f95c0013d7fa167a57a9cc20f2869af0691bc344839f2e757a0833221e5",
+      "bytes": 185341
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona484.json",
+      "sha256": "b9ab55c61901debc3f679d99827de38b0ff1dfd4a66303e029ec926f1543748e",
+      "bytes": 193232
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona485.json",
+      "sha256": "3b787350186793ff1374c930ac7204340c3e42c58616e8d1f473c58b3fdeed9d",
+      "bytes": 181078
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona490.json",
+      "sha256": "3c93ac6503e9c159998c6ae833c7b263787cd3b64d1c0473663c12070e33211d",
+      "bytes": 178037
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona491.json",
+      "sha256": "e2b635adb82695d1240114c06a24d680f9f9335d3c896a8ab1b667619fca182b",
+      "bytes": 183272
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona496.json",
+      "sha256": "95ce6efcbae96aa4dff7f73d93f8eaf6f596e962323933765becd06d93c5a72c",
+      "bytes": 182784
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona503.json",
+      "sha256": "e4967fcc0775c36eb2eaa4667d9d5af4cdf33a8eb6baa3801875be1816e63705",
+      "bytes": 170404
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona509.json",
+      "sha256": "5d0765d71780808474c8298b8200dc43f82ae964606cf406d0d5aa670c5b0448",
+      "bytes": 176700
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona518.json",
+      "sha256": "aa528ae9f5ece9d7ef6389463018e202176fcef64367a64e38b137052919cc88",
+      "bytes": 186602
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona531.json",
+      "sha256": "4d729480f53e450672e94d636b4956c9caaafc7ccc3949612352911c2b30b6b7",
+      "bytes": 175382
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona536.json",
+      "sha256": "25231fb2b514537c41f459e155932b303243e05c01199bec1e384ecc1688de8e",
+      "bytes": 178790
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona538.json",
+      "sha256": "2d5f39f8b69c9904c907be68c12d068236eaac19d75082a5e93619951018eb40",
+      "bytes": 172691
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona551.json",
+      "sha256": "ac8ff65aacfb1e7c2c0dff327ee37861ffd5c9bab94a609c9be89bbcef7c04cb",
+      "bytes": 179683
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona563.json",
+      "sha256": "fb515ef7e9e47923c642f676959629f85d3e4fef2a30b3afd2e3dd8747697d12",
+      "bytes": 177034
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona566.json",
+      "sha256": "88cb4db18af1c431baf29b0f12306536e15815029367bc89b2d5abe987148087",
+      "bytes": 177476
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona568.json",
+      "sha256": "bbc80546cd7b1bc57318c8f5ef8128ac9057f6433b243f43af534b6acc515abb",
+      "bytes": 184126
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona574.json",
+      "sha256": "5fe75cbecb9ffec09ee14c05dc4027bfeadcdf9cf5b0a5a174dfe00506fb658e",
+      "bytes": 151383
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona587.json",
+      "sha256": "31dcf32cf9d1f675d786502770bc9c927adb6b96f115f21efadce2c73e65831f",
+      "bytes": 184940
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona591.json",
+      "sha256": "c83bf72b4b7dff30f533c6f82aa281f9d58cbc332d602f282fbb440ee6ad641a",
+      "bytes": 176666
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona607.json",
+      "sha256": "61762d3211f4d43d918cac3b734520156504f56008d5c37acea111c19f0c9c52",
+      "bytes": 178801
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona608.json",
+      "sha256": "5b45a4d99a262060f360c27a7d14aaafd06ac66937d80f80904830e28dd0a389",
+      "bytes": 155319
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona610.json",
+      "sha256": "bbe2102ca1703f473e0f81b49e2d405e790dada8db54a1aeb350d9f08472715f",
+      "bytes": 172021
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona624.json",
+      "sha256": "32d95891a53dcada8744b65985b1895ac27531eed9b95e6b4607a1f624daa58c",
+      "bytes": 179921
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona637.json",
+      "sha256": "6713531548e6b9ac7c6290b53bfb0cdc6aa181b55a205a26d1ce0ecb787933ad",
+      "bytes": 179626
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona639.json",
+      "sha256": "1160acdc38fa0ee7ab4284a090ff8dfb9988bf1de0398986b034e9e73f9ec365",
+      "bytes": 183226
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona641.json",
+      "sha256": "cf211c7e212d0dd558537e003cb77924f3ee35c047a0f406216f46d3c5c476fb",
+      "bytes": 155893
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona646.json",
+      "sha256": "4aac0a9e444cc708e2d73e6c220468752ebbc423aa8ee9eb7110bfd5d6dd762b",
+      "bytes": 174510
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona648.json",
+      "sha256": "a66e117c1d71fce8e7414dfbff379c8f58684336ea79438d7f18c2652391494f",
+      "bytes": 186070
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona666.json",
+      "sha256": "622f9ef4595ab5fdddd8818ed78f21bda6b5ff29d917921c6425e6bc835b23f0",
+      "bytes": 170640
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona675.json",
+      "sha256": "6507870bb2e331e045dd2491254e00f6966eb7c49d7f8552ae17aa4aba260004",
+      "bytes": 169152
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona694.json",
+      "sha256": "652c910628280dc2274db91b608dc4f761207401f7c90a38b140620a4d794bed",
+      "bytes": 163045
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona696.json",
+      "sha256": "cba62557f4389063f5124e465b6d9894b4392dac6d8e7474eb6132c975c35054",
+      "bytes": 178619
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona699.json",
+      "sha256": "6e4f142b68d7678ebd7f54944dcdc583b9e50119bd83301d6dbd809f7ae5f569",
+      "bytes": 183790
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona710.json",
+      "sha256": "a3dfb451c4819690d1a3821d84609d61fff03220bf1ecdbdb88f943c17deae7e",
+      "bytes": 163818
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona728.json",
+      "sha256": "d79f50e5cbdcaca7daffd9425ae1819ae7c86de46150f918fc7e372d85580697",
+      "bytes": 179455
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona730.json",
+      "sha256": "943d5af3c3dded94c80dd1641901473b6f1cb8b1d46280d3c2d58c189182fcaa",
+      "bytes": 176730
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona731.json",
+      "sha256": "10e046f6ddcea884cc917ff003e3c37b430ccfdfda29d6878e5421afce3dc270",
+      "bytes": 180441
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona735.json",
+      "sha256": "8a87fb3ecef3963f7c37f71430b4186eb4451ef051c568a6ffdf83a899facceb",
+      "bytes": 168819
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona744.json",
+      "sha256": "377cb80ad37b67be0f392a39020ea7a7f8eabb9a36faa6453666fc339e435b28",
+      "bytes": 185444
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona746.json",
+      "sha256": "b0403f32348ca94815b4ae03a809f13ce7fa5a9a2d57b18ecf28df8414981654",
+      "bytes": 172686
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona756.json",
+      "sha256": "82d8e54e1259a0cd041ef959ce7f6b6bc83e76959872a3c318b28256fe90434d",
+      "bytes": 179710
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona768.json",
+      "sha256": "c22339beac9019d91a186a8e68db05615b4e5e47fa3c0d72ec24516eb7d066ab",
+      "bytes": 176159
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona781.json",
+      "sha256": "755dc59bca7ef8ae6a633e18a8b230481edf625491655b6d351e93e5a825eb3c",
+      "bytes": 172021
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona782.json",
+      "sha256": "5efec92c18af920d19dc6a0cf8977d5f39bd4003df9ea45959f69b33cd8e824f",
+      "bytes": 185388
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona785.json",
+      "sha256": "430c99d73ec0b5492c800fb07823129e5d2c044f2144b66e7a08cb359b07f3ca",
+      "bytes": 182087
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona795.json",
+      "sha256": "6ac2eb87eb261c2c30614c7afcb522b6446c1312d37ecb60344933bbf0e96358",
+      "bytes": 182199
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona797.json",
+      "sha256": "8e8d479cb046c9eb3cf47be8defa48368a96053b499e383a1b0507e0ec770832",
+      "bytes": 177563
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona801.json",
+      "sha256": "53f230df2bd1a25c2c3753ec5e9cc828a8807d292c54a831aec98bcb0a4dff44",
+      "bytes": 179176
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona807.json",
+      "sha256": "4769b41d698f0446164612759af3249ca99021fd46becfbbc3dc4a5f6782eb02",
+      "bytes": 188238
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona828.json",
+      "sha256": "50a7dfd6cc08dc29f9d419e8ce8a92690a6a3d27a6d718a5519d0160ae178fb7",
+      "bytes": 178948
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona832.json",
+      "sha256": "839064af86a8ba2f06109b0b1c2f410be4ddfca3a3048752ad7b049134afa955",
+      "bytes": 175074
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona847.json",
+      "sha256": "03396601bff972f5933a752763b3b39bbc0e86bdb03c8c5ff536f8c0a6bd1590",
+      "bytes": 180982
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona864.json",
+      "sha256": "d601fa36f0fe074f3695456f7d6e7805567001e7e7b66cb9620eb48484c050a2",
+      "bytes": 177871
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona868.json",
+      "sha256": "6cca16c705cd8ed2da8189cd0ee17ef49290b137b0e42aa1a1a82238fa2490bb",
+      "bytes": 182734
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona87.json",
+      "sha256": "44ddda6fd081311ba9098ee71d79a9ac592a0fbf4e4cbae8f57d03214d3c8907",
+      "bytes": 177520
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona870.json",
+      "sha256": "c7d700c5781e2cff8e362d73fb1419f841d179e70a1c23d3dbc6522f5821b3dc",
+      "bytes": 179238
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona875.json",
+      "sha256": "a0e4c84490d011e60e56f4ba75e9747db149aa06830fa6365b934165c4e0e947",
+      "bytes": 177683
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona887.json",
+      "sha256": "77c3a07726549710fd26a866278e478551706aee7ea89c10a88864ba09660f35",
+      "bytes": 178900
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona897.json",
+      "sha256": "aff7309187edc399b4dc6d8b7ce87c633cac28775186d04021eb8cf5897010c4",
+      "bytes": 150808
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona9.json",
+      "sha256": "d79b561ca818af7ef7213bd399f92df3b949ea183f93c4b554b68f8417190ee7",
+      "bytes": 173978
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona900.json",
+      "sha256": "c90ea6f9746d2a475635759973263b80408e5b16e6936d3e3c980ee04f836f98",
+      "bytes": 185456
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona909.json",
+      "sha256": "bfd26abf62ee991d5bbeb7a7636a2554e17321f060e5c32f391944cf119c6b6f",
+      "bytes": 177517
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona913.json",
+      "sha256": "d9d88421d26c7dbfdbd9f438f48652ceb3c9a4207d55dc3456bbb566c820f90b",
+      "bytes": 172613
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona915.json",
+      "sha256": "03095a69a2e381c0dfd0d0dc4f45cfde2166d2797aca3f342071a9c7698e29af",
+      "bytes": 181935
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona925.json",
+      "sha256": "fc6a114e130485be9a26f99764171ab5157dcc5405236c82cd4594cd1c0b277c",
+      "bytes": 177300
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona926.json",
+      "sha256": "ae45d76b2f3f451e421c67ff80ab778fee19c61df110208a564b80416e335698",
+      "bytes": 184462
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona93.json",
+      "sha256": "1df8bbb59d5a8b626d3b3b0ba6a1bb2541d66ec3370f00fb2c2f6501ca06c84d",
+      "bytes": 178415
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona935.json",
+      "sha256": "a9d5936465e4247b38ec3e63227d4a8167cb225922c1e3f8985bfd5d9e7b4484",
+      "bytes": 177266
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona953.json",
+      "sha256": "bc4d48bc7928576c49dfd35fbae9df9b2a8d0f4dbe440d43d96e17f6aaa4db67",
+      "bytes": 174478
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona965.json",
+      "sha256": "04d2b69e30464a272cb005380f9c9ca54cece8284b29f7515818c57f9e60814b",
+      "bytes": 176729
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona970.json",
+      "sha256": "6510815e527d77f65a5bc2e7cc239e016a0ef1294c60c9b13852fb0540037f5e",
+      "bytes": 175523
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona982.json",
+      "sha256": "6bbda49e11ef965092f9ea9562d22dad212fc7b561a1cd61ca73c28613104f14",
+      "bytes": 178123
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona983.json",
+      "sha256": "f574fbfe370eae07125a5d001a0971ed83075f288e3eaadd1f801a9d14c9ba28",
+      "bytes": 178958
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona994.json",
+      "sha256": "b3fefec5605f46ec4438c2636ba20fdc5fe7b93bd9cfd31db21e2986b8d1ed7a",
+      "bytes": 184633
+    },
+    {
+      "name": "data/chat_history_32k/chat_history_250913_163134_persona999.json",
+      "sha256": "adeefa5e25891d88ade679e4d33db028632720954c2407201facc5718afecc5c",
+      "bytes": 176740
+    },
+    {
+      "name": "pilot-002-examples.json",
+      "sha256": "38e8360ee998fa92444297df221800f13726475995412cbfdad7b51f37a91513",
+      "bytes": 232589
+    }
+  ]
+}

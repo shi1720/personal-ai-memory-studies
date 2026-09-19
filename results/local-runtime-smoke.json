@@ -1,0 +1,56 @@
+{
+  "status": "runtime smoke test on two synthetic examples, not research evidence",
+  "model": "mlx-community/Qwen3-4B-Instruct-2507-4bit",
+  "revision": "50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b",
+  "quantization": "4-bit community MLX conversion",
+  "seed": 0,
+  "temperature": 0,
+  "max_output_tokens": 32,
+  "model_manifest_sha256": "539676dc2ffde3643d164f8bf20cfa5e560b0be04b59c6f092aa62987f7207a9",
+  "script_sha256": "824470e8fd87f88d3ff33e5ef4febb68f685579382e8f8ccf0c1aebf1946d87f",
+  "versions": {
+    "mlx": "0.32.2",
+    "mlx-lm": "0.31.3",
+    "transformers": "5.17.0"
+  },
+  "outputs": [
+    {
+      "id": "static",
+      "history": "2025-06-01: I live in Milan.",
+      "expected_city": "Milan",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied personal history. Reply with the city name only."
+        },
+        {
+          "role": "user",
+          "content": "2025-06-01: I live in Milan.\nToday is 2025-07-02. Where do I currently live?"
+        }
+      ],
+      "rendered_prompt": "<|im_start|>system\nAnswer only from the supplied personal history. Reply with the city name only.<|im_end|>\n<|im_start|>user\n2025-06-01: I live in Milan.\nToday is 2025-07-02. Where do I currently live?<|im_end|>\n<|im_start|>assistant\n",
+      "prompt_tokens": 64,
+      "output": "Milan",
+      "seconds": 2.215291292000984
+    },
+    {
+      "id": "updated",
+      "history": "2025-06-01: I live in Milan.\n2025-07-01: I moved to Paris permanently.",
+      "expected_city": "Paris",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied personal history. Reply with the city name only."
+        },
+        {
+          "role": "user",
+          "content": "2025-06-01: I live in Milan.\n2025-07-01: I moved to Paris permanently.\nToday is 2025-07-02. Where do I currently live?"
+        }
+      ],
+      "rendered_prompt": "<|im_start|>system\nAnswer only from the supplied personal history. Reply with the city name only.<|im_end|>\n<|im_start|>user\n2025-06-01: I live in Milan.\n2025-07-01: I moved to Paris permanently.\nToday is 2025-07-02. Where do I currently live?<|im_end|>\n<|im_start|>assistant\n",
+      "prompt_tokens": 81,
+      "output": "Paris",
+      "seconds": 0.3746276249985385
+    }
+  ]
+}

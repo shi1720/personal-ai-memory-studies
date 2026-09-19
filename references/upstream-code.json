@@ -1,0 +1,6 @@
+{
+  "repository": "https://github.com/xiaowu0162/LongMemEval",
+  "commit": "9e0b455f4ef0e2ab8f2e582289761153549043fc",
+  "inspection": "src/generation/run_generation.py, lines 65-205; label removal and model serialization; source not modified",
+  "license": "MIT"
+}

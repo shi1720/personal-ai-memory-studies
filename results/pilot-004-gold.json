@@ -1,0 +1,2330 @@
+[
+  {
+    "id": "extract-00",
+    "seed": 41000,
+    "activities": [
+      "swimming",
+      "cycling"
+    ],
+    "counts": [
+      9,
+      6
+    ],
+    "events": [
+      {
+        "activity": "swimming",
+        "positive": true,
+        "id": "V01",
+        "day": 1,
+        "detail": ""
+      },
+      {
+        "activity": "swimming",
+        "positive": true,
+        "id": "V02",
+        "day": 2,
+        "detail": ""
+      },
+      {
+        "activity": "cycling",
+        "positive": true,
+        "id": "V03",
+        "day": 3,
+        "detail": ""
+      },
+      {
+        "activity": "swimming",
+        "positive": true,
+        "id": "V04",
+        "day": 4,
+        "detail": ""
+      },
+      {
+        "activity": "cycling",
+        "positive": true,
+        "id": "V05",
+        "day": 5,
+        "detail": ""
+      },
+      {
+        "activity": "swimming",
+        "positive": true,
+        "id": "V06",
+        "day": 6,
+        "detail": ""
+      },
+      {
+        "activity": "cycling",
+        "positive": true,
+        "id": "V07",
+        "day": 7,
+        "detail": ""
+      },
+      {
+        "activity": "swimming",
+        "positive": true,
+        "id": "V08",
+        "day": 8,
+        "detail": ""
+      },
+      {
+        "activity": "cycling",
+        "positive": true,
+        "id": "V09",
+        "day": 9,
+        "detail": ""
+      },
+      {
+        "activity": "swimming",
+        "positive": true,
+        "id": "V10",
+        "day": 10,
+        "detail": ""
+      },
+      {
+        "activity": "swimming",
+        "positive": false,
+        "id": "V11",
+        "day": 11,
+        "detail": ""
+      },
+      {
+        "activity": "swimming",
+        "positive": true,
+        "id": "V12",
+        "day": 12,
+        "detail": ""
+      },
+      {
+        "activity": "swimming",
+        "positive": true,
+        "id": "V13",
+        "day": 13,
+        "detail": ""
+      },
+      {
+        "activity": "cycling",
+        "positive": false,
+        "id": "V14",
+        "day": 14,
+        "detail": ""
+      },
+      {
+        "activity": "cycling",
+        "positive": false,
+        "id": "V15",
+        "day": 15,
+        "detail": ""
+      },
+      {
+        "activity": "swimming",
+        "positive": false,
+        "id": "V16",
+        "day": 16,
+        "detail": ""
+      },
+      {
+        "activity": "cycling",
+        "positive": false,
+        "id": "V17",
+        "day": 17,
+        "detail": ""
+      },
+      {
+        "activity": "cycling",
+        "positive": true,
+        "id": "V18",
+        "day": 18,
+        "detail": ""
+      },
+      {
+        "activity": "cycling",
+        "positive": false,
+        "id": "V19",
+        "day": 19,
+        "detail": ""
+      },
+      {
+        "activity": "cycling",
+        "positive": true,
+        "id": "V20",
+        "day": 20,
+        "detail": ""
+      },
+      {
+        "activity": "cycling",
+        "positive": false,
+        "id": "V21",
+        "day": 21,
+        "detail": ""
+      },
+      {
+        "activity": "cycling",
+        "positive": false,
+        "id": "V22",
+        "day": 22,
+        "detail": ""
+      },
+      {
+        "activity": "swimming",
+        "positive": true,
+        "id": "V23",
+        "day": 23,
+        "detail": ""
+      },
+      {
+        "activity": "swimming",
+        "positive": false,
+        "id": "V24",
+        "day": 24,
+        "detail": ""
+      }
+    ],
+    "answers": [
+      {
+        "kind": "rate",
+        "answer": "D",
+        "abstain": "A"
+      },
+      {
+        "kind": "event",
+        "answer": "B",
+        "abstain": "C"
+      }
+    ]
+  },
+  {
+    "id": "extract-01",
+    "seed": 41001,
+    "activities": [
+      "pottery",
+      "painting"
+    ],
+    "counts": [
+      9,
+      6
+    ],
+    "events": [
+      {
+        "activity": "painting",
+        "positive": false,
+        "id": "V01",
+        "day": 1,
+        "detail": ""
+      },
+      {
+        "activity": "painting",
+        "positive": true,
+        "id": "V02",
+        "day": 2,
+        "detail": ""
+      },
+      {
+        "activity": "painting",
+        "positive": false,
+        "id": "V03",
+        "day": 3,
+        "detail": ""
+      },
+      {
+        "activity": "pottery",
+        "positive": false,
+        "id": "V04",
+        "day": 4,
+        "detail": ""
+      },
+      {
+        "activity": "pottery",
+        "positive": true,
+        "id": "V05",
+        "day": 5,
+        "detail": ""
+      },
+      {
+        "activity": "pottery",
+        "positive": true,
+        "id": "V06",
+        "day": 6,
+        "detail": ""
+      },
+      {
+        "activity": "painting",
+        "positive": true,
+        "id": "V07",
+        "day": 7,
+        "detail": ""
+      },
+      {
+        "activity": "painting",
+        "positive": true,
+        "id": "V08",
+        "day": 8,
+        "detail": ""
+      },
+      {
+        "activity": "pottery",
+        "positive": true,
+        "id": "V09",
+        "day": 9,
+        "detail": ""
+      },
+      {
+        "activity": "pottery",
+        "positive": false,
+        "id": "V10",
+        "day": 10,
+        "detail": ""
+      },
+      {
+        "activity": "painting",
+        "positive": false,
+        "id": "V11",
+        "day": 11,
+        "detail": ""
+      },
+      {
+        "activity": "pottery",
+        "positive": true,
+        "id": "V12",
+        "day": 12,
+        "detail": "A blue mural covered the entrance wall."
+      },
+      {
+        "activity": "pottery",
+        "positive": true,
+        "id": "V13",
+        "day": 13,
+        "detail": "A brass clock stood beside the window."
+      },
+      {
+        "activity": "pottery",
+        "positive": true,
+        "id": "V14",
+        "day": 14,
+        "detail": ""
+      },
+      {
+        "activity": "painting",
+        "positive": false,
+        "id": "V15",
+        "day": 15,
+        "detail": ""
+      },
+      {
+        "activity": "pottery",
+        "positive": true,
+        "id": "V16",
+        "day": 16,
+        "detail": ""
+      },
+      {
+        "activity": "painting",
+        "positive": false,
+        "id": "V17",
+        "day": 17,
+        "detail": ""
+      },
+      {
+        "activity": "painting",
+        "positive": true,
+        "id": "V18",
+        "day": 18,
+        "detail": ""
+      },
+      {
+        "activity": "pottery",
+        "positive": false,
+        "id": "V19",
+        "day": 19,
+        "detail": ""
+      },
+      {
+        "activity": "painting",
+        "positive": false,
+        "id": "V20",
+        "day": 20,
+        "detail": ""
+      },
+      {
+        "activity": "painting",
+        "positive": true,
+        "id": "V21",
+        "day": 21,
+        "detail": ""
+      },
+      {
+        "activity": "painting",
+        "positive": true,
+        "id": "V22",
+        "day": 22,
+        "detail": ""
+      },
+      {
+        "activity": "pottery",
+        "positive": true,
+        "id": "V23",
+        "day": 23,
+        "detail": "A purple umbrella rested by the door."
+      },
+      {
+        "activity": "pottery",
+        "positive": true,
+        "id": "V24",
+        "day": 24,
+        "detail": ""
+      }
+    ],
+    "answers": [
+      {
+        "kind": "rate",
+        "answer": "B",
+        "abstain": "C"
+      },
+      {
+        "kind": "event",
+        "answer": "A",
+        "abstain": "B"
+      }
+    ]
+  },
+  {
+    "id": "extract-02",
+    "seed": 41002,
+    "activities": [
+      "yoga",
+      "pilates"
+    ],
+    "counts": [
+      9,
+      6
+    ],
+    "events": [
+      {
+        "activity": "pilates",
+        "positive": true,
+        "id": "V01",
+        "day": 1,
+        "detail": ""
+      },
+      {
+        "activity": "pilates",
+        "positive": false,
+        "id": "V02",
+        "day": 2,
+        "detail": ""
+      },
+      {
+        "activity": "yoga",
+        "positive": true,
+        "id": "V03",
+        "day": 3,
+        "detail": ""
+      },
+      {
+        "activity": "yoga",
+        "positive": true,
+        "id": "V04",
+        "day": 4,
+        "detail": ""
+      },
+      {
+        "activity": "pilates",
+        "positive": true,
+        "id": "V05",
+        "day": 5,
+        "detail": ""
+      },
+      {
+        "activity": "pilates",
+        "positive": false,
+        "id": "V06",
+        "day": 6,
+        "detail": "A purple umbrella rested by the door."
+      },
+      {
+        "activity": "yoga",
+        "positive": true,
+        "id": "V07",
+        "day": 7,
+        "detail": ""
+      },
+      {
+        "activity": "pilates",
+        "positive": true,
+        "id": "V08",
+        "day": 8,
+        "detail": ""
+      },
+      {
+        "activity": "pilates",
+        "positive": false,
+        "id": "V09",
+        "day": 9,
+        "detail": ""
+      },
+      {
+        "activity": "pilates",
+        "positive": false,
+        "id": "V10",
+        "day": 10,
+        "detail": ""
+      },
+      {
+        "activity": "yoga",
+        "positive": false,
+        "id": "V11",
+        "day": 11,
+        "detail": "A brass clock stood beside the window."
+      },
+      {
+        "activity": "pilates",
+        "positive": false,
+        "id": "V12",
+        "day": 12,
+        "detail": ""
+      },
+      {
+        "activity": "pilates",
+        "positive": true,
+        "id": "V13",
+        "day": 13,
+        "detail": ""
+      },
+      {
+        "activity": "yoga",
+        "positive": false,
+        "id": "V14",
+        "day": 14,
+        "detail": ""
+      },
+      {
+        "activity": "yoga",
+        "positive": true,
+        "id": "V15",
+        "day": 15,
+        "detail": ""
+      },
+      {
+        "activity": "yoga",
+        "positive": true,
+        "id": "V16",
+        "day": 16,
+        "detail": ""
+      },
+      {
+        "activity": "yoga",
+        "positive": true,
+        "id": "V17",
+        "day": 17,
+        "detail": ""
+      },
+      {
+        "activity": "pilates",
+        "positive": true,
+        "id": "V18",
+        "day": 18,
+        "detail": ""
+      },
+      {
+        "activity": "yoga",
+        "positive": true,
+        "id": "V19",
+        "day": 19,
+        "detail": ""
+      },
+      {
+        "activity": "yoga",
+        "positive": true,
+        "id": "V20",
+        "day": 20,
+        "detail": ""
+      },
+      {
+        "activity": "yoga",
+        "positive": true,
+        "id": "V21",
+        "day": 21,
+        "detail": ""
+      },
+      {
+        "activity": "pilates",
+        "positive": false,
+        "id": "V22",
+        "day": 22,
+        "detail": "A blue mural covered the entrance wall."
+      },
+      {
+        "activity": "yoga",
+        "positive": false,
+        "id": "V23",
+        "day": 23,
+        "detail": ""
+      },
+      {
+        "activity": "pilates",
+        "positive": true,
+        "id": "V24",
+        "day": 24,
+        "detail": ""
+      }
+    ],
+    "answers": [
+      {
+        "kind": "rate",
+        "answer": "C",
+        "abstain": "A"
+      },
+      {
+        "kind": "event",
+        "answer": "D",
+        "abstain": "B"
+      }
+    ]
+  },
+  {
+    "id": "extract-03",
+    "seed": 41003,
+    "activities": [
+      "pottery",
+      "painting"
+    ],
+    "counts": [
+      3,
+      6
+    ],
+    "events": [
+      {
+        "activity": "pottery",
+        "positive": false,
+        "id": "V01",
+        "day": 1,
+        "detail": ""
+      },
+      {
+        "activity": "pottery",
+        "positive": false,
+        "id": "V02",
+        "day": 2,
+        "detail": ""
+      },
+      {
+        "activity": "pottery",
+        "positive": false,
+        "id": "V03",
+        "day": 3,
+        "detail": ""
+      },
+      {
+        "activity": "painting",
+        "positive": true,
+        "id": "V04",
+        "day": 4,
+        "detail": ""
+      },
+      {
+        "activity": "painting",
+        "positive": false,
+        "id": "V05",
+        "day": 5,
+        "detail": ""
+      },
+      {
+        "activity": "painting",
+        "positive": true,
+        "id": "V06",
+        "day": 6,
+        "detail": ""
+      },
+      {
+        "activity": "painting",
+        "positive": true,
+        "id": "V07",
+        "day": 7,
+        "detail": ""
+      },
+      {
+        "activity": "painting",
+        "positive": true,
+        "id": "V08",
+        "day": 8,
+        "detail": ""
+      },
+      {
+        "activity": "painting",
+        "positive": true,
+        "id": "V09",
+        "day": 9,
+        "detail": ""
+      },
+      {
+        "activity": "pottery",
+        "positive": false,
+        "id": "V10",
+        "day": 10,
+        "detail": ""
+      },
+      {
+        "activity": "painting",
+        "positive": false,
+        "id": "V11",
+        "day": 11,
+        "detail": ""
+      },
+      {
+        "activity": "pottery",
+        "positive": false,
+        "id": "V12",
+        "day": 12,
+        "detail": ""
+      },
+      {
+        "activity": "pottery",
+        "positive": false,
+        "id": "V13",
+        "day": 13,
+        "detail": ""
+      },
+      {
+        "activity": "pottery",
+        "positive": false,
+        "id": "V14",
+        "day": 14,
+        "detail": ""
+      },
+      {
+        "activity": "pottery",
+        "positive": false,
+        "id": "V15",
+        "day": 15,
+        "detail": ""
+      },
+      {
+        "activity": "pottery",
+        "positive": true,
+        "id": "V16",
+        "day": 16,
+        "detail": ""
+      },
+      {
+        "activity": "painting",
+        "positive": false,
+        "id": "V17",
+        "day": 17,
+        "detail": ""
+      },
+      {
+        "activity": "pottery",
+        "positive": true,
+        "id": "V18",
+        "day": 18,
+        "detail": ""
+      },
+      {
+        "activity": "painting",
+        "positive": false,
+        "id": "V19",
+        "day": 19,
+        "detail": ""
+      },
+      {
+        "activity": "pottery",
+        "positive": true,
+        "id": "V20",
+        "day": 20,
+        "detail": ""
+      },
+      {
+        "activity": "pottery",
+        "positive": false,
+        "id": "V21",
+        "day": 21,
+        "detail": ""
+      },
+      {
+        "activity": "painting",
+        "positive": true,
+        "id": "V22",
+        "day": 22,
+        "detail": ""
+      },
+      {
+        "activity": "painting",
+        "positive": false,
+        "id": "V23",
+        "day": 23,
+        "detail": ""
+      },
+      {
+        "activity": "painting",
+        "positive": false,
+        "id": "V24",
+        "day": 24,
+        "detail": ""
+      }
+    ],
+    "answers": [
+      {
+        "kind": "rate",
+        "answer": "C",
+        "abstain": "B"
+      },
+      {
+        "kind": "event",
+        "answer": "A",
+        "abstain": "C"
+      }
+    ]
+  },
+  {
+    "id": "extract-04",
+    "seed": 41004,
+    "activities": [
+      "yoga",
+      "pilates"
+    ],
+    "counts": [
+      3,
+      6
+    ],
+    "events": [
+      {
+        "activity": "yoga",
+        "positive": true,
+        "id": "V01",
+        "day": 1,
+        "detail": ""
+      },
+      {
+        "activity": "pilates",
+        "positive": true,
+        "id": "V02",
+        "day": 2,
+        "detail": ""
+      },
+      {
+        "activity": "pilates",
+        "positive": false,
+        "id": "V03",
+        "day": 3,
+        "detail": ""
+      },
+      {
+        "activity": "yoga",
+        "positive": false,
+        "id": "V04",
+        "day": 4,
+        "detail": ""
+      },
+      {
+        "activity": "pilates",
+        "positive": false,
+        "id": "V05",
+        "day": 5,
+        "detail": ""
+      },
+      {
+        "activity": "yoga",
+        "positive": false,
+        "id": "V06",
+        "day": 6,
+        "detail": ""
+      },
+      {
+        "activity": "pilates",
+        "positive": true,
+        "id": "V07",
+        "day": 7,
+        "detail": "A brass clock stood beside the window."
+      },
+      {
+        "activity": "pilates",
+        "positive": false,
+        "id": "V08",
+        "day": 8,
+        "detail": ""
+      },
+      {
+        "activity": "yoga",
+        "positive": false,
+        "id": "V09",
+        "day": 9,
+        "detail": ""
+      },
+      {
+        "activity": "pilates",
+        "positive": false,
+        "id": "V10",
+        "day": 10,
+        "detail": ""
+      },
+      {
+        "activity": "pilates",
+        "positive": true,
+        "id": "V11",
+        "day": 11,
+        "detail": "A blue mural covered the entrance wall."
+      },
+      {
+        "activity": "pilates",
+        "positive": true,
+        "id": "V12",
+        "day": 12,
+        "detail": ""
+      },
+      {
+        "activity": "yoga",
+        "positive": true,
+        "id": "V13",
+        "day": 13,
+        "detail": ""
+      },
+      {
+        "activity": "pilates",
+        "positive": true,
+        "id": "V14",
+        "day": 14,
+        "detail": "A purple umbrella rested by the door."
+      },
+      {
+        "activity": "pilates",
+        "positive": false,
+        "id": "V15",
+        "day": 15,
+        "detail": ""
+      },
+      {
+        "activity": "yoga",
+        "positive": false,
+        "id": "V16",
+        "day": 16,
+        "detail": ""
+      },
+      {
+        "activity": "pilates",
+        "positive": true,
+        "id": "V17",
+        "day": 17,
+        "detail": ""
+      },
+      {
+        "activity": "yoga",
+        "positive": false,
+        "id": "V18",
+        "day": 18,
+        "detail": ""
+      },
+      {
+        "activity": "yoga",
+        "positive": false,
+        "id": "V19",
+        "day": 19,
+        "detail": ""
+      },
+      {
+        "activity": "yoga",
+        "positive": true,
+        "id": "V20",
+        "day": 20,
+        "detail": ""
+      },
+      {
+        "activity": "yoga",
+        "positive": false,
+        "id": "V21",
+        "day": 21,
+        "detail": ""
+      },
+      {
+        "activity": "pilates",
+        "positive": false,
+        "id": "V22",
+        "day": 22,
+        "detail": ""
+      },
+      {
+        "activity": "yoga",
+        "positive": false,
+        "id": "V23",
+        "day": 23,
+        "detail": ""
+      },
+      {
+        "activity": "yoga",
+        "positive": false,
+        "id": "V24",
+        "day": 24,
+        "detail": ""
+      }
+    ],
+    "answers": [
+      {
+        "kind": "rate",
+        "answer": "B",
+        "abstain": "A"
+      },
+      {
+        "kind": "event",
+        "answer": "A",
+        "abstain": "C"
+      }
+    ]
+  },
+  {
+    "id": "extract-05",
+    "seed": 41005,
+    "activities": [
+      "badminton",
+      "chess"
+    ],
+    "counts": [
+      3,
+      6
+    ],
+    "events": [
+      {
+        "activity": "chess",
+        "positive": false,
+        "id": "V01",
+        "day": 1,
+        "detail": ""
+      },
+      {
+        "activity": "badminton",
+        "positive": false,
+        "id": "V02",
+        "day": 2,
+        "detail": ""
+      },
+      {
+        "activity": "chess",
+        "positive": false,
+        "id": "V03",
+        "day": 3,
+        "detail": ""
+      },
+      {
+        "activity": "chess",
+        "positive": false,
+        "id": "V04",
+        "day": 4,
+        "detail": ""
+      },
+      {
+        "activity": "chess",
+        "positive": true,
+        "id": "V05",
+        "day": 5,
+        "detail": ""
+      },
+      {
+        "activity": "badminton",
+        "positive": true,
+        "id": "V06",
+        "day": 6,
+        "detail": ""
+      },
+      {
+        "activity": "chess",
+        "positive": false,
+        "id": "V07",
+        "day": 7,
+        "detail": ""
+      },
+      {
+        "activity": "badminton",
+        "positive": true,
+        "id": "V08",
+        "day": 8,
+        "detail": ""
+      },
+      {
+        "activity": "chess",
+        "positive": true,
+        "id": "V09",
+        "day": 9,
+        "detail": ""
+      },
+      {
+        "activity": "badminton",
+        "positive": true,
+        "id": "V10",
+        "day": 10,
+        "detail": ""
+      },
+      {
+        "activity": "badminton",
+        "positive": false,
+        "id": "V11",
+        "day": 11,
+        "detail": "A blue mural covered the entrance wall."
+      },
+      {
+        "activity": "chess",
+        "positive": true,
+        "id": "V12",
+        "day": 12,
+        "detail": ""
+      },
+      {
+        "activity": "badminton",
+        "positive": false,
+        "id": "V13",
+        "day": 13,
+        "detail": "A purple umbrella rested by the door."
+      },
+      {
+        "activity": "chess",
+        "positive": false,
+        "id": "V14",
+        "day": 14,
+        "detail": ""
+      },
+      {
+        "activity": "badminton",
+        "positive": false,
+        "id": "V15",
+        "day": 15,
+        "detail": ""
+      },
+      {
+        "activity": "badminton",
+        "positive": false,
+        "id": "V16",
+        "day": 16,
+        "detail": ""
+      },
+      {
+        "activity": "badminton",
+        "positive": false,
+        "id": "V17",
+        "day": 17,
+        "detail": "A brass clock stood beside the window."
+      },
+      {
+        "activity": "chess",
+        "positive": true,
+        "id": "V18",
+        "day": 18,
+        "detail": ""
+      },
+      {
+        "activity": "badminton",
+        "positive": false,
+        "id": "V19",
+        "day": 19,
+        "detail": ""
+      },
+      {
+        "activity": "chess",
+        "positive": false,
+        "id": "V20",
+        "day": 20,
+        "detail": ""
+      },
+      {
+        "activity": "badminton",
+        "positive": false,
+        "id": "V21",
+        "day": 21,
+        "detail": ""
+      },
+      {
+        "activity": "chess",
+        "positive": true,
+        "id": "V22",
+        "day": 22,
+        "detail": ""
+      },
+      {
+        "activity": "chess",
+        "positive": true,
+        "id": "V23",
+        "day": 23,
+        "detail": ""
+      },
+      {
+        "activity": "badminton",
+        "positive": false,
+        "id": "V24",
+        "day": 24,
+        "detail": ""
+      }
+    ],
+    "answers": [
+      {
+        "kind": "rate",
+        "answer": "B",
+        "abstain": "C"
+      },
+      {
+        "kind": "event",
+        "answer": "B",
+        "abstain": "A"
+      }
+    ]
+  },
+  {
+    "id": "extract-06",
+    "seed": 41006,
+    "activities": [
+      "yoga",
+      "pilates"
+    ],
+    "counts": [
+      6,
+      9
+    ],
+    "events": [
+      {
+        "activity": "yoga",
+        "positive": false,
+        "id": "V01",
+        "day": 1,
+        "detail": ""
+      },
+      {
+        "activity": "yoga",
+        "positive": true,
+        "id": "V02",
+        "day": 2,
+        "detail": ""
+      },
+      {
+        "activity": "yoga",
+        "positive": false,
+        "id": "V03",
+        "day": 3,
+        "detail": ""
+      },
+      {
+        "activity": "pilates",
+        "positive": true,
+        "id": "V04",
+        "day": 4,
+        "detail": ""
+      },
+      {
+        "activity": "pilates",
+        "positive": true,
+        "id": "V05",
+        "day": 5,
+        "detail": ""
+      },
+      {
+        "activity": "pilates",
+        "positive": true,
+        "id": "V06",
+        "day": 6,
+        "detail": ""
+      },
+      {
+        "activity": "pilates",
+        "positive": false,
+        "id": "V07",
+        "day": 7,
+        "detail": ""
+      },
+      {
+        "activity": "yoga",
+        "positive": true,
+        "id": "V08",
+        "day": 8,
+        "detail": ""
+      },
+      {
+        "activity": "pilates",
+        "positive": false,
+        "id": "V09",
+        "day": 9,
+        "detail": ""
+      },
+      {
+        "activity": "yoga",
+        "positive": true,
+        "id": "V10",
+        "day": 10,
+        "detail": ""
+      },
+      {
+        "activity": "yoga",
+        "positive": true,
+        "id": "V11",
+        "day": 11,
+        "detail": ""
+      },
+      {
+        "activity": "pilates",
+        "positive": true,
+        "id": "V12",
+        "day": 12,
+        "detail": ""
+      },
+      {
+        "activity": "yoga",
+        "positive": false,
+        "id": "V13",
+        "day": 13,
+        "detail": ""
+      },
+      {
+        "activity": "pilates",
+        "positive": false,
+        "id": "V14",
+        "day": 14,
+        "detail": ""
+      },
+      {
+        "activity": "pilates",
+        "positive": true,
+        "id": "V15",
+        "day": 15,
+        "detail": ""
+      },
+      {
+        "activity": "pilates",
+        "positive": true,
+        "id": "V16",
+        "day": 16,
+        "detail": ""
+      },
+      {
+        "activity": "pilates",
+        "positive": true,
+        "id": "V17",
+        "day": 17,
+        "detail": ""
+      },
+      {
+        "activity": "yoga",
+        "positive": false,
+        "id": "V18",
+        "day": 18,
+        "detail": ""
+      },
+      {
+        "activity": "yoga",
+        "positive": true,
+        "id": "V19",
+        "day": 19,
+        "detail": ""
+      },
+      {
+        "activity": "pilates",
+        "positive": true,
+        "id": "V20",
+        "day": 20,
+        "detail": ""
+      },
+      {
+        "activity": "yoga",
+        "positive": false,
+        "id": "V21",
+        "day": 21,
+        "detail": ""
+      },
+      {
+        "activity": "yoga",
+        "positive": false,
+        "id": "V22",
+        "day": 22,
+        "detail": ""
+      },
+      {
+        "activity": "pilates",
+        "positive": true,
+        "id": "V23",
+        "day": 23,
+        "detail": ""
+      },
+      {
+        "activity": "yoga",
+        "positive": true,
+        "id": "V24",
+        "day": 24,
+        "detail": ""
+      }
+    ],
+    "answers": [
+      {
+        "kind": "rate",
+        "answer": "D",
+        "abstain": "B"
+      },
+      {
+        "kind": "event",
+        "answer": "C",
+        "abstain": "D"
+      }
+    ]
+  },
+  {
+    "id": "extract-07",
+    "seed": 41007,
+    "activities": [
+      "badminton",
+      "chess"
+    ],
+    "counts": [
+      6,
+      9
+    ],
+    "events": [
+      {
+        "activity": "chess",
+        "positive": true,
+        "id": "V01",
+        "day": 1,
+        "detail": "A blue mural covered the entrance wall."
+      },
+      {
+        "activity": "chess",
+        "positive": true,
+        "id": "V02",
+        "day": 2,
+        "detail": ""
+      },
+      {
+        "activity": "badminton",
+        "positive": true,
+        "id": "V03",
+        "day": 3,
+        "detail": ""
+      },
+      {
+        "activity": "chess",
+        "positive": true,
+        "id": "V04",
+        "day": 4,
+        "detail": ""
+      },
+      {
+        "activity": "badminton",
+        "positive": true,
+        "id": "V05",
+        "day": 5,
+        "detail": ""
+      },
+      {
+        "activity": "chess",
+        "positive": true,
+        "id": "V06",
+        "day": 6,
+        "detail": "A brass clock stood beside the window."
+      },
+      {
+        "activity": "badminton",
+        "positive": true,
+        "id": "V07",
+        "day": 7,
+        "detail": ""
+      },
+      {
+        "activity": "chess",
+        "positive": true,
+        "id": "V08",
+        "day": 8,
+        "detail": "A purple umbrella rested by the door."
+      },
+      {
+        "activity": "badminton",
+        "positive": false,
+        "id": "V09",
+        "day": 9,
+        "detail": ""
+      },
+      {
+        "activity": "chess",
+        "positive": true,
+        "id": "V10",
+        "day": 10,
+        "detail": ""
+      },
+      {
+        "activity": "chess",
+        "positive": false,
+        "id": "V11",
+        "day": 11,
+        "detail": ""
+      },
+      {
+        "activity": "badminton",
+        "positive": true,
+        "id": "V12",
+        "day": 12,
+        "detail": ""
+      },
+      {
+        "activity": "chess",
+        "positive": true,
+        "id": "V13",
+        "day": 13,
+        "detail": ""
+      },
+      {
+        "activity": "badminton",
+        "positive": false,
+        "id": "V14",
+        "day": 14,
+        "detail": ""
+      },
+      {
+        "activity": "badminton",
+        "positive": false,
+        "id": "V15",
+        "day": 15,
+        "detail": ""
+      },
+      {
+        "activity": "chess",
+        "positive": false,
+        "id": "V16",
+        "day": 16,
+        "detail": ""
+      },
+      {
+        "activity": "badminton",
+        "positive": false,
+        "id": "V17",
+        "day": 17,
+        "detail": ""
+      },
+      {
+        "activity": "badminton",
+        "positive": false,
+        "id": "V18",
+        "day": 18,
+        "detail": ""
+      },
+      {
+        "activity": "chess",
+        "positive": false,
+        "id": "V19",
+        "day": 19,
+        "detail": ""
+      },
+      {
+        "activity": "badminton",
+        "positive": false,
+        "id": "V20",
+        "day": 20,
+        "detail": ""
+      },
+      {
+        "activity": "badminton",
+        "positive": true,
+        "id": "V21",
+        "day": 21,
+        "detail": ""
+      },
+      {
+        "activity": "badminton",
+        "positive": true,
+        "id": "V22",
+        "day": 22,
+        "detail": ""
+      },
+      {
+        "activity": "chess",
+        "positive": true,
+        "id": "V23",
+        "day": 23,
+        "detail": ""
+      },
+      {
+        "activity": "chess",
+        "positive": true,
+        "id": "V24",
+        "day": 24,
+        "detail": ""
+      }
+    ],
+    "answers": [
+      {
+        "kind": "rate",
+        "answer": "D",
+        "abstain": "A"
+      },
+      {
+        "kind": "event",
+        "answer": "B",
+        "abstain": "D"
+      }
+    ]
+  },
+  {
+    "id": "extract-08",
+    "seed": 41008,
+    "activities": [
+      "swimming",
+      "cycling"
+    ],
+    "counts": [
+      6,
+      9
+    ],
+    "events": [
+      {
+        "activity": "cycling",
+        "positive": true,
+        "id": "V01",
+        "day": 1,
+        "detail": ""
+      },
+      {
+        "activity": "cycling",
+        "positive": true,
+        "id": "V02",
+        "day": 2,
+        "detail": ""
+      },
+      {
+        "activity": "swimming",
+        "positive": true,
+        "id": "V03",
+        "day": 3,
+        "detail": ""
+      },
+      {
+        "activity": "swimming",
+        "positive": true,
+        "id": "V04",
+        "day": 4,
+        "detail": ""
+      },
+      {
+        "activity": "cycling",
+        "positive": true,
+        "id": "V05",
+        "day": 5,
+        "detail": ""
+      },
+      {
+        "activity": "swimming",
+        "positive": true,
+        "id": "V06",
+        "day": 6,
+        "detail": ""
+      },
+      {
+        "activity": "swimming",
+        "positive": true,
+        "id": "V07",
+        "day": 7,
+        "detail": ""
+      },
+      {
+        "activity": "swimming",
+        "positive": false,
+        "id": "V08",
+        "day": 8,
+        "detail": ""
+      },
+      {
+        "activity": "cycling",
+        "positive": true,
+        "id": "V09",
+        "day": 9,
+        "detail": ""
+      },
+      {
+        "activity": "cycling",
+        "positive": false,
+        "id": "V10",
+        "day": 10,
+        "detail": "A purple umbrella rested by the door."
+      },
+      {
+        "activity": "swimming",
+        "positive": true,
+        "id": "V11",
+        "day": 11,
+        "detail": ""
+      },
+      {
+        "activity": "cycling",
+        "positive": true,
+        "id": "V12",
+        "day": 12,
+        "detail": ""
+      },
+      {
+        "activity": "cycling",
+        "positive": false,
+        "id": "V13",
+        "day": 13,
+        "detail": ""
+      },
+      {
+        "activity": "swimming",
+        "positive": true,
+        "id": "V14",
+        "day": 14,
+        "detail": ""
+      },
+      {
+        "activity": "cycling",
+        "positive": true,
+        "id": "V15",
+        "day": 15,
+        "detail": ""
+      },
+      {
+        "activity": "swimming",
+        "positive": false,
+        "id": "V16",
+        "day": 16,
+        "detail": ""
+      },
+      {
+        "activity": "cycling",
+        "positive": false,
+        "id": "V17",
+        "day": 17,
+        "detail": "A brass clock stood beside the window."
+      },
+      {
+        "activity": "cycling",
+        "positive": true,
+        "id": "V18",
+        "day": 18,
+        "detail": ""
+      },
+      {
+        "activity": "swimming",
+        "positive": false,
+        "id": "V19",
+        "day": 19,
+        "detail": "A blue mural covered the entrance wall."
+      },
+      {
+        "activity": "cycling",
+        "positive": true,
+        "id": "V20",
+        "day": 20,
+        "detail": ""
+      },
+      {
+        "activity": "cycling",
+        "positive": true,
+        "id": "V21",
+        "day": 21,
+        "detail": ""
+      },
+      {
+        "activity": "swimming",
+        "positive": false,
+        "id": "V22",
+        "day": 22,
+        "detail": ""
+      },
+      {
+        "activity": "swimming",
+        "positive": false,
+        "id": "V23",
+        "day": 23,
+        "detail": ""
+      },
+      {
+        "activity": "swimming",
+        "positive": false,
+        "id": "V24",
+        "day": 24,
+        "detail": ""
+      }
+    ],
+    "answers": [
+      {
+        "kind": "rate",
+        "answer": "B",
+        "abstain": "D"
+      },
+      {
+        "kind": "event",
+        "answer": "A",
+        "abstain": "C"
+      }
+    ]
+  },
+  {
+    "id": "extract-09",
+    "seed": 41009,
+    "activities": [
+      "badminton",
+      "chess"
+    ],
+    "counts": [
+      6,
+      6
+    ],
+    "events": [
+      {
+        "activity": "badminton",
+        "positive": false,
+        "id": "V01",
+        "day": 1,
+        "detail": ""
+      },
+      {
+        "activity": "chess",
+        "positive": true,
+        "id": "V02",
+        "day": 2,
+        "detail": ""
+      },
+      {
+        "activity": "badminton",
+        "positive": false,
+        "id": "V03",
+        "day": 3,
+        "detail": ""
+      },
+      {
+        "activity": "chess",
+        "positive": true,
+        "id": "V04",
+        "day": 4,
+        "detail": ""
+      },
+      {
+        "activity": "chess",
+        "positive": false,
+        "id": "V05",
+        "day": 5,
+        "detail": ""
+      },
+      {
+        "activity": "chess",
+        "positive": true,
+        "id": "V06",
+        "day": 6,
+        "detail": ""
+      },
+      {
+        "activity": "chess",
+        "positive": false,
+        "id": "V07",
+        "day": 7,
+        "detail": ""
+      },
+      {
+        "activity": "chess",
+        "positive": false,
+        "id": "V08",
+        "day": 8,
+        "detail": ""
+      },
+      {
+        "activity": "badminton",
+        "positive": false,
+        "id": "V09",
+        "day": 9,
+        "detail": ""
+      },
+      {
+        "activity": "chess",
+        "positive": false,
+        "id": "V10",
+        "day": 10,
+        "detail": ""
+      },
+      {
+        "activity": "chess",
+        "positive": true,
+        "id": "V11",
+        "day": 11,
+        "detail": ""
+      },
+      {
+        "activity": "badminton",
+        "positive": false,
+        "id": "V12",
+        "day": 12,
+        "detail": ""
+      },
+      {
+        "activity": "chess",
+        "positive": true,
+        "id": "V13",
+        "day": 13,
+        "detail": ""
+      },
+      {
+        "activity": "badminton",
+        "positive": false,
+        "id": "V14",
+        "day": 14,
+        "detail": ""
+      },
+      {
+        "activity": "chess",
+        "positive": false,
+        "id": "V15",
+        "day": 15,
+        "detail": ""
+      },
+      {
+        "activity": "badminton",
+        "positive": true,
+        "id": "V16",
+        "day": 16,
+        "detail": ""
+      },
+      {
+        "activity": "badminton",
+        "positive": false,
+        "id": "V17",
+        "day": 17,
+        "detail": ""
+      },
+      {
+        "activity": "badminton",
+        "positive": true,
+        "id": "V18",
+        "day": 18,
+        "detail": ""
+      },
+      {
+        "activity": "badminton",
+        "positive": true,
+        "id": "V19",
+        "day": 19,
+        "detail": ""
+      },
+      {
+        "activity": "badminton",
+        "positive": true,
+        "id": "V20",
+        "day": 20,
+        "detail": ""
+      },
+      {
+        "activity": "badminton",
+        "positive": true,
+        "id": "V21",
+        "day": 21,
+        "detail": ""
+      },
+      {
+        "activity": "badminton",
+        "positive": true,
+        "id": "V22",
+        "day": 22,
+        "detail": ""
+      },
+      {
+        "activity": "chess",
+        "positive": false,
+        "id": "V23",
+        "day": 23,
+        "detail": ""
+      },
+      {
+        "activity": "chess",
+        "positive": true,
+        "id": "V24",
+        "day": 24,
+        "detail": ""
+      }
+    ],
+    "answers": [
+      {
+        "kind": "rate",
+        "answer": "A",
+        "abstain": "C"
+      },
+      {
+        "kind": "event",
+        "answer": "D",
+        "abstain": "A"
+      }
+    ]
+  },
+  {
+    "id": "extract-10",
+    "seed": 41010,
+    "activities": [
+      "swimming",
+      "cycling"
+    ],
+    "counts": [
+      6,
+      6
+    ],
+    "events": [
+      {
+        "activity": "swimming",
+        "positive": false,
+        "id": "V01",
+        "day": 1,
+        "detail": ""
+      },
+      {
+        "activity": "cycling",
+        "positive": false,
+        "id": "V02",
+        "day": 2,
+        "detail": ""
+      },
+      {
+        "activity": "swimming",
+        "positive": false,
+        "id": "V03",
+        "day": 3,
+        "detail": ""
+      },
+      {
+        "activity": "swimming",
+        "positive": true,
+        "id": "V04",
+        "day": 4,
+        "detail": "A blue mural covered the entrance wall."
+      },
+      {
+        "activity": "cycling",
+        "positive": false,
+        "id": "V05",
+        "day": 5,
+        "detail": ""
+      },
+      {
+        "activity": "swimming",
+        "positive": true,
+        "id": "V06",
+        "day": 6,
+        "detail": "A brass clock stood beside the window."
+      },
+      {
+        "activity": "cycling",
+        "positive": false,
+        "id": "V07",
+        "day": 7,
+        "detail": ""
+      },
+      {
+        "activity": "cycling",
+        "positive": true,
+        "id": "V08",
+        "day": 8,
+        "detail": ""
+      },
+      {
+        "activity": "swimming",
+        "positive": true,
+        "id": "V09",
+        "day": 9,
+        "detail": ""
+      },
+      {
+        "activity": "cycling",
+        "positive": true,
+        "id": "V10",
+        "day": 10,
+        "detail": ""
+      },
+      {
+        "activity": "cycling",
+        "positive": true,
+        "id": "V11",
+        "day": 11,
+        "detail": ""
+      },
+      {
+        "activity": "swimming",
+        "positive": true,
+        "id": "V12",
+        "day": 12,
+        "detail": "A purple umbrella rested by the door."
+      },
+      {
+        "activity": "cycling",
+        "positive": false,
+        "id": "V13",
+        "day": 13,
+        "detail": ""
+      },
+      {
+        "activity": "cycling",
+        "positive": false,
+        "id": "V14",
+        "day": 14,
+        "detail": ""
+      },
+      {
+        "activity": "swimming",
+        "positive": false,
+        "id": "V15",
+        "day": 15,
+        "detail": ""
+      },
+      {
+        "activity": "cycling",
+        "positive": true,
+        "id": "V16",
+        "day": 16,
+        "detail": ""
+      },
+      {
+        "activity": "cycling",
+        "positive": false,
+        "id": "V17",
+        "day": 17,
+        "detail": ""
+      },
+      {
+        "activity": "cycling",
+        "positive": true,
+        "id": "V18",
+        "day": 18,
+        "detail": ""
+      },
+      {
+        "activity": "swimming",
+        "positive": false,
+        "id": "V19",
+        "day": 19,
+        "detail": ""
+      },
+      {
+        "activity": "swimming",
+        "positive": true,
+        "id": "V20",
+        "day": 20,
+        "detail": ""
+      },
+      {
+        "activity": "swimming",
+        "positive": true,
+        "id": "V21",
+        "day": 21,
+        "detail": ""
+      },
+      {
+        "activity": "swimming",
+        "positive": false,
+        "id": "V22",
+        "day": 22,
+        "detail": ""
+      },
+      {
+        "activity": "cycling",
+        "positive": true,
+        "id": "V23",
+        "day": 23,
+        "detail": ""
+      },
+      {
+        "activity": "swimming",
+        "positive": false,
+        "id": "V24",
+        "day": 24,
+        "detail": ""
+      }
+    ],
+    "answers": [
+      {
+        "kind": "rate",
+        "answer": "D",
+        "abstain": "A"
+      },
+      {
+        "kind": "event",
+        "answer": "A",
+        "abstain": "B"
+      }
+    ]
+  },
+  {
+    "id": "extract-11",
+    "seed": 41011,
+    "activities": [
+      "pottery",
+      "painting"
+    ],
+    "counts": [
+      6,
+      6
+    ],
+    "events": [
+      {
+        "activity": "painting",
+        "positive": true,
+        "id": "V01",
+        "day": 1,
+        "detail": ""
+      },
+      {
+        "activity": "pottery",
+        "positive": true,
+        "id": "V02",
+        "day": 2,
+        "detail": ""
+      },
+      {
+        "activity": "pottery",
+        "positive": false,
+        "id": "V03",
+        "day": 3,
+        "detail": ""
+      },
+      {
+        "activity": "pottery",
+        "positive": false,
+        "id": "V04",
+        "day": 4,
+        "detail": "A blue mural covered the entrance wall."
+      },
+      {
+        "activity": "painting",
+        "positive": true,
+        "id": "V05",
+        "day": 5,
+        "detail": ""
+      },
+      {
+        "activity": "painting",
+        "positive": true,
+        "id": "V06",
+        "day": 6,
+        "detail": ""
+      },
+      {
+        "activity": "pottery",
+        "positive": true,
+        "id": "V07",
+        "day": 7,
+        "detail": ""
+      },
+      {
+        "activity": "pottery",
+        "positive": false,
+        "id": "V08",
+        "day": 8,
+        "detail": ""
+      },
+      {
+        "activity": "painting",
+        "positive": false,
+        "id": "V09",
+        "day": 9,
+        "detail": ""
+      },
+      {
+        "activity": "pottery",
+        "positive": true,
+        "id": "V10",
+        "day": 10,
+        "detail": ""
+      },
+      {
+        "activity": "painting",
+        "positive": false,
+        "id": "V11",
+        "day": 11,
+        "detail": "A brass clock stood beside the window."
+      },
+      {
+        "activity": "painting",
+        "positive": true,
+        "id": "V12",
+        "day": 12,
+        "detail": ""
+      },
+      {
+        "activity": "painting",
+        "positive": true,
+        "id": "V13",
+        "day": 13,
+        "detail": ""
+      },
+      {
+        "activity": "painting",
+        "positive": true,
+        "id": "V14",
+        "day": 14,
+        "detail": ""
+      },
+      {
+        "activity": "pottery",
+        "positive": true,
+        "id": "V15",
+        "day": 15,
+        "detail": ""
+      },
+      {
+        "activity": "painting",
+        "positive": false,
+        "id": "V16",
+        "day": 16,
+        "detail": ""
+      },
+      {
+        "activity": "painting",
+        "positive": false,
+        "id": "V17",
+        "day": 17,
+        "detail": ""
+      },
+      {
+        "activity": "pottery",
+        "positive": true,
+        "id": "V18",
+        "day": 18,
+        "detail": ""
+      },
+      {
+        "activity": "pottery",
+        "positive": true,
+        "id": "V19",
+        "day": 19,
+        "detail": ""
+      },
+      {
+        "activity": "pottery",
+        "positive": false,
+        "id": "V20",
+        "day": 20,
+        "detail": ""
+      },
+      {
+        "activity": "painting",
+        "positive": false,
+        "id": "V21",
+        "day": 21,
+        "detail": ""
+      },
+      {
+        "activity": "pottery",
+        "positive": false,
+        "id": "V22",
+        "day": 22,
+        "detail": "A purple umbrella rested by the door."
+      },
+      {
+        "activity": "pottery",
+        "positive": false,
+        "id": "V23",
+        "day": 23,
+        "detail": ""
+      },
+      {
+        "activity": "painting",
+        "positive": false,
+        "id": "V24",
+        "day": 24,
+        "detail": ""
+      }
+    ],
+    "answers": [
+      {
+        "kind": "rate",
+        "answer": "C",
+        "abstain": "A"
+      },
+      {
+        "kind": "event",
+        "answer": "B",
+        "abstain": "D"
+      }
+    ]
+  }
+]

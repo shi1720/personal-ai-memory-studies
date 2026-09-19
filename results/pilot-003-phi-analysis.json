@@ -1,0 +1,1583 @@
+{
+  "status": "same-journal exploratory model check, not independent confirmation",
+  "model": "phi",
+  "adapter": "native_roles",
+  "actual_calls": 108,
+  "trace_sha256": "52c33cea6d6e63ab304d5d95f2a5574b51ec320a0eeb5dc84323642f7f2688b9",
+  "analysis_sha256": "a8c46957e3888b8b06e1b7f592813533d5816fccef0fc9713c8940916494f62f",
+  "reader_seconds": 491.5873919490259,
+  "total_prompt_tokens": 59904,
+  "total_generation_tokens": 3292,
+  "summaries": {
+    "important_plain": {
+      "cases": 12,
+      "valid_cases": 0,
+      "invalid_cases": 12,
+      "missing_activities": 0,
+      "activity_slots_in_valid_cases": 0,
+      "mean_journal_mae_available": null,
+      "mean_journal_signed_bias_available": null,
+      "mean_detail_event_recall": null,
+      "rank_counts": {
+        "correct": 0,
+        "wrong": 0,
+        "tie": 0,
+        "missing": 0
+      },
+      "selected_positive": 0,
+      "selected_total_valid": 0
+    },
+    "important_detailed": {
+      "cases": 12,
+      "valid_cases": 0,
+      "invalid_cases": 12,
+      "missing_activities": 0,
+      "activity_slots_in_valid_cases": 0,
+      "mean_journal_mae_available": null,
+      "mean_journal_signed_bias_available": null,
+      "mean_detail_event_recall": null,
+      "rank_counts": {
+        "correct": 0,
+        "wrong": 0,
+        "tie": 0,
+        "missing": 0
+      },
+      "selected_positive": 0,
+      "selected_total_valid": 0
+    },
+    "representative_plain": {
+      "cases": 12,
+      "valid_cases": 0,
+      "invalid_cases": 12,
+      "missing_activities": 0,
+      "activity_slots_in_valid_cases": 0,
+      "mean_journal_mae_available": null,
+      "mean_journal_signed_bias_available": null,
+      "mean_detail_event_recall": null,
+      "rank_counts": {
+        "correct": 0,
+        "wrong": 0,
+        "tie": 0,
+        "missing": 0
+      },
+      "selected_positive": 0,
+      "selected_total_valid": 0
+    },
+    "representative_detailed": {
+      "cases": 12,
+      "valid_cases": 0,
+      "invalid_cases": 12,
+      "missing_activities": 0,
+      "activity_slots_in_valid_cases": 0,
+      "mean_journal_mae_available": null,
+      "mean_journal_signed_bias_available": null,
+      "mean_detail_event_recall": null,
+      "rank_counts": {
+        "correct": 0,
+        "wrong": 0,
+        "tie": 0,
+        "missing": 0
+      },
+      "selected_positive": 0,
+      "selected_total_valid": 0
+    },
+    "important_antonym": {
+      "cases": 12,
+      "valid_cases": 0,
+      "invalid_cases": 12,
+      "missing_activities": 0,
+      "activity_slots_in_valid_cases": 0,
+      "mean_journal_mae_available": null,
+      "mean_journal_signed_bias_available": null,
+      "mean_detail_event_recall": null,
+      "rank_counts": {
+        "correct": 0,
+        "wrong": 0,
+        "tie": 0,
+        "missing": 0
+      },
+      "selected_positive": 0,
+      "selected_total_valid": 0
+    },
+    "archive_negation": {
+      "cases": 12,
+      "valid_cases": 0,
+      "invalid_cases": 12,
+      "missing_activities": 0,
+      "activity_slots_in_valid_cases": 0,
+      "mean_journal_mae_available": null,
+      "mean_journal_signed_bias_available": null,
+      "mean_detail_event_recall": null,
+      "rank_counts": {
+        "correct": 0,
+        "wrong": 0,
+        "tie": 0,
+        "missing": 0
+      },
+      "selected_positive": 0,
+      "selected_total_valid": 0
+    },
+    "archive_antonym": {
+      "cases": 12,
+      "valid_cases": 0,
+      "invalid_cases": 12,
+      "missing_activities": 0,
+      "activity_slots_in_valid_cases": 0,
+      "mean_journal_mae_available": null,
+      "mean_journal_signed_bias_available": null,
+      "mean_detail_event_recall": null,
+      "rank_counts": {
+        "correct": 0,
+        "wrong": 0,
+        "tie": 0,
+        "missing": 0
+      },
+      "selected_positive": 0,
+      "selected_total_valid": 0
+    },
+    "proportional_negation": {
+      "cases": 12,
+      "valid_cases": 0,
+      "invalid_cases": 12,
+      "missing_activities": 0,
+      "activity_slots_in_valid_cases": 0,
+      "mean_journal_mae_available": null,
+      "mean_journal_signed_bias_available": null,
+      "mean_detail_event_recall": null,
+      "rank_counts": {
+        "correct": 0,
+        "wrong": 0,
+        "tie": 0,
+        "missing": 0
+      },
+      "selected_positive": 0,
+      "selected_total_valid": 0
+    },
+    "proportional_antonym": {
+      "cases": 12,
+      "valid_cases": 0,
+      "invalid_cases": 12,
+      "missing_activities": 0,
+      "activity_slots_in_valid_cases": 0,
+      "mean_journal_mae_available": null,
+      "mean_journal_signed_bias_available": null,
+      "mean_detail_event_recall": null,
+      "rank_counts": {
+        "correct": 0,
+        "wrong": 0,
+        "tie": 0,
+        "missing": 0
+      },
+      "selected_positive": 0,
+      "selected_total_valid": 0
+    }
+  },
+  "measurements": [
+    {
+      "journal": "journal-00",
+      "condition": "important_plain",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-00",
+      "condition": "important_detailed",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-00",
+      "condition": "representative_plain",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-00",
+      "condition": "representative_detailed",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-00",
+      "condition": "important_antonym",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-00",
+      "condition": "archive_negation",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-00",
+      "condition": "archive_antonym",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-00",
+      "condition": "proportional_negation",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-00",
+      "condition": "proportional_antonym",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-01",
+      "condition": "important_plain",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-01",
+      "condition": "important_detailed",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-01",
+      "condition": "representative_plain",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-01",
+      "condition": "representative_detailed",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-01",
+      "condition": "important_antonym",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-01",
+      "condition": "archive_negation",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-01",
+      "condition": "archive_antonym",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-01",
+      "condition": "proportional_negation",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-01",
+      "condition": "proportional_antonym",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-02",
+      "condition": "important_plain",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-02",
+      "condition": "important_detailed",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-02",
+      "condition": "representative_plain",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-02",
+      "condition": "representative_detailed",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-02",
+      "condition": "important_antonym",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-02",
+      "condition": "archive_negation",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-02",
+      "condition": "archive_antonym",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-02",
+      "condition": "proportional_negation",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-02",
+      "condition": "proportional_antonym",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-03",
+      "condition": "important_plain",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-03",
+      "condition": "important_detailed",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-03",
+      "condition": "representative_plain",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-03",
+      "condition": "representative_detailed",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-03",
+      "condition": "important_antonym",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-03",
+      "condition": "archive_negation",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-03",
+      "condition": "archive_antonym",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-03",
+      "condition": "proportional_negation",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-03",
+      "condition": "proportional_antonym",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-04",
+      "condition": "important_plain",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-04",
+      "condition": "important_detailed",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-04",
+      "condition": "representative_plain",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-04",
+      "condition": "representative_detailed",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-04",
+      "condition": "important_antonym",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-04",
+      "condition": "archive_negation",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-04",
+      "condition": "archive_antonym",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-04",
+      "condition": "proportional_negation",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-04",
+      "condition": "proportional_antonym",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-05",
+      "condition": "important_plain",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-05",
+      "condition": "important_detailed",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-05",
+      "condition": "representative_plain",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-05",
+      "condition": "representative_detailed",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-05",
+      "condition": "important_antonym",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-05",
+      "condition": "archive_negation",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-05",
+      "condition": "archive_antonym",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-05",
+      "condition": "proportional_negation",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-05",
+      "condition": "proportional_antonym",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-06",
+      "condition": "important_plain",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-06",
+      "condition": "important_detailed",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-06",
+      "condition": "representative_plain",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-06",
+      "condition": "representative_detailed",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-06",
+      "condition": "important_antonym",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-06",
+      "condition": "archive_negation",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-06",
+      "condition": "archive_antonym",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-06",
+      "condition": "proportional_negation",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-06",
+      "condition": "proportional_antonym",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-07",
+      "condition": "important_plain",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-07",
+      "condition": "important_detailed",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-07",
+      "condition": "representative_plain",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-07",
+      "condition": "representative_detailed",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-07",
+      "condition": "important_antonym",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-07",
+      "condition": "archive_negation",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-07",
+      "condition": "archive_antonym",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-07",
+      "condition": "proportional_negation",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-07",
+      "condition": "proportional_antonym",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-08",
+      "condition": "important_plain",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-08",
+      "condition": "important_detailed",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-08",
+      "condition": "representative_plain",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-08",
+      "condition": "representative_detailed",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-08",
+      "condition": "important_antonym",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-08",
+      "condition": "archive_negation",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-08",
+      "condition": "archive_antonym",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-08",
+      "condition": "proportional_negation",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-08",
+      "condition": "proportional_antonym",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-09",
+      "condition": "important_plain",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-09",
+      "condition": "important_detailed",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-09",
+      "condition": "representative_plain",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-09",
+      "condition": "representative_detailed",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-09",
+      "condition": "important_antonym",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-09",
+      "condition": "archive_negation",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-09",
+      "condition": "archive_antonym",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-09",
+      "condition": "proportional_negation",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-09",
+      "condition": "proportional_antonym",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-10",
+      "condition": "important_plain",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-10",
+      "condition": "important_detailed",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-10",
+      "condition": "representative_plain",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-10",
+      "condition": "representative_detailed",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-10",
+      "condition": "important_antonym",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-10",
+      "condition": "archive_negation",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-10",
+      "condition": "archive_antonym",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-10",
+      "condition": "proportional_negation",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-10",
+      "condition": "proportional_antonym",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-11",
+      "condition": "important_plain",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-11",
+      "condition": "important_detailed",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-11",
+      "condition": "representative_plain",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-11",
+      "condition": "representative_detailed",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-11",
+      "condition": "important_antonym",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-11",
+      "condition": "archive_negation",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-11",
+      "condition": "archive_antonym",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-11",
+      "condition": "proportional_negation",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-11",
+      "condition": "proportional_antonym",
+      "selected_positive": null,
+      "metrics": null
+    }
+  ],
+  "invalid_outputs": [
+    {
+      "journal": "journal-00",
+      "condition": "important_plain",
+      "text": "```json\n[\"E01\", \"E04\", \"E05\", \"E09\", \"E13\", \"E19\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-00",
+      "condition": "important_detailed",
+      "text": "```json\n[\n    \"E01\",\n    \"E03\",\n    \"E04\",\n    \"E05\",\n    \"E09\",\n    \"E13\"\n]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 37
+    },
+    {
+      "journal": "journal-00",
+      "condition": "representative_plain",
+      "text": "```json\n[\"E01\", \"E02\", \"E04\", \"E06\", \"E09\", \"E13\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-00",
+      "condition": "representative_detailed",
+      "text": "```json\n[\"E01\", \"E03\", \"E05\", \"E09\", \"E11\", \"E15\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-00",
+      "condition": "important_antonym",
+      "text": "```json\n[\"E01\", \"E04\", \"E05\", \"E09\", \"E15\", \"E17\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-00",
+      "condition": "archive_negation",
+      "text": "```json\n[\"E01\", \"E03\", \"E04\", \"E05\", \"E13\", \"E19\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-00",
+      "condition": "archive_antonym",
+      "text": "```json\n[\"E01\", \"E04\", \"E05\", \"E09\", \"E15\", \"E17\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-00",
+      "condition": "proportional_negation",
+      "text": "```json\n[\"E01\", \"E02\", \"E04\", \"E06\", \"E07\", \"E08\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-00",
+      "condition": "proportional_antonym",
+      "text": "```json\n[\"E01\", \"E02\", \"E04\", \"E06\", \"E13\", \"E14\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-01",
+      "condition": "important_plain",
+      "text": "```json\n[\"E02\", \"E03\", \"E04\", \"E07\", \"E08\", \"E16\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-01",
+      "condition": "important_detailed",
+      "text": "```json\n[\"E02\", \"E03\", \"E04\", \"E07\", \"E13\", \"E16\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-01",
+      "condition": "representative_plain",
+      "text": "```json\n[\"E01\", \"E02\", \"E06\", \"E08\", \"E11\", \"E20\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-01",
+      "condition": "representative_detailed",
+      "text": "```json\n[\"E01\", \"E02\", \"E03\", \"E05\", \"E06\", \"E08\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-01",
+      "condition": "important_antonym",
+      "text": "```json\n[\"E02\", \"E03\", \"E04\", \"E07\", \"E08\", \"E15\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-01",
+      "condition": "archive_negation",
+      "text": "```json\n[\"E02\", \"E03\", \"E04\", \"E07\", \"E08\", \"E09\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-01",
+      "condition": "archive_antonym",
+      "text": "```json\n[\"E02\", \"E03\", \"E04\", \"E07\", \"E08\", \"E09\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-01",
+      "condition": "proportional_negation",
+      "text": "```json\n[\"E01\", \"E02\", \"E05\", \"E06\", \"E08\", \"E20\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-01",
+      "condition": "proportional_antonym",
+      "text": "```json\n[\n    \"E01\",\n    \"E02\",\n    \"E05\",\n    \"E06\",\n    \"E08\",\n    \"E20\"\n]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 37
+    },
+    {
+      "journal": "journal-02",
+      "condition": "important_plain",
+      "text": "```json\n[\"E01\", \"E04\", \"E09\", \"E10\", \"E16\", \"E24\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-02",
+      "condition": "important_detailed",
+      "text": "```json\n[\n    \"E01\",\n    \"E04\",\n    \"E05\",\n    \"E07\",\n    \"E09\",\n    \"E19\"\n]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 37
+    },
+    {
+      "journal": "journal-02",
+      "condition": "representative_plain",
+      "text": "```json\n[\"E01\", \"E04\", \"E09\", \"E16\", \"E19\", \"E24\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-02",
+      "condition": "representative_detailed",
+      "text": "```json\n[\"E01\", \"E02\", \"E04\", \"E09\", \"E16\", \"E23\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-02",
+      "condition": "important_antonym",
+      "text": "```json\n[\"E01\", \"E04\", \"E09\", \"E10\", \"E16\", \"E24\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-02",
+      "condition": "archive_negation",
+      "text": "```json\n[\"E01\", \"E04\", \"E09\", \"E10\", \"E16\", \"E24\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-02",
+      "condition": "archive_antonym",
+      "text": "```json\n[\"E01\", \"E04\", \"E09\", \"E10\", \"E16\", \"E24\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-02",
+      "condition": "proportional_negation",
+      "text": "```json\n[\n    \"E01\",\n    \"E02\",\n    \"E04\",\n    \"E09\",\n    \"E16\",\n    \"E23\"\n]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 37
+    },
+    {
+      "journal": "journal-02",
+      "condition": "proportional_antonym",
+      "text": "```json\n[\"E01\", \"E02\", \"E04\", \"E09\", \"E16\", \"E23\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-03",
+      "condition": "important_plain",
+      "text": "```json\n[\"E01\", \"E02\", \"E03\", \"E09\", \"E12\", \"E20\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-03",
+      "condition": "important_detailed",
+      "text": "```json\n[\"E01\", \"E02\", \"E03\", \"E07\", \"E09\", \"E12\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-03",
+      "condition": "representative_plain",
+      "text": "```json\n[\"E01\", \"E02\", \"E03\", \"E04\", \"E07\", \"E09\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-03",
+      "condition": "representative_detailed",
+      "text": "```json\n[\"E01\", \"E02\", \"E03\", \"E04\", \"E05\", \"E09\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-03",
+      "condition": "important_antonym",
+      "text": "```json\n[\"E01\", \"E02\", \"E03\", \"E09\", \"E12\", \"E20\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-03",
+      "condition": "archive_negation",
+      "text": "```json\n[\"E01\", \"E02\", \"E03\", \"E09\", \"E12\", \"E20\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-03",
+      "condition": "archive_antonym",
+      "text": "```json\n[\"E01\", \"E02\", \"E03\", \"E09\", \"E12\", \"E20\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-03",
+      "condition": "proportional_negation",
+      "text": "```json\n[\n    \"E01\",\n    \"E04\",\n    \"E06\",\n    \"E07\",\n    \"E11\",\n    \"E13\"\n]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 37
+    },
+    {
+      "journal": "journal-03",
+      "condition": "proportional_antonym",
+      "text": "```json\n[\"E01\", \"E02\", \"E04\", \"E06\", \"E07\", \"E08\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-04",
+      "condition": "important_plain",
+      "text": "```json\n[\"E01\", \"E03\", \"E05\", \"E06\", \"E07\", \"E10\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-04",
+      "condition": "important_detailed",
+      "text": "```json\n[\n    \"E01\",\n    \"E02\",\n    \"E05\",\n    \"E06\",\n    \"E11\",\n    \"E14\"\n]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 37
+    },
+    {
+      "journal": "journal-04",
+      "condition": "representative_plain",
+      "text": "```json\n[\"E01\", \"E02\", \"E03\", \"E07\", \"E10\", \"E15\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-04",
+      "condition": "representative_detailed",
+      "text": "```json\n[\"E01\", \"E03\", \"E05\", \"E07\", \"E10\", \"E15\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-04",
+      "condition": "important_antonym",
+      "text": "```json\n[\"E01\", \"E03\", \"E05\", \"E07\", \"E10\", \"E15\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-04",
+      "condition": "archive_negation",
+      "text": "```json\n[\"E01\", \"E03\", \"E05\", \"E06\", \"E07\", \"E10\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-04",
+      "condition": "archive_antonym",
+      "text": "```json\n[\"E01\", \"E02\", \"E03\", \"E05\", \"E07\", \"E10\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-04",
+      "condition": "proportional_negation",
+      "text": "```json\n[\"E01\", \"E03\", \"E04\", \"E05\", \"E08\", \"E09\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-04",
+      "condition": "proportional_antonym",
+      "text": "```json\n[\"E01\", \"E03\", \"E04\", \"E08\", \"E09\", \"E13\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-05",
+      "condition": "important_plain",
+      "text": "```json\n[\"E02\", \"E03\", \"E05\", \"E06\", \"E08\", \"E16\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-05",
+      "condition": "important_detailed",
+      "text": "```json\n[\n    \"E02\",\n    \"E03\",\n    \"E05\",\n    \"E06\",\n    \"E09\",\n    \"E16\"\n]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 37
+    },
+    {
+      "journal": "journal-05",
+      "condition": "representative_plain",
+      "text": "```json\n[\"E01\", \"E02\", \"E03\", \"E04\", \"E09\", \"E16\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-05",
+      "condition": "representative_detailed",
+      "text": "```json\n[\n    \"E01\",\n    \"E02\",\n    \"E03\",\n    \"E04\",\n    \"E09\",\n    \"E16\"\n]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 37
+    },
+    {
+      "journal": "journal-05",
+      "condition": "important_antonym",
+      "text": "```json\n[\"E02\", \"E03\", \"E05\", \"E06\", \"E08\", \"E16\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-05",
+      "condition": "archive_negation",
+      "text": "```json\n[\"E02\", \"E03\", \"E05\", \"E06\", \"E08\", \"E09\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-05",
+      "condition": "archive_antonym",
+      "text": "```json\n[\"E02\", \"E03\", \"E05\", \"E08\", \"E09\", \"E16\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-05",
+      "condition": "proportional_negation",
+      "text": "```json\n[\n    \"E01\",\n    \"E02\",\n    \"E03\",\n    \"E04\",\n    \"E16\",\n    \"E24\"\n]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 37
+    },
+    {
+      "journal": "journal-05",
+      "condition": "proportional_antonym",
+      "text": "```json\n[\n    \"E01\",\n    \"E02\",\n    \"E03\",\n    \"E04\",\n    \"E09\",\n    \"E10\"\n]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 37
+    },
+    {
+      "journal": "journal-06",
+      "condition": "important_plain",
+      "text": "```json\n[\"E03\", \"E05\", \"E07\", \"E09\", \"E13\", \"E16\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-06",
+      "condition": "important_detailed",
+      "text": "```json\n[\n    \"E03\",\n    \"E04\",\n    \"E05\",\n    \"E07\",\n    \"E15\",\n    \"E21\"\n]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 37
+    },
+    {
+      "journal": "journal-06",
+      "condition": "representative_plain",
+      "text": "```json\n[\"E01\", \"E02\", \"E03\", \"E05\", \"E06\", \"E12\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-06",
+      "condition": "representative_detailed",
+      "text": "```json\n[\"E01\", \"E02\", \"E03\", \"E05\", \"E06\", \"E15\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-06",
+      "condition": "important_antonym",
+      "text": "```json\n[\"E03\", \"E05\", \"E07\", \"E09\", \"E13\", \"E16\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-06",
+      "condition": "archive_negation",
+      "text": "```json\n[\"E03\", \"E05\", \"E07\", \"E09\", \"E13\", \"E16\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-06",
+      "condition": "archive_antonym",
+      "text": "```json\n[\"E03\", \"E05\", \"E07\", \"E09\", \"E13\", \"E16\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-06",
+      "condition": "proportional_negation",
+      "text": "```json\n[\n    \"E01\",\n    \"E02\",\n    \"E03\",\n    \"E04\",\n    \"E06\",\n    \"E07\"\n]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 37
+    },
+    {
+      "journal": "journal-06",
+      "condition": "proportional_antonym",
+      "text": "```json\n[\"E01\", \"E03\", \"E04\", \"E06\", \"E15\", \"E19\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-07",
+      "condition": "important_plain",
+      "text": "```json\n[\"E02\", \"E03\", \"E04\", \"E05\", \"E07\", \"E08\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-07",
+      "condition": "important_detailed",
+      "text": "```json\n[\"E02\", \"E03\", \"E04\", \"E05\", \"E07\", \"E12\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-07",
+      "condition": "representative_plain",
+      "text": "```json\n[\"E01\", \"E02\", \"E03\", \"E06\", \"E09\", \"E18\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-07",
+      "condition": "representative_detailed",
+      "text": "```json\n[\"E02\", \"E04\", \"E07\", \"E08\", \"E11\", \"E16\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-07",
+      "condition": "important_antonym",
+      "text": "```json\n[\"E01\", \"E03\", \"E04\", \"E07\", \"E13\", \"E23\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-07",
+      "condition": "archive_negation",
+      "text": "```json\n[\"E01\", \"E03\", \"E06\", \"E09\", \"E18\", \"E22\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-07",
+      "condition": "archive_antonym",
+      "text": "```json\n[\"E01\", \"E03\", \"E04\", \"E08\", \"E13\", \"E17\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-07",
+      "condition": "proportional_negation",
+      "text": "```json\n[\"E01\", \"E02\", \"E03\", \"E06\", \"E09\", \"E18\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-07",
+      "condition": "proportional_antonym",
+      "text": "```json\n[\"E01\", \"E02\", \"E03\", \"E06\", \"E09\", \"E18\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-08",
+      "condition": "important_plain",
+      "text": "```json\n[\"E02\", \"E03\", \"E05\", \"E06\", \"E07\", \"E08\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-08",
+      "condition": "important_detailed",
+      "text": "```json\n[\n    \"E02\",\n    \"E05\",\n    \"E19\",\n    \"E21\",\n    \"E23\",\n    \"E24\"\n]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 37
+    },
+    {
+      "journal": "journal-08",
+      "condition": "representative_plain",
+      "text": "```json\n[\"E01\", \"E02\", \"E03\", \"E08\", \"E09\", \"E19\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-08",
+      "condition": "representative_detailed",
+      "text": "```json\n[\"E02\", \"E03\", \"E05\", \"E06\", \"E08\", \"E19\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-08",
+      "condition": "important_antonym",
+      "text": "```json\n[\"E02\", \"E03\", \"E05\", \"E06\", \"E07\", \"E19\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-08",
+      "condition": "archive_negation",
+      "text": "```json\n[\"E02\", \"E03\", \"E05\", \"E06\", \"E08\", \"E09\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-08",
+      "condition": "archive_antonym",
+      "text": "```json\n[\"E02\", \"E03\", \"E05\", \"E06\", \"E07\", \"E19\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-08",
+      "condition": "proportional_negation",
+      "text": "```json\n[\n    \"E01\",\n    \"E02\",\n    \"E03\",\n    \"E08\",\n    \"E19\",\n    \"E10\"\n]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 37
+    },
+    {
+      "journal": "journal-08",
+      "condition": "proportional_antonym",
+      "text": "```json\n[\n    \"E01\",\n    \"E02\",\n    \"E03\",\n    \"E08\",\n    \"E19\",\n    \"E10\"\n]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 37
+    },
+    {
+      "journal": "journal-09",
+      "condition": "important_plain",
+      "text": "```json\n[\"E01\", \"E03\", \"E06\", \"E09\", \"E17\", \"E18\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-09",
+      "condition": "important_detailed",
+      "text": "```json\n[\n    \"E01\",\n    \"E03\",\n    \"E06\",\n    \"E07\",\n    \"E09\",\n    \"E17\"\n]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 37
+    },
+    {
+      "journal": "journal-09",
+      "condition": "representative_plain",
+      "text": "```json\n[\"E01\", \"E03\", \"E06\", \"E09\", \"E17\", \"E18\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-09",
+      "condition": "representative_detailed",
+      "text": "```json\n[\"E01\", \"E03\", \"E04\", \"E06\", \"E09\", \"E17\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-09",
+      "condition": "important_antonym",
+      "text": "```json\n[\"E01\", \"E03\", \"E06\", \"E09\", \"E17\", \"E18\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-09",
+      "condition": "archive_negation",
+      "text": "```json\n[\"E01\", \"E03\", \"E06\", \"E09\", \"E17\", \"E18\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-09",
+      "condition": "archive_antonym",
+      "text": "```json\n[\"E01\", \"E03\", \"E06\", \"E09\", \"E17\", \"E18\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-09",
+      "condition": "proportional_negation",
+      "text": "```json\n[\n    \"E01\",\n    \"E02\",\n    \"E04\",\n    \"E07\",\n    \"E10\",\n    \"E23\"\n]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 37
+    },
+    {
+      "journal": "journal-09",
+      "condition": "proportional_antonym",
+      "text": "```json\n[\"E01\", \"E02\", \"E04\", \"E07\", \"E10\", \"E23\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-10",
+      "condition": "important_plain",
+      "text": "```json\n[\"E01\", \"E02\", \"E05\", \"E06\", \"E12\", \"E14\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-10",
+      "condition": "important_detailed",
+      "text": "```json\n[\"E01\", \"E05\", \"E06\", \"E07\", \"E12\", \"E14\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-10",
+      "condition": "representative_plain",
+      "text": "```json\n[\"E01\", \"E02\", \"E03\", \"E04\", \"E12\", \"E19\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-10",
+      "condition": "representative_detailed",
+      "text": "```json\n[\n    \"E01\",\n    \"E02\",\n    \"E03\",\n    \"E05\",\n    \"E12\",\n    \"E19\"\n]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 37
+    },
+    {
+      "journal": "journal-10",
+      "condition": "important_antonym",
+      "text": "```json\n[\"E01\", \"E02\", \"E05\", \"E06\", \"E12\", \"E14\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-10",
+      "condition": "archive_negation",
+      "text": "```json\n[\"E01\", \"E02\", \"E05\", \"E06\", \"E12\", \"E14\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-10",
+      "condition": "archive_antonym",
+      "text": "```json\n[\"E01\", \"E02\", \"E05\", \"E06\", \"E12\", \"E14\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-10",
+      "condition": "proportional_negation",
+      "text": "```json\n[\n    \"E01\",\n    \"E02\",\n    \"E03\",\n    \"E04\",\n    \"E12\",\n    \"E19\"\n]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 37
+    },
+    {
+      "journal": "journal-10",
+      "condition": "proportional_antonym",
+      "text": "```json\n[\n    \"E01\",\n    \"E02\",\n    \"E03\",\n    \"E04\",\n    \"E14\",\n    \"E19\"\n]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 37
+    },
+    {
+      "journal": "journal-11",
+      "condition": "important_plain",
+      "text": "```json\n[\"E01\", \"E03\", \"E04\", \"E09\", \"E11\", \"E15\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-11",
+      "condition": "important_detailed",
+      "text": "```json\n[\"E01\", \"E03\", \"E04\", \"E08\", \"E10\", \"E22\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-11",
+      "condition": "representative_plain",
+      "text": "```json\n[\"E01\", \"E02\", \"E05\", \"E08\", \"E15\", \"E18\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-11",
+      "condition": "representative_detailed",
+      "text": "```json\n[\"E01\", \"E03\", \"E04\", \"E07\", \"E09\", \"E11\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-11",
+      "condition": "important_antonym",
+      "text": "```json\n[\"E01\", \"E03\", \"E04\", \"E09\", \"E11\", \"E15\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-11",
+      "condition": "archive_negation",
+      "text": "```json\n[\"E01\", \"E03\", \"E04\", \"E09\", \"E11\", \"E15\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-11",
+      "condition": "archive_antonym",
+      "text": "```json\n[\"E01\", \"E03\", \"E04\", \"E09\", \"E11\", \"E15\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-11",
+      "condition": "proportional_negation",
+      "text": "```json\n[\"E01\", \"E02\", \"E03\", \"E05\", \"E08\", \"E19\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    },
+    {
+      "journal": "journal-11",
+      "condition": "proportional_antonym",
+      "text": "```json\n[\"E01\", \"E02\", \"E07\", \"E05\", \"E08\", \"E14\"]\n```",
+      "finish_reason": "stop",
+      "generation_tokens": 29
+    }
+  ]
+}

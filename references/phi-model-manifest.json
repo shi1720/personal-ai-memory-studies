@@ -1,0 +1,61 @@
+{
+  "repository": "mlx-community/phi-4-4bit",
+  "revision": "fc0f8f23d369dc29b55cad1d65cb5bf0dcbee910",
+  "base_model": "microsoft/phi-4",
+  "license": "MIT per community and official base model cards",
+  "source": "https://huggingface.co/mlx-community/phi-4-4bit",
+  "quantization": "community MLX 4-bit conversion",
+  "trust_remote_code": false,
+  "files": [
+    {
+      "name": "README.md",
+      "sha256": "3dbd4f3c34abf83ab27d63254ece23183a8c6780371bcb13e755f8de985f869e",
+      "bytes": 1049
+    },
+    {
+      "name": "config.json",
+      "sha256": "69badac846fa36cef2a373a79361dea3ee8e986d5b5e51ca68465e2eb8377456",
+      "bytes": 996
+    },
+    {
+      "name": "merges.txt",
+      "sha256": "b6fe424e334903f7fb84d3a106d9730455f4744b9fe3c21ee136d97a00e72502",
+      "bytes": 916646
+    },
+    {
+      "name": "model-00001-of-00002.safetensors",
+      "sha256": "e0c113a12a77b1f2af50d94f4aeb9d3864c07d6460839734b59dd85b393d920e",
+      "bytes": 5310465802
+    },
+    {
+      "name": "model-00002-of-00002.safetensors",
+      "sha256": "0eeb8fb23fccf450934834d3682ef30b617425dcc43f9f3f777fa2704c8b77c8",
+      "bytes": 2936168109
+    },
+    {
+      "name": "model.safetensors.index.json",
+      "sha256": "776a5f4af5e7ed3f3f7ec8321f0614a9e81d3ed34d5b4e446b73d7e0270bed8a",
+      "bytes": 49296
+    },
+    {
+      "name": "special_tokens_map.json",
+      "sha256": "d295aea4a3c6976aeb7696b1dc6929f8840fe3ecb92a12d4d66a82a202376545",
+      "bytes": 464
+    },
+    {
+      "name": "tokenizer.json",
+      "sha256": "c612e57b2763204798271c0cdc14a373a565e6a371f1bfbd44e385a8391c9884",
+      "bytes": 7153083
+    },
+    {
+      "name": "tokenizer_config.json",
+      "sha256": "6bd125241a1393acab3c4f8d5ffad626682ad09f5f850470297081c3aa76c4ad",
+      "bytes": 17715
+    },
+    {
+      "name": "vocab.json",
+      "sha256": "741943243bd0035a8082ef0ccc09ef62e7ce7ec2f2f053aeedd808dba1c2ffc5",
+      "bytes": 1612637
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "repository": "mem0ai/mem0",
+  "revision": "a39a802bbc93e85b820078cd3c4dbaf53af25dbe",
+  "purpose": "Read-only parser inspection; not execution or reproduction",
+  "url": "https://raw.githubusercontent.com/mem0ai/mem0/a39a802bbc93e85b820078cd3c4dbaf53af25dbe/mem0/memory/main.py",
+  "local_path": "vendor/mem0-prompt-screen/main.py",
+  "sha256": "5b1b75e2f00aca7bd368a6e9cd5905145d60fd05a0e36d6b1ef3e2f1b4f28ca1"
+}

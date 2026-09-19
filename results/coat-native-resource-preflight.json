@@ -1,0 +1,85 @@
+{
+  "scope": "three fitting users; resource preflight only; no target ratings loaded",
+  "protocol_sha256": "db377c1ad75d0fd2473295d3b3119310691f50174769e696ecb7b2e15a1a7041",
+  "code_sha256": "6fe2659739c10359a694b2f73b9cc729dc933767314711fa9156074132bbfec6",
+  "users": [
+    {
+      "user_row": 165,
+      "status": "completed",
+      "seconds": 25.355300874998647,
+      "stored_memories": 1,
+      "stored_utf8_bytes": 1089,
+      "raw_trace_sha256": "ac337243e51878a5796cbaf1f31d34e0905a498bb706adf1913f285f090b5b60",
+      "generations": [
+        {
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 464,
+            "prompt_tokens": 8904,
+            "total_tokens": 9368,
+            "completion_tokens_details": null,
+            "prompt_tokens_details": {
+              "audio_tokens": null,
+              "cache_write_tokens": null,
+              "cached_tokens": 7959,
+              "image_tokens": null,
+              "text_tokens": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "user_row": 159,
+      "status": "completed",
+      "seconds": 26.10376270800043,
+      "stored_memories": 5,
+      "stored_utf8_bytes": 1055,
+      "raw_trace_sha256": "d82fa27c0829c1765ed6478a28faa5c49ba40e15747cd5b2a0d341fb82c44fdb",
+      "generations": [
+        {
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 528,
+            "prompt_tokens": 8902,
+            "total_tokens": 9430,
+            "completion_tokens_details": null,
+            "prompt_tokens_details": {
+              "audio_tokens": null,
+              "cache_write_tokens": null,
+              "cached_tokens": 8005,
+              "image_tokens": null,
+              "text_tokens": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "user_row": 153,
+      "status": "completed",
+      "seconds": 37.70881775000089,
+      "stored_memories": 5,
+      "stored_utf8_bytes": 1861,
+      "raw_trace_sha256": "5a989ca59ae9590b9c56dad2847bff47623c4a4b7c340faf5b38028fc37dcb5f",
+      "generations": [
+        {
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 812,
+            "prompt_tokens": 8909,
+            "total_tokens": 9721,
+            "completion_tokens_details": null,
+            "prompt_tokens_details": {
+              "audio_tokens": null,
+              "cache_write_tokens": null,
+              "cached_tokens": 8006,
+              "image_tokens": null,
+              "text_tokens": null
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

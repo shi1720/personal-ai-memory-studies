@@ -1,0 +1,1164 @@
+{
+  "scope": "exploratory development; no held-out score; no new method claim",
+  "hashes": {
+    "results/coat-memory-development-traces.json": "20f91bc29262f247d01de12523d162b5eb5468558d0e1c40fc53ee5ff2238434",
+    "src/analyze_coat_memory_development.py": "a956b7337f5ccd21e2b32ac1bbf0721a0d4e75014f796c316625893be955ae8a"
+  },
+  "summaries": {
+    "no_history": {
+      "valid_users": 30,
+      "valid_targets": 438,
+      "scheduled_users": 30,
+      "scheduled_targets": 438,
+      "macro_mae": 1.799679487179487,
+      "macro_rmse": 2.099255638762044,
+      "operational_macro_mae": 1.799679487179487,
+      "operational_macro_rmse": 2.099255638762044
+    },
+    "full_history": {
+      "valid_users": 29,
+      "valid_targets": 422,
+      "scheduled_users": 30,
+      "scheduled_targets": 438,
+      "macro_mae": 1.08637899456865,
+      "macro_rmse": 1.4437808989151537,
+      "operational_macro_mae": 1.0797120499830057,
+      "operational_macro_rmse": 1.436080384731717
+    },
+    "native_memory": {
+      "valid_users": 30,
+      "valid_targets": 438,
+      "scheduled_users": 30,
+      "scheduled_targets": 438,
+      "macro_mae": 1.189789377289377,
+      "macro_rmse": 1.5246218931170827,
+      "operational_macro_mae": 1.189789377289377,
+      "operational_macro_rmse": 1.5246218931170827
+    }
+  },
+  "primary_paired": {
+    "users": 29,
+    "mean": 0.0948686371100164,
+    "percentile_95": [
+      -0.06240195149677907,
+      0.24875517083491214
+    ],
+    "memory_better": 9,
+    "equal": 0,
+    "memory_worse": 20,
+    "seed": 20260919,
+    "replicates": 10000
+  },
+  "excluded_paired_users": [
+    24
+  ],
+  "paired_users": [
+    {
+      "user_row": 152,
+      "delta_mae": 0.15384615384615385
+    },
+    {
+      "user_row": 271,
+      "delta_mae": 0.2142857142857142
+    },
+    {
+      "user_row": 3,
+      "delta_mae": 0.2857142857142856
+    },
+    {
+      "user_row": 244,
+      "delta_mae": 0.46153846153846145
+    },
+    {
+      "user_row": 141,
+      "delta_mae": 0.21428571428571436
+    },
+    {
+      "user_row": 26,
+      "delta_mae": -0.38461538461538447
+    },
+    {
+      "user_row": 234,
+      "delta_mae": 0.1875
+    },
+    {
+      "user_row": 185,
+      "delta_mae": 0.7142857142857142
+    },
+    {
+      "user_row": 42,
+      "delta_mae": -0.25
+    },
+    {
+      "user_row": 188,
+      "delta_mae": 1.1333333333333333
+    },
+    {
+      "user_row": 2,
+      "delta_mae": 0.125
+    },
+    {
+      "user_row": 9,
+      "delta_mae": -0.46666666666666656
+    },
+    {
+      "user_row": 16,
+      "delta_mae": -0.33333333333333337
+    },
+    {
+      "user_row": 66,
+      "delta_mae": 0.1333333333333333
+    },
+    {
+      "user_row": 194,
+      "delta_mae": -0.13333333333333353
+    },
+    {
+      "user_row": 183,
+      "delta_mae": 0.33333333333333326
+    },
+    {
+      "user_row": 131,
+      "delta_mae": 0.0714285714285714
+    },
+    {
+      "user_row": 275,
+      "delta_mae": 0.19999999999999996
+    },
+    {
+      "user_row": 15,
+      "delta_mae": 0.0714285714285714
+    },
+    {
+      "user_row": 166,
+      "delta_mae": -1.2857142857142856
+    },
+    {
+      "user_row": 210,
+      "delta_mae": -0.23076923076923084
+    },
+    {
+      "user_row": 43,
+      "delta_mae": 0.2666666666666666
+    },
+    {
+      "user_row": 223,
+      "delta_mae": -0.06666666666666665
+    },
+    {
+      "user_row": 260,
+      "delta_mae": 0.4
+    },
+    {
+      "user_row": 111,
+      "delta_mae": 0.19999999999999996
+    },
+    {
+      "user_row": 94,
+      "delta_mae": 0.7857142857142857
+    },
+    {
+      "user_row": 231,
+      "delta_mae": 0.07142857142857162
+    },
+    {
+      "user_row": 228,
+      "delta_mae": 0.06666666666666676
+    },
+    {
+      "user_row": 31,
+      "delta_mae": -0.1875
+    }
+  ],
+  "users": [
+    {
+      "user_row": 152,
+      "context": "no_history",
+      "targets": 13,
+      "valid": true,
+      "operational_mae": 2.4615384615384617,
+      "operational_mse": 6.615384615384615,
+      "mae": 2.4615384615384617,
+      "mse": 6.615384615384615
+    },
+    {
+      "user_row": 152,
+      "context": "full_history",
+      "targets": 13,
+      "valid": true,
+      "operational_mae": 0.6153846153846154,
+      "operational_mse": 0.9230769230769231,
+      "mae": 0.6153846153846154,
+      "mse": 0.9230769230769231
+    },
+    {
+      "user_row": 152,
+      "context": "native_memory",
+      "targets": 13,
+      "valid": true,
+      "operational_mae": 0.7692307692307693,
+      "operational_mse": 1.3846153846153846,
+      "mae": 0.7692307692307693,
+      "mse": 1.3846153846153846
+    },
+    {
+      "user_row": 271,
+      "context": "full_history",
+      "targets": 14,
+      "valid": true,
+      "operational_mae": 1.0,
+      "operational_mse": 1.4285714285714286,
+      "mae": 1.0,
+      "mse": 1.4285714285714286
+    },
+    {
+      "user_row": 271,
+      "context": "native_memory",
+      "targets": 14,
+      "valid": true,
+      "operational_mae": 1.2142857142857142,
+      "operational_mse": 1.9285714285714286,
+      "mae": 1.2142857142857142,
+      "mse": 1.9285714285714286
+    },
+    {
+      "user_row": 271,
+      "context": "no_history",
+      "targets": 14,
+      "valid": true,
+      "operational_mae": 1.6428571428571428,
+      "operational_mse": 3.7857142857142856,
+      "mae": 1.6428571428571428,
+      "mse": 3.7857142857142856
+    },
+    {
+      "user_row": 3,
+      "context": "native_memory",
+      "targets": 14,
+      "valid": true,
+      "operational_mae": 1.6428571428571428,
+      "operational_mse": 3.7857142857142856,
+      "mae": 1.6428571428571428,
+      "mse": 3.7857142857142856
+    },
+    {
+      "user_row": 3,
+      "context": "no_history",
+      "targets": 14,
+      "valid": true,
+      "operational_mae": 1.2857142857142858,
+      "operational_mse": 2.142857142857143,
+      "mae": 1.2857142857142858,
+      "mse": 2.142857142857143
+    },
+    {
+      "user_row": 3,
+      "context": "full_history",
+      "targets": 14,
+      "valid": true,
+      "operational_mae": 1.3571428571428572,
+      "operational_mse": 2.7857142857142856,
+      "mae": 1.3571428571428572,
+      "mse": 2.7857142857142856
+    },
+    {
+      "user_row": 244,
+      "context": "no_history",
+      "targets": 13,
+      "valid": true,
+      "operational_mae": 2.5384615384615383,
+      "operational_mse": 7.153846153846154,
+      "mae": 2.5384615384615383,
+      "mse": 7.153846153846154
+    },
+    {
+      "user_row": 244,
+      "context": "full_history",
+      "targets": 13,
+      "valid": true,
+      "operational_mae": 1.3076923076923077,
+      "operational_mse": 2.076923076923077,
+      "mae": 1.3076923076923077,
+      "mse": 2.076923076923077
+    },
+    {
+      "user_row": 244,
+      "context": "native_memory",
+      "targets": 13,
+      "valid": true,
+      "operational_mae": 1.7692307692307692,
+      "operational_mse": 3.6153846153846154,
+      "mae": 1.7692307692307692,
+      "mse": 3.6153846153846154
+    },
+    {
+      "user_row": 141,
+      "context": "full_history",
+      "targets": 14,
+      "valid": true,
+      "operational_mae": 0.42857142857142855,
+      "operational_mse": 0.5714285714285714,
+      "mae": 0.42857142857142855,
+      "mse": 0.5714285714285714
+    },
+    {
+      "user_row": 141,
+      "context": "native_memory",
+      "targets": 14,
+      "valid": true,
+      "operational_mae": 0.6428571428571429,
+      "operational_mse": 0.9285714285714286,
+      "mae": 0.6428571428571429,
+      "mse": 0.9285714285714286
+    },
+    {
+      "user_row": 141,
+      "context": "no_history",
+      "targets": 14,
+      "valid": true,
+      "operational_mae": 0.7142857142857143,
+      "operational_mse": 1.1428571428571428,
+      "mae": 0.7142857142857143,
+      "mse": 1.1428571428571428
+    },
+    {
+      "user_row": 26,
+      "context": "native_memory",
+      "targets": 13,
+      "valid": true,
+      "operational_mae": 0.7692307692307693,
+      "operational_mse": 1.0769230769230769,
+      "mae": 0.7692307692307693,
+      "mse": 1.0769230769230769
+    },
+    {
+      "user_row": 26,
+      "context": "no_history",
+      "targets": 13,
+      "valid": true,
+      "operational_mae": 1.1538461538461537,
+      "operational_mse": 2.3846153846153846,
+      "mae": 1.1538461538461537,
+      "mse": 2.3846153846153846
+    },
+    {
+      "user_row": 26,
+      "context": "full_history",
+      "targets": 13,
+      "valid": true,
+      "operational_mae": 1.1538461538461537,
+      "operational_mse": 2.076923076923077,
+      "mae": 1.1538461538461537,
+      "mse": 2.076923076923077
+    },
+    {
+      "user_row": 234,
+      "context": "no_history",
+      "targets": 16,
+      "valid": true,
+      "operational_mae": 1.5,
+      "operational_mse": 3.125,
+      "mae": 1.5,
+      "mse": 3.125
+    },
+    {
+      "user_row": 234,
+      "context": "full_history",
+      "targets": 16,
+      "valid": true,
+      "operational_mae": 0.75,
+      "operational_mse": 1.125,
+      "mae": 0.75,
+      "mse": 1.125
+    },
+    {
+      "user_row": 234,
+      "context": "native_memory",
+      "targets": 16,
+      "valid": true,
+      "operational_mae": 0.9375,
+      "operational_mse": 1.5625,
+      "mae": 0.9375,
+      "mse": 1.5625
+    },
+    {
+      "user_row": 185,
+      "context": "full_history",
+      "targets": 14,
+      "valid": true,
+      "operational_mae": 0.5,
+      "operational_mse": 0.7857142857142857,
+      "mae": 0.5,
+      "mse": 0.7857142857142857
+    },
+    {
+      "user_row": 185,
+      "context": "native_memory",
+      "targets": 14,
+      "valid": true,
+      "operational_mae": 1.2142857142857142,
+      "operational_mse": 2.357142857142857,
+      "mae": 1.2142857142857142,
+      "mse": 2.357142857142857
+    },
+    {
+      "user_row": 185,
+      "context": "no_history",
+      "targets": 14,
+      "valid": true,
+      "operational_mae": 2.357142857142857,
+      "operational_mse": 6.357142857142857,
+      "mae": 2.357142857142857,
+      "mse": 6.357142857142857
+    },
+    {
+      "user_row": 42,
+      "context": "native_memory",
+      "targets": 16,
+      "valid": true,
+      "operational_mae": 1.375,
+      "operational_mse": 2.875,
+      "mae": 1.375,
+      "mse": 2.875
+    },
+    {
+      "user_row": 42,
+      "context": "no_history",
+      "targets": 16,
+      "valid": true,
+      "operational_mae": 2.5625,
+      "operational_mse": 7.0625,
+      "mae": 2.5625,
+      "mse": 7.0625
+    },
+    {
+      "user_row": 42,
+      "context": "full_history",
+      "targets": 16,
+      "valid": true,
+      "operational_mae": 1.625,
+      "operational_mse": 3.375,
+      "mae": 1.625,
+      "mse": 3.375
+    },
+    {
+      "user_row": 188,
+      "context": "no_history",
+      "targets": 15,
+      "valid": true,
+      "operational_mae": 2.533333333333333,
+      "operational_mse": 7.2,
+      "mae": 2.533333333333333,
+      "mse": 7.2
+    },
+    {
+      "user_row": 188,
+      "context": "full_history",
+      "targets": 15,
+      "valid": true,
+      "operational_mae": 0.0,
+      "operational_mse": 0.0,
+      "mae": 0.0,
+      "mse": 0.0
+    },
+    {
+      "user_row": 188,
+      "context": "native_memory",
+      "targets": 15,
+      "valid": true,
+      "operational_mae": 1.1333333333333333,
+      "operational_mse": 2.2,
+      "mae": 1.1333333333333333,
+      "mse": 2.2
+    },
+    {
+      "user_row": 2,
+      "context": "full_history",
+      "targets": 16,
+      "valid": true,
+      "operational_mae": 1.25,
+      "operational_mse": 2.5,
+      "mae": 1.25,
+      "mse": 2.5
+    },
+    {
+      "user_row": 2,
+      "context": "native_memory",
+      "targets": 16,
+      "valid": true,
+      "operational_mae": 1.375,
+      "operational_mse": 2.875,
+      "mae": 1.375,
+      "mse": 2.875
+    },
+    {
+      "user_row": 2,
+      "context": "no_history",
+      "targets": 16,
+      "valid": true,
+      "operational_mae": 2.0625,
+      "operational_mse": 5.3125,
+      "mae": 2.0625,
+      "mse": 5.3125
+    },
+    {
+      "user_row": 9,
+      "context": "native_memory",
+      "targets": 15,
+      "valid": true,
+      "operational_mae": 0.9333333333333333,
+      "operational_mse": 1.7333333333333334,
+      "mae": 0.9333333333333333,
+      "mse": 1.7333333333333334
+    },
+    {
+      "user_row": 9,
+      "context": "no_history",
+      "targets": 15,
+      "valid": true,
+      "operational_mae": 1.9333333333333333,
+      "operational_mse": 4.466666666666667,
+      "mae": 1.9333333333333333,
+      "mse": 4.466666666666667
+    },
+    {
+      "user_row": 9,
+      "context": "full_history",
+      "targets": 15,
+      "valid": true,
+      "operational_mae": 1.4,
+      "operational_mse": 3.0,
+      "mae": 1.4,
+      "mse": 3.0
+    },
+    {
+      "user_row": 16,
+      "context": "no_history",
+      "targets": 15,
+      "valid": true,
+      "operational_mae": 2.6,
+      "operational_mse": 7.4,
+      "mae": 2.6,
+      "mse": 7.4
+    },
+    {
+      "user_row": 16,
+      "context": "full_history",
+      "targets": 15,
+      "valid": true,
+      "operational_mae": 0.8,
+      "operational_mse": 1.2,
+      "mae": 0.8,
+      "mse": 1.2
+    },
+    {
+      "user_row": 16,
+      "context": "native_memory",
+      "targets": 15,
+      "valid": true,
+      "operational_mae": 0.4666666666666667,
+      "operational_mse": 0.8666666666666667,
+      "mae": 0.4666666666666667,
+      "mse": 0.8666666666666667
+    },
+    {
+      "user_row": 66,
+      "context": "full_history",
+      "targets": 15,
+      "valid": true,
+      "operational_mae": 0.9333333333333333,
+      "operational_mse": 1.6,
+      "mae": 0.9333333333333333,
+      "mse": 1.6
+    },
+    {
+      "user_row": 66,
+      "context": "native_memory",
+      "targets": 15,
+      "valid": true,
+      "operational_mae": 1.0666666666666667,
+      "operational_mse": 1.7333333333333334,
+      "mae": 1.0666666666666667,
+      "mse": 1.7333333333333334
+    },
+    {
+      "user_row": 66,
+      "context": "no_history",
+      "targets": 15,
+      "valid": true,
+      "operational_mae": 0.9333333333333333,
+      "operational_mse": 1.3333333333333333,
+      "mae": 0.9333333333333333,
+      "mse": 1.3333333333333333
+    },
+    {
+      "user_row": 194,
+      "context": "native_memory",
+      "targets": 15,
+      "valid": true,
+      "operational_mae": 1.4666666666666666,
+      "operational_mse": 2.533333333333333,
+      "mae": 1.4666666666666666,
+      "mse": 2.533333333333333
+    },
+    {
+      "user_row": 194,
+      "context": "no_history",
+      "targets": 15,
+      "valid": true,
+      "operational_mae": 1.2,
+      "operational_mse": 2.1333333333333333,
+      "mae": 1.2,
+      "mse": 2.1333333333333333
+    },
+    {
+      "user_row": 194,
+      "context": "full_history",
+      "targets": 15,
+      "valid": true,
+      "operational_mae": 1.6,
+      "operational_mse": 3.066666666666667,
+      "mae": 1.6,
+      "mse": 3.066666666666667
+    },
+    {
+      "user_row": 183,
+      "context": "no_history",
+      "targets": 15,
+      "valid": true,
+      "operational_mae": 1.5333333333333334,
+      "operational_mse": 3.2,
+      "mae": 1.5333333333333334,
+      "mse": 3.2
+    },
+    {
+      "user_row": 183,
+      "context": "full_history",
+      "targets": 15,
+      "valid": true,
+      "operational_mae": 1.0,
+      "operational_mse": 1.5333333333333334,
+      "mae": 1.0,
+      "mse": 1.5333333333333334
+    },
+    {
+      "user_row": 183,
+      "context": "native_memory",
+      "targets": 15,
+      "valid": true,
+      "operational_mae": 1.3333333333333333,
+      "operational_mse": 2.6666666666666665,
+      "mae": 1.3333333333333333,
+      "mse": 2.6666666666666665
+    },
+    {
+      "user_row": 131,
+      "context": "full_history",
+      "targets": 14,
+      "valid": true,
+      "operational_mae": 1.3571428571428572,
+      "operational_mse": 2.642857142857143,
+      "mae": 1.3571428571428572,
+      "mse": 2.642857142857143
+    },
+    {
+      "user_row": 131,
+      "context": "native_memory",
+      "targets": 14,
+      "valid": true,
+      "operational_mae": 1.4285714285714286,
+      "operational_mse": 3.0,
+      "mae": 1.4285714285714286,
+      "mse": 3.0
+    },
+    {
+      "user_row": 131,
+      "context": "no_history",
+      "targets": 14,
+      "valid": true,
+      "operational_mae": 1.2142857142857142,
+      "operational_mse": 2.7857142857142856,
+      "mae": 1.2142857142857142,
+      "mse": 2.7857142857142856
+    },
+    {
+      "user_row": 275,
+      "context": "native_memory",
+      "targets": 15,
+      "valid": true,
+      "operational_mae": 1.4666666666666666,
+      "operational_mse": 3.066666666666667,
+      "mae": 1.4666666666666666,
+      "mse": 3.066666666666667
+    },
+    {
+      "user_row": 275,
+      "context": "no_history",
+      "targets": 15,
+      "valid": true,
+      "operational_mae": 1.4,
+      "operational_mse": 3.2666666666666666,
+      "mae": 1.4,
+      "mse": 3.2666666666666666
+    },
+    {
+      "user_row": 275,
+      "context": "full_history",
+      "targets": 15,
+      "valid": true,
+      "operational_mae": 1.2666666666666666,
+      "operational_mse": 2.466666666666667,
+      "mae": 1.2666666666666666,
+      "mse": 2.466666666666667
+    },
+    {
+      "user_row": 15,
+      "context": "no_history",
+      "targets": 14,
+      "valid": true,
+      "operational_mae": 1.5,
+      "operational_mse": 3.7857142857142856,
+      "mae": 1.5,
+      "mse": 3.7857142857142856
+    },
+    {
+      "user_row": 15,
+      "context": "full_history",
+      "targets": 14,
+      "valid": true,
+      "operational_mae": 1.1428571428571428,
+      "operational_mse": 2.2857142857142856,
+      "mae": 1.1428571428571428,
+      "mse": 2.2857142857142856
+    },
+    {
+      "user_row": 15,
+      "context": "native_memory",
+      "targets": 14,
+      "valid": true,
+      "operational_mae": 1.2142857142857142,
+      "operational_mse": 2.642857142857143,
+      "mae": 1.2142857142857142,
+      "mse": 2.642857142857143
+    },
+    {
+      "user_row": 166,
+      "context": "full_history",
+      "targets": 14,
+      "valid": true,
+      "operational_mae": 2.0,
+      "operational_mse": 5.0,
+      "mae": 2.0,
+      "mse": 5.0
+    },
+    {
+      "user_row": 166,
+      "context": "native_memory",
+      "targets": 14,
+      "valid": true,
+      "operational_mae": 0.7142857142857143,
+      "operational_mse": 1.4285714285714286,
+      "mae": 0.7142857142857143,
+      "mse": 1.4285714285714286
+    },
+    {
+      "user_row": 166,
+      "context": "no_history",
+      "targets": 14,
+      "valid": true,
+      "operational_mae": 1.8571428571428572,
+      "operational_mse": 4.857142857142857,
+      "mae": 1.8571428571428572,
+      "mse": 4.857142857142857
+    },
+    {
+      "user_row": 210,
+      "context": "native_memory",
+      "targets": 13,
+      "valid": true,
+      "operational_mae": 1.1538461538461537,
+      "operational_mse": 2.3846153846153846,
+      "mae": 1.1538461538461537,
+      "mse": 2.3846153846153846
+    },
+    {
+      "user_row": 210,
+      "context": "no_history",
+      "targets": 13,
+      "valid": true,
+      "operational_mae": 1.4615384615384615,
+      "operational_mse": 3.0,
+      "mae": 1.4615384615384615,
+      "mse": 3.0
+    },
+    {
+      "user_row": 210,
+      "context": "full_history",
+      "targets": 13,
+      "valid": true,
+      "operational_mae": 1.3846153846153846,
+      "operational_mse": 2.923076923076923,
+      "mae": 1.3846153846153846,
+      "mse": 2.923076923076923
+    },
+    {
+      "user_row": 43,
+      "context": "no_history",
+      "targets": 15,
+      "valid": true,
+      "operational_mae": 1.9333333333333333,
+      "operational_mse": 4.333333333333333,
+      "mae": 1.9333333333333333,
+      "mse": 4.333333333333333
+    },
+    {
+      "user_row": 43,
+      "context": "full_history",
+      "targets": 15,
+      "valid": true,
+      "operational_mae": 1.1333333333333333,
+      "operational_mse": 2.066666666666667,
+      "mae": 1.1333333333333333,
+      "mse": 2.066666666666667
+    },
+    {
+      "user_row": 43,
+      "context": "native_memory",
+      "targets": 15,
+      "valid": true,
+      "operational_mae": 1.4,
+      "operational_mse": 2.6,
+      "mae": 1.4,
+      "mse": 2.6
+    },
+    {
+      "user_row": 223,
+      "context": "full_history",
+      "targets": 15,
+      "valid": true,
+      "operational_mae": 1.7333333333333334,
+      "operational_mse": 3.7333333333333334,
+      "mae": 1.7333333333333334,
+      "mse": 3.7333333333333334
+    },
+    {
+      "user_row": 223,
+      "context": "native_memory",
+      "targets": 15,
+      "valid": true,
+      "operational_mae": 1.6666666666666667,
+      "operational_mse": 3.6666666666666665,
+      "mae": 1.6666666666666667,
+      "mse": 3.6666666666666665
+    },
+    {
+      "user_row": 223,
+      "context": "no_history",
+      "targets": 15,
+      "valid": true,
+      "operational_mae": 1.8666666666666667,
+      "operational_mse": 4.4,
+      "mae": 1.8666666666666667,
+      "mse": 4.4
+    },
+    {
+      "user_row": 260,
+      "context": "native_memory",
+      "targets": 15,
+      "valid": true,
+      "operational_mae": 0.8,
+      "operational_mse": 1.4666666666666666,
+      "mae": 0.8,
+      "mse": 1.4666666666666666
+    },
+    {
+      "user_row": 260,
+      "context": "no_history",
+      "targets": 15,
+      "valid": true,
+      "operational_mae": 2.7333333333333334,
+      "operational_mse": 8.066666666666666,
+      "mae": 2.7333333333333334,
+      "mse": 8.066666666666666
+    },
+    {
+      "user_row": 260,
+      "context": "full_history",
+      "targets": 15,
+      "valid": true,
+      "operational_mae": 0.4,
+      "operational_mse": 0.6666666666666666,
+      "mae": 0.4,
+      "mse": 0.6666666666666666
+    },
+    {
+      "user_row": 24,
+      "context": "no_history",
+      "targets": 16,
+      "valid": true,
+      "operational_mae": 1.0625,
+      "operational_mse": 1.8125,
+      "mae": 1.0625,
+      "mse": 1.8125
+    },
+    {
+      "user_row": 24,
+      "context": "full_history",
+      "targets": 16,
+      "valid": false,
+      "operational_mae": 0.88637065699933,
+      "operational_mse": 1.4192109042406513,
+      "mae": null,
+      "mse": null
+    },
+    {
+      "user_row": 24,
+      "context": "native_memory",
+      "targets": 16,
+      "valid": true,
+      "operational_mae": 1.4375,
+      "operational_mse": 2.9375,
+      "mae": 1.4375,
+      "mse": 2.9375
+    },
+    {
+      "user_row": 111,
+      "context": "full_history",
+      "targets": 15,
+      "valid": true,
+      "operational_mae": 1.2666666666666666,
+      "operational_mse": 2.466666666666667,
+      "mae": 1.2666666666666666,
+      "mse": 2.466666666666667
+    },
+    {
+      "user_row": 111,
+      "context": "native_memory",
+      "targets": 15,
+      "valid": true,
+      "operational_mae": 1.4666666666666666,
+      "operational_mse": 3.2,
+      "mae": 1.4666666666666666,
+      "mse": 3.2
+    },
+    {
+      "user_row": 111,
+      "context": "no_history",
+      "targets": 15,
+      "valid": true,
+      "operational_mae": 1.5333333333333334,
+      "operational_mse": 3.6666666666666665,
+      "mae": 1.5333333333333334,
+      "mse": 3.6666666666666665
+    },
+    {
+      "user_row": 94,
+      "context": "native_memory",
+      "targets": 14,
+      "valid": true,
+      "operational_mae": 1.0,
+      "operational_mse": 1.7142857142857142,
+      "mae": 1.0,
+      "mse": 1.7142857142857142
+    },
+    {
+      "user_row": 94,
+      "context": "no_history",
+      "targets": 14,
+      "valid": true,
+      "operational_mae": 2.642857142857143,
+      "operational_mse": 7.357142857142857,
+      "mae": 2.642857142857143,
+      "mse": 7.357142857142857
+    },
+    {
+      "user_row": 94,
+      "context": "full_history",
+      "targets": 14,
+      "valid": true,
+      "operational_mae": 0.21428571428571427,
+      "operational_mse": 0.21428571428571427,
+      "mae": 0.21428571428571427,
+      "mse": 0.21428571428571427
+    },
+    {
+      "user_row": 231,
+      "context": "no_history",
+      "targets": 14,
+      "valid": true,
+      "operational_mae": 1.7857142857142858,
+      "operational_mse": 4.071428571428571,
+      "mae": 1.7857142857142858,
+      "mse": 4.071428571428571
+    },
+    {
+      "user_row": 231,
+      "context": "full_history",
+      "targets": 14,
+      "valid": true,
+      "operational_mae": 1.2142857142857142,
+      "operational_mse": 2.357142857142857,
+      "mae": 1.2142857142857142,
+      "mse": 2.357142857142857
+    },
+    {
+      "user_row": 231,
+      "context": "native_memory",
+      "targets": 14,
+      "valid": true,
+      "operational_mae": 1.2857142857142858,
+      "operational_mse": 2.4285714285714284,
+      "mae": 1.2857142857142858,
+      "mse": 2.4285714285714284
+    },
+    {
+      "user_row": 228,
+      "context": "full_history",
+      "targets": 15,
+      "valid": true,
+      "operational_mae": 0.7333333333333333,
+      "operational_mse": 1.2666666666666666,
+      "mae": 0.7333333333333333,
+      "mse": 1.2666666666666666
+    },
+    {
+      "user_row": 228,
+      "context": "native_memory",
+      "targets": 15,
+      "valid": true,
+      "operational_mae": 0.8,
+      "operational_mse": 1.2,
+      "mae": 0.8,
+      "mse": 1.2
+    },
+    {
+      "user_row": 228,
+      "context": "no_history",
+      "targets": 15,
+      "valid": true,
+      "operational_mae": 1.8,
+      "operational_mse": 3.8,
+      "mae": 1.8,
+      "mse": 3.8
+    },
+    {
+      "user_row": 31,
+      "context": "native_memory",
+      "targets": 16,
+      "valid": true,
+      "operational_mae": 1.75,
+      "operational_mse": 3.875,
+      "mae": 1.75,
+      "mse": 3.875
+    },
+    {
+      "user_row": 31,
+      "context": "no_history",
+      "targets": 16,
+      "valid": true,
+      "operational_mae": 2.1875,
+      "operational_mse": 6.1875,
+      "mae": 2.1875,
+      "mse": 6.1875
+    },
+    {
+      "user_row": 31,
+      "context": "full_history",
+      "targets": 16,
+      "valid": true,
+      "operational_mae": 1.9375,
+      "operational_mse": 4.3125,
+      "mae": 1.9375,
+      "mse": 4.3125
+    }
+  ],
+  "numerical_references": [
+    {
+      "variant": "population_mean",
+      "penalty": null,
+      "users": 30,
+      "targets": 438,
+      "excluded_user_rows": [],
+      "macro_mae": 1.0374555383852258,
+      "macro_rmse": 1.198820763900231
+    },
+    {
+      "variant": "population_features",
+      "penalty": null,
+      "users": 30,
+      "targets": 438,
+      "excluded_user_rows": [],
+      "macro_mae": 1.0398284240066595,
+      "macro_rmse": 1.205340055763184
+    },
+    {
+      "variant": "user_mean",
+      "penalty": 10.0,
+      "users": 30,
+      "targets": 438,
+      "excluded_user_rows": [],
+      "macro_mae": 1.0085278711351315,
+      "macro_rmse": 1.1641165189389324
+    },
+    {
+      "variant": "uniform",
+      "penalty": 1.0,
+      "users": 30,
+      "targets": 438,
+      "excluded_user_rows": [],
+      "macro_mae": 0.8947533650385355,
+      "macro_rmse": 1.1324860980067706
+    }
+  ],
+  "resources": {
+    "writers": {
+      "calls_with_response": 30,
+      "attempted_users": 30,
+      "errors": 0,
+      "length_stops": 0,
+      "seconds": 1232.4828677110054,
+      "tokens": {
+        "prompt_tokens": 267344,
+        "completion_tokens": 29976,
+        "total_tokens": 297320
+      },
+      "memory_count_total": 493,
+      "stored_text_bytes": 57707
+    },
+    "readers": {
+      "no_history": {
+        "calls": 30,
+        "seconds": 63.169046667004295,
+        "tokens": {
+          "prompt_tokens": 17531,
+          "completion_tokens": 1352,
+          "total_tokens": 18883
+        },
+        "invalid": 0,
+        "length_stops": 0
+      },
+      "full_history": {
+        "calls": 30,
+        "seconds": 134.8536857469917,
+        "tokens": {
+          "prompt_tokens": 44785,
+          "completion_tokens": 1347,
+          "total_tokens": 46132
+        },
+        "invalid": 1,
+        "length_stops": 0
+      },
+      "native_memory": {
+        "calls": 30,
+        "seconds": 111.17673675099286,
+        "tokens": {
+          "prompt_tokens": 35800,
+          "completion_tokens": 1344,
+          "total_tokens": 37144
+        },
+        "invalid": 0,
+        "length_stops": 0
+      }
+    }
+  }
+}

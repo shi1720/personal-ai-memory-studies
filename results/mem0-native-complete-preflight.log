@@ -1,0 +1,4 @@
+/Users/shivamgupta/Downloads/personal-ai-research/.venv-mem0/lib/python3.12/site-packages/mem0/vector_stores/qdrant.py:177: UserWarning: Payload indexes have no effect in the local Qdrant. Please use server Qdrant if you need payload indexes.
+  self.client.create_payload_index(
+{"status": "passed", "checks": {"nonempty_store": true, "persistent_ids": true, "retrieves_memories": true, "separate_user_empty": true}, "seconds": 7.054574666999542}
+{"nlp_full": true, "lemmatizer": true, "keyword_hits": 2, "bm25_initialized": true}

@@ -1,0 +1,48 @@
+{
+  "status": "deterministic engineering control; no LLM or user evaluation",
+  "events": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "canonical_width": 3,
+  "partitions_checked": 1024,
+  "canonical_chunks": [
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      3,
+      4,
+      5
+    ],
+    [
+      6,
+      7,
+      8
+    ],
+    [
+      9,
+      10
+    ]
+  ],
+  "canonical_writer_trace": [
+    2,
+    5,
+    8,
+    10
+  ],
+  "canonical_trace_mismatches": 0,
+  "packet_writer_mismatches_against_single_packet": 1023,
+  "interpretation": "Buffering solves delivery invariance under the stated contract; it says nothing about answer accuracy, latency or best chunking."
+}

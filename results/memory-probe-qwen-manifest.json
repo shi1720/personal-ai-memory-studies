@@ -1,0 +1,23 @@
+{
+  "status": "post hoc development proxy test; untrained base model",
+  "model": "qwen",
+  "temperature": 0,
+  "seed": 0,
+  "max_input_tokens": 4096,
+  "max_output_tokens": 256,
+  "scheduled_records": 36,
+  "entropy": "full-vocabulary natural logs, float32 before logsumexp, exclude EOS",
+  "hashes": {
+    "docs/memory-probe-information.md": "eaa4ddad5445621ebb60f1beae4b5eff47dc30a3acc3ee2143aafd5c19e5f38b",
+    "src/run_memory_probe_screen.py": "8ee82d2b3a6e46883ffaf115bcaaf6a271a3420c4fbffd4af6df06bf00b6869c",
+    "results/pilot-004-inputs.json": "31006e8ada8d59698878dfae83ac8a683e30054983adfbf7edc1e7ab7ac6e899",
+    "results/pilot-004-qwen-predictions.jsonl": "ed16123bb78f65917628e790774722230a94200e2963b82e4c764552e978de2a",
+    "references/local-model-manifest.json": "539676dc2ffde3643d164f8bf20cfa5e560b0be04b59c6f092aa62987f7207a9"
+  },
+  "stream_generate_source_sha256": "61087d5124c88681b1c5697489ec5e7f9f00b665185fa42797bf0bcb65e4639c",
+  "versions": {
+    "mlx": "0.32.2",
+    "mlx-lm": "0.31.3",
+    "transformers": "5.17.0"
+  }
+}

@@ -1,0 +1,715 @@
+{
+  "status": "post hoc identical-prompt output-budget sensitivity",
+  "model": "phi",
+  "planned_cases": 48,
+  "actual_generations": 45,
+  "generation_seconds": 418.0935668340062,
+  "truncations": 0,
+  "completed_response_changes": 0,
+  "summaries": {
+    "full": {
+      "planned": 12,
+      "correct": 8,
+      "wrong": 3,
+      "abstained": 0,
+      "invalid": 1,
+      "blocked_writer": 0,
+      "answer_coverage": 0.9166666666666666,
+      "source_truth_accuracy": 0.6666666666666666,
+      "error_given_answered": 0.2727272727272727
+    },
+    "native": {
+      "planned": 12,
+      "correct": 9,
+      "wrong": 2,
+      "abstained": 0,
+      "invalid": 1,
+      "blocked_writer": 0,
+      "answer_coverage": 0.9166666666666666,
+      "source_truth_accuracy": 0.75,
+      "error_given_answered": 0.18181818181818182
+    },
+    "count_aware": {
+      "planned": 12,
+      "correct": 4,
+      "wrong": 3,
+      "abstained": 0,
+      "invalid": 2,
+      "blocked_writer": 3,
+      "answer_coverage": 0.5833333333333334,
+      "source_truth_accuracy": 0.3333333333333333,
+      "error_given_answered": 0.42857142857142855
+    },
+    "ledger": {
+      "planned": 12,
+      "correct": 10,
+      "wrong": 0,
+      "abstained": 0,
+      "invalid": 2,
+      "blocked_writer": 0,
+      "answer_coverage": 0.8333333333333334,
+      "source_truth_accuracy": 0.8333333333333334,
+      "error_given_answered": 0.0
+    }
+  },
+  "paired": {
+    "native": {
+      "full_correct": 8,
+      "retained_correct": 7,
+      "losses": {
+        "wrong": 0,
+        "abstained": 0,
+        "invalid": 1,
+        "blocked_writer": 0
+      },
+      "reverse_gains": 2,
+      "pairs": [
+        {
+          "journal": "extract-00",
+          "full": "correct",
+          "compressed": "invalid"
+        },
+        {
+          "journal": "extract-01",
+          "full": "correct",
+          "compressed": "correct"
+        },
+        {
+          "journal": "extract-02",
+          "full": "correct",
+          "compressed": "correct"
+        },
+        {
+          "journal": "extract-03",
+          "full": "correct",
+          "compressed": "correct"
+        },
+        {
+          "journal": "extract-04",
+          "full": "correct",
+          "compressed": "correct"
+        },
+        {
+          "journal": "extract-05",
+          "full": "correct",
+          "compressed": "correct"
+        },
+        {
+          "journal": "extract-06",
+          "full": "correct",
+          "compressed": "correct"
+        },
+        {
+          "journal": "extract-07",
+          "full": "invalid",
+          "compressed": "correct"
+        },
+        {
+          "journal": "extract-08",
+          "full": "correct",
+          "compressed": "correct"
+        },
+        {
+          "journal": "extract-09",
+          "full": "wrong",
+          "compressed": "wrong"
+        },
+        {
+          "journal": "extract-10",
+          "full": "wrong",
+          "compressed": "correct"
+        },
+        {
+          "journal": "extract-11",
+          "full": "wrong",
+          "compressed": "wrong"
+        }
+      ]
+    },
+    "count_aware": {
+      "full_correct": 8,
+      "retained_correct": 4,
+      "losses": {
+        "wrong": 1,
+        "abstained": 0,
+        "invalid": 1,
+        "blocked_writer": 2
+      },
+      "reverse_gains": 0,
+      "pairs": [
+        {
+          "journal": "extract-00",
+          "full": "correct",
+          "compressed": "invalid"
+        },
+        {
+          "journal": "extract-01",
+          "full": "correct",
+          "compressed": "blocked_writer"
+        },
+        {
+          "journal": "extract-02",
+          "full": "correct",
+          "compressed": "blocked_writer"
+        },
+        {
+          "journal": "extract-03",
+          "full": "correct",
+          "compressed": "correct"
+        },
+        {
+          "journal": "extract-04",
+          "full": "correct",
+          "compressed": "correct"
+        },
+        {
+          "journal": "extract-05",
+          "full": "correct",
+          "compressed": "wrong"
+        },
+        {
+          "journal": "extract-06",
+          "full": "correct",
+          "compressed": "correct"
+        },
+        {
+          "journal": "extract-07",
+          "full": "invalid",
+          "compressed": "invalid"
+        },
+        {
+          "journal": "extract-08",
+          "full": "correct",
+          "compressed": "correct"
+        },
+        {
+          "journal": "extract-09",
+          "full": "wrong",
+          "compressed": "wrong"
+        },
+        {
+          "journal": "extract-10",
+          "full": "wrong",
+          "compressed": "wrong"
+        },
+        {
+          "journal": "extract-11",
+          "full": "wrong",
+          "compressed": "blocked_writer"
+        }
+      ]
+    },
+    "ledger": {
+      "full_correct": 8,
+      "retained_correct": 7,
+      "losses": {
+        "wrong": 0,
+        "abstained": 0,
+        "invalid": 1,
+        "blocked_writer": 0
+      },
+      "reverse_gains": 3,
+      "pairs": [
+        {
+          "journal": "extract-00",
+          "full": "correct",
+          "compressed": "invalid"
+        },
+        {
+          "journal": "extract-01",
+          "full": "correct",
+          "compressed": "correct"
+        },
+        {
+          "journal": "extract-02",
+          "full": "correct",
+          "compressed": "correct"
+        },
+        {
+          "journal": "extract-03",
+          "full": "correct",
+          "compressed": "correct"
+        },
+        {
+          "journal": "extract-04",
+          "full": "correct",
+          "compressed": "correct"
+        },
+        {
+          "journal": "extract-05",
+          "full": "correct",
+          "compressed": "correct"
+        },
+        {
+          "journal": "extract-06",
+          "full": "correct",
+          "compressed": "correct"
+        },
+        {
+          "journal": "extract-07",
+          "full": "invalid",
+          "compressed": "invalid"
+        },
+        {
+          "journal": "extract-08",
+          "full": "correct",
+          "compressed": "correct"
+        },
+        {
+          "journal": "extract-09",
+          "full": "wrong",
+          "compressed": "correct"
+        },
+        {
+          "journal": "extract-10",
+          "full": "wrong",
+          "compressed": "correct"
+        },
+        {
+          "journal": "extract-11",
+          "full": "wrong",
+          "compressed": "correct"
+        }
+      ]
+    }
+  },
+  "measurements": [
+    {
+      "journal": "extract-00",
+      "context": "full",
+      "outcome": "correct",
+      "initial_outcome": "correct",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-00",
+      "context": "native",
+      "outcome": "invalid",
+      "initial_outcome": "invalid",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-00",
+      "context": "count_aware",
+      "outcome": "invalid",
+      "initial_outcome": "invalid",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-00",
+      "context": "ledger",
+      "outcome": "invalid",
+      "initial_outcome": "invalid",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-01",
+      "context": "full",
+      "outcome": "correct",
+      "initial_outcome": "correct",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-01",
+      "context": "native",
+      "outcome": "correct",
+      "initial_outcome": "correct",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-01",
+      "context": "count_aware",
+      "outcome": "blocked_writer",
+      "initial_outcome": "blocked_writer",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-01",
+      "context": "ledger",
+      "outcome": "correct",
+      "initial_outcome": "correct",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-02",
+      "context": "full",
+      "outcome": "correct",
+      "initial_outcome": "correct",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-02",
+      "context": "native",
+      "outcome": "correct",
+      "initial_outcome": "correct",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-02",
+      "context": "count_aware",
+      "outcome": "blocked_writer",
+      "initial_outcome": "blocked_writer",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-02",
+      "context": "ledger",
+      "outcome": "correct",
+      "initial_outcome": "correct",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-03",
+      "context": "full",
+      "outcome": "correct",
+      "initial_outcome": "correct",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-03",
+      "context": "native",
+      "outcome": "correct",
+      "initial_outcome": "correct",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-03",
+      "context": "count_aware",
+      "outcome": "correct",
+      "initial_outcome": "correct",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-03",
+      "context": "ledger",
+      "outcome": "correct",
+      "initial_outcome": "correct",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-04",
+      "context": "full",
+      "outcome": "correct",
+      "initial_outcome": "correct",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-04",
+      "context": "native",
+      "outcome": "correct",
+      "initial_outcome": "correct",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-04",
+      "context": "count_aware",
+      "outcome": "correct",
+      "initial_outcome": "correct",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-04",
+      "context": "ledger",
+      "outcome": "correct",
+      "initial_outcome": "correct",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-05",
+      "context": "full",
+      "outcome": "correct",
+      "initial_outcome": "correct",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-05",
+      "context": "native",
+      "outcome": "correct",
+      "initial_outcome": "correct",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-05",
+      "context": "count_aware",
+      "outcome": "wrong",
+      "initial_outcome": "wrong",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-05",
+      "context": "ledger",
+      "outcome": "correct",
+      "initial_outcome": "correct",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-06",
+      "context": "full",
+      "outcome": "correct",
+      "initial_outcome": "correct",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-06",
+      "context": "native",
+      "outcome": "correct",
+      "initial_outcome": "correct",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-06",
+      "context": "count_aware",
+      "outcome": "correct",
+      "initial_outcome": "correct",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-06",
+      "context": "ledger",
+      "outcome": "correct",
+      "initial_outcome": "correct",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-07",
+      "context": "full",
+      "outcome": "invalid",
+      "initial_outcome": "invalid",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-07",
+      "context": "native",
+      "outcome": "correct",
+      "initial_outcome": "correct",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-07",
+      "context": "count_aware",
+      "outcome": "invalid",
+      "initial_outcome": "invalid",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-07",
+      "context": "ledger",
+      "outcome": "invalid",
+      "initial_outcome": "invalid",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-08",
+      "context": "full",
+      "outcome": "correct",
+      "initial_outcome": "correct",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-08",
+      "context": "native",
+      "outcome": "correct",
+      "initial_outcome": "correct",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-08",
+      "context": "count_aware",
+      "outcome": "correct",
+      "initial_outcome": "correct",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-08",
+      "context": "ledger",
+      "outcome": "correct",
+      "initial_outcome": "correct",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-09",
+      "context": "full",
+      "outcome": "wrong",
+      "initial_outcome": "wrong",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-09",
+      "context": "native",
+      "outcome": "wrong",
+      "initial_outcome": "wrong",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-09",
+      "context": "count_aware",
+      "outcome": "wrong",
+      "initial_outcome": "wrong",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-09",
+      "context": "ledger",
+      "outcome": "correct",
+      "initial_outcome": "correct",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-10",
+      "context": "full",
+      "outcome": "wrong",
+      "initial_outcome": "wrong",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-10",
+      "context": "native",
+      "outcome": "correct",
+      "initial_outcome": "correct",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-10",
+      "context": "count_aware",
+      "outcome": "wrong",
+      "initial_outcome": "wrong",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-10",
+      "context": "ledger",
+      "outcome": "correct",
+      "initial_outcome": "correct",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-11",
+      "context": "full",
+      "outcome": "wrong",
+      "initial_outcome": "wrong",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-11",
+      "context": "native",
+      "outcome": "wrong",
+      "initial_outcome": "wrong",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-11",
+      "context": "count_aware",
+      "outcome": "blocked_writer",
+      "initial_outcome": "blocked_writer",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    },
+    {
+      "journal": "extract-11",
+      "context": "ledger",
+      "outcome": "correct",
+      "initial_outcome": "correct",
+      "truncated": false,
+      "initial_truncated": false,
+      "completed_response_changed": false
+    }
+  ],
+  "hashes": {
+    "trace": "b5ce96a7da9947617191bdf2d8e6c997d3fb4dd54675a782e2032c350c2ed531",
+    "analysis": "11f602dff4ef2c4d22bf42db445ef87085f33c7ca2de006114d1c69cc39e73e7",
+    "gold": "0928e5d7c16fdd80d69cb63fd9c1344b814a41471259448425baf900ab0ca2bb"
+  }
+}

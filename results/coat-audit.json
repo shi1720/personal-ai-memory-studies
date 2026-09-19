@@ -1,0 +1,95 @@
+{
+  "status": "exploratory dataset integrity audit; no fitted model or causal result",
+  "source": "https://www.cs.cornell.edu/~schnabts/mnar/coat.zip",
+  "archive_sha256": "6073d0b515ed1f6e830e4fead66dc76ad7991a7553eaa58e228b234a9d19daed",
+  "license": "CC BY-NC 4.0, as linked by the author dataset page; research use only here",
+  "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "source_page": "https://www.cs.cornell.edu/~schnabts/mnar/",
+  "paper": "https://proceedings.mlr.press/v48/schnabel16.html",
+  "files": {
+    "coat/propensities.ascii": {
+      "bytes": 2175000,
+      "sha256": "a72e3142a413623c4a6b9d20c4f70fcc017e0db67cc3eb242116f69fb8fb9661"
+    },
+    "coat/README.txt": {
+      "bytes": 184,
+      "sha256": "cda6f0f12aa148f5391561ef95a5f2dd6f7e3838ec17e84fcb615bc11a7ffae0"
+    },
+    "coat/test.ascii": {
+      "bytes": 174290,
+      "sha256": "de6714ab105a5e0be8166be7fd313901b29f9a09c3bea307901457d1d71847e6"
+    },
+    "coat/train.ascii": {
+      "bytes": 174290,
+      "sha256": "a87bd9e7eaf3b89f976df3f25d4aa5d5d871be8a00b58947df9e6e015559bd37"
+    },
+    "coat/user_item_features/item_features.ascii": {
+      "bytes": 20100,
+      "sha256": "edea8217ec5606779b4d3bf819f7591dc63bcd5194d619e8048c2322d07630b1"
+    },
+    "coat/user_item_features/item_features_map.txt": {
+      "bytes": 498,
+      "sha256": "2675dfaa38b89a9cbb1997f0cfcd46ed7e0e366dc515d12d95508d1f356e5d25"
+    },
+    "coat/user_item_features/user_features.ascii": {
+      "bytes": 8410,
+      "sha256": "d8f9531b601c54a7272602f8b21fa6cb4652cbf122e35d8615ea9645ebbf1b1f"
+    },
+    "coat/user_item_features/user_features_map.txt": {
+      "bytes": 211,
+      "sha256": "3b8c825ad4445d4a46a400629c5fb43c805ff5a7982b2e436b69e7262c8a013a"
+    }
+  },
+  "shape": [
+    290,
+    300
+  ],
+  "summaries": {
+    "train": {
+      "observed_ratings": 6960,
+      "ratings_per_user": {
+        "24": 290
+      },
+      "observed_rating_counts": {
+        "1": 1901,
+        "2": 1437,
+        "3": 1717,
+        "4": 1275,
+        "5": 630
+      },
+      "observed_mean": 2.6114942528735634,
+      "items_with_no_observation": 0
+    },
+    "test": {
+      "observed_ratings": 4640,
+      "ratings_per_user": {
+        "16": 290
+      },
+      "observed_rating_counts": {
+        "1": 1879,
+        "2": 899,
+        "3": 1002,
+        "4": 641,
+        "5": 219
+      },
+      "observed_mean": 2.2288793103448277,
+      "items_with_no_observation": 0
+    }
+  },
+  "overlapping_user_item_cells": 366,
+  "overlap_disagreeing_ratings": 0,
+  "propensities": {
+    "kind": "released learned estimates, not known randomized logging probabilities",
+    "minimum": 0.002527463379900383,
+    "maximum": 0.6902553948105166,
+    "mean": 0.0800185456339147
+  },
+  "limitations": [
+    "This is a small elicited shopping-rating dataset, not longitudinal assistant conversations.",
+    "No timestamps are present in the released rating matrices.",
+    "Random-item ratings are sparse observations, not exact per-user ground-truth preferences.",
+    "Released user features include sensitive attributes; this audit does not use them.",
+    "No confirmatory split or predictive evaluation has been conducted."
+  ],
+  "code_sha256": "5d4cd2a98235449c41fa19e6faf1a59147d9e1a7f5dfe5e44318460fb2baeb8e"
+}

@@ -1,0 +1,3068 @@
+{
+  "status": "same-journal exploratory model check, not independent confirmation",
+  "model": "mistral",
+  "adapter": "single_user",
+  "actual_calls": 108,
+  "trace_sha256": "29300cf2e510517d6953e6e15e40edf72d19e5aec65a3d3f4cd31c86dd77809b",
+  "analysis_sha256": "a8c46957e3888b8b06e1b7f592813533d5816fccef0fc9713c8940916494f62f",
+  "reader_seconds": 272.62785362098657,
+  "total_prompt_tokens": 69996,
+  "total_generation_tokens": 4615,
+  "summaries": {
+    "important_plain": {
+      "cases": 12,
+      "valid_cases": 12,
+      "invalid_cases": 0,
+      "missing_activities": 1,
+      "activity_slots_in_valid_cases": 24,
+      "mean_journal_mae_available": 0.3527777777777778,
+      "mean_journal_signed_bias_available": 0.04722222222222222,
+      "mean_detail_event_recall": 0.2777777777777778,
+      "rank_counts": {
+        "correct": 4,
+        "wrong": 1,
+        "tie": 6,
+        "missing": 1
+      },
+      "selected_positive": 51,
+      "selected_total_valid": 72
+    },
+    "important_detailed": {
+      "cases": 12,
+      "valid_cases": 12,
+      "invalid_cases": 0,
+      "missing_activities": 3,
+      "activity_slots_in_valid_cases": 24,
+      "mean_journal_mae_available": 0.3784722222222222,
+      "mean_journal_signed_bias_available": 0.3576388888888889,
+      "mean_detail_event_recall": 0.75,
+      "rank_counts": {
+        "correct": 0,
+        "wrong": 1,
+        "tie": 8,
+        "missing": 3
+      },
+      "selected_positive": 69,
+      "selected_total_valid": 72
+    },
+    "representative_plain": {
+      "cases": 12,
+      "valid_cases": 11,
+      "invalid_cases": 1,
+      "missing_activities": 0,
+      "activity_slots_in_valid_cases": 22,
+      "mean_journal_mae_available": 0.2409090909090909,
+      "mean_journal_signed_bias_available": -0.07424242424242426,
+      "mean_detail_event_recall": 0.2121212121212121,
+      "rank_counts": {
+        "correct": 3,
+        "wrong": 3,
+        "tie": 5,
+        "missing": 0
+      },
+      "selected_positive": 37,
+      "selected_total_valid": 66
+    },
+    "representative_detailed": {
+      "cases": 12,
+      "valid_cases": 12,
+      "invalid_cases": 0,
+      "missing_activities": 0,
+      "activity_slots_in_valid_cases": 24,
+      "mean_journal_mae_available": 0.3368055555555556,
+      "mean_journal_signed_bias_available": 0.2673611111111111,
+      "mean_detail_event_recall": 0.4722222222222222,
+      "rank_counts": {
+        "correct": 2,
+        "wrong": 0,
+        "tie": 10,
+        "missing": 0
+      },
+      "selected_positive": 64,
+      "selected_total_valid": 72
+    },
+    "important_antonym": {
+      "cases": 12,
+      "valid_cases": 12,
+      "invalid_cases": 0,
+      "missing_activities": 3,
+      "activity_slots_in_valid_cases": 24,
+      "mean_journal_mae_available": 0.2972222222222222,
+      "mean_journal_signed_bias_available": -0.0013888888888888885,
+      "mean_detail_event_recall": 0.2361111111111111,
+      "rank_counts": {
+        "correct": 4,
+        "wrong": 3,
+        "tie": 2,
+        "missing": 3
+      },
+      "selected_positive": 47,
+      "selected_total_valid": 72
+    },
+    "archive_negation": {
+      "cases": 12,
+      "valid_cases": 10,
+      "invalid_cases": 2,
+      "missing_activities": 4,
+      "activity_slots_in_valid_cases": 20,
+      "mean_journal_mae_available": 0.32166666666666666,
+      "mean_journal_signed_bias_available": 0.17,
+      "mean_detail_event_recall": 0.26666666666666666,
+      "rank_counts": {
+        "correct": 1,
+        "wrong": 0,
+        "tie": 5,
+        "missing": 4
+      },
+      "selected_positive": 50,
+      "selected_total_valid": 60
+    },
+    "archive_antonym": {
+      "cases": 12,
+      "valid_cases": 10,
+      "invalid_cases": 2,
+      "missing_activities": 2,
+      "activity_slots_in_valid_cases": 20,
+      "mean_journal_mae_available": 0.2991666666666667,
+      "mean_journal_signed_bias_available": -0.0275,
+      "mean_detail_event_recall": 0.16666666666666666,
+      "rank_counts": {
+        "correct": 4,
+        "wrong": 1,
+        "tie": 3,
+        "missing": 2
+      },
+      "selected_positive": 39,
+      "selected_total_valid": 60
+    },
+    "proportional_negation": {
+      "cases": 12,
+      "valid_cases": 10,
+      "invalid_cases": 2,
+      "missing_activities": 1,
+      "activity_slots_in_valid_cases": 20,
+      "mean_journal_mae_available": 0.455,
+      "mean_journal_signed_bias_available": -0.37,
+      "mean_detail_event_recall": 0.15,
+      "rank_counts": {
+        "correct": 2,
+        "wrong": 3,
+        "tie": 4,
+        "missing": 1
+      },
+      "selected_positive": 16,
+      "selected_total_valid": 60
+    },
+    "proportional_antonym": {
+      "cases": 12,
+      "valid_cases": 10,
+      "invalid_cases": 2,
+      "missing_activities": 0,
+      "activity_slots_in_valid_cases": 20,
+      "mean_journal_mae_available": 0.41083333333333333,
+      "mean_journal_signed_bias_available": -0.3358333333333333,
+      "mean_detail_event_recall": 0.09999999999999999,
+      "rank_counts": {
+        "correct": 5,
+        "wrong": 3,
+        "tie": 2,
+        "missing": 0
+      },
+      "selected_positive": 18,
+      "selected_total_valid": 60
+    }
+  },
+  "measurements": [
+    {
+      "journal": "journal-00",
+      "condition": "important_plain",
+      "selected_positive": 3,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "swimming",
+            "target": 0.75,
+            "retained": 3,
+            "estimate": 0.6666666666666666,
+            "error": -0.08333333333333337
+          },
+          {
+            "activity": "cycling",
+            "target": 0.5,
+            "retained": 3,
+            "estimate": 0.3333333333333333,
+            "error": -0.16666666666666669
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.12500000000000003,
+        "signed_bias_available": -0.12500000000000003,
+        "detail_event_recall": 0.16666666666666666,
+        "rank": "correct"
+      }
+    },
+    {
+      "journal": "journal-00",
+      "condition": "important_detailed",
+      "selected_positive": 6,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "swimming",
+            "target": 0.75,
+            "retained": 1,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "cycling",
+            "target": 0.5,
+            "retained": 5,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": 0.375,
+        "detail_event_recall": 0.8333333333333334,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-00",
+      "condition": "representative_plain",
+      "selected_positive": 2,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "swimming",
+            "target": 0.75,
+            "retained": 3,
+            "estimate": 0.3333333333333333,
+            "error": -0.4166666666666667
+          },
+          {
+            "activity": "cycling",
+            "target": 0.5,
+            "retained": 3,
+            "estimate": 0.3333333333333333,
+            "error": -0.16666666666666669
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.2916666666666667,
+        "signed_bias_available": -0.2916666666666667,
+        "detail_event_recall": 0.16666666666666666,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-00",
+      "condition": "representative_detailed",
+      "selected_positive": 3,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "swimming",
+            "target": 0.75,
+            "retained": 2,
+            "estimate": 0.5,
+            "error": -0.25
+          },
+          {
+            "activity": "cycling",
+            "target": 0.5,
+            "retained": 4,
+            "estimate": 0.5,
+            "error": 0.0
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.125,
+        "signed_bias_available": -0.125,
+        "detail_event_recall": 0.3333333333333333,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-00",
+      "condition": "important_antonym",
+      "selected_positive": 3,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "swimming",
+            "target": 0.75,
+            "retained": 3,
+            "estimate": 0.6666666666666666,
+            "error": -0.08333333333333337
+          },
+          {
+            "activity": "cycling",
+            "target": 0.5,
+            "retained": 3,
+            "estimate": 0.3333333333333333,
+            "error": -0.16666666666666669
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.12500000000000003,
+        "signed_bias_available": -0.12500000000000003,
+        "detail_event_recall": 0.16666666666666666,
+        "rank": "correct"
+      }
+    },
+    {
+      "journal": "journal-00",
+      "condition": "archive_negation",
+      "selected_positive": 2,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "swimming",
+            "target": 0.75,
+            "retained": 5,
+            "estimate": 0.4,
+            "error": -0.35
+          },
+          {
+            "activity": "cycling",
+            "target": 0.5,
+            "retained": 1,
+            "estimate": 0.0,
+            "error": -0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.425,
+        "signed_bias_available": -0.425,
+        "detail_event_recall": 0.0,
+        "rank": "correct"
+      }
+    },
+    {
+      "journal": "journal-00",
+      "condition": "archive_antonym",
+      "selected_positive": 3,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "swimming",
+            "target": 0.75,
+            "retained": 3,
+            "estimate": 0.6666666666666666,
+            "error": -0.08333333333333337
+          },
+          {
+            "activity": "cycling",
+            "target": 0.5,
+            "retained": 3,
+            "estimate": 0.3333333333333333,
+            "error": -0.16666666666666669
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.12500000000000003,
+        "signed_bias_available": -0.12500000000000003,
+        "detail_event_recall": 0.16666666666666666,
+        "rank": "correct"
+      }
+    },
+    {
+      "journal": "journal-00",
+      "condition": "proportional_negation",
+      "selected_positive": 0,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "swimming",
+            "target": 0.75,
+            "retained": 1,
+            "estimate": 0.0,
+            "error": -0.75
+          },
+          {
+            "activity": "cycling",
+            "target": 0.5,
+            "retained": 5,
+            "estimate": 0.0,
+            "error": -0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.625,
+        "signed_bias_available": -0.625,
+        "detail_event_recall": 0.0,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-00",
+      "condition": "proportional_antonym",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-01",
+      "condition": "important_plain",
+      "selected_positive": 1,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "painting",
+            "target": 0.75,
+            "retained": 2,
+            "estimate": 0.0,
+            "error": -0.75
+          },
+          {
+            "activity": "pottery",
+            "target": 0.5,
+            "retained": 4,
+            "estimate": 0.25,
+            "error": -0.25
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.5,
+        "signed_bias_available": -0.5,
+        "detail_event_recall": 0.16666666666666666,
+        "rank": "wrong"
+      }
+    },
+    {
+      "journal": "journal-01",
+      "condition": "important_detailed",
+      "selected_positive": 5,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "painting",
+            "target": 0.75,
+            "retained": 2,
+            "estimate": 0.5,
+            "error": -0.25
+          },
+          {
+            "activity": "pottery",
+            "target": 0.5,
+            "retained": 4,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": 0.125,
+        "detail_event_recall": 0.6666666666666666,
+        "rank": "wrong"
+      }
+    },
+    {
+      "journal": "journal-01",
+      "condition": "representative_plain",
+      "selected_positive": 2,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "painting",
+            "target": 0.75,
+            "retained": 3,
+            "estimate": 0.3333333333333333,
+            "error": -0.4166666666666667
+          },
+          {
+            "activity": "pottery",
+            "target": 0.5,
+            "retained": 3,
+            "estimate": 0.3333333333333333,
+            "error": -0.16666666666666669
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.2916666666666667,
+        "signed_bias_available": -0.2916666666666667,
+        "detail_event_recall": 0.16666666666666666,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-01",
+      "condition": "representative_detailed",
+      "selected_positive": 6,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "painting",
+            "target": 0.75,
+            "retained": 1,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "pottery",
+            "target": 0.5,
+            "retained": 5,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": 0.375,
+        "detail_event_recall": 0.8333333333333334,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-01",
+      "condition": "important_antonym",
+      "selected_positive": 1,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "painting",
+            "target": 0.75,
+            "retained": 2,
+            "estimate": 0.0,
+            "error": -0.75
+          },
+          {
+            "activity": "pottery",
+            "target": 0.5,
+            "retained": 4,
+            "estimate": 0.25,
+            "error": -0.25
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.5,
+        "signed_bias_available": -0.5,
+        "detail_event_recall": 0.16666666666666666,
+        "rank": "wrong"
+      }
+    },
+    {
+      "journal": "journal-01",
+      "condition": "archive_negation",
+      "selected_positive": 6,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "painting",
+            "target": 0.75,
+            "retained": 2,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "pottery",
+            "target": 0.5,
+            "retained": 4,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": 0.375,
+        "detail_event_recall": 0.6666666666666666,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-01",
+      "condition": "archive_antonym",
+      "selected_positive": 1,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "painting",
+            "target": 0.75,
+            "retained": 2,
+            "estimate": 0.0,
+            "error": -0.75
+          },
+          {
+            "activity": "pottery",
+            "target": 0.5,
+            "retained": 4,
+            "estimate": 0.25,
+            "error": -0.25
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.5,
+        "signed_bias_available": -0.5,
+        "detail_event_recall": 0.16666666666666666,
+        "rank": "wrong"
+      }
+    },
+    {
+      "journal": "journal-01",
+      "condition": "proportional_negation",
+      "selected_positive": 1,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "painting",
+            "target": 0.75,
+            "retained": 2,
+            "estimate": 0.0,
+            "error": -0.75
+          },
+          {
+            "activity": "pottery",
+            "target": 0.5,
+            "retained": 4,
+            "estimate": 0.25,
+            "error": -0.25
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.5,
+        "signed_bias_available": -0.5,
+        "detail_event_recall": 0.16666666666666666,
+        "rank": "wrong"
+      }
+    },
+    {
+      "journal": "journal-01",
+      "condition": "proportional_antonym",
+      "selected_positive": 1,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "painting",
+            "target": 0.75,
+            "retained": 2,
+            "estimate": 0.0,
+            "error": -0.75
+          },
+          {
+            "activity": "pottery",
+            "target": 0.5,
+            "retained": 4,
+            "estimate": 0.25,
+            "error": -0.25
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.5,
+        "signed_bias_available": -0.5,
+        "detail_event_recall": 0.16666666666666666,
+        "rank": "wrong"
+      }
+    },
+    {
+      "journal": "journal-02",
+      "condition": "important_plain",
+      "selected_positive": 6,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "yoga",
+            "target": 0.75,
+            "retained": 3,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "pilates",
+            "target": 0.5,
+            "retained": 3,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": 0.375,
+        "detail_event_recall": 0.5,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-02",
+      "condition": "important_detailed",
+      "selected_positive": 6,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "yoga",
+            "target": 0.75,
+            "retained": 1,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "pilates",
+            "target": 0.5,
+            "retained": 5,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": 0.375,
+        "detail_event_recall": 0.8333333333333334,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-02",
+      "condition": "representative_plain",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-02",
+      "condition": "representative_detailed",
+      "selected_positive": 6,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "yoga",
+            "target": 0.75,
+            "retained": 4,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "pilates",
+            "target": 0.5,
+            "retained": 2,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": 0.375,
+        "detail_event_recall": 0.3333333333333333,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-02",
+      "condition": "important_antonym",
+      "selected_positive": 3,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "yoga",
+            "target": 0.75,
+            "retained": 2,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "pilates",
+            "target": 0.5,
+            "retained": 4,
+            "estimate": 0.25,
+            "error": -0.25
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.25,
+        "signed_bias_available": 0.0,
+        "detail_event_recall": 0.16666666666666666,
+        "rank": "correct"
+      }
+    },
+    {
+      "journal": "journal-02",
+      "condition": "archive_negation",
+      "selected_positive": 6,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "yoga",
+            "target": 0.75,
+            "retained": 3,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "pilates",
+            "target": 0.5,
+            "retained": 3,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": 0.375,
+        "detail_event_recall": 0.5,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-02",
+      "condition": "archive_antonym",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-02",
+      "condition": "proportional_negation",
+      "selected_positive": 0,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "yoga",
+            "target": 0.75,
+            "retained": 1,
+            "estimate": 0.0,
+            "error": -0.75
+          },
+          {
+            "activity": "pilates",
+            "target": 0.5,
+            "retained": 5,
+            "estimate": 0.0,
+            "error": -0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.625,
+        "signed_bias_available": -0.625,
+        "detail_event_recall": 0.0,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-02",
+      "condition": "proportional_antonym",
+      "selected_positive": 1,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "yoga",
+            "target": 0.75,
+            "retained": 2,
+            "estimate": 0.5,
+            "error": -0.25
+          },
+          {
+            "activity": "pilates",
+            "target": 0.5,
+            "retained": 4,
+            "estimate": 0.0,
+            "error": -0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": -0.375,
+        "detail_event_recall": 0.0,
+        "rank": "correct"
+      }
+    },
+    {
+      "journal": "journal-03",
+      "condition": "important_plain",
+      "selected_positive": 1,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "chess",
+            "target": 0.75,
+            "retained": 2,
+            "estimate": 0.5,
+            "error": -0.25
+          },
+          {
+            "activity": "badminton",
+            "target": 0.5,
+            "retained": 4,
+            "estimate": 0.0,
+            "error": -0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": -0.375,
+        "detail_event_recall": 0.0,
+        "rank": "correct"
+      }
+    },
+    {
+      "journal": "journal-03",
+      "condition": "important_detailed",
+      "selected_positive": 6,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "chess",
+            "target": 0.75,
+            "retained": 1,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "badminton",
+            "target": 0.5,
+            "retained": 5,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": 0.375,
+        "detail_event_recall": 0.8333333333333334,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-03",
+      "condition": "representative_plain",
+      "selected_positive": 5,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "chess",
+            "target": 0.75,
+            "retained": 4,
+            "estimate": 0.75,
+            "error": 0.0
+          },
+          {
+            "activity": "badminton",
+            "target": 0.5,
+            "retained": 2,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.25,
+        "signed_bias_available": 0.25,
+        "detail_event_recall": 0.3333333333333333,
+        "rank": "wrong"
+      }
+    },
+    {
+      "journal": "journal-03",
+      "condition": "representative_detailed",
+      "selected_positive": 6,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "chess",
+            "target": 0.75,
+            "retained": 3,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "badminton",
+            "target": 0.5,
+            "retained": 3,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": 0.375,
+        "detail_event_recall": 0.5,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-03",
+      "condition": "important_antonym",
+      "selected_positive": 5,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "chess",
+            "target": 0.75,
+            "retained": 4,
+            "estimate": 0.75,
+            "error": 0.0
+          },
+          {
+            "activity": "badminton",
+            "target": 0.5,
+            "retained": 2,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.25,
+        "signed_bias_available": 0.25,
+        "detail_event_recall": 0.3333333333333333,
+        "rank": "wrong"
+      }
+    },
+    {
+      "journal": "journal-03",
+      "condition": "archive_negation",
+      "selected_positive": 6,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "chess",
+            "target": 0.75,
+            "retained": 5,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "badminton",
+            "target": 0.5,
+            "retained": 1,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": 0.375,
+        "detail_event_recall": 0.16666666666666666,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-03",
+      "condition": "archive_antonym",
+      "selected_positive": 5,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "chess",
+            "target": 0.75,
+            "retained": 4,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "badminton",
+            "target": 0.5,
+            "retained": 2,
+            "estimate": 0.5,
+            "error": 0.0
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.125,
+        "signed_bias_available": 0.125,
+        "detail_event_recall": 0.16666666666666666,
+        "rank": "correct"
+      }
+    },
+    {
+      "journal": "journal-03",
+      "condition": "proportional_negation",
+      "selected_positive": 1,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "chess",
+            "target": 0.75,
+            "retained": 2,
+            "estimate": 0.5,
+            "error": -0.25
+          },
+          {
+            "activity": "badminton",
+            "target": 0.5,
+            "retained": 4,
+            "estimate": 0.0,
+            "error": -0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": -0.375,
+        "detail_event_recall": 0.0,
+        "rank": "correct"
+      }
+    },
+    {
+      "journal": "journal-03",
+      "condition": "proportional_antonym",
+      "selected_positive": 1,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "chess",
+            "target": 0.75,
+            "retained": 3,
+            "estimate": 0.3333333333333333,
+            "error": -0.4166666666666667
+          },
+          {
+            "activity": "badminton",
+            "target": 0.5,
+            "retained": 3,
+            "estimate": 0.0,
+            "error": -0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.45833333333333337,
+        "signed_bias_available": -0.45833333333333337,
+        "detail_event_recall": 0.0,
+        "rank": "correct"
+      }
+    },
+    {
+      "journal": "journal-04",
+      "condition": "important_plain",
+      "selected_positive": 1,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "gardening",
+            "target": 0.75,
+            "retained": 0,
+            "estimate": null,
+            "error": null
+          },
+          {
+            "activity": "baking",
+            "target": 0.5,
+            "retained": 6,
+            "estimate": 0.16666666666666666,
+            "error": -0.33333333333333337
+          }
+        ],
+        "missing_activities": 1,
+        "mae_available": 0.33333333333333337,
+        "signed_bias_available": -0.33333333333333337,
+        "detail_event_recall": 0.16666666666666666,
+        "rank": "missing"
+      }
+    },
+    {
+      "journal": "journal-04",
+      "condition": "important_detailed",
+      "selected_positive": 5,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "gardening",
+            "target": 0.75,
+            "retained": 0,
+            "estimate": null,
+            "error": null
+          },
+          {
+            "activity": "baking",
+            "target": 0.5,
+            "retained": 6,
+            "estimate": 0.8333333333333334,
+            "error": 0.33333333333333337
+          }
+        ],
+        "missing_activities": 1,
+        "mae_available": 0.33333333333333337,
+        "signed_bias_available": 0.33333333333333337,
+        "detail_event_recall": 0.8333333333333334,
+        "rank": "missing"
+      }
+    },
+    {
+      "journal": "journal-04",
+      "condition": "representative_plain",
+      "selected_positive": 1,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "gardening",
+            "target": 0.75,
+            "retained": 1,
+            "estimate": 0.0,
+            "error": -0.75
+          },
+          {
+            "activity": "baking",
+            "target": 0.5,
+            "retained": 5,
+            "estimate": 0.2,
+            "error": -0.3
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.525,
+        "signed_bias_available": -0.525,
+        "detail_event_recall": 0.16666666666666666,
+        "rank": "wrong"
+      }
+    },
+    {
+      "journal": "journal-04",
+      "condition": "representative_detailed",
+      "selected_positive": 6,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "gardening",
+            "target": 0.75,
+            "retained": 5,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "baking",
+            "target": 0.5,
+            "retained": 1,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": 0.375,
+        "detail_event_recall": 0.16666666666666666,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-04",
+      "condition": "important_antonym",
+      "selected_positive": 1,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "gardening",
+            "target": 0.75,
+            "retained": 0,
+            "estimate": null,
+            "error": null
+          },
+          {
+            "activity": "baking",
+            "target": 0.5,
+            "retained": 6,
+            "estimate": 0.16666666666666666,
+            "error": -0.33333333333333337
+          }
+        ],
+        "missing_activities": 1,
+        "mae_available": 0.33333333333333337,
+        "signed_bias_available": -0.33333333333333337,
+        "detail_event_recall": 0.16666666666666666,
+        "rank": "missing"
+      }
+    },
+    {
+      "journal": "journal-04",
+      "condition": "archive_negation",
+      "selected_positive": 1,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "gardening",
+            "target": 0.75,
+            "retained": 0,
+            "estimate": null,
+            "error": null
+          },
+          {
+            "activity": "baking",
+            "target": 0.5,
+            "retained": 6,
+            "estimate": 0.16666666666666666,
+            "error": -0.33333333333333337
+          }
+        ],
+        "missing_activities": 1,
+        "mae_available": 0.33333333333333337,
+        "signed_bias_available": -0.33333333333333337,
+        "detail_event_recall": 0.16666666666666666,
+        "rank": "missing"
+      }
+    },
+    {
+      "journal": "journal-04",
+      "condition": "archive_antonym",
+      "selected_positive": 1,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "gardening",
+            "target": 0.75,
+            "retained": 0,
+            "estimate": null,
+            "error": null
+          },
+          {
+            "activity": "baking",
+            "target": 0.5,
+            "retained": 6,
+            "estimate": 0.16666666666666666,
+            "error": -0.33333333333333337
+          }
+        ],
+        "missing_activities": 1,
+        "mae_available": 0.33333333333333337,
+        "signed_bias_available": -0.33333333333333337,
+        "detail_event_recall": 0.16666666666666666,
+        "rank": "missing"
+      }
+    },
+    {
+      "journal": "journal-04",
+      "condition": "proportional_negation",
+      "selected_positive": 1,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "gardening",
+            "target": 0.75,
+            "retained": 0,
+            "estimate": null,
+            "error": null
+          },
+          {
+            "activity": "baking",
+            "target": 0.5,
+            "retained": 6,
+            "estimate": 0.16666666666666666,
+            "error": -0.33333333333333337
+          }
+        ],
+        "missing_activities": 1,
+        "mae_available": 0.33333333333333337,
+        "signed_bias_available": -0.33333333333333337,
+        "detail_event_recall": 0.16666666666666666,
+        "rank": "missing"
+      }
+    },
+    {
+      "journal": "journal-04",
+      "condition": "proportional_antonym",
+      "selected_positive": 1,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "gardening",
+            "target": 0.75,
+            "retained": 1,
+            "estimate": 0.0,
+            "error": -0.75
+          },
+          {
+            "activity": "baking",
+            "target": 0.5,
+            "retained": 5,
+            "estimate": 0.2,
+            "error": -0.3
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.525,
+        "signed_bias_available": -0.525,
+        "detail_event_recall": 0.16666666666666666,
+        "rank": "wrong"
+      }
+    },
+    {
+      "journal": "journal-05",
+      "condition": "important_plain",
+      "selected_positive": 6,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "walking",
+            "target": 0.75,
+            "retained": 1,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "rowing",
+            "target": 0.5,
+            "retained": 5,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": 0.375,
+        "detail_event_recall": 0.8333333333333334,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-05",
+      "condition": "important_detailed",
+      "selected_positive": 6,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "walking",
+            "target": 0.75,
+            "retained": 0,
+            "estimate": null,
+            "error": null
+          },
+          {
+            "activity": "rowing",
+            "target": 0.5,
+            "retained": 6,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 1,
+        "mae_available": 0.5,
+        "signed_bias_available": 0.5,
+        "detail_event_recall": 1.0,
+        "rank": "missing"
+      }
+    },
+    {
+      "journal": "journal-05",
+      "condition": "representative_plain",
+      "selected_positive": 3,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "walking",
+            "target": 0.75,
+            "retained": 3,
+            "estimate": 0.6666666666666666,
+            "error": -0.08333333333333337
+          },
+          {
+            "activity": "rowing",
+            "target": 0.5,
+            "retained": 3,
+            "estimate": 0.3333333333333333,
+            "error": -0.16666666666666669
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.12500000000000003,
+        "signed_bias_available": -0.12500000000000003,
+        "detail_event_recall": 0.16666666666666666,
+        "rank": "correct"
+      }
+    },
+    {
+      "journal": "journal-05",
+      "condition": "representative_detailed",
+      "selected_positive": 6,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "walking",
+            "target": 0.75,
+            "retained": 3,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "rowing",
+            "target": 0.5,
+            "retained": 3,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": 0.375,
+        "detail_event_recall": 0.5,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-05",
+      "condition": "important_antonym",
+      "selected_positive": 5,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "walking",
+            "target": 0.75,
+            "retained": 0,
+            "estimate": null,
+            "error": null
+          },
+          {
+            "activity": "rowing",
+            "target": 0.5,
+            "retained": 6,
+            "estimate": 0.8333333333333334,
+            "error": 0.33333333333333337
+          }
+        ],
+        "missing_activities": 1,
+        "mae_available": 0.33333333333333337,
+        "signed_bias_available": 0.33333333333333337,
+        "detail_event_recall": 0.8333333333333334,
+        "rank": "missing"
+      }
+    },
+    {
+      "journal": "journal-05",
+      "condition": "archive_negation",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-05",
+      "condition": "archive_antonym",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-05",
+      "condition": "proportional_negation",
+      "selected_positive": 3,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "walking",
+            "target": 0.75,
+            "retained": 1,
+            "estimate": 0.0,
+            "error": -0.75
+          },
+          {
+            "activity": "rowing",
+            "target": 0.5,
+            "retained": 5,
+            "estimate": 0.6,
+            "error": 0.09999999999999998
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.425,
+        "signed_bias_available": -0.325,
+        "detail_event_recall": 0.5,
+        "rank": "wrong"
+      }
+    },
+    {
+      "journal": "journal-05",
+      "condition": "proportional_antonym",
+      "selected_positive": 1,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "walking",
+            "target": 0.75,
+            "retained": 2,
+            "estimate": 0.0,
+            "error": -0.75
+          },
+          {
+            "activity": "rowing",
+            "target": 0.5,
+            "retained": 4,
+            "estimate": 0.25,
+            "error": -0.25
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.5,
+        "signed_bias_available": -0.5,
+        "detail_event_recall": 0.16666666666666666,
+        "rank": "wrong"
+      }
+    },
+    {
+      "journal": "journal-06",
+      "condition": "important_plain",
+      "selected_positive": 6,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "cycling",
+            "target": 0.75,
+            "retained": 5,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "swimming",
+            "target": 0.5,
+            "retained": 1,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": 0.375,
+        "detail_event_recall": 0.16666666666666666,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-06",
+      "condition": "important_detailed",
+      "selected_positive": 6,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "cycling",
+            "target": 0.75,
+            "retained": 1,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "swimming",
+            "target": 0.5,
+            "retained": 5,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": 0.375,
+        "detail_event_recall": 0.8333333333333334,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-06",
+      "condition": "representative_plain",
+      "selected_positive": 3,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "cycling",
+            "target": 0.75,
+            "retained": 4,
+            "estimate": 0.5,
+            "error": -0.25
+          },
+          {
+            "activity": "swimming",
+            "target": 0.5,
+            "retained": 2,
+            "estimate": 0.5,
+            "error": 0.0
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.125,
+        "signed_bias_available": -0.125,
+        "detail_event_recall": 0.16666666666666666,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-06",
+      "condition": "representative_detailed",
+      "selected_positive": 6,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "cycling",
+            "target": 0.75,
+            "retained": 1,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "swimming",
+            "target": 0.5,
+            "retained": 5,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": 0.375,
+        "detail_event_recall": 0.8333333333333334,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-06",
+      "condition": "important_antonym",
+      "selected_positive": 5,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "cycling",
+            "target": 0.75,
+            "retained": 6,
+            "estimate": 0.8333333333333334,
+            "error": 0.08333333333333337
+          },
+          {
+            "activity": "swimming",
+            "target": 0.5,
+            "retained": 0,
+            "estimate": null,
+            "error": null
+          }
+        ],
+        "missing_activities": 1,
+        "mae_available": 0.08333333333333337,
+        "signed_bias_available": 0.08333333333333337,
+        "detail_event_recall": 0.0,
+        "rank": "missing"
+      }
+    },
+    {
+      "journal": "journal-06",
+      "condition": "archive_negation",
+      "selected_positive": 5,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "cycling",
+            "target": 0.75,
+            "retained": 6,
+            "estimate": 0.8333333333333334,
+            "error": 0.08333333333333337
+          },
+          {
+            "activity": "swimming",
+            "target": 0.5,
+            "retained": 0,
+            "estimate": null,
+            "error": null
+          }
+        ],
+        "missing_activities": 1,
+        "mae_available": 0.08333333333333337,
+        "signed_bias_available": 0.08333333333333337,
+        "detail_event_recall": 0.0,
+        "rank": "missing"
+      }
+    },
+    {
+      "journal": "journal-06",
+      "condition": "archive_antonym",
+      "selected_positive": 5,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "cycling",
+            "target": 0.75,
+            "retained": 6,
+            "estimate": 0.8333333333333334,
+            "error": 0.08333333333333337
+          },
+          {
+            "activity": "swimming",
+            "target": 0.5,
+            "retained": 0,
+            "estimate": null,
+            "error": null
+          }
+        ],
+        "missing_activities": 1,
+        "mae_available": 0.08333333333333337,
+        "signed_bias_available": 0.08333333333333337,
+        "detail_event_recall": 0.0,
+        "rank": "missing"
+      }
+    },
+    {
+      "journal": "journal-06",
+      "condition": "proportional_negation",
+      "selected_positive": 2,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "cycling",
+            "target": 0.75,
+            "retained": 2,
+            "estimate": 0.0,
+            "error": -0.75
+          },
+          {
+            "activity": "swimming",
+            "target": 0.5,
+            "retained": 4,
+            "estimate": 0.5,
+            "error": 0.0
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": -0.375,
+        "detail_event_recall": 0.3333333333333333,
+        "rank": "wrong"
+      }
+    },
+    {
+      "journal": "journal-06",
+      "condition": "proportional_antonym",
+      "selected_positive": 3,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "cycling",
+            "target": 0.75,
+            "retained": 3,
+            "estimate": 0.6666666666666666,
+            "error": -0.08333333333333337
+          },
+          {
+            "activity": "swimming",
+            "target": 0.5,
+            "retained": 3,
+            "estimate": 0.3333333333333333,
+            "error": -0.16666666666666669
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.12500000000000003,
+        "signed_bias_available": -0.12500000000000003,
+        "detail_event_recall": 0.16666666666666666,
+        "rank": "correct"
+      }
+    },
+    {
+      "journal": "journal-07",
+      "condition": "important_plain",
+      "selected_positive": 6,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "pottery",
+            "target": 0.75,
+            "retained": 2,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "painting",
+            "target": 0.5,
+            "retained": 4,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": 0.375,
+        "detail_event_recall": 0.6666666666666666,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-07",
+      "condition": "important_detailed",
+      "selected_positive": 6,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "pottery",
+            "target": 0.75,
+            "retained": 2,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "painting",
+            "target": 0.5,
+            "retained": 4,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": 0.375,
+        "detail_event_recall": 0.6666666666666666,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-07",
+      "condition": "representative_plain",
+      "selected_positive": 3,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "pottery",
+            "target": 0.75,
+            "retained": 3,
+            "estimate": 0.6666666666666666,
+            "error": -0.08333333333333337
+          },
+          {
+            "activity": "painting",
+            "target": 0.5,
+            "retained": 3,
+            "estimate": 0.3333333333333333,
+            "error": -0.16666666666666669
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.12500000000000003,
+        "signed_bias_available": -0.12500000000000003,
+        "detail_event_recall": 0.16666666666666666,
+        "rank": "correct"
+      }
+    },
+    {
+      "journal": "journal-07",
+      "condition": "representative_detailed",
+      "selected_positive": 6,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "pottery",
+            "target": 0.75,
+            "retained": 2,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "painting",
+            "target": 0.5,
+            "retained": 4,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": 0.375,
+        "detail_event_recall": 0.6666666666666666,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-07",
+      "condition": "important_antonym",
+      "selected_positive": 6,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "pottery",
+            "target": 0.75,
+            "retained": 3,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "painting",
+            "target": 0.5,
+            "retained": 3,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": 0.375,
+        "detail_event_recall": 0.5,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-07",
+      "condition": "archive_negation",
+      "selected_positive": 6,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "pottery",
+            "target": 0.75,
+            "retained": 2,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "painting",
+            "target": 0.5,
+            "retained": 4,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": 0.375,
+        "detail_event_recall": 0.6666666666666666,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-07",
+      "condition": "archive_antonym",
+      "selected_positive": 6,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "pottery",
+            "target": 0.75,
+            "retained": 3,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "painting",
+            "target": 0.5,
+            "retained": 3,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": 0.375,
+        "detail_event_recall": 0.5,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-07",
+      "condition": "proportional_negation",
+      "selected_positive": 2,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "pottery",
+            "target": 0.75,
+            "retained": 3,
+            "estimate": 0.6666666666666666,
+            "error": -0.08333333333333337
+          },
+          {
+            "activity": "painting",
+            "target": 0.5,
+            "retained": 3,
+            "estimate": 0.0,
+            "error": -0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.2916666666666667,
+        "signed_bias_available": -0.2916666666666667,
+        "detail_event_recall": 0.0,
+        "rank": "correct"
+      }
+    },
+    {
+      "journal": "journal-07",
+      "condition": "proportional_antonym",
+      "selected_positive": 0,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "pottery",
+            "target": 0.75,
+            "retained": 2,
+            "estimate": 0.0,
+            "error": -0.75
+          },
+          {
+            "activity": "painting",
+            "target": 0.5,
+            "retained": 4,
+            "estimate": 0.0,
+            "error": -0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.625,
+        "signed_bias_available": -0.625,
+        "detail_event_recall": 0.0,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-08",
+      "condition": "important_plain",
+      "selected_positive": 6,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "pilates",
+            "target": 0.75,
+            "retained": 3,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "yoga",
+            "target": 0.5,
+            "retained": 3,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": 0.375,
+        "detail_event_recall": 0.5,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-08",
+      "condition": "important_detailed",
+      "selected_positive": 6,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "pilates",
+            "target": 0.75,
+            "retained": 1,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "yoga",
+            "target": 0.5,
+            "retained": 5,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": 0.375,
+        "detail_event_recall": 0.8333333333333334,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-08",
+      "condition": "representative_plain",
+      "selected_positive": 3,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "pilates",
+            "target": 0.75,
+            "retained": 3,
+            "estimate": 0.3333333333333333,
+            "error": -0.4166666666666667
+          },
+          {
+            "activity": "yoga",
+            "target": 0.5,
+            "retained": 3,
+            "estimate": 0.6666666666666666,
+            "error": 0.16666666666666663
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.29166666666666663,
+        "signed_bias_available": -0.12500000000000003,
+        "detail_event_recall": 0.3333333333333333,
+        "rank": "wrong"
+      }
+    },
+    {
+      "journal": "journal-08",
+      "condition": "representative_detailed",
+      "selected_positive": 6,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "pilates",
+            "target": 0.75,
+            "retained": 2,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "yoga",
+            "target": 0.5,
+            "retained": 4,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": 0.375,
+        "detail_event_recall": 0.6666666666666666,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-08",
+      "condition": "important_antonym",
+      "selected_positive": 3,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "pilates",
+            "target": 0.75,
+            "retained": 3,
+            "estimate": 0.3333333333333333,
+            "error": -0.4166666666666667
+          },
+          {
+            "activity": "yoga",
+            "target": 0.5,
+            "retained": 3,
+            "estimate": 0.6666666666666666,
+            "error": 0.16666666666666663
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.29166666666666663,
+        "signed_bias_available": -0.12500000000000003,
+        "detail_event_recall": 0.3333333333333333,
+        "rank": "wrong"
+      }
+    },
+    {
+      "journal": "journal-08",
+      "condition": "archive_negation",
+      "selected_positive": 6,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "pilates",
+            "target": 0.75,
+            "retained": 3,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "yoga",
+            "target": 0.5,
+            "retained": 3,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": 0.375,
+        "detail_event_recall": 0.5,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-08",
+      "condition": "archive_antonym",
+      "selected_positive": 6,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "pilates",
+            "target": 0.75,
+            "retained": 4,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "yoga",
+            "target": 0.5,
+            "retained": 2,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": 0.375,
+        "detail_event_recall": 0.3333333333333333,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-08",
+      "condition": "proportional_negation",
+      "selected_positive": 6,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "pilates",
+            "target": 0.75,
+            "retained": 4,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "yoga",
+            "target": 0.5,
+            "retained": 2,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": 0.375,
+        "detail_event_recall": 0.3333333333333333,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-08",
+      "condition": "proportional_antonym",
+      "selected_positive": 6,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "pilates",
+            "target": 0.75,
+            "retained": 5,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "yoga",
+            "target": 0.5,
+            "retained": 1,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": 0.375,
+        "detail_event_recall": 0.16666666666666666,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-09",
+      "condition": "important_plain",
+      "selected_positive": 6,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "badminton",
+            "target": 0.75,
+            "retained": 5,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "chess",
+            "target": 0.5,
+            "retained": 1,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": 0.375,
+        "detail_event_recall": 0.16666666666666666,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-09",
+      "condition": "important_detailed",
+      "selected_positive": 6,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "badminton",
+            "target": 0.75,
+            "retained": 4,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "chess",
+            "target": 0.5,
+            "retained": 2,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": 0.375,
+        "detail_event_recall": 0.3333333333333333,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-09",
+      "condition": "representative_plain",
+      "selected_positive": 6,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "badminton",
+            "target": 0.75,
+            "retained": 5,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "chess",
+            "target": 0.5,
+            "retained": 1,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": 0.375,
+        "detail_event_recall": 0.16666666666666666,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-09",
+      "condition": "representative_detailed",
+      "selected_positive": 6,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "badminton",
+            "target": 0.75,
+            "retained": 4,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "chess",
+            "target": 0.5,
+            "retained": 2,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": 0.375,
+        "detail_event_recall": 0.3333333333333333,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-09",
+      "condition": "important_antonym",
+      "selected_positive": 6,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "badminton",
+            "target": 0.75,
+            "retained": 5,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "chess",
+            "target": 0.5,
+            "retained": 1,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": 0.375,
+        "detail_event_recall": 0.16666666666666666,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-09",
+      "condition": "archive_negation",
+      "selected_positive": 6,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "badminton",
+            "target": 0.75,
+            "retained": 6,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "chess",
+            "target": 0.5,
+            "retained": 0,
+            "estimate": null,
+            "error": null
+          }
+        ],
+        "missing_activities": 1,
+        "mae_available": 0.25,
+        "signed_bias_available": 0.25,
+        "detail_event_recall": 0.0,
+        "rank": "missing"
+      }
+    },
+    {
+      "journal": "journal-09",
+      "condition": "archive_antonym",
+      "selected_positive": 6,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "badminton",
+            "target": 0.75,
+            "retained": 5,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "chess",
+            "target": 0.5,
+            "retained": 1,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": 0.375,
+        "detail_event_recall": 0.16666666666666666,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-09",
+      "condition": "proportional_negation",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-09",
+      "condition": "proportional_antonym",
+      "selected_positive": 3,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "badminton",
+            "target": 0.75,
+            "retained": 3,
+            "estimate": 0.6666666666666666,
+            "error": -0.08333333333333337
+          },
+          {
+            "activity": "chess",
+            "target": 0.5,
+            "retained": 3,
+            "estimate": 0.3333333333333333,
+            "error": -0.16666666666666669
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.12500000000000003,
+        "signed_bias_available": -0.12500000000000003,
+        "detail_event_recall": 0.16666666666666666,
+        "rank": "correct"
+      }
+    },
+    {
+      "journal": "journal-10",
+      "condition": "important_plain",
+      "selected_positive": 5,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "baking",
+            "target": 0.75,
+            "retained": 5,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "gardening",
+            "target": 0.5,
+            "retained": 1,
+            "estimate": 0.0,
+            "error": -0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": -0.125,
+        "detail_event_recall": 0.0,
+        "rank": "correct"
+      }
+    },
+    {
+      "journal": "journal-10",
+      "condition": "important_detailed",
+      "selected_positive": 6,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "baking",
+            "target": 0.75,
+            "retained": 3,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "gardening",
+            "target": 0.5,
+            "retained": 3,
+            "estimate": 1.0,
+            "error": 0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": 0.375,
+        "detail_event_recall": 0.5,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-10",
+      "condition": "representative_plain",
+      "selected_positive": 4,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "baking",
+            "target": 0.75,
+            "retained": 3,
+            "estimate": 0.6666666666666666,
+            "error": -0.08333333333333337
+          },
+          {
+            "activity": "gardening",
+            "target": 0.5,
+            "retained": 3,
+            "estimate": 0.6666666666666666,
+            "error": 0.16666666666666663
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.125,
+        "signed_bias_available": 0.04166666666666663,
+        "detail_event_recall": 0.3333333333333333,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-10",
+      "condition": "representative_detailed",
+      "selected_positive": 5,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "baking",
+            "target": 0.75,
+            "retained": 2,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "gardening",
+            "target": 0.5,
+            "retained": 4,
+            "estimate": 0.75,
+            "error": 0.25
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.25,
+        "signed_bias_available": 0.25,
+        "detail_event_recall": 0.5,
+        "rank": "correct"
+      }
+    },
+    {
+      "journal": "journal-10",
+      "condition": "important_antonym",
+      "selected_positive": 5,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "baking",
+            "target": 0.75,
+            "retained": 5,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "gardening",
+            "target": 0.5,
+            "retained": 1,
+            "estimate": 0.0,
+            "error": -0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.375,
+        "signed_bias_available": -0.125,
+        "detail_event_recall": 0.0,
+        "rank": "correct"
+      }
+    },
+    {
+      "journal": "journal-10",
+      "condition": "archive_negation",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-10",
+      "condition": "archive_antonym",
+      "selected_positive": 2,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "baking",
+            "target": 0.75,
+            "retained": 5,
+            "estimate": 0.4,
+            "error": -0.35
+          },
+          {
+            "activity": "gardening",
+            "target": 0.5,
+            "retained": 1,
+            "estimate": 0.0,
+            "error": -0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.425,
+        "signed_bias_available": -0.425,
+        "detail_event_recall": 0.0,
+        "rank": "correct"
+      }
+    },
+    {
+      "journal": "journal-10",
+      "condition": "proportional_negation",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-10",
+      "condition": "proportional_antonym",
+      "selected_positive": null,
+      "metrics": null
+    },
+    {
+      "journal": "journal-11",
+      "condition": "important_plain",
+      "selected_positive": 4,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "rowing",
+            "target": 0.75,
+            "retained": 5,
+            "estimate": 0.8,
+            "error": 0.050000000000000044
+          },
+          {
+            "activity": "walking",
+            "target": 0.5,
+            "retained": 1,
+            "estimate": 0.0,
+            "error": -0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.275,
+        "signed_bias_available": -0.22499999999999998,
+        "detail_event_recall": 0.0,
+        "rank": "correct"
+      }
+    },
+    {
+      "journal": "journal-11",
+      "condition": "important_detailed",
+      "selected_positive": 5,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "rowing",
+            "target": 0.75,
+            "retained": 0,
+            "estimate": null,
+            "error": null
+          },
+          {
+            "activity": "walking",
+            "target": 0.5,
+            "retained": 6,
+            "estimate": 0.8333333333333334,
+            "error": 0.33333333333333337
+          }
+        ],
+        "missing_activities": 1,
+        "mae_available": 0.33333333333333337,
+        "signed_bias_available": 0.33333333333333337,
+        "detail_event_recall": 0.8333333333333334,
+        "rank": "missing"
+      }
+    },
+    {
+      "journal": "journal-11",
+      "condition": "representative_plain",
+      "selected_positive": 5,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "rowing",
+            "target": 0.75,
+            "retained": 4,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "walking",
+            "target": 0.5,
+            "retained": 2,
+            "estimate": 0.5,
+            "error": 0.0
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.125,
+        "signed_bias_available": 0.125,
+        "detail_event_recall": 0.16666666666666666,
+        "rank": "correct"
+      }
+    },
+    {
+      "journal": "journal-11",
+      "condition": "representative_detailed",
+      "selected_positive": 2,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "rowing",
+            "target": 0.75,
+            "retained": 3,
+            "estimate": 0.6666666666666666,
+            "error": -0.08333333333333337
+          },
+          {
+            "activity": "walking",
+            "target": 0.5,
+            "retained": 3,
+            "estimate": 0.0,
+            "error": -0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.2916666666666667,
+        "signed_bias_available": -0.2916666666666667,
+        "detail_event_recall": 0.0,
+        "rank": "correct"
+      }
+    },
+    {
+      "journal": "journal-11",
+      "condition": "important_antonym",
+      "selected_positive": 4,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "rowing",
+            "target": 0.75,
+            "retained": 5,
+            "estimate": 0.8,
+            "error": 0.050000000000000044
+          },
+          {
+            "activity": "walking",
+            "target": 0.5,
+            "retained": 1,
+            "estimate": 0.0,
+            "error": -0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.275,
+        "signed_bias_available": -0.22499999999999998,
+        "detail_event_recall": 0.0,
+        "rank": "correct"
+      }
+    },
+    {
+      "journal": "journal-11",
+      "condition": "archive_negation",
+      "selected_positive": 6,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "rowing",
+            "target": 0.75,
+            "retained": 6,
+            "estimate": 1.0,
+            "error": 0.25
+          },
+          {
+            "activity": "walking",
+            "target": 0.5,
+            "retained": 0,
+            "estimate": null,
+            "error": null
+          }
+        ],
+        "missing_activities": 1,
+        "mae_available": 0.25,
+        "signed_bias_available": 0.25,
+        "detail_event_recall": 0.0,
+        "rank": "missing"
+      }
+    },
+    {
+      "journal": "journal-11",
+      "condition": "archive_antonym",
+      "selected_positive": 4,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "rowing",
+            "target": 0.75,
+            "retained": 5,
+            "estimate": 0.8,
+            "error": 0.050000000000000044
+          },
+          {
+            "activity": "walking",
+            "target": 0.5,
+            "retained": 1,
+            "estimate": 0.0,
+            "error": -0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.275,
+        "signed_bias_available": -0.22499999999999998,
+        "detail_event_recall": 0.0,
+        "rank": "correct"
+      }
+    },
+    {
+      "journal": "journal-11",
+      "condition": "proportional_negation",
+      "selected_positive": 0,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "rowing",
+            "target": 0.75,
+            "retained": 3,
+            "estimate": 0.0,
+            "error": -0.75
+          },
+          {
+            "activity": "walking",
+            "target": 0.5,
+            "retained": 3,
+            "estimate": 0.0,
+            "error": -0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.625,
+        "signed_bias_available": -0.625,
+        "detail_event_recall": 0.0,
+        "rank": "tie"
+      }
+    },
+    {
+      "journal": "journal-11",
+      "condition": "proportional_antonym",
+      "selected_positive": 1,
+      "metrics": {
+        "rates": [
+          {
+            "activity": "rowing",
+            "target": 0.75,
+            "retained": 4,
+            "estimate": 0.25,
+            "error": -0.5
+          },
+          {
+            "activity": "walking",
+            "target": 0.5,
+            "retained": 2,
+            "estimate": 0.0,
+            "error": -0.5
+          }
+        ],
+        "missing_activities": 0,
+        "mae_available": 0.5,
+        "signed_bias_available": -0.5,
+        "detail_event_recall": 0.0,
+        "rank": "correct"
+      }
+    }
+  ],
+  "invalid_outputs": [
+    {
+      "journal": "journal-00",
+      "condition": "proportional_antonym",
+      "text": "To select six distinct event IDs that preserve the relative frequency of positive and negative outcomes, I will choose three positive experiences (liked the session) and three negative experiences (disliked the session). Here is the selected subset:\n\n[E02, E08, E14, E18, E22, E23]\n\nThis subset contains three positive experiences (E02, E14, E24) and three negative experiences (E08, E18, E22, E23). The total number of positive and negative experiences in the subset is approximately equal, which is important for maintaining the relative frequency of positive and negative outcomes.",
+      "finish_reason": "stop",
+      "generation_tokens": 146
+    },
+    {
+      "journal": "journal-02",
+      "condition": "representative_plain",
+      "text": "[\"E02\", \"E06\", \"E11\", \"E17\", \"E22\", \"E27\"]",
+      "finish_reason": "stop",
+      "generation_tokens": 31
+    },
+    {
+      "journal": "journal-02",
+      "condition": "archive_antonym",
+      "text": "Based on the user's preferences and experiences, the following six event IDs are most important to remember:\n\n1. E02 (Day 02: I attended a yoga session. I liked the session.)\n2. E09 (Day 09: I attended a pilates session. I disliked the session.)\n3. E14 (Day 14: I attended a pilates session. I disliked the session.)\n4. E15 (Day 15: I attended a pilates session. I disliked the session.)\n5. E19 (Day 19: I attended a pilates session. I liked the session.)\n6. E23 (Day 23:",
+      "finish_reason": "length",
+      "generation_tokens": 160
+    },
+    {
+      "journal": "journal-05",
+      "condition": "archive_negation",
+      "text": "Based on the user's preferences and experiences, the following six event IDs are selected:\n\n1. E02 (Day 02: I attended a rowing session. I enjoyed the session.)\n2. E04 (Day 04: I attended a walking session. I did not enjoy the session.)\n3. E09 (Day 09: I attended a rowing session. I enjoyed the session.)\n4. E13 (Day 13: I attended a walking session. I did not enjoy the session.)\n5. E17 (Day 17: I attended a rowing session. I enjoyed the session.)\n6. E24 (Day 24: I attended a rowing session",
+      "finish_reason": "length",
+      "generation_tokens": 160
+    },
+    {
+      "journal": "journal-05",
+      "condition": "archive_antonym",
+      "text": "Based on the user's preferences and experiences, the following six event IDs are most important to remember for future conversations:\n\n1. E02 (Day 02: I attended a rowing session. I liked the session.)\n2. E10 (Day 10: I attended a rowing session. I disliked the session.)\n3. E16 (Day 16: I attended a rowing session. I liked the session.)\n4. E14 (Day 14: I attended a rowing session. I disliked the session.)\n5. E22 (Day 22: I attended a walking session. I liked the session.)\n6. E24 (Day 24",
+      "finish_reason": "length",
+      "generation_tokens": 160
+    },
+    {
+      "journal": "journal-09",
+      "condition": "proportional_negation",
+      "text": "To select six distinct event IDs that preserve the relative frequency of positive and negative outcomes within each activity, we can choose three positive events (enjoyed the session) and three negative events (did not enjoy the session) for each activity. Here is the selection:\n\n[E01, E03, E06, E09, E17, E22]\n\nThis selection includes three positive badminton events and three negative chess events, which closely represents the distribution of positive and negative outcomes within each activity as closely as the six-event budget permits.",
+      "finish_reason": "stop",
+      "generation_tokens": 124
+    },
+    {
+      "journal": "journal-10",
+      "condition": "archive_negation",
+      "text": "Based on the user's preferences and experiences, the following six event IDs are selected:\n\n1. E02 (Day 02: I attended a baking session. I enjoyed the session.)\n2. E03 (Day 03: I attended a baking session. I did not enjoy the session.)\n3. E10 (Day 10: I attended a gardening session. I did not enjoy the session.)\n4. E19 (Day 19: I attended a baking session. I did not enjoy the session.)\n5. E22 (Day 22: I attended a gardening session. I did not enjoy the session.)\n6. E24 (Day 24: I attended a",
+      "finish_reason": "length",
+      "generation_tokens": 160
+    },
+    {
+      "journal": "journal-10",
+      "condition": "proportional_negation",
+      "text": "To select six distinct event IDs that preserve the relative frequency of positive and negative outcomes within each activity as closely as the six-event budget permits, I will choose three positive experiences from the baking sessions and three negative experiences from the gardening sessions. Here is the JSON array of the selected event IDs:\n\n[E02, E05, E11, E16, E19, E20]\n\nThis selection includes three positive baking sessions (E02, E05, E11) and three negative gardening sessions (E19, E20, E23). The total number of positive and negative experiences in the selected events is balanced.",
+      "finish_reason": "stop",
+      "generation_tokens": 147
+    },
+    {
+      "journal": "journal-10",
+      "condition": "proportional_antonym",
+      "text": "To select six distinct event IDs that preserve the relative frequency of positive and negative outcomes within each activity as closely as the six-event budget permits, I will choose three positive experiences from the baking sessions and three negative experiences from the gardening sessions. Here are the six event IDs:\n\n[E02, E05, E07, E10, E17, E22]\n\nThis selection includes three positive baking experiences (E02, E05, E07) and three negative gardening experiences (E10, E17, E22). The total number of positive and negative experiences in the selected events is balanced.",
+      "finish_reason": "stop",
+      "generation_tokens": 143
+    }
+  ]
+}

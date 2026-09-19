@@ -1,0 +1,62 @@
+{
+  "status": "exact illustrative distributions; not empirical model results",
+  "ranking_reversal": {
+    "state_response_mutual_information_bits": 0.1683984141568564,
+    "state_response_conditional_mutual_information_given_memory_bits": 4.440892098500626e-16,
+    "regimes": {
+      "retained": {
+        "state_entropy_given_memory_bits": 0.0,
+        "response_entropy_given_memory_bits": 0.46899559358928133,
+        "response_error_probability": 0.09999999999999999,
+        "conditional_mutual_information_bits": 0.0
+      },
+      "erased": {
+        "state_entropy_given_memory_bits": 1.0,
+        "response_entropy_given_memory_bits": 0.08079313589591118,
+        "response_error_probability": 0.5,
+        "conditional_mutual_information_bits": -2.220446049250313e-16
+      }
+    }
+  },
+  "zero_entropy_tie": {
+    "state_response_mutual_information_bits": 0.31127812445913294,
+    "state_response_conditional_mutual_information_given_memory_bits": 0.0,
+    "regimes": {
+      "retained": {
+        "state_entropy_given_memory_bits": 0.0,
+        "response_entropy_given_memory_bits": 0.0,
+        "response_error_probability": 0.0,
+        "conditional_mutual_information_bits": 0.0
+      },
+      "erased": {
+        "state_entropy_given_memory_bits": 1.0,
+        "response_entropy_given_memory_bits": 0.0,
+        "response_error_probability": 0.5,
+        "conditional_mutual_information_bits": 0.0
+      }
+    }
+  },
+  "posterior_sampling_positive_control": {
+    "state_response_mutual_information_bits": 0.18872187554086706,
+    "state_response_conditional_mutual_information_given_memory_bits": 0.0,
+    "regimes": {
+      "retained": {
+        "state_entropy_given_memory_bits": 0.0,
+        "response_entropy_given_memory_bits": 0.0,
+        "response_error_probability": 0.0,
+        "conditional_mutual_information_bits": 0.0
+      },
+      "erased": {
+        "state_entropy_given_memory_bits": 1.0,
+        "response_entropy_given_memory_bits": 1.0,
+        "response_error_probability": 0.5,
+        "conditional_mutual_information_bits": 0.0
+      }
+    }
+  },
+  "assumptions": [
+    "fixed reader kernel with access only to memory and a fixed query",
+    "reader randomness independent of the hidden state conditional on its input",
+    "no tools, source access, hidden KV state, or per-case weight updates"
+  ]
+}

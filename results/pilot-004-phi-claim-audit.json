@@ -1,0 +1,6892 @@
+{
+  "status": "post hoc limited grammar plus raw extra fields for inspection; not independent annotation",
+  "records": [
+    {
+      "journal": "extract-00",
+      "context": "native",
+      "protocol_writer_status": "valid",
+      "raw_facts_inspected": 6,
+      "dated_claims": [
+        {
+          "fact_index": 0,
+          "activity": "swimming",
+          "day": 1,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "swimming",
+          "day": 2,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "swimming",
+          "day": 4,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "swimming",
+          "day": 6,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "swimming",
+          "day": 8,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "swimming",
+          "day": 10,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "swimming",
+          "day": 12,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "swimming",
+          "day": 13,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "swimming",
+          "day": 23,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "cycling",
+          "day": 3,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "cycling",
+          "day": 5,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "cycling",
+          "day": 7,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "cycling",
+          "day": 9,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "cycling",
+          "day": 14,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "cycling",
+          "day": 15,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "cycling",
+          "day": 16,
+          "positive": null,
+          "matches_source": false
+        },
+        {
+          "fact_index": 1,
+          "activity": "cycling",
+          "day": 17,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "cycling",
+          "day": 18,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "cycling",
+          "day": 19,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "cycling",
+          "day": 20,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "cycling",
+          "day": 21,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "cycling",
+          "day": 22,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "swimming",
+          "day": 1,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "swimming",
+          "day": 2,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "swimming",
+          "day": 4,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "swimming",
+          "day": 6,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "swimming",
+          "day": 8,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "swimming",
+          "day": 10,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "swimming",
+          "day": 12,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "swimming",
+          "day": 13,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "swimming",
+          "day": 23,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "swimming",
+          "day": 11,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "swimming",
+          "day": 14,
+          "positive": false,
+          "matches_source": false
+        },
+        {
+          "fact_index": 4,
+          "activity": "cycling",
+          "day": 3,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "cycling",
+          "day": 5,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "cycling",
+          "day": 7,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "cycling",
+          "day": 9,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "cycling",
+          "day": 18,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "cycling",
+          "day": 20,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "cycling",
+          "day": 14,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "cycling",
+          "day": 15,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "cycling",
+          "day": 16,
+          "positive": false,
+          "matches_source": false
+        },
+        {
+          "fact_index": 5,
+          "activity": "cycling",
+          "day": 17,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "cycling",
+          "day": 19,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "cycling",
+          "day": 21,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "cycling",
+          "day": 22,
+          "positive": false,
+          "matches_source": true
+        }
+      ],
+      "count_claims": [],
+      "unparsed_residuals": [],
+      "extra_json_fields_unjudged": {},
+      "matching_outcome_days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "journal": "extract-00",
+      "context": "count_aware",
+      "protocol_writer_status": "valid",
+      "raw_facts_inspected": 2,
+      "dated_claims": [
+        {
+          "fact_index": 0,
+          "activity": "swimming",
+          "day": 1,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "swimming",
+          "day": 2,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "swimming",
+          "day": 4,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "swimming",
+          "day": 6,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "swimming",
+          "day": 8,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "swimming",
+          "day": 10,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "swimming",
+          "day": 11,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "swimming",
+          "day": 12,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "swimming",
+          "day": 13,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "swimming",
+          "day": 16,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "swimming",
+          "day": 23,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "swimming",
+          "day": 24,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "cycling",
+          "day": 3,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "cycling",
+          "day": 5,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "cycling",
+          "day": 7,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "cycling",
+          "day": 9,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "cycling",
+          "day": 14,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "cycling",
+          "day": 15,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "cycling",
+          "day": 17,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "cycling",
+          "day": 18,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "cycling",
+          "day": 19,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "cycling",
+          "day": 20,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "cycling",
+          "day": 21,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "cycling",
+          "day": 22,
+          "positive": null,
+          "matches_source": true
+        }
+      ],
+      "count_claims": [
+        {
+          "fact_index": 0,
+          "activity": "swimming",
+          "quantity": "total",
+          "value": 12,
+          "source_value": 12,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "swimming",
+          "quantity": "positive",
+          "value": 9,
+          "source_value": 9,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "swimming",
+          "quantity": "negative",
+          "value": 3,
+          "source_value": 3,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "cycling",
+          "quantity": "total",
+          "value": 12,
+          "source_value": 12,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "cycling",
+          "quantity": "positive",
+          "value": 4,
+          "source_value": 6,
+          "matches_source": false
+        },
+        {
+          "fact_index": 1,
+          "activity": "cycling",
+          "quantity": "negative",
+          "value": 8,
+          "source_value": 6,
+          "matches_source": false
+        }
+      ],
+      "unparsed_residuals": [],
+      "extra_json_fields_unjudged": {},
+      "matching_outcome_days": []
+    },
+    {
+      "journal": "extract-01",
+      "context": "native",
+      "protocol_writer_status": "valid",
+      "raw_facts_inspected": 9,
+      "dated_claims": [
+        {
+          "fact_index": 0,
+          "activity": "painting",
+          "day": 1,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "painting",
+          "day": 2,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "painting",
+          "day": 3,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "painting",
+          "day": 7,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "painting",
+          "day": 8,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "painting",
+          "day": 11,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "painting",
+          "day": 15,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "painting",
+          "day": 17,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "painting",
+          "day": 18,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "painting",
+          "day": 20,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "painting",
+          "day": 21,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "painting",
+          "day": 22,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "painting",
+          "day": 1,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "painting",
+          "day": 3,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "painting",
+          "day": 11,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "painting",
+          "day": 15,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "painting",
+          "day": 17,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "painting",
+          "day": 20,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "painting",
+          "day": 2,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "painting",
+          "day": 7,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "painting",
+          "day": 8,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "painting",
+          "day": 21,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "painting",
+          "day": 22,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pottery",
+          "day": 4,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pottery",
+          "day": 5,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pottery",
+          "day": 6,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pottery",
+          "day": 9,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pottery",
+          "day": 10,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pottery",
+          "day": 12,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pottery",
+          "day": 13,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pottery",
+          "day": 14,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pottery",
+          "day": 16,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pottery",
+          "day": 19,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pottery",
+          "day": 23,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pottery",
+          "day": 24,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "pottery",
+          "day": 4,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "pottery",
+          "day": 10,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "pottery",
+          "day": 19,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "pottery",
+          "day": 5,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "pottery",
+          "day": 6,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "pottery",
+          "day": 9,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "pottery",
+          "day": 12,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "pottery",
+          "day": 13,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "pottery",
+          "day": 14,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "pottery",
+          "day": 16,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "pottery",
+          "day": 23,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "pottery",
+          "day": 24,
+          "positive": true,
+          "matches_source": true
+        }
+      ],
+      "count_claims": [],
+      "unparsed_residuals": [
+        {
+          "fact_index": 6,
+          "text": "Noted a blue mural covered the entrance wall on Day 12."
+        },
+        {
+          "fact_index": 7,
+          "text": "Noted a brass clock stood beside the window on Day 13."
+        },
+        {
+          "fact_index": 8,
+          "text": "Noted a purple umbrella rested by the door on Day 23."
+        }
+      ],
+      "extra_json_fields_unjudged": {},
+      "matching_outcome_days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "journal": "extract-01",
+      "context": "count_aware",
+      "protocol_writer_status": "invalid",
+      "raw_facts_inspected": 24,
+      "dated_claims": [
+        {
+          "fact_index": 0,
+          "activity": "painting",
+          "day": 1,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "painting",
+          "day": 2,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "painting",
+          "day": 3,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pottery",
+          "day": 4,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "pottery",
+          "day": 5,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "pottery",
+          "day": 6,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 6,
+          "activity": "painting",
+          "day": 7,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 7,
+          "activity": "painting",
+          "day": 8,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 8,
+          "activity": "pottery",
+          "day": 9,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 9,
+          "activity": "pottery",
+          "day": 10,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 10,
+          "activity": "painting",
+          "day": 11,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 11,
+          "activity": "pottery",
+          "day": 12,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 12,
+          "activity": "pottery",
+          "day": 13,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 13,
+          "activity": "pottery",
+          "day": 14,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 14,
+          "activity": "painting",
+          "day": 15,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 15,
+          "activity": "pottery",
+          "day": 16,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 16,
+          "activity": "painting",
+          "day": 17,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 17,
+          "activity": "painting",
+          "day": 18,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 18,
+          "activity": "pottery",
+          "day": 19,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 19,
+          "activity": "painting",
+          "day": 20,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 20,
+          "activity": "painting",
+          "day": 21,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 21,
+          "activity": "painting",
+          "day": 22,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 22,
+          "activity": "pottery",
+          "day": 23,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 23,
+          "activity": "pottery",
+          "day": 24,
+          "positive": true,
+          "matches_source": true
+        }
+      ],
+      "count_claims": [],
+      "unparsed_residuals": [
+        {
+          "fact_index": 11,
+          "text": ". A blue mural covered the entrance wall."
+        },
+        {
+          "fact_index": 12,
+          "text": ". A brass clock stood beside the window."
+        },
+        {
+          "fact_index": 22,
+          "text": ". A purple umbrella rested by the door."
+        }
+      ],
+      "extra_json_fields_unjudged": {
+        "activity_summary": {
+          "painting_sessions": {
+            "total_visits": 9,
+            "enjoyed_visits": 5,
+            "not_enjoyed_visits": 4
+          },
+          "pottery_sessions": {
+            "total_visits": 11,
+            "enjoyed_visits": 8,
+            "not_enjoyed_visits": 3
+          }
+        }
+      },
+      "matching_outcome_days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "journal": "extract-02",
+      "context": "native",
+      "protocol_writer_status": "valid",
+      "raw_facts_inspected": 9,
+      "dated_claims": [
+        {
+          "fact_index": 0,
+          "activity": "pilates",
+          "day": 1,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "pilates",
+          "day": 2,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "pilates",
+          "day": 5,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "pilates",
+          "day": 6,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "pilates",
+          "day": 8,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "pilates",
+          "day": 9,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "pilates",
+          "day": 10,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "pilates",
+          "day": 12,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "pilates",
+          "day": 13,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "pilates",
+          "day": 18,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "pilates",
+          "day": 22,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "pilates",
+          "day": 24,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "pilates",
+          "day": 2,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "pilates",
+          "day": 6,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "pilates",
+          "day": 9,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "pilates",
+          "day": 10,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "pilates",
+          "day": 12,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "pilates",
+          "day": 22,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "pilates",
+          "day": 1,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "pilates",
+          "day": 5,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "pilates",
+          "day": 8,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "pilates",
+          "day": 13,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "pilates",
+          "day": 18,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "pilates",
+          "day": 24,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "yoga",
+          "day": 3,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "yoga",
+          "day": 4,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "yoga",
+          "day": 7,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "yoga",
+          "day": 11,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "yoga",
+          "day": 14,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "yoga",
+          "day": 15,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "yoga",
+          "day": 16,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "yoga",
+          "day": 17,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "yoga",
+          "day": 19,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "yoga",
+          "day": 20,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "yoga",
+          "day": 21,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "yoga",
+          "day": 23,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "yoga",
+          "day": 11,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "yoga",
+          "day": 14,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "yoga",
+          "day": 23,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "yoga",
+          "day": 3,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "yoga",
+          "day": 4,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "yoga",
+          "day": 7,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "yoga",
+          "day": 15,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "yoga",
+          "day": 16,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "yoga",
+          "day": 17,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "yoga",
+          "day": 19,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "yoga",
+          "day": 20,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "yoga",
+          "day": 21,
+          "positive": true,
+          "matches_source": true
+        }
+      ],
+      "count_claims": [],
+      "unparsed_residuals": [
+        {
+          "fact_index": 6,
+          "text": "A purple umbrella rested by the door on Day 06"
+        },
+        {
+          "fact_index": 7,
+          "text": "A brass clock stood beside the window on Day 11"
+        },
+        {
+          "fact_index": 8,
+          "text": "A blue mural covered the entrance wall on Day 22"
+        }
+      ],
+      "extra_json_fields_unjudged": {},
+      "matching_outcome_days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "journal": "extract-02",
+      "context": "count_aware",
+      "protocol_writer_status": "invalid",
+      "raw_facts_inspected": 24,
+      "dated_claims": [
+        {
+          "fact_index": 0,
+          "activity": "pilates",
+          "day": 1,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "pilates",
+          "day": 2,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "yoga",
+          "day": 3,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "yoga",
+          "day": 4,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "pilates",
+          "day": 5,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "pilates",
+          "day": 6,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 6,
+          "activity": "yoga",
+          "day": 7,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 7,
+          "activity": "pilates",
+          "day": 8,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 8,
+          "activity": "pilates",
+          "day": 9,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 9,
+          "activity": "pilates",
+          "day": 10,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 10,
+          "activity": "yoga",
+          "day": 11,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 11,
+          "activity": "pilates",
+          "day": 12,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 12,
+          "activity": "pilates",
+          "day": 13,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 13,
+          "activity": "yoga",
+          "day": 14,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 14,
+          "activity": "yoga",
+          "day": 15,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 15,
+          "activity": "yoga",
+          "day": 16,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 16,
+          "activity": "yoga",
+          "day": 17,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 17,
+          "activity": "pilates",
+          "day": 18,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 18,
+          "activity": "yoga",
+          "day": 19,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 19,
+          "activity": "yoga",
+          "day": 20,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 20,
+          "activity": "yoga",
+          "day": 21,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 21,
+          "activity": "pilates",
+          "day": 22,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 22,
+          "activity": "yoga",
+          "day": 23,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 23,
+          "activity": "pilates",
+          "day": 24,
+          "positive": true,
+          "matches_source": true
+        }
+      ],
+      "count_claims": [],
+      "unparsed_residuals": [
+        {
+          "fact_index": 5,
+          "text": ". A purple umbrella rested by the door."
+        },
+        {
+          "fact_index": 10,
+          "text": ". A brass clock stood beside the window."
+        },
+        {
+          "fact_index": 21,
+          "text": ". A blue mural covered the entrance wall."
+        }
+      ],
+      "extra_json_fields_unjudged": {
+        "activity_summary": {
+          "total_pilates_sessions": 10,
+          "enjoyed_pilates_sessions": 4,
+          "not_enjoyed_pilates_sessions": 6,
+          "total_yoga_sessions": 9,
+          "enjoyed_yoga_sessions": 7,
+          "not_enjoyed_yoga_sessions": 2
+        }
+      },
+      "matching_outcome_days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "journal": "extract-03",
+      "context": "native",
+      "protocol_writer_status": "valid",
+      "raw_facts_inspected": 4,
+      "dated_claims": [
+        {
+          "fact_index": 0,
+          "activity": "pottery",
+          "day": 1,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "pottery",
+          "day": 2,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "pottery",
+          "day": 3,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "pottery",
+          "day": 10,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "pottery",
+          "day": 12,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "pottery",
+          "day": 13,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "pottery",
+          "day": 14,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "pottery",
+          "day": 15,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "pottery",
+          "day": 16,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "pottery",
+          "day": 18,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "pottery",
+          "day": 20,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "pottery",
+          "day": 21,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "pottery",
+          "day": 1,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "pottery",
+          "day": 2,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "pottery",
+          "day": 3,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "pottery",
+          "day": 10,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "pottery",
+          "day": 12,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "pottery",
+          "day": 13,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "pottery",
+          "day": 14,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "pottery",
+          "day": 15,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "pottery",
+          "day": 21,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "pottery",
+          "day": 16,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "pottery",
+          "day": 18,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "pottery",
+          "day": 20,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "painting",
+          "day": 4,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "painting",
+          "day": 5,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "painting",
+          "day": 6,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "painting",
+          "day": 7,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "painting",
+          "day": 8,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "painting",
+          "day": 9,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "painting",
+          "day": 11,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "painting",
+          "day": 17,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "painting",
+          "day": 19,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "painting",
+          "day": 22,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "painting",
+          "day": 23,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "painting",
+          "day": 24,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "painting",
+          "day": 4,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "painting",
+          "day": 6,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "painting",
+          "day": 7,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "painting",
+          "day": 8,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "painting",
+          "day": 9,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "painting",
+          "day": 22,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "painting",
+          "day": 5,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "painting",
+          "day": 11,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "painting",
+          "day": 17,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "painting",
+          "day": 19,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "painting",
+          "day": 23,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "painting",
+          "day": 24,
+          "positive": false,
+          "matches_source": true
+        }
+      ],
+      "count_claims": [],
+      "unparsed_residuals": [],
+      "extra_json_fields_unjudged": {},
+      "matching_outcome_days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "journal": "extract-03",
+      "context": "count_aware",
+      "protocol_writer_status": "valid",
+      "raw_facts_inspected": 2,
+      "dated_claims": [],
+      "count_claims": [
+        {
+          "fact_index": 0,
+          "activity": "pottery",
+          "quantity": "total",
+          "value": 10,
+          "source_value": 12,
+          "matches_source": false
+        },
+        {
+          "fact_index": 0,
+          "activity": "pottery",
+          "quantity": "positive",
+          "value": 2,
+          "source_value": 3,
+          "matches_source": false
+        },
+        {
+          "fact_index": 0,
+          "activity": "pottery",
+          "quantity": "negative",
+          "value": 4,
+          "source_value": 9,
+          "matches_source": false
+        },
+        {
+          "fact_index": 1,
+          "activity": "painting",
+          "quantity": "total",
+          "value": 14,
+          "source_value": 12,
+          "matches_source": false
+        },
+        {
+          "fact_index": 1,
+          "activity": "painting",
+          "quantity": "positive",
+          "value": 6,
+          "source_value": 6,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "painting",
+          "quantity": "negative",
+          "value": 6,
+          "source_value": 6,
+          "matches_source": true
+        }
+      ],
+      "unparsed_residuals": [],
+      "extra_json_fields_unjudged": {},
+      "matching_outcome_days": []
+    },
+    {
+      "journal": "extract-04",
+      "context": "native",
+      "protocol_writer_status": "valid",
+      "raw_facts_inspected": 6,
+      "dated_claims": [
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 1,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 4,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 9,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 13,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 16,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 18,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 19,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 20,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 21,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 23,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 24,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "yoga",
+          "day": 1,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "yoga",
+          "day": 13,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "yoga",
+          "day": 20,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "yoga",
+          "day": 4,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "yoga",
+          "day": 9,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "yoga",
+          "day": 16,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "yoga",
+          "day": 18,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "yoga",
+          "day": 19,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "yoga",
+          "day": 21,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "yoga",
+          "day": 23,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "yoga",
+          "day": 24,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pilates",
+          "day": 2,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pilates",
+          "day": 3,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pilates",
+          "day": 5,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pilates",
+          "day": 6,
+          "positive": null,
+          "matches_source": false
+        },
+        {
+          "fact_index": 3,
+          "activity": "pilates",
+          "day": 7,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pilates",
+          "day": 8,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pilates",
+          "day": 10,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pilates",
+          "day": 11,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pilates",
+          "day": 12,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pilates",
+          "day": 14,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pilates",
+          "day": 15,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pilates",
+          "day": 17,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pilates",
+          "day": 22,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "pilates",
+          "day": 2,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "pilates",
+          "day": 7,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "pilates",
+          "day": 11,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "pilates",
+          "day": 12,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "pilates",
+          "day": 14,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "pilates",
+          "day": 17,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "pilates",
+          "day": 3,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "pilates",
+          "day": 5,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "pilates",
+          "day": 6,
+          "positive": false,
+          "matches_source": false
+        },
+        {
+          "fact_index": 5,
+          "activity": "pilates",
+          "day": 8,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "pilates",
+          "day": 10,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "pilates",
+          "day": 15,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "pilates",
+          "day": 22,
+          "positive": false,
+          "matches_source": true
+        }
+      ],
+      "count_claims": [],
+      "unparsed_residuals": [],
+      "extra_json_fields_unjudged": {},
+      "matching_outcome_days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "journal": "extract-04",
+      "context": "count_aware",
+      "protocol_writer_status": "valid",
+      "raw_facts_inspected": 9,
+      "dated_claims": [
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 1,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 4,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 9,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 13,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 16,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 18,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 19,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 20,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 21,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 23,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 24,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "yoga",
+          "day": 1,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "yoga",
+          "day": 13,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "yoga",
+          "day": 20,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "yoga",
+          "day": 4,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "yoga",
+          "day": 9,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "yoga",
+          "day": 16,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "yoga",
+          "day": 18,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "yoga",
+          "day": 19,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "yoga",
+          "day": 21,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "yoga",
+          "day": 23,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "yoga",
+          "day": 24,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pilates",
+          "day": 2,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pilates",
+          "day": 3,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pilates",
+          "day": 5,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pilates",
+          "day": 6,
+          "positive": null,
+          "matches_source": false
+        },
+        {
+          "fact_index": 3,
+          "activity": "pilates",
+          "day": 7,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pilates",
+          "day": 8,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pilates",
+          "day": 10,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pilates",
+          "day": 11,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pilates",
+          "day": 12,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pilates",
+          "day": 14,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pilates",
+          "day": 15,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pilates",
+          "day": 17,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pilates",
+          "day": 22,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "pilates",
+          "day": 2,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "pilates",
+          "day": 7,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "pilates",
+          "day": 11,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "pilates",
+          "day": 12,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "pilates",
+          "day": 14,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "pilates",
+          "day": 17,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "pilates",
+          "day": 3,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "pilates",
+          "day": 5,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "pilates",
+          "day": 6,
+          "positive": false,
+          "matches_source": false
+        },
+        {
+          "fact_index": 5,
+          "activity": "pilates",
+          "day": 8,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "pilates",
+          "day": 10,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "pilates",
+          "day": 15,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "pilates",
+          "day": 22,
+          "positive": false,
+          "matches_source": true
+        }
+      ],
+      "count_claims": [
+        {
+          "fact_index": 6,
+          "activity": "yoga",
+          "quantity": "total",
+          "value": 11,
+          "source_value": 12,
+          "matches_source": false
+        },
+        {
+          "fact_index": 6,
+          "activity": "yoga",
+          "quantity": "positive",
+          "value": 3,
+          "source_value": 3,
+          "matches_source": true
+        },
+        {
+          "fact_index": 6,
+          "activity": "yoga",
+          "quantity": "negative",
+          "value": 8,
+          "source_value": 9,
+          "matches_source": false
+        },
+        {
+          "fact_index": 7,
+          "activity": "pilates",
+          "quantity": "total",
+          "value": 13,
+          "source_value": 12,
+          "matches_source": false
+        },
+        {
+          "fact_index": 7,
+          "activity": "pilates",
+          "quantity": "positive",
+          "value": 6,
+          "source_value": 6,
+          "matches_source": true
+        },
+        {
+          "fact_index": 7,
+          "activity": "pilates",
+          "quantity": "negative",
+          "value": 7,
+          "source_value": 6,
+          "matches_source": false
+        }
+      ],
+      "unparsed_residuals": [
+        {
+          "fact_index": 8,
+          "text": "Notable observations: A brass clock stood beside the window on Day 07, A blue mural covered the entrance wall on Day 11, A purple umbrella rested by the door on Day 14."
+        }
+      ],
+      "extra_json_fields_unjudged": {},
+      "matching_outcome_days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "journal": "extract-05",
+      "context": "native",
+      "protocol_writer_status": "valid",
+      "raw_facts_inspected": 5,
+      "dated_claims": [
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "day": 1,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "day": 3,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "day": 4,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "day": 5,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "day": 7,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "day": 9,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "day": 12,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "day": 14,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "day": 18,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "day": 20,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "day": 22,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "day": 23,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "day": 1,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "day": 3,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "day": 4,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "day": 7,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "day": 14,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "day": 20,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "day": 21,
+          "positive": false,
+          "matches_source": false
+        },
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "day": 5,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "day": 12,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "day": 18,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "day": 22,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "day": 23,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "badminton",
+          "day": 2,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "badminton",
+          "day": 6,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "badminton",
+          "day": 8,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "badminton",
+          "day": 10,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "badminton",
+          "day": 11,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "badminton",
+          "day": 13,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "badminton",
+          "day": 15,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "badminton",
+          "day": 16,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "badminton",
+          "day": 17,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "badminton",
+          "day": 19,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "badminton",
+          "day": 21,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "badminton",
+          "day": 24,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "badminton",
+          "day": 2,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "badminton",
+          "day": 11,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "badminton",
+          "day": 13,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "badminton",
+          "day": 15,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "badminton",
+          "day": 16,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "badminton",
+          "day": 17,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "badminton",
+          "day": 19,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "badminton",
+          "day": 21,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "badminton",
+          "day": 24,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "badminton",
+          "day": 6,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "badminton",
+          "day": 8,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "badminton",
+          "day": 10,
+          "positive": true,
+          "matches_source": true
+        }
+      ],
+      "count_claims": [],
+      "unparsed_residuals": [
+        {
+          "fact_index": 2,
+          "text": "Noticed a blue mural covered the entrance wall on Day 11."
+        },
+        {
+          "fact_index": 3,
+          "text": "Noticed a purple umbrella rested by the door on Day 13."
+        },
+        {
+          "fact_index": 4,
+          "text": "Noticed a brass clock stood beside the window on Day 17."
+        }
+      ],
+      "extra_json_fields_unjudged": {},
+      "matching_outcome_days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "journal": "extract-05",
+      "context": "count_aware",
+      "protocol_writer_status": "valid",
+      "raw_facts_inspected": 5,
+      "dated_claims": [],
+      "count_claims": [
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "quantity": "total",
+          "value": 12,
+          "source_value": 12,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "quantity": "positive",
+          "value": 4,
+          "source_value": 6,
+          "matches_source": false
+        },
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "quantity": "negative",
+          "value": 8,
+          "source_value": 6,
+          "matches_source": false
+        },
+        {
+          "fact_index": 1,
+          "activity": "badminton",
+          "quantity": "total",
+          "value": 12,
+          "source_value": 12,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "badminton",
+          "quantity": "positive",
+          "value": 4,
+          "source_value": 3,
+          "matches_source": false
+        },
+        {
+          "fact_index": 1,
+          "activity": "badminton",
+          "quantity": "negative",
+          "value": 8,
+          "source_value": 9,
+          "matches_source": false
+        }
+      ],
+      "unparsed_residuals": [
+        {
+          "fact_index": 2,
+          "text": "Day 11: A blue mural covered the entrance wall"
+        },
+        {
+          "fact_index": 3,
+          "text": "Day 13: A purple umbrella rested by the door"
+        },
+        {
+          "fact_index": 4,
+          "text": "Day 17: A brass clock stood beside the window"
+        }
+      ],
+      "extra_json_fields_unjudged": {},
+      "matching_outcome_days": []
+    },
+    {
+      "journal": "extract-06",
+      "context": "native",
+      "protocol_writer_status": "valid",
+      "raw_facts_inspected": 6,
+      "dated_claims": [
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 1,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 2,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 8,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 10,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 11,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 13,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 18,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 19,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 21,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 22,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 24,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "yoga",
+          "day": 1,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "yoga",
+          "day": 13,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "yoga",
+          "day": 18,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "yoga",
+          "day": 21,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "yoga",
+          "day": 22,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "yoga",
+          "day": 2,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "yoga",
+          "day": 8,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "yoga",
+          "day": 10,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "yoga",
+          "day": 11,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "yoga",
+          "day": 24,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pilates",
+          "day": 4,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pilates",
+          "day": 5,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pilates",
+          "day": 6,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pilates",
+          "day": 7,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pilates",
+          "day": 9,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pilates",
+          "day": 12,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pilates",
+          "day": 14,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pilates",
+          "day": 15,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pilates",
+          "day": 16,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pilates",
+          "day": 17,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pilates",
+          "day": 20,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pilates",
+          "day": 23,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "pilates",
+          "day": 7,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "pilates",
+          "day": 9,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "pilates",
+          "day": 14,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "pilates",
+          "day": 4,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "pilates",
+          "day": 5,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "pilates",
+          "day": 6,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "pilates",
+          "day": 12,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "pilates",
+          "day": 15,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "pilates",
+          "day": 16,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "pilates",
+          "day": 17,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "pilates",
+          "day": 20,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "pilates",
+          "day": 23,
+          "positive": true,
+          "matches_source": true
+        }
+      ],
+      "count_claims": [],
+      "unparsed_residuals": [],
+      "extra_json_fields_unjudged": {},
+      "matching_outcome_days": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "journal": "extract-06",
+      "context": "count_aware",
+      "protocol_writer_status": "valid",
+      "raw_facts_inspected": 2,
+      "dated_claims": [
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 1,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 2,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 8,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 10,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 11,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 13,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 18,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 19,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 21,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 22,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "day": 24,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "pilates",
+          "day": 4,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "pilates",
+          "day": 5,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "pilates",
+          "day": 6,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "pilates",
+          "day": 7,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "pilates",
+          "day": 9,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "pilates",
+          "day": 12,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "pilates",
+          "day": 14,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "pilates",
+          "day": 15,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "pilates",
+          "day": 16,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "pilates",
+          "day": 17,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "pilates",
+          "day": 20,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "pilates",
+          "day": 23,
+          "positive": null,
+          "matches_source": true
+        }
+      ],
+      "count_claims": [
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "quantity": "total",
+          "value": 11,
+          "source_value": 12,
+          "matches_source": false
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "quantity": "positive",
+          "value": 5,
+          "source_value": 6,
+          "matches_source": false
+        },
+        {
+          "fact_index": 0,
+          "activity": "yoga",
+          "quantity": "negative",
+          "value": 6,
+          "source_value": 6,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "pilates",
+          "quantity": "total",
+          "value": 12,
+          "source_value": 12,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "pilates",
+          "quantity": "positive",
+          "value": 9,
+          "source_value": 9,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "pilates",
+          "quantity": "negative",
+          "value": 3,
+          "source_value": 3,
+          "matches_source": true
+        }
+      ],
+      "unparsed_residuals": [],
+      "extra_json_fields_unjudged": {},
+      "matching_outcome_days": []
+    },
+    {
+      "journal": "extract-07",
+      "context": "native",
+      "protocol_writer_status": "valid",
+      "raw_facts_inspected": 9,
+      "dated_claims": [
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "day": 1,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "day": 2,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "day": 4,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "day": 6,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "day": 8,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "day": 10,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "day": 11,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "day": 13,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "day": 16,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "day": 19,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "day": 23,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "day": 24,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "chess",
+          "day": 1,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "chess",
+          "day": 2,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "chess",
+          "day": 4,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "chess",
+          "day": 6,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "chess",
+          "day": 8,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "chess",
+          "day": 10,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "chess",
+          "day": 23,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "chess",
+          "day": 24,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "chess",
+          "day": 11,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "chess",
+          "day": 16,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "chess",
+          "day": 19,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "badminton",
+          "day": 3,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "badminton",
+          "day": 5,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "badminton",
+          "day": 7,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "badminton",
+          "day": 9,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "badminton",
+          "day": 12,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "badminton",
+          "day": 14,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "badminton",
+          "day": 15,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "badminton",
+          "day": 17,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "badminton",
+          "day": 18,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "badminton",
+          "day": 20,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "badminton",
+          "day": 21,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "badminton",
+          "day": 22,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "badminton",
+          "day": 3,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "badminton",
+          "day": 5,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "badminton",
+          "day": 7,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "badminton",
+          "day": 12,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "badminton",
+          "day": 21,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "badminton",
+          "day": 22,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "badminton",
+          "day": 9,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "badminton",
+          "day": 14,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "badminton",
+          "day": 15,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "badminton",
+          "day": 17,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "badminton",
+          "day": 18,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "badminton",
+          "day": 20,
+          "positive": false,
+          "matches_source": true
+        }
+      ],
+      "count_claims": [],
+      "unparsed_residuals": [
+        {
+          "fact_index": 6,
+          "text": "A blue mural covered the entrance wall on Day 01"
+        },
+        {
+          "fact_index": 7,
+          "text": "A brass clock stood beside the window on Day 06"
+        },
+        {
+          "fact_index": 8,
+          "text": "A purple umbrella rested by the door on Day 08"
+        }
+      ],
+      "extra_json_fields_unjudged": {},
+      "matching_outcome_days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "journal": "extract-07",
+      "context": "count_aware",
+      "protocol_writer_status": "valid",
+      "raw_facts_inspected": 19,
+      "dated_claims": [
+        {
+          "fact_index": 2,
+          "activity": "chess",
+          "day": 1,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "chess",
+          "day": 4,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "chess",
+          "day": 6,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "chess",
+          "day": 8,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 6,
+          "activity": "badminton",
+          "day": 9,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 7,
+          "activity": "chess",
+          "day": 11,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 8,
+          "activity": "badminton",
+          "day": 14,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 9,
+          "activity": "badminton",
+          "day": 15,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 10,
+          "activity": "chess",
+          "day": 16,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 11,
+          "activity": "badminton",
+          "day": 17,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 12,
+          "activity": "badminton",
+          "day": 18,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 13,
+          "activity": "chess",
+          "day": 19,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 14,
+          "activity": "badminton",
+          "day": 20,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 15,
+          "activity": "badminton",
+          "day": 21,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 16,
+          "activity": "badminton",
+          "day": 22,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 17,
+          "activity": "chess",
+          "day": 23,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 18,
+          "activity": "chess",
+          "day": 24,
+          "positive": true,
+          "matches_source": true
+        }
+      ],
+      "count_claims": [
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "quantity": "total",
+          "value": 12,
+          "source_value": 12,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "quantity": "positive",
+          "value": 9,
+          "source_value": 9,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "chess",
+          "quantity": "negative",
+          "value": 3,
+          "source_value": 3,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "badminton",
+          "quantity": "total",
+          "value": 12,
+          "source_value": 12,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "badminton",
+          "quantity": "positive",
+          "value": 5,
+          "source_value": 6,
+          "matches_source": false
+        },
+        {
+          "fact_index": 1,
+          "activity": "badminton",
+          "quantity": "negative",
+          "value": 7,
+          "source_value": 6,
+          "matches_source": false
+        }
+      ],
+      "unparsed_residuals": [
+        {
+          "fact_index": 2,
+          "text": ", noted a blue mural at the entrance"
+        },
+        {
+          "fact_index": 4,
+          "text": ", noted a brass clock beside the window"
+        },
+        {
+          "fact_index": 5,
+          "text": ", noted a purple umbrella by the door"
+        }
+      ],
+      "extra_json_fields_unjudged": {},
+      "matching_outcome_days": [
+        1,
+        4,
+        6,
+        8,
+        9,
+        11,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "journal": "extract-08",
+      "context": "native",
+      "protocol_writer_status": "valid",
+      "raw_facts_inspected": 9,
+      "dated_claims": [
+        {
+          "fact_index": 0,
+          "activity": "cycling",
+          "day": 1,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "cycling",
+          "day": 2,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "cycling",
+          "day": 5,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "cycling",
+          "day": 9,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "cycling",
+          "day": 10,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "cycling",
+          "day": 12,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "cycling",
+          "day": 13,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "cycling",
+          "day": 15,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "cycling",
+          "day": 18,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "cycling",
+          "day": 20,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "cycling",
+          "day": 21,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "swimming",
+          "day": 3,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "swimming",
+          "day": 4,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "swimming",
+          "day": 6,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "swimming",
+          "day": 7,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "swimming",
+          "day": 8,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "swimming",
+          "day": 11,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "swimming",
+          "day": 14,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "swimming",
+          "day": 16,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "swimming",
+          "day": 17,
+          "positive": null,
+          "matches_source": false
+        },
+        {
+          "fact_index": 1,
+          "activity": "swimming",
+          "day": 19,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "swimming",
+          "day": 22,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "swimming",
+          "day": 23,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "swimming",
+          "day": 24,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "cycling",
+          "day": 1,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "cycling",
+          "day": 2,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "cycling",
+          "day": 5,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "cycling",
+          "day": 9,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "cycling",
+          "day": 12,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "cycling",
+          "day": 15,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "cycling",
+          "day": 18,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "cycling",
+          "day": 20,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "cycling",
+          "day": 21,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "cycling",
+          "day": 10,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "cycling",
+          "day": 13,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "cycling",
+          "day": 17,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "swimming",
+          "day": 3,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "swimming",
+          "day": 4,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "swimming",
+          "day": 6,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "swimming",
+          "day": 7,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "swimming",
+          "day": 11,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "swimming",
+          "day": 14,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "swimming",
+          "day": 8,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "swimming",
+          "day": 16,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "swimming",
+          "day": 19,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "swimming",
+          "day": 22,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "swimming",
+          "day": 23,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "swimming",
+          "day": 24,
+          "positive": false,
+          "matches_source": true
+        }
+      ],
+      "count_claims": [],
+      "unparsed_residuals": [
+        {
+          "fact_index": 6,
+          "text": "Noted a purple umbrella by the door on Day 10."
+        },
+        {
+          "fact_index": 7,
+          "text": "Noted a brass clock beside the window on Day 17."
+        },
+        {
+          "fact_index": 8,
+          "text": "Noted a blue mural on the entrance wall on Day 19."
+        }
+      ],
+      "extra_json_fields_unjudged": {},
+      "matching_outcome_days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "journal": "extract-08",
+      "context": "count_aware",
+      "protocol_writer_status": "valid",
+      "raw_facts_inspected": 5,
+      "dated_claims": [],
+      "count_claims": [
+        {
+          "fact_index": 0,
+          "activity": "cycling",
+          "quantity": "total",
+          "value": 12,
+          "source_value": 12,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "cycling",
+          "quantity": "positive",
+          "value": 8,
+          "source_value": 9,
+          "matches_source": false
+        },
+        {
+          "fact_index": 0,
+          "activity": "cycling",
+          "quantity": "negative",
+          "value": 4,
+          "source_value": 3,
+          "matches_source": false
+        },
+        {
+          "fact_index": 1,
+          "activity": "swimming",
+          "quantity": "total",
+          "value": 9,
+          "source_value": 12,
+          "matches_source": false
+        },
+        {
+          "fact_index": 1,
+          "activity": "swimming",
+          "quantity": "positive",
+          "value": 5,
+          "source_value": 6,
+          "matches_source": false
+        },
+        {
+          "fact_index": 1,
+          "activity": "swimming",
+          "quantity": "negative",
+          "value": 4,
+          "source_value": 6,
+          "matches_source": false
+        }
+      ],
+      "unparsed_residuals": [
+        {
+          "fact_index": 2,
+          "text": "Noticed a purple umbrella by the door on Day 10"
+        },
+        {
+          "fact_index": 3,
+          "text": "Noticed a brass clock beside the window on Day 17"
+        },
+        {
+          "fact_index": 4,
+          "text": "Noticed a blue mural on the entrance wall on Day 19"
+        }
+      ],
+      "extra_json_fields_unjudged": {},
+      "matching_outcome_days": []
+    },
+    {
+      "journal": "extract-09",
+      "context": "native",
+      "protocol_writer_status": "valid",
+      "raw_facts_inspected": 2,
+      "dated_claims": [
+        {
+          "fact_index": 0,
+          "activity": "badminton",
+          "day": 1,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "badminton",
+          "day": 9,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "badminton",
+          "day": 14,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "badminton",
+          "day": 16,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "badminton",
+          "day": 17,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "badminton",
+          "day": 18,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "badminton",
+          "day": 19,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "badminton",
+          "day": 20,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "badminton",
+          "day": 21,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "badminton",
+          "day": 22,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "badminton",
+          "day": 1,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "badminton",
+          "day": 9,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "badminton",
+          "day": 14,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "badminton",
+          "day": 17,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "badminton",
+          "day": 9,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "badminton",
+          "day": 16,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "badminton",
+          "day": 18,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "badminton",
+          "day": 19,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "badminton",
+          "day": 20,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "badminton",
+          "day": 21,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "badminton",
+          "day": 22,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "chess",
+          "day": 2,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "chess",
+          "day": 4,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "chess",
+          "day": 5,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "chess",
+          "day": 6,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "chess",
+          "day": 7,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "chess",
+          "day": 8,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "chess",
+          "day": 10,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "chess",
+          "day": 11,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "chess",
+          "day": 13,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "chess",
+          "day": 15,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "chess",
+          "day": 23,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "chess",
+          "day": 24,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "chess",
+          "day": 2,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "chess",
+          "day": 4,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "chess",
+          "day": 6,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "chess",
+          "day": 11,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "chess",
+          "day": 13,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "chess",
+          "day": 24,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "chess",
+          "day": 5,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "chess",
+          "day": 7,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "chess",
+          "day": 8,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "chess",
+          "day": 10,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "chess",
+          "day": 15,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "chess",
+          "day": 23,
+          "positive": false,
+          "matches_source": true
+        }
+      ],
+      "count_claims": [],
+      "unparsed_residuals": [],
+      "extra_json_fields_unjudged": {},
+      "matching_outcome_days": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "journal": "extract-09",
+      "context": "count_aware",
+      "protocol_writer_status": "valid",
+      "raw_facts_inspected": 26,
+      "dated_claims": [
+        {
+          "fact_index": 0,
+          "activity": "badminton",
+          "day": 1,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "chess",
+          "day": 2,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "badminton",
+          "day": 3,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "chess",
+          "day": 4,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "chess",
+          "day": 5,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "chess",
+          "day": 6,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 6,
+          "activity": "chess",
+          "day": 7,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 7,
+          "activity": "chess",
+          "day": 8,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 8,
+          "activity": "badminton",
+          "day": 9,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 9,
+          "activity": "chess",
+          "day": 10,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 10,
+          "activity": "chess",
+          "day": 11,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 11,
+          "activity": "badminton",
+          "day": 12,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 12,
+          "activity": "chess",
+          "day": 13,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 13,
+          "activity": "badminton",
+          "day": 14,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 14,
+          "activity": "chess",
+          "day": 15,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 15,
+          "activity": "badminton",
+          "day": 16,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 16,
+          "activity": "badminton",
+          "day": 17,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 17,
+          "activity": "badminton",
+          "day": 18,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 18,
+          "activity": "badminton",
+          "day": 19,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 19,
+          "activity": "badminton",
+          "day": 20,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 20,
+          "activity": "badminton",
+          "day": 21,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 21,
+          "activity": "badminton",
+          "day": 22,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 22,
+          "activity": "chess",
+          "day": 23,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 23,
+          "activity": "chess",
+          "day": 24,
+          "positive": true,
+          "matches_source": true
+        }
+      ],
+      "count_claims": [
+        {
+          "fact_index": 24,
+          "activity": "badminton",
+          "quantity": "total",
+          "value": 9,
+          "source_value": 12,
+          "matches_source": false
+        },
+        {
+          "fact_index": 24,
+          "activity": "badminton",
+          "quantity": "positive",
+          "value": 6,
+          "source_value": 6,
+          "matches_source": true
+        },
+        {
+          "fact_index": 24,
+          "activity": "badminton",
+          "quantity": "negative",
+          "value": 3,
+          "source_value": 6,
+          "matches_source": false
+        },
+        {
+          "fact_index": 25,
+          "activity": "chess",
+          "quantity": "total",
+          "value": 10,
+          "source_value": 12,
+          "matches_source": false
+        },
+        {
+          "fact_index": 25,
+          "activity": "chess",
+          "quantity": "positive",
+          "value": 5,
+          "source_value": 6,
+          "matches_source": false
+        },
+        {
+          "fact_index": 25,
+          "activity": "chess",
+          "quantity": "negative",
+          "value": 5,
+          "source_value": 6,
+          "matches_source": false
+        }
+      ],
+      "unparsed_residuals": [],
+      "extra_json_fields_unjudged": {},
+      "matching_outcome_days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "journal": "extract-10",
+      "context": "native",
+      "protocol_writer_status": "valid",
+      "raw_facts_inspected": 9,
+      "dated_claims": [
+        {
+          "fact_index": 0,
+          "activity": "swimming",
+          "day": 1,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "swimming",
+          "day": 3,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "swimming",
+          "day": 4,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "swimming",
+          "day": 6,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "swimming",
+          "day": 9,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "swimming",
+          "day": 12,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "swimming",
+          "day": 15,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "swimming",
+          "day": 19,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "swimming",
+          "day": 20,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "swimming",
+          "day": 21,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "swimming",
+          "day": 22,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "swimming",
+          "day": 24,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "swimming",
+          "day": 1,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "swimming",
+          "day": 3,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "swimming",
+          "day": 15,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "swimming",
+          "day": 19,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "swimming",
+          "day": 22,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "swimming",
+          "day": 24,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "swimming",
+          "day": 4,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "swimming",
+          "day": 6,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "swimming",
+          "day": 9,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "swimming",
+          "day": 12,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "swimming",
+          "day": 20,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "swimming",
+          "day": 21,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "cycling",
+          "day": 2,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "cycling",
+          "day": 5,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "cycling",
+          "day": 7,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "cycling",
+          "day": 8,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "cycling",
+          "day": 10,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "cycling",
+          "day": 11,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "cycling",
+          "day": 13,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "cycling",
+          "day": 14,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "cycling",
+          "day": 16,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "cycling",
+          "day": 17,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "cycling",
+          "day": 18,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "cycling",
+          "day": 23,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "cycling",
+          "day": 2,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "cycling",
+          "day": 5,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "cycling",
+          "day": 7,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "cycling",
+          "day": 13,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "cycling",
+          "day": 14,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "cycling",
+          "day": 17,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "cycling",
+          "day": 8,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "cycling",
+          "day": 10,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "cycling",
+          "day": 11,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "cycling",
+          "day": 16,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "cycling",
+          "day": 18,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "cycling",
+          "day": 23,
+          "positive": true,
+          "matches_source": true
+        }
+      ],
+      "count_claims": [],
+      "unparsed_residuals": [
+        {
+          "fact_index": 6,
+          "text": "Noticed a blue mural covered the entrance wall on Day 04"
+        },
+        {
+          "fact_index": 7,
+          "text": "Noticed a brass clock stood beside the window on Day 06"
+        },
+        {
+          "fact_index": 8,
+          "text": "Noticed a purple umbrella rested by the door on Day 12"
+        }
+      ],
+      "extra_json_fields_unjudged": {},
+      "matching_outcome_days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "journal": "extract-10",
+      "context": "count_aware",
+      "protocol_writer_status": "valid",
+      "raw_facts_inspected": 5,
+      "dated_claims": [
+        {
+          "fact_index": 2,
+          "activity": "swimming",
+          "day": 4,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "swimming",
+          "day": 6,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "swimming",
+          "day": 12,
+          "positive": true,
+          "matches_source": true
+        }
+      ],
+      "count_claims": [
+        {
+          "fact_index": 0,
+          "activity": "swimming",
+          "quantity": "total",
+          "value": 12,
+          "source_value": 12,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "swimming",
+          "quantity": "positive",
+          "value": 5,
+          "source_value": 6,
+          "matches_source": false
+        },
+        {
+          "fact_index": 0,
+          "activity": "swimming",
+          "quantity": "negative",
+          "value": 7,
+          "source_value": 6,
+          "matches_source": false
+        },
+        {
+          "fact_index": 1,
+          "activity": "cycling",
+          "quantity": "total",
+          "value": 12,
+          "source_value": 12,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "cycling",
+          "quantity": "positive",
+          "value": 6,
+          "source_value": 6,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "cycling",
+          "quantity": "negative",
+          "value": 6,
+          "source_value": 6,
+          "matches_source": true
+        }
+      ],
+      "unparsed_residuals": [
+        {
+          "fact_index": 2,
+          "text": ", noted a blue mural at the entrance"
+        },
+        {
+          "fact_index": 3,
+          "text": ", noted a brass clock beside the window"
+        },
+        {
+          "fact_index": 4,
+          "text": ", noted a purple umbrella by the door"
+        }
+      ],
+      "extra_json_fields_unjudged": {},
+      "matching_outcome_days": [
+        4,
+        6,
+        12
+      ]
+    },
+    {
+      "journal": "extract-11",
+      "context": "native",
+      "protocol_writer_status": "valid",
+      "raw_facts_inspected": 9,
+      "dated_claims": [
+        {
+          "fact_index": 0,
+          "activity": "painting",
+          "day": 1,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "painting",
+          "day": 5,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "painting",
+          "day": 6,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "painting",
+          "day": 7,
+          "positive": null,
+          "matches_source": false
+        },
+        {
+          "fact_index": 0,
+          "activity": "painting",
+          "day": 12,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "painting",
+          "day": 13,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "painting",
+          "day": 14,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "painting",
+          "day": 15,
+          "positive": null,
+          "matches_source": false
+        },
+        {
+          "fact_index": 0,
+          "activity": "painting",
+          "day": 18,
+          "positive": null,
+          "matches_source": false
+        },
+        {
+          "fact_index": 0,
+          "activity": "painting",
+          "day": 19,
+          "positive": null,
+          "matches_source": false
+        },
+        {
+          "fact_index": 0,
+          "activity": "painting",
+          "day": 21,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 0,
+          "activity": "painting",
+          "day": 24,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "painting",
+          "day": 1,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "painting",
+          "day": 5,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "painting",
+          "day": 6,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "painting",
+          "day": 7,
+          "positive": true,
+          "matches_source": false
+        },
+        {
+          "fact_index": 1,
+          "activity": "painting",
+          "day": 12,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "painting",
+          "day": 13,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "painting",
+          "day": 14,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "painting",
+          "day": 15,
+          "positive": true,
+          "matches_source": false
+        },
+        {
+          "fact_index": 1,
+          "activity": "painting",
+          "day": 18,
+          "positive": true,
+          "matches_source": false
+        },
+        {
+          "fact_index": 1,
+          "activity": "painting",
+          "day": 19,
+          "positive": true,
+          "matches_source": false
+        },
+        {
+          "fact_index": 2,
+          "activity": "painting",
+          "day": 9,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "painting",
+          "day": 11,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "painting",
+          "day": 16,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "painting",
+          "day": 17,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "painting",
+          "day": 21,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "painting",
+          "day": 24,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pottery",
+          "day": 2,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pottery",
+          "day": 3,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pottery",
+          "day": 4,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pottery",
+          "day": 7,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pottery",
+          "day": 8,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pottery",
+          "day": 10,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pottery",
+          "day": 15,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pottery",
+          "day": 18,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pottery",
+          "day": 19,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pottery",
+          "day": 20,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pottery",
+          "day": 21,
+          "positive": null,
+          "matches_source": false
+        },
+        {
+          "fact_index": 3,
+          "activity": "pottery",
+          "day": 22,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pottery",
+          "day": 23,
+          "positive": null,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pottery",
+          "day": 24,
+          "positive": null,
+          "matches_source": false
+        },
+        {
+          "fact_index": 4,
+          "activity": "pottery",
+          "day": 1,
+          "positive": true,
+          "matches_source": false
+        },
+        {
+          "fact_index": 4,
+          "activity": "pottery",
+          "day": 7,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "pottery",
+          "day": 10,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "pottery",
+          "day": 15,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "pottery",
+          "day": 18,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "pottery",
+          "day": 19,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "pottery",
+          "day": 3,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "pottery",
+          "day": 4,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "pottery",
+          "day": 8,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "pottery",
+          "day": 20,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "pottery",
+          "day": 21,
+          "positive": false,
+          "matches_source": false
+        },
+        {
+          "fact_index": 5,
+          "activity": "pottery",
+          "day": 22,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "pottery",
+          "day": 23,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "pottery",
+          "day": 24,
+          "positive": false,
+          "matches_source": false
+        }
+      ],
+      "count_claims": [],
+      "unparsed_residuals": [
+        {
+          "fact_index": 6,
+          "text": "Noted a blue mural covered the entrance wall on Day 04"
+        },
+        {
+          "fact_index": 7,
+          "text": "Noted a brass clock stood beside the window on Day 11"
+        },
+        {
+          "fact_index": 8,
+          "text": "Noted a purple umbrella rested by the door on Day 22"
+        }
+      ],
+      "extra_json_fields_unjudged": {},
+      "matching_outcome_days": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "journal": "extract-11",
+      "context": "count_aware",
+      "protocol_writer_status": "invalid",
+      "raw_facts_inspected": 24,
+      "dated_claims": [
+        {
+          "fact_index": 0,
+          "activity": "painting",
+          "day": 1,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 1,
+          "activity": "pottery",
+          "day": 2,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 2,
+          "activity": "pottery",
+          "day": 3,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 3,
+          "activity": "pottery",
+          "day": 4,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 4,
+          "activity": "painting",
+          "day": 5,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 5,
+          "activity": "painting",
+          "day": 6,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 6,
+          "activity": "pottery",
+          "day": 7,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 7,
+          "activity": "pottery",
+          "day": 8,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 8,
+          "activity": "painting",
+          "day": 9,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 9,
+          "activity": "pottery",
+          "day": 10,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 10,
+          "activity": "painting",
+          "day": 11,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 11,
+          "activity": "painting",
+          "day": 12,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 12,
+          "activity": "painting",
+          "day": 13,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 13,
+          "activity": "painting",
+          "day": 14,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 14,
+          "activity": "pottery",
+          "day": 15,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 15,
+          "activity": "painting",
+          "day": 16,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 16,
+          "activity": "painting",
+          "day": 17,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 17,
+          "activity": "pottery",
+          "day": 18,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 18,
+          "activity": "pottery",
+          "day": 19,
+          "positive": true,
+          "matches_source": true
+        },
+        {
+          "fact_index": 19,
+          "activity": "pottery",
+          "day": 20,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 20,
+          "activity": "painting",
+          "day": 21,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 21,
+          "activity": "pottery",
+          "day": 22,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 22,
+          "activity": "pottery",
+          "day": 23,
+          "positive": false,
+          "matches_source": true
+        },
+        {
+          "fact_index": 23,
+          "activity": "painting",
+          "day": 24,
+          "positive": false,
+          "matches_source": true
+        }
+      ],
+      "count_claims": [],
+      "unparsed_residuals": [
+        {
+          "fact_index": 3,
+          "text": ". A blue mural covered the entrance wall."
+        },
+        {
+          "fact_index": 10,
+          "text": ". A brass clock stood beside the window."
+        },
+        {
+          "fact_index": 21,
+          "text": ". A purple umbrella rested by the door."
+        }
+      ],
+      "extra_json_fields_unjudged": {
+        "activity_summary": {
+          "total_visits": {
+            "painting": 10,
+            "pottery": 13
+          },
+          "enjoyed_visits": {
+            "painting": 6,
+            "pottery": 5
+          },
+          "not_enjoyed_visits": {
+            "painting": 4,
+            "pottery": 8
+          }
+        }
+      },
+      "matching_outcome_days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    }
+  ],
+  "hashes": {
+    "trace": "bb42d0fa8ed165515f19213bfdf72699078e72f344dfaaffea6d6f4c75a93634",
+    "gold": "0928e5d7c16fdd80d69cb63fd9c1344b814a41471259448425baf900ab0ca2bb",
+    "code": "12bfb5c439a1da57856c4b01100d315b48cbcbe7705c19f5bfead11e953a2ac2",
+    "base_parser": "32d03ae44433338e4638a53ace6b0cd03c27cb1a007349a8d23d936dce4b17af",
+    "json_parser": "3b9c4a8efe1731f9a03d9427d83b481b6d60c0d1eb833bb3d0d0a029eb413a54"
+  }
+}

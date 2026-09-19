@@ -1,0 +1,18 @@
+{
+  "reason": "One role-only assistant record carries no text; skip precisely that schema.",
+  "changed_example": [
+    {
+      "id": "bd0388a8df0c6d11",
+      "positions": [
+        72
+      ]
+    }
+  ],
+  "unchanged_block_sequences": 127,
+  "completed_examples_with_identical_rendered_prompts_and_token_counts": 87,
+  "predictions_before_sha256": "cb0ac7cc34eacf808685c692c42e1c6cf2d570e3a82bcf2cc4cd2d9c024e08bf",
+  "reader_before_sha256": "da52da8cbb1736bfce7ec3091343d94a9380677972eaf6696218b5d0b1a666e0",
+  "reader_after_sha256": "d67a5045e05e3521c5bbaec12a1de4a8d62e89c95fba62192575a217304934cb",
+  "outcomes_not_used_to_select_repair": true,
+  "all_128_examples_retained": true
+}

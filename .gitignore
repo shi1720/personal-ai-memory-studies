@@ -1,0 +1,10 @@
+.venv/
+.venv-mem0/
+data/
+vendor/
+models/
+__pycache__/
+*.pyc
+.DS_Store
+.env*
+.venv-analysis/

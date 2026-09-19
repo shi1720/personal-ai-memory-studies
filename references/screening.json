@@ -1,0 +1,808 @@
+{
+  "status": "initial non-exhaustive screen",
+  "records": [
+    {
+      "key": "longmemeval",
+      "arxiv": "2410.10813",
+      "title": "LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory",
+      "url": "https://arxiv.org/abs/2410.10813",
+      "evidence_read": "primary abstract and official repository",
+      "screening_note": "baseline dataset; audit construction and labels",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "tsm",
+      "arxiv": "2601.07468",
+      "title": "Beyond Dialogue Time: Temporal Semantic Memory for Personalized LLM Agents",
+      "url": "https://arxiv.org/abs/2601.07468",
+      "evidence_read": "primary abstract",
+      "screening_note": "temporal memory is established",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "pahf",
+      "arxiv": "2602.16173",
+      "title": "Learning Personalized Agents from Human Feedback",
+      "url": "https://arxiv.org/abs/2602.16173",
+      "evidence_read": "primary abstract",
+      "screening_note": "clarification and preference adaptation",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "capture",
+      "arxiv": "2609.02265",
+      "title": "Disentangling Preference Drift from Memory Poisoning in Personalized LLM Agents",
+      "url": "https://arxiv.org/abs/2609.02265",
+      "evidence_read": "secondary discovery only",
+      "screening_note": "verify primary full text before using",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "cama",
+      "arxiv": "2608.19701",
+      "title": "Beyond Memory Majority: Latent-Source Reasoning for Multi-Agent Memory Arbitration",
+      "url": "https://arxiv.org/abs/2608.19701",
+      "evidence_read": "primary abstract",
+      "screening_note": "direct overlap with correlated-source arbitration",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "faulty-consolidation",
+      "arxiv": "2605.12978",
+      "title": "Useful Memories Become Faulty When Continuously Updated by LLMs",
+      "url": "https://arxiv.org/abs/2605.12978",
+      "evidence_read": "primary abstract; full text opened, incomplete reading",
+      "screening_note": "v2 dated 2026-08-29; consolidation degradation already studied",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "dcpm",
+      "arxiv": "2606.09483",
+      "title": "Memory Beyond Recall: A Dual-Process Cognitive Memory System for Self-Evolving LLM Agents",
+      "url": "https://arxiv.org/abs/2606.09483",
+      "evidence_read": "primary abstract and method sections 2.1-2.2",
+      "screening_note": "revision chains and asynchronous schemas already proposed",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "memtx",
+      "arxiv": "2607.23929",
+      "title": "MemTX: Transactional Belief Commit for Stateful Agent Memory",
+      "url": "https://arxiv.org/abs/2607.23929",
+      "evidence_read": "primary full-text sections 1-3.5",
+      "screening_note": "direct overlap with stale-write protection and cascading repair; guarantees depend on recorded provenance",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "enough",
+      "arxiv": "2609.08180",
+      "title": "Less Is Personal: Learning Minimal Sufficient User Profiles for Personalized Language Models",
+      "url": "https://arxiv.org/abs/2609.08180",
+      "evidence_read": "primary abstract and method section 2.3",
+      "screening_note": "adaptive selection and matched-user replacement objective",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "temporal-intervention",
+      "arxiv": "2607.21635",
+      "title": "Toward User-Conditioned Evaluation of Personal LLM Agents under Temporal Interventions",
+      "url": "https://arxiv.org/abs/2607.21635",
+      "evidence_read": "primary full-text sections 3-6 and audit appendix",
+      "screening_note": "existing framing; not our original question",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "origin-authority",
+      "arxiv": "2606.24322",
+      "title": "Securing LLM-Agent Long-Term Memory Against Poisoning: Non-Malleable, Origin-Bound Authority with Machine-Checked Guarantees",
+      "url": "https://arxiv.org/abs/2606.24322",
+      "evidence_read": "primary abstract; full text opened, incomplete reading",
+      "screening_note": "direct overlap with provenance and manufactured corroboration",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "sp-mem",
+      "arxiv": "2608.16551",
+      "title": "What to Remember, What to Reveal: Privacy-Aware Memory for Conversational Agents",
+      "url": "https://arxiv.org/abs/2608.16551",
+      "evidence_read": "primary abstract",
+      "screening_note": "consent-sensitive retrieval and disclosure",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "gatemem",
+      "arxiv": "2606.18829",
+      "title": "GateMem",
+      "url": "https://arxiv.org/abs/2606.18829",
+      "evidence_read": "primary abstract",
+      "screening_note": "multi-principal governed memory",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "memleak",
+      "arxiv": "2606.29788",
+      "title": "MemLeak",
+      "url": "https://arxiv.org/abs/2606.29788",
+      "evidence_read": "primary abstract",
+      "screening_note": "derived-memory deletion and provenance",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "cmi",
+      "arxiv": "2605.17641",
+      "title": "Causal Intervention-Based Memory Selection for Long-Horizon LLM Agents",
+      "url": "https://arxiv.org/abs/2605.17641",
+      "evidence_read": "primary abstract",
+      "screening_note": "intervention-based memory utility",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "rpeval",
+      "arxiv": "2601.16621",
+      "title": "How Does Personalized Memory Shape LLM Behavior? Benchmarking Rational Preference Utilization in Personalized Assistants",
+      "url": "https://arxiv.org/abs/2601.16621",
+      "evidence_read": "primary abstract",
+      "screening_note": "irrelevant-memory effects",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "revocation",
+      "arxiv": "2609.08258",
+      "title": "Revoked but Still Authoritative: An Empirical Study of Revocation Enforcement in Agent-Memory Systems",
+      "url": "https://arxiv.org/abs/2609.08258",
+      "evidence_read": "primary page opened, incomplete reading",
+      "screening_note": "revocation enforcement overlap",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "rollback",
+      "arxiv": "2608.10502",
+      "title": "From Faulty Memories to Corrected Actions: Dependency-Guided Rollback Repair for Memory-Augmented Agents",
+      "url": "https://arxiv.org/abs/2608.10502",
+      "evidence_read": "secondary discovery only",
+      "screening_note": "verify primary full text",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "reclaim",
+      "title": "Reclaim Evaluation",
+      "url": "https://github.com/collapseindex/reclaim-eval",
+      "evidence_read": "primary repository search excerpt only",
+      "screening_note": "correctability after compression; inspect full protocol and code",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "crc",
+      "arxiv": "2208.02814",
+      "title": "Conformal Risk Control",
+      "url": "https://arxiv.org/html/2208.02814v4",
+      "evidence_read": "sections 1.1 and 2.1, Theorem 1 and proof",
+      "screening_note": "Established marginal expected-risk theorem; our interval dominance is an application, not a replacement.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "c-rag",
+      "arxiv": "2402.03181",
+      "title": "C-RAG: Certified Generation Risks for Retrieval-Augmented Language Models",
+      "url": "https://arxiv.org/abs/2402.03181",
+      "evidence_read": "primary abstract",
+      "screening_note": "Existing RAG risk certification; full method comparison still required.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "toolchain-crc",
+      "arxiv": "2606.18467",
+      "title": "ToolChain-CRC: Conformal Risk Control for Agentic AI Under Retrieval and Tool-Use Drift",
+      "url": "https://arxiv.org/html/2606.18467v1",
+      "evidence_read": "sections 3-5 and reproducibility/code statements",
+      "screening_note": "Trajectory risk target; interval dominance overlaps its conservative-policy implication. Experiments described as scripted, no public code link in inspected availability statement.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "crc-feasibility",
+      "arxiv": "2606.29054",
+      "title": "When Can Conformal Risk Control Certify LLM Outputs? Bounds, Impossibility, and Adaptation for Structured Generation",
+      "url": "https://arxiv.org/html/2606.29054v2",
+      "evidence_read": "section 2, fixed-sequence selection and abstention floor",
+      "screening_note": "Conditional emitted risk with high-probability testing differs from our marginal shipped risk. Claims not independently verified.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "conformal-free",
+      "arxiv": "2301.11556",
+      "title": "Conformal Inference is (almost) Free for Neural Networks Trained with Early Stopping",
+      "url": "https://proceedings.mlr.press/v202/liang23i.html",
+      "evidence_read": "primary abstract",
+      "screening_note": "Holdout reuse for early-stopped model selection is adjacent, not exact row evaluation.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "personamem-v2",
+      "arxiv": "2512.06688",
+      "title": "PersonaMem-v2: Towards Personalized Intelligence via Learning Implicit User Personas and Agentic Memory",
+      "url": "https://arxiv.org/html/2512.06688v1",
+      "evidence_read": "sections 2-4 and pinned dataset card/schema",
+      "screening_note": "Simulated data; implicit preferences, privacy and forget requests. Custom short-context pilot is not official benchmark reproduction.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "active-testing",
+      "arxiv": "2103.05331",
+      "title": "Active Testing: Sample-Efficient Model Evaluation",
+      "url": "https://proceedings.mlr.press/v139/kossen21a.html",
+      "evidence_read": "primary abstract and section 2",
+      "screening_note": "Prior adaptive acquisition for finite-pool risk estimation; selection bias correction. Must compare before claiming evaluation-query novelty.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "bb-crc",
+      "arxiv": "2509.23007",
+      "title": "Taming Variability: Randomized and Bootstrapped Conformal Risk Control for LLMs",
+      "url": "https://arxiv.org/html/2509.23007v1",
+      "evidence_read": "section 4.1-4.3 algorithms and theorem statements",
+      "screening_note": "Established compute-aware calibration via batching/resampling, differs from exact full-reference recovery but prevents broad efficient-calibration novelty claim.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "ssclass",
+      "arxiv": "1806.10660",
+      "title": "The Stochastic Score Classification Problem",
+      "url": "https://arxiv.org/abs/1806.10660",
+      "evidence_read": "primary abstract and author-hosted PDF section 1",
+      "screening_note": "Sequential costly tests until all compatible completions agree is established. Our certificate argument is not broadly new.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "ppat",
+      "arxiv": "2607.08347",
+      "title": "Prediction-Powered Active Testing",
+      "url": "https://arxiv.org/abs/2607.08347",
+      "evidence_read": "primary abstract",
+      "screening_note": "Proxy losses used as control variates with adaptive acquisition; do not claim cheap-proxy residual risk estimation as new.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "bargain",
+      "arxiv": "2509.02896",
+      "title": "Cut Costs, Not Accuracy: LLM-Powered Data Processing with Guarantees",
+      "url": "https://arxiv.org/abs/2509.02896",
+      "evidence_read": "primary abstract and official ucbepic/BARGAIN repository",
+      "screening_note": "Adaptive finite-sample threshold certification for LLM cascades is established. Different reference and guarantee than exact CRC recovery.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "ppi-ir",
+      "arxiv": "2407.02464",
+      "title": "Reliable Confidence Intervals for Information Retrieval Evaluation Using Generative A.I",
+      "url": "https://arxiv.org/abs/2407.02464",
+      "evidence_read": "primary abstract",
+      "screening_note": "Prediction-powered inference and CRC for reliable IR evaluation with generated labels.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "scrc",
+      "arxiv": "2512.12844",
+      "title": "Selective Conformal Risk Control",
+      "url": "https://arxiv.org/abs/2512.12844",
+      "evidence_read": "primary abstract",
+      "screening_note": "Selective classification plus CRC already studied; not a novelty claim for our abstention wrapper.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "conformal-transfer",
+      "arxiv": "2609.10737",
+      "title": "Conformal Calibration Transfer",
+      "url": "https://arxiv.org/abs/2609.10737",
+      "evidence_read": "primary abstract",
+      "screening_note": "Unlabeled paired source-target transfer. Conflicting secondary metadata means venue attribution must be checked separately.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "oracle-certification",
+      "arxiv": "2606.24074",
+      "title": "Token Complexity of Certifying Stochastic-Oracle Reliability",
+      "url": "https://arxiv.org/abs/2606.24074",
+      "evidence_read": "secondary discovery only",
+      "screening_note": "SPRT bounds lead, verify primary before citing.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "deployment-memorization",
+      "arxiv": "2606.10062",
+      "title": "Deployment-Time Memorization in Foundation-Model Agents",
+      "url": "https://arxiv.org/abs/2606.10062",
+      "evidence_read": "secondary discovery only",
+      "screening_note": "Privacy-utility-deletion frontier and residue scoring lead; verify primary.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "ss-risk-ppi",
+      "arxiv": "2412.11174",
+      "title": "Semi-Supervised Risk Control via Prediction-Powered Inference",
+      "url": "https://arxiv.org/abs/2412.11174",
+      "evidence_read": "primary sections II-VI, including binary-loss clipping, Clopper-Pearson bounds and Algorithm 2; proof appendices not reviewed",
+      "screening_note": "Semi-supervised RCPS already uses proxy information with verified labels. Generic prediction-powered recalibration is not a new contribution.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "pprm",
+      "arxiv": "2602.02229",
+      "title": "Prediction-Powered Risk Monitoring of Deployed Models for Detecting Harmful Distribution Shifts",
+      "url": "https://arxiv.org/abs/2602.02229",
+      "evidence_read": "primary abstract",
+      "screening_note": "Anytime-valid risk monitoring from synthetic and verified labels is established. Primary arXiv v2 states ICML 2026 acceptance.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "ppi-conformal",
+      "arxiv": "2510.16166",
+      "title": "Extending Prediction-Powered Inference through Conformal Prediction",
+      "url": "https://arxiv.org/abs/2510.16166",
+      "evidence_read": "primary abstract",
+      "screening_note": "Conformal imputation for inference, including e-values and drift, limits broad novelty claims about calibrated proxy inference.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "scpl",
+      "title": "Observations and Remedies for Large Language Model Bias in Self-Consuming Performative Loop",
+      "url": "https://arxiv.org/abs/2601.05184",
+      "evidence_read": "Primary abstract, introduction, Sections 3.1-3.2 including displayed sampling algorithms, and displayed Section 4.2 reward/reweighting excerpt.",
+      "screening_note": "Controlled feedback changes training-data group composition. Broad performative bias is established; this does not establish a new personal-memory algorithm.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "personalization-sycophancy",
+      "title": "Personalization Methods Should Address Sycophancy Risks to Improve LLM Alignment",
+      "url": "https://personalization-sycophancy.github.io/",
+      "evidence_read": "primary abstract",
+      "screening_note": "Position paper. Broad personalization-versus-sycophancy framing is established; does not by itself resolve persistent-memory causal mechanisms.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "performative-recommendation",
+      "title": "Performative Recommendation: Diversifying Content via Strategic Incentives",
+      "url": "https://proceedings.mlr.press/v202/eilat23a.html",
+      "evidence_read": "primary abstract",
+      "screening_note": "ICML 2023. Recommendation changes strategic content-creator behavior. Relevant older foundation, not directly a personal-memory algorithm.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "calmrec",
+      "arxiv": "2607.23647",
+      "title": "CALMRec: Causally Aligned Language Memory for Long-Horizon Recommendation",
+      "url": "https://arxiv.org/html/2607.23647v1",
+      "evidence_read": "Primary problem formulation, framework and Proposition 1 with proof sketch; update, limitations and reproducibility statement rechecked. Exact-name web and GitHub repository search found no matching implementation during this screen.",
+      "screening_note": "Exposure-aware memory is already covered. New local exact arithmetic audit separates the valid ungated propensity identity from a gated ratio with a possibly different estimand. No trained implementation or reported empirical results were reproduced or refuted.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "rumsmemory",
+      "arxiv": "2604.14473",
+      "title": "Response-Aware User Memory Selection for LLM Personalization",
+      "url": "https://arxiv.org/html/2604.14473v1",
+      "evidence_read": "primary sections 1-3, Appendix C, Appendix E and F.1-F.3",
+      "screening_note": "Query-conditioned selection of profile attributes via response entropy. Distinct from query-agnostic retention of repeated outcome events. Broad response-utility memory selection is not novel.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "readwho",
+      "arxiv": "2312.16070",
+      "title": "Can ChatGPT Read Who You Are?",
+      "url": "https://arxiv.org/abs/2312.16070",
+      "evidence_read": "primary abstract",
+      "screening_note": "Positivity bias in personality assessment is existing work; not a reproduction of retained-event frequency distortion.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "eaos",
+      "arxiv": "",
+      "title": "Bridging Cognition and Affect: Emotion-Aware Opinion Summarization using LLMs",
+      "url": "https://aclanthology.org/2026.findings-acl.221/",
+      "evidence_read": "primary abstract; PDF retrieved but body retrieval failed",
+      "screening_note": "Affective opinion summarization is adjacent; methods and prior sentiment-distribution evaluation require further inspection before novelty claims.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "selfpositivity",
+      "arxiv": "",
+      "title": "The self-positivity bias of large language models",
+      "url": "https://www.nature.com/articles/s41598-026-63768-6",
+      "evidence_read": "primary search abstract only",
+      "screening_note": "Self-evaluation positivity is adjacent, not evidence that the current retention setting is novel.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "transmissionbias",
+      "title": "Large language models show human-like content biases in transmission chain experiments",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10622889/",
+      "evidence_read": "primary full-text search extract: introduction, results, discussion and methods; direct open hit browser check",
+      "screening_note": "Selective preservation by content valence across repeated summaries already demonstrated. Blocks generic discovery claims about LLM content retention bias; direction and task differ from this pilot.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "damllm",
+      "arxiv": "2510.27418",
+      "title": "Dynamic Affective Memory Management for Personalized LLM Agents",
+      "url": "https://arxiv.org/abs/2510.27418",
+      "evidence_read": "primary HTML sections 1-4, including update equation, entropy thresholds and DABench description",
+      "screening_note": "Weighted affective confidence distributions and entropy-driven compression already studied. Native target is affective confidence, not necessarily empirical visit frequency; do not conflate these estimands.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "mem0prompts",
+      "title": "Mem0 official extraction prompts",
+      "url": "https://github.com/mem0ai/mem0/blob/a39a802bbc93e85b820078cd3c4dbaf53af25dbe/mem0/configs/prompts.py",
+      "evidence_read": "pinned source inspected, FACT_RETRIEVAL_PROMPT and USER_MEMORY_EXTRACTION_PROMPT",
+      "screening_note": "Explicitly includes likes and dislikes; native extraction is free-text facts without six-event cap. Our custom selector is not a Mem0 reproduction. Source/license hashes in mem0-prompt-screen.json.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "horvitzthompson",
+      "title": "A Generalization of Sampling Without Replacement from a Finite Universe",
+      "url": "https://doi.org/10.1080/01621459.1952.10483446",
+      "evidence_read": "primary publisher abstract and original-paper introductory search extract",
+      "screening_note": "Unequal-probability finite-population sampling is classical; inverse-inclusion weighting is not a new memory contribution.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "vitterreservoir",
+      "title": "Random Sampling with a Reservoir",
+      "url": "https://www.ittc.ku.edu/~jsv/Papers/Vit85.Reservoir.pdf",
+      "evidence_read": "author-hosted original-paper abstract and introductory search extract",
+      "screening_note": "Streaming sampling without replacement is established. Current uniform baseline uses Python random.sample, not a claimed implementation of Algorithm Z.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "sragaggregate",
+      "arxiv": "2511.08505",
+      "title": "Structured RAG for Answering Aggregative Questions",
+      "url": "https://arxiv.org/html/2511.08505v1",
+      "evidence_read": "primary HTML sections 1-6 including schema induction, ingestion, inference and dataset construction",
+      "screening_note": "Aggregate-query completeness failures and structured ingestion plus formal-query execution are established. Blocks a generic claim that adding count ledgers or SQL to personal memory is novel. Their corpus assumptions differ from personal-event histories.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "finperma",
+      "arxiv": "2608.04095",
+      "title": "FinPerMA: A Theory-Informed, Event-Grounded Personalized-Memory Benchmark for LLM Agents",
+      "url": "https://arxiv.org/html/2608.04095v1",
+      "evidence_read": "primary HTML sections 1-2.6 and 3.3 read; selected surrounding setup text",
+      "screening_note": "Event-grounded synthetic trajectories, deterministic constraints with LLM narration, and separate recall versus preference reasoning are established. Do not claim these as new. Their latent financial preferences differ from our empirical visit frequencies.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "oolong",
+      "arxiv": "2511.02817",
+      "title": "Oolong: Evaluating Long Context Reasoning and Aggregation Capabilities",
+      "url": "https://arxiv.org/html/2511.02817v1",
+      "evidence_read": "primary HTML sections 2-3 opening and selected 4.2/4.4 text",
+      "screening_note": "Aggregation, counts by user/date, and sentiment distributions already have synthetic and conversational benchmarks. Section 2.3 discusses iterative classification plus deterministic aggregation. Output-budget truncation is an acknowledged issue. A new counting benchmark or exact-count baseline alone is not a contribution.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "tangle",
+      "arxiv": "2608.13921",
+      "title": "When Personal Memory Has No Single Answer: Evaluating LLM Agents under Irreducible Conflict",
+      "url": "https://arxiv.org/html/2608.13921v1",
+      "evidence_read": "primary HTML sections 3-4.3 opening read",
+      "screening_note": "Oracle versus native-pipeline tracks already separate evidence availability from reader behavior. Unresolved context, oscillation and source conflicts motivate clarification and calibrated actions. Do not claim this broad evaluation decomposition or conflict handling as new.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "pasb",
+      "arxiv": "2607.10526",
+      "title": "Agents Don't Just Agree, They Remember: Benchmarking Persistent Sycophancy in Stateful Personal Agents",
+      "url": "https://arxiv.org/abs/2607.10526",
+      "evidence_read": "primary abstract only",
+      "screening_note": "Lead on persistent incorrect memory writes and downstream behavior; method not inspected. Do not treat as a verified methodological comparison.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "agingbench",
+      "arxiv": "2605.26302",
+      "title": "Your Agents Are Aging Too: Agent Lifespan Engineering for Deployed Systems",
+      "url": "https://arxiv.org/html/2605.26302v1",
+      "evidence_read": "Primary HTML introduction and sections 5.1-5.2 read; selected surrounding results",
+      "screening_note": "Write/retrieval/utilization diagnostics with oracle interventions already exist. Authors describe repair profiles rather than unique causal identification. Broad stage attribution is not a new contribution.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "cicl",
+      "arxiv": "2606.08151",
+      "title": "Decision-Aware Memory Cards: Counterfactual-Inspired Context Selection and Compression for Tool-Using LLM Agents",
+      "url": "https://arxiv.org/html/2606.08151v1",
+      "evidence_read": "Primary HTML sections 3.1-3.6 and 4.1-4.4 read",
+      "screening_note": "Decision-sensitive context utility and typed memory cards are established. Distinguishes selection changes from compression and calls its judgment-inspired utility non-identifying. No new generic decision-aware memory claim.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "memory-portability",
+      "arxiv": "2609.05339",
+      "title": "Does Your Agent's Memory Survive a Model Upgrade? A Controlled Study of Memory Portability",
+      "url": "https://arxiv.org/abs/2609.05339",
+      "evidence_read": "primary abstract only",
+      "screening_note": "Direct overlap with generic model-upgrade portability and source-backed repair. Primary abstract read only; full methods needed before a narrower comparison.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "reader-adaptation",
+      "arxiv": "2608.17050",
+      "title": "Cross-Model Memory Transfer via Target-Side Reader Adaptation",
+      "url": "https://arxiv.org/abs/2608.17050",
+      "evidence_read": "primary abstract only",
+      "screening_note": "Reader adaptation for transferred external hashed memory is established. Primary v2 abstract read only; not a textual personal-memory reproduction.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "lycheememory-v2",
+      "arxiv": "2608.12990",
+      "title": "LycheeMemory V2: Efficient Long-Term Memory for LLM Agents via Semantic Segment-Level Consolidation",
+      "url": "https://arxiv.org/abs/2608.12990",
+      "evidence_read": "primary Sections 3.1-3.3, selected construction-cost text, construction ablation in 4.4, displayed encoding settings",
+      "screening_note": "Consolidation granularity and semantic versus fixed boundaries already compared; carryover context is established.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "segtreemem",
+      "arxiv": "2606.04555",
+      "title": "Temporal Order Matters for Agentic Memory: Segment Trees for Memory Construction and Retrieval",
+      "url": "https://arxiv.org/abs/2606.04555",
+      "evidence_read": "primary problem definition, related work, tree representation, selected construction/results text, Appendix G.1 compatibility descriptions",
+      "screening_note": "Batch compatibility concerns frontier candidates, not multi-event delivery; chronology permutation is distinct from partition changes.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "memtrace",
+      "arxiv": "2605.28732",
+      "title": "MemTrace: Tracing and Attributing Errors in Large Language Model Memory Systems",
+      "url": "https://arxiv.org/abs/2605.28732",
+      "evidence_read": "primary displayed decisive-error definition and Sections 3 through 4.2",
+      "screening_note": "Operation dependencies and memory failure attribution are established; do not assume universal unique causal attribution.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "livemem",
+      "arxiv": "2608.02515",
+      "title": "LiveMem: Maintaining Memory State Continuity in Long-Running LLM Inference",
+      "url": "https://arxiv.org/abs/2608.02515",
+      "evidence_read": "primary abstract only",
+      "screening_note": "Intrinsic state continuity under context turnover; detailed overlap with delivery partitions unverified.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "safecommit",
+      "arxiv": "2608.04289",
+      "title": "SafeCommit",
+      "url": "https://arxiv.org/html/2608.04289v1",
+      "evidence_read": "Primary problem and certificate definitions, conditional guarantee, scope, Section 5 and displayed appendix statements; official repository README. No full proof verification or code execution.",
+      "screening_note": "Plausible worlds and act/probe/defer already established; representation miss probability separate from calibration. Repository observed at 146708eba8d6c768544330d20ed98047a3cc73dc.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "mcb",
+      "arxiv": "2608.19564",
+      "title": "Remember, Verify, or Ask",
+      "url": "https://arxiv.org/html/2608.19564v1",
+      "evidence_read": "Primary Sections I through III-A displayed, abstract and results/conclusion.",
+      "screening_note": "Persistence versus verification versus clarification already benchmarked; action labels rather than executed downstream effects.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "mmpo",
+      "arxiv": "2605.30159",
+      "title": "Meta-Cognitive Memory Policy Optimization for Long-Horizon LLM Agents",
+      "url": "https://arxiv.org/html/2605.30159v1",
+      "evidence_read": "Primary Sections 2.2-2.3, displayed reward construction, 4.3, Appendices B-C and E-F, limitations.",
+      "screening_note": "Uses progress-gap response entropy with terminal reward. Conditional-information interpretation needs a channel distinction; memory-only fixed reader is conditionally independent of latent state given inputs. This elementary observation does not refute reported gains. No trained checkpoint run.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "qafacteval",
+      "arxiv": "2112.08542",
+      "title": "QAFactEval",
+      "url": "https://arxiv.org/abs/2112.08542",
+      "evidence_read": "Primary abstract, official repository README, and published PDF Sections 3.1-3.3 (component definitions and learned combination). No baseline execution.",
+      "screening_note": "QA evaluation already selects summary answers, generates questions, checks source answers, filters malformed questions, penalizes unanswerability and combines QA with entailment. Generic source-aware verification is not new.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false,
+      "published_url": "https://aclanthology.org/2022.naacl-main.187/"
+    },
+    {
+      "key": "questeval",
+      "arxiv": "2103.12693",
+      "title": "QuestEval",
+      "url": "https://arxiv.org/abs/2103.12693",
+      "evidence_read": "Primary abstract, official repository README, and published PDF Sections 3-4 plus displayed experimental setup. No baseline execution.",
+      "screening_note": "Bidirectional QA precision/recall and question weighting are established. The paper explicitly distinguishes answerability confidence from correctness and discusses hallucination limits.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false,
+      "published_url": "https://aclanthology.org/2021.emnlp-main.529/"
+    },
+    {
+      "key": "latent-context-compilation",
+      "arxiv": "2602.21221",
+      "title": "Latent Context Compilation",
+      "url": "https://arxiv.org/abs/2602.21221",
+      "evidence_read": "Primary abstract only.",
+      "screening_note": "Related context distillation with disposable adapters and portable buffer tokens. Need methods read; secondary KL descriptions not treated as verified.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "memory-provenance-laundering",
+      "arxiv": "2607.29167",
+      "title": "Memory Provenance Laundering in LLM Agents: A Non-Amplification Firewall for Persistent Memory",
+      "url": "https://arxiv.org/pdf/2607.29167",
+      "evidence_read": "Primary PDF Sections 3-4 and displayed experimental setup excerpts. No appendix proof verification or code execution.",
+      "screening_note": "Platform-maintained source authority, claim support binding and execution gating already studied. Distinct from estimating user preferences, but generic provenance protection is not new.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "personalization-sycophancy-position",
+      "title": "Personalization Methods Should Address Sycophancy Risks to Improve LLM Alignment",
+      "url": "https://personalization-sycophancy.github.io/assets/paper.pdf",
+      "evidence_read": "Primary abstract and selected feedback, preference-collection and future-work passages located in PDF. Not a full-paper read.",
+      "screening_note": "Position-paper treatment of personalization feedback risks. Broad echo-chamber framing is not new.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "recommendations-as-treatments",
+      "arxiv": "1602.05352",
+      "title": "Recommendations as Treatments: Debiasing Learning and Evaluation",
+      "url": "https://proceedings.mlr.press/v48/schnabel16.html",
+      "evidence_read": "Primary abstract and PDF Section 6.5. Official author dataset page and its linked CC BY-NC 4.0 deed; archive README and file-schema audit.",
+      "screening_note": "Foundational propensity baseline. Downloaded and integrity-audited Coat archive, not a reproduction of the published matrix-factorization results. 366 overlapping user-item cells must be separated for any unseen-item memory prediction study.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "memorycd",
+      "arxiv": "2603.25973",
+      "title": "MemoryCD: Benchmarking Long-Context User Memory of LLM Agents for Lifelong Cross-Domain Personalization",
+      "url": "https://arxiv.org/html/2603.25973v1",
+      "evidence_read": "Primary Sections 2.1, 3, 4.1; Appendices C-E. Released repository README and rating/split interfaces, commit 4cee5ebbf8a1ac4c933bde147006217e04678370.",
+      "screening_note": "Direct overlap: observed-history memory evaluation with numerical rating prediction already exists. A Coat adapter alone is not novel. Current released harness exposes long-context and BM25 methods; do not claim reproduction of its paper Mem0 results.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "memory-assisted-personalized-recommendation",
+      "arxiv": "2505.03824",
+      "title": "Memory Assisted LLM for Personalized Recommendation System",
+      "url": "https://arxiv.org/html/2505.03824v1",
+      "evidence_read": "Primary Sections 3, 4.1-4.4, 5.1-5.2.",
+      "screening_note": "Stored rating tables and attribute/semantic retrieval for personalized rating prediction predate this study. A structured-history plus retrieval wrapper is not an original contribution.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "memory-model-upgrade-portability",
+      "arxiv": "2609.05339",
+      "title": "Does Your Agent’s Memory Survive a Model Upgrade? A Controlled Study of Memory Portability",
+      "url": "https://arxiv.org/html/2609.05339v1",
+      "evidence_read": "Primary Sections 2.1-2.3, 3.1-3.6, displayed 4.1-4.3 and selected Appendix C/D passages. Not all appendices read.",
+      "screening_note": "Fixed-reader writer swaps, raw/notes/structured/retrieval comparisons, source-retained versus store-only repair, and stage diagnostics directly overlap generic portability proposals. Results not independently reproduced.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "rosetta-memory",
+      "arxiv": "2606.07711",
+      "title": "Rosetta Memory: Adaptive Memory for Cross-LLM Agents",
+      "url": "https://arxiv.org/html/2606.07711v1",
+      "evidence_read": "Primary abstract, Sections 3.1-3.2, 4.1-4.2 and 5.1-5.2.",
+      "screening_note": "Joint profile-conditioned read/write operators, reward-filtered training and minimum-gain model sampling address cross-model adaptation. Generic reader adaptation is not a new contribution.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "cross-model-reader-adaptation",
+      "arxiv": "2608.17050",
+      "title": "Cross-Model Memory Transfer via Target-Side Reader Adaptation",
+      "url": "https://arxiv.org/abs/2608.17050",
+      "evidence_read": "Primary abstract only, version 2. No method-level verification.",
+      "screening_note": "Adjacent lead: frozen learned memory tables with target reader adaptation. Different representation from personal natural-language memory; no reproduction or detailed method comparison.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "capa-personalized-ambiguity",
+      "arxiv": "2607.26611",
+      "title": "Fewer Clarifications, Better Code: Benchmarking Cross-Session Personalized Ambiguity Adaptation in Coding Assistants",
+      "url": "https://arxiv.org/html/2607.26611v1",
+      "evidence_read": "Primary abstract, task overview and Discussion subsections on user identity, memory methods and history gating.",
+      "screening_note": "Same-user versus shuffled-history controls and generic-context gains already studied. Reusing a user-swap control is good experimental practice, not a new method.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "know-act-personalization",
+      "arxiv": "2607.29433",
+      "title": "Know It, Act on It: Investigating Memory Utilization in LLM Personalization",
+      "url": "https://arxiv.org/html/2607.29433v1",
+      "evidence_read": "Primary abstract and Sections 2, 3.1-3.2, beginning of 4.1.",
+      "screening_note": "Paired recall and behavior tests with independent sessions and native incremental memory already distinguish remembering from using preferences. Generic recall-versus-action framing is not novel.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    },
+    {
+      "key": "personalized-coding-skills",
+      "arxiv": "2608.10319",
+      "title": "Do Personalized Skills Help Coding Agents? An Empirical Study of Developer Interaction Histories",
+      "url": "https://arxiv.org/html/2608.10319v1",
+      "evidence_read": "Primary abstract, Introduction and Sections 2.1-2.2 through bootstrap skill generation.",
+      "screening_note": "Personalized, other-user, generic and no-skill comparisons already address whether individual histories add value beyond shared procedural knowledge. Only partial methods read; reported outcomes not reproduced.",
+      "access_date": "2026-09-19",
+      "results_reproduced": false
+    }
+  ]
+}

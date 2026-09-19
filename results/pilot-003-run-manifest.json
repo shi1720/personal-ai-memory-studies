@@ -1,0 +1,20 @@
+{
+  "status": "exploratory custom selection prompts; not a published-method reproduction",
+  "hashes": {
+    "src/run_retention_pilot.py": "b7eceb5e61e6c9b0c51ad77ca8a938b3bdee703aafdfea7382cc74dfca51c464",
+    "src/retention_pilot_data.py": "b098fb95d1fa21b61dd39260e4ad627e3a8cb543ce5661ddbd7ceb5d7f3da7bd",
+    "docs/pilot-003.md": "c27f64391c2823a1ffa259150b858203d43826ed0371a6c6e9e1cbbf63a24096",
+    "results/pilot-003-journals.json": "faecfc662a6783963ed61a9989ed4a18c0311773a9db655f299b5ac453f08204",
+    "references/local-model-manifest.json": "539676dc2ffde3643d164f8bf20cfa5e560b0be04b59c6f092aa62987f7207a9"
+  },
+  "temperature": 0,
+  "max_output_tokens": 160,
+  "max_prompt_tokens": 4096,
+  "seed": 0,
+  "expected_calls": 48,
+  "versions": {
+    "mlx": "0.32.2",
+    "mlx-lm": "0.31.3",
+    "transformers": "5.17.0"
+  }
+}

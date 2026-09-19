@@ -1,0 +1,1356 @@
+{
+  "status": "post hoc exact-option format sensitivity, not primary analysis",
+  "phase": "budget",
+  "models": {
+    "qwen": {
+      "recovered": 0,
+      "summaries": {
+        "full": {
+          "rate": {
+            "planned": 12,
+            "correct": 9,
+            "wrong": 3,
+            "abstained": 0,
+            "invalid": 0,
+            "blocked_writer": 0,
+            "answer_coverage": 1.0,
+            "source_truth_accuracy": 0.75,
+            "error_given_answered": 0.25
+          }
+        },
+        "native": {
+          "rate": {
+            "planned": 12,
+            "correct": 9,
+            "wrong": 3,
+            "abstained": 0,
+            "invalid": 0,
+            "blocked_writer": 0,
+            "answer_coverage": 1.0,
+            "source_truth_accuracy": 0.75,
+            "error_given_answered": 0.25
+          }
+        },
+        "count_aware": {
+          "rate": {
+            "planned": 12,
+            "correct": 9,
+            "wrong": 3,
+            "abstained": 0,
+            "invalid": 0,
+            "blocked_writer": 0,
+            "answer_coverage": 1.0,
+            "source_truth_accuracy": 0.75,
+            "error_given_answered": 0.25
+          }
+        },
+        "ledger": {
+          "rate": {
+            "planned": 12,
+            "correct": 12,
+            "wrong": 0,
+            "abstained": 0,
+            "invalid": 0,
+            "blocked_writer": 0,
+            "answer_coverage": 1.0,
+            "source_truth_accuracy": 1.0,
+            "error_given_answered": 0.0
+          }
+        }
+      },
+      "paired": {
+        "native": {
+          "rate": {
+            "full_correct": 9,
+            "retained_correct": 8,
+            "losses": {
+              "wrong": 1,
+              "abstained": 0,
+              "invalid": 0,
+              "blocked_writer": 0
+            },
+            "reverse_gains": 1,
+            "pairs": [
+              {
+                "journal": "extract-00",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-01",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-02",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-03",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-04",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-05",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-06",
+                "full": "correct",
+                "compressed": "wrong"
+              },
+              {
+                "journal": "extract-07",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-08",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-09",
+                "full": "wrong",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-10",
+                "full": "wrong",
+                "compressed": "wrong"
+              },
+              {
+                "journal": "extract-11",
+                "full": "wrong",
+                "compressed": "wrong"
+              }
+            ]
+          }
+        },
+        "count_aware": {
+          "rate": {
+            "full_correct": 9,
+            "retained_correct": 8,
+            "losses": {
+              "wrong": 1,
+              "abstained": 0,
+              "invalid": 0,
+              "blocked_writer": 0
+            },
+            "reverse_gains": 1,
+            "pairs": [
+              {
+                "journal": "extract-00",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-01",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-02",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-03",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-04",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-05",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-06",
+                "full": "correct",
+                "compressed": "wrong"
+              },
+              {
+                "journal": "extract-07",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-08",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-09",
+                "full": "wrong",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-10",
+                "full": "wrong",
+                "compressed": "wrong"
+              },
+              {
+                "journal": "extract-11",
+                "full": "wrong",
+                "compressed": "wrong"
+              }
+            ]
+          }
+        },
+        "ledger": {
+          "rate": {
+            "full_correct": 9,
+            "retained_correct": 9,
+            "losses": {
+              "wrong": 0,
+              "abstained": 0,
+              "invalid": 0,
+              "blocked_writer": 0
+            },
+            "reverse_gains": 3,
+            "pairs": [
+              {
+                "journal": "extract-00",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-01",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-02",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-03",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-04",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-05",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-06",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-07",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-08",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-09",
+                "full": "wrong",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-10",
+                "full": "wrong",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-11",
+                "full": "wrong",
+                "compressed": "correct"
+              }
+            ]
+          }
+        }
+      },
+      "measurements": [
+        {
+          "journal": "extract-00",
+          "context": "full",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-00",
+          "context": "native",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-00",
+          "context": "count_aware",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-00",
+          "context": "ledger",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-01",
+          "context": "full",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-01",
+          "context": "native",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-01",
+          "context": "count_aware",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-01",
+          "context": "ledger",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-02",
+          "context": "full",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-02",
+          "context": "native",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-02",
+          "context": "count_aware",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-02",
+          "context": "ledger",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-03",
+          "context": "full",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-03",
+          "context": "native",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-03",
+          "context": "count_aware",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-03",
+          "context": "ledger",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-04",
+          "context": "full",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-04",
+          "context": "native",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-04",
+          "context": "count_aware",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-04",
+          "context": "ledger",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-05",
+          "context": "full",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-05",
+          "context": "native",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-05",
+          "context": "count_aware",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-05",
+          "context": "ledger",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-06",
+          "context": "full",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-06",
+          "context": "native",
+          "kind": "rate",
+          "outcome": "wrong",
+          "strict_outcome": "wrong",
+          "recovered": false
+        },
+        {
+          "journal": "extract-06",
+          "context": "count_aware",
+          "kind": "rate",
+          "outcome": "wrong",
+          "strict_outcome": "wrong",
+          "recovered": false
+        },
+        {
+          "journal": "extract-06",
+          "context": "ledger",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-07",
+          "context": "full",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-07",
+          "context": "native",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-07",
+          "context": "count_aware",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-07",
+          "context": "ledger",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-08",
+          "context": "full",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-08",
+          "context": "native",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-08",
+          "context": "count_aware",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-08",
+          "context": "ledger",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-09",
+          "context": "full",
+          "kind": "rate",
+          "outcome": "wrong",
+          "strict_outcome": "wrong",
+          "recovered": false
+        },
+        {
+          "journal": "extract-09",
+          "context": "native",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-09",
+          "context": "count_aware",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-09",
+          "context": "ledger",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-10",
+          "context": "full",
+          "kind": "rate",
+          "outcome": "wrong",
+          "strict_outcome": "wrong",
+          "recovered": false
+        },
+        {
+          "journal": "extract-10",
+          "context": "native",
+          "kind": "rate",
+          "outcome": "wrong",
+          "strict_outcome": "wrong",
+          "recovered": false
+        },
+        {
+          "journal": "extract-10",
+          "context": "count_aware",
+          "kind": "rate",
+          "outcome": "wrong",
+          "strict_outcome": "wrong",
+          "recovered": false
+        },
+        {
+          "journal": "extract-10",
+          "context": "ledger",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-11",
+          "context": "full",
+          "kind": "rate",
+          "outcome": "wrong",
+          "strict_outcome": "wrong",
+          "recovered": false
+        },
+        {
+          "journal": "extract-11",
+          "context": "native",
+          "kind": "rate",
+          "outcome": "wrong",
+          "strict_outcome": "wrong",
+          "recovered": false
+        },
+        {
+          "journal": "extract-11",
+          "context": "count_aware",
+          "kind": "rate",
+          "outcome": "wrong",
+          "strict_outcome": "wrong",
+          "recovered": false
+        },
+        {
+          "journal": "extract-11",
+          "context": "ledger",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        }
+      ],
+      "trace_sha256": "4ca02529e665c0aeb57395ae10ff320d2e31206c55205779793bee538fd200ac"
+    },
+    "phi": {
+      "recovered": 6,
+      "summaries": {
+        "full": {
+          "rate": {
+            "planned": 12,
+            "correct": 9,
+            "wrong": 3,
+            "abstained": 0,
+            "invalid": 0,
+            "blocked_writer": 0,
+            "answer_coverage": 1.0,
+            "source_truth_accuracy": 0.75,
+            "error_given_answered": 0.25
+          }
+        },
+        "native": {
+          "rate": {
+            "planned": 12,
+            "correct": 10,
+            "wrong": 2,
+            "abstained": 0,
+            "invalid": 0,
+            "blocked_writer": 0,
+            "answer_coverage": 1.0,
+            "source_truth_accuracy": 0.8333333333333334,
+            "error_given_answered": 0.16666666666666666
+          }
+        },
+        "count_aware": {
+          "rate": {
+            "planned": 12,
+            "correct": 6,
+            "wrong": 3,
+            "abstained": 0,
+            "invalid": 0,
+            "blocked_writer": 3,
+            "answer_coverage": 0.75,
+            "source_truth_accuracy": 0.5,
+            "error_given_answered": 0.3333333333333333
+          }
+        },
+        "ledger": {
+          "rate": {
+            "planned": 12,
+            "correct": 12,
+            "wrong": 0,
+            "abstained": 0,
+            "invalid": 0,
+            "blocked_writer": 0,
+            "answer_coverage": 1.0,
+            "source_truth_accuracy": 1.0,
+            "error_given_answered": 0.0
+          }
+        }
+      },
+      "paired": {
+        "native": {
+          "rate": {
+            "full_correct": 9,
+            "retained_correct": 9,
+            "losses": {
+              "wrong": 0,
+              "abstained": 0,
+              "invalid": 0,
+              "blocked_writer": 0
+            },
+            "reverse_gains": 1,
+            "pairs": [
+              {
+                "journal": "extract-00",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-01",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-02",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-03",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-04",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-05",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-06",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-07",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-08",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-09",
+                "full": "wrong",
+                "compressed": "wrong"
+              },
+              {
+                "journal": "extract-10",
+                "full": "wrong",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-11",
+                "full": "wrong",
+                "compressed": "wrong"
+              }
+            ]
+          }
+        },
+        "count_aware": {
+          "rate": {
+            "full_correct": 9,
+            "retained_correct": 6,
+            "losses": {
+              "wrong": 1,
+              "abstained": 0,
+              "invalid": 0,
+              "blocked_writer": 2
+            },
+            "reverse_gains": 0,
+            "pairs": [
+              {
+                "journal": "extract-00",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-01",
+                "full": "correct",
+                "compressed": "blocked_writer"
+              },
+              {
+                "journal": "extract-02",
+                "full": "correct",
+                "compressed": "blocked_writer"
+              },
+              {
+                "journal": "extract-03",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-04",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-05",
+                "full": "correct",
+                "compressed": "wrong"
+              },
+              {
+                "journal": "extract-06",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-07",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-08",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-09",
+                "full": "wrong",
+                "compressed": "wrong"
+              },
+              {
+                "journal": "extract-10",
+                "full": "wrong",
+                "compressed": "wrong"
+              },
+              {
+                "journal": "extract-11",
+                "full": "wrong",
+                "compressed": "blocked_writer"
+              }
+            ]
+          }
+        },
+        "ledger": {
+          "rate": {
+            "full_correct": 9,
+            "retained_correct": 9,
+            "losses": {
+              "wrong": 0,
+              "abstained": 0,
+              "invalid": 0,
+              "blocked_writer": 0
+            },
+            "reverse_gains": 3,
+            "pairs": [
+              {
+                "journal": "extract-00",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-01",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-02",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-03",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-04",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-05",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-06",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-07",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-08",
+                "full": "correct",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-09",
+                "full": "wrong",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-10",
+                "full": "wrong",
+                "compressed": "correct"
+              },
+              {
+                "journal": "extract-11",
+                "full": "wrong",
+                "compressed": "correct"
+              }
+            ]
+          }
+        }
+      },
+      "measurements": [
+        {
+          "journal": "extract-00",
+          "context": "full",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-00",
+          "context": "native",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "invalid",
+          "recovered": true
+        },
+        {
+          "journal": "extract-00",
+          "context": "count_aware",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "invalid",
+          "recovered": true
+        },
+        {
+          "journal": "extract-00",
+          "context": "ledger",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "invalid",
+          "recovered": true
+        },
+        {
+          "journal": "extract-01",
+          "context": "full",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-01",
+          "context": "native",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-01",
+          "context": "count_aware",
+          "kind": "rate",
+          "outcome": "blocked_writer",
+          "strict_outcome": "blocked_writer",
+          "recovered": false
+        },
+        {
+          "journal": "extract-01",
+          "context": "ledger",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-02",
+          "context": "full",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-02",
+          "context": "native",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-02",
+          "context": "count_aware",
+          "kind": "rate",
+          "outcome": "blocked_writer",
+          "strict_outcome": "blocked_writer",
+          "recovered": false
+        },
+        {
+          "journal": "extract-02",
+          "context": "ledger",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-03",
+          "context": "full",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-03",
+          "context": "native",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-03",
+          "context": "count_aware",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-03",
+          "context": "ledger",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-04",
+          "context": "full",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-04",
+          "context": "native",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-04",
+          "context": "count_aware",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-04",
+          "context": "ledger",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-05",
+          "context": "full",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-05",
+          "context": "native",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-05",
+          "context": "count_aware",
+          "kind": "rate",
+          "outcome": "wrong",
+          "strict_outcome": "wrong",
+          "recovered": false
+        },
+        {
+          "journal": "extract-05",
+          "context": "ledger",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-06",
+          "context": "full",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-06",
+          "context": "native",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-06",
+          "context": "count_aware",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-06",
+          "context": "ledger",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-07",
+          "context": "full",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "invalid",
+          "recovered": true
+        },
+        {
+          "journal": "extract-07",
+          "context": "native",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-07",
+          "context": "count_aware",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "invalid",
+          "recovered": true
+        },
+        {
+          "journal": "extract-07",
+          "context": "ledger",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "invalid",
+          "recovered": true
+        },
+        {
+          "journal": "extract-08",
+          "context": "full",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-08",
+          "context": "native",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-08",
+          "context": "count_aware",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-08",
+          "context": "ledger",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-09",
+          "context": "full",
+          "kind": "rate",
+          "outcome": "wrong",
+          "strict_outcome": "wrong",
+          "recovered": false
+        },
+        {
+          "journal": "extract-09",
+          "context": "native",
+          "kind": "rate",
+          "outcome": "wrong",
+          "strict_outcome": "wrong",
+          "recovered": false
+        },
+        {
+          "journal": "extract-09",
+          "context": "count_aware",
+          "kind": "rate",
+          "outcome": "wrong",
+          "strict_outcome": "wrong",
+          "recovered": false
+        },
+        {
+          "journal": "extract-09",
+          "context": "ledger",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-10",
+          "context": "full",
+          "kind": "rate",
+          "outcome": "wrong",
+          "strict_outcome": "wrong",
+          "recovered": false
+        },
+        {
+          "journal": "extract-10",
+          "context": "native",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-10",
+          "context": "count_aware",
+          "kind": "rate",
+          "outcome": "wrong",
+          "strict_outcome": "wrong",
+          "recovered": false
+        },
+        {
+          "journal": "extract-10",
+          "context": "ledger",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        },
+        {
+          "journal": "extract-11",
+          "context": "full",
+          "kind": "rate",
+          "outcome": "wrong",
+          "strict_outcome": "wrong",
+          "recovered": false
+        },
+        {
+          "journal": "extract-11",
+          "context": "native",
+          "kind": "rate",
+          "outcome": "wrong",
+          "strict_outcome": "wrong",
+          "recovered": false
+        },
+        {
+          "journal": "extract-11",
+          "context": "count_aware",
+          "kind": "rate",
+          "outcome": "blocked_writer",
+          "strict_outcome": "blocked_writer",
+          "recovered": false
+        },
+        {
+          "journal": "extract-11",
+          "context": "ledger",
+          "kind": "rate",
+          "outcome": "correct",
+          "strict_outcome": "correct",
+          "recovered": false
+        }
+      ],
+      "trace_sha256": "b5ce96a7da9947617191bdf2d8e6c997d3fb4dd54675a782e2032c350c2ed531"
+    }
+  },
+  "hashes": {
+    "src/extraction_answer_sensitivity.py": "21a76f4a85fa646033740c879e38bba062ab80c42a229fac954de21475f68353",
+    "src/extraction_pilot_data.py": "3b9c4a8efe1731f9a03d9427d83b481b6d60c0d1eb833bb3d0d0a029eb413a54",
+    "src/analyze_extraction_pilot.py": "7b1822abc3f3bdd6884046b1f90f4c8b93afc273430d152888bd70080b6f3a4b",
+    "docs/pilot-004-answer-format-sensitivity.md": "b5320dc19183c889edd1609a422f96af7256388b807dadacae4aacfc6da689f6",
+    "results/pilot-004-inputs.json": "31006e8ada8d59698878dfae83ac8a683e30054983adfbf7edc1e7ab7ac6e899",
+    "results/pilot-004-gold.json": "0928e5d7c16fdd80d69cb63fd9c1344b814a41471259448425baf900ab0ca2bb"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "status": "exploratory development pilot, not official benchmark results",
+  "hashes": {
+    "src/run_personamem_pilot.py": "06e027ea73a5273d141c767a30fd5dc0d0a2c608e5dcd2fbda81ff32620f0dd6",
+    "src/personamem_reader.py": "da52da8cbb1736bfce7ec3091343d94a9380677972eaf6696218b5d0b1a666e0",
+    "src/retrieval_pilot.py": "c3c632688e551f6b100edd088e5219d88a3857465c01816ec1a1198ea6652ec6",
+    "docs/pilot-002.md": "e97b9c697874b79902a9ba1bf5bf74b3f93b0f96c4f22a6be1a022c6cd508ee9",
+    "references/personamem-pilot-manifest.json": "757ae03df9deb9c114af300cd9560be7ab7ee8062d228c4a8846c6d047e6927f",
+    "references/local-model-manifest.json": "539676dc2ffde3643d164f8bf20cfa5e560b0be04b59c6f092aa62987f7207a9"
+  },
+  "seed": 0,
+  "choice_token_ids": [
+    32,
+    33,
+    34,
+    35
+  ],
+  "number_of_examples": 128,
+  "versions": {
+    "mlx": "0.32.2",
+    "mlx-lm": "0.31.3",
+    "transformers": "5.17.0"
+  }
+}

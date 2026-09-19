@@ -1,0 +1,1 @@
+Invalid infrastructure diagnostics, not research measurements. The first two examples used MLX generation log probability normalization in bfloat16. One four-label probability mass was 1.03125. Normalize logits in float32 before inference measurements and rerun all examples. No cases were excluded or chosen based on their answers.

@@ -1,0 +1,35 @@
+{
+  "status": "development replication, not independent confirmation",
+  "model": "phi",
+  "adapter": "native_roles",
+  "expected_calls": 108,
+  "conditions": [
+    "important_plain",
+    "important_detailed",
+    "representative_plain",
+    "representative_detailed",
+    "important_antonym",
+    "archive_negation",
+    "archive_antonym",
+    "proportional_negation",
+    "proportional_antonym"
+  ],
+  "temperature": 0,
+  "seed": 0,
+  "max_output_tokens": 160,
+  "max_prompt_tokens": 4096,
+  "hashes": {
+    "src/run_retention_replication.py": "9c4384cde2f7736a069ce56d862ee06e635b8ba67a8d34964b839a8d1cf00c6a",
+    "src/retention_pilot_data.py": "b098fb95d1fa21b61dd39260e4ad627e3a8cb543ce5661ddbd7ceb5d7f3da7bd",
+    "src/run_retention_controls.py": "aa50f1627f383412d9de6aba6924d803b44e18c4dde73dbeb4431ef72167c3f0",
+    "src/run_retention_pilot.py": "b7eceb5e61e6c9b0c51ad77ca8a938b3bdee703aafdfea7382cc74dfca51c464",
+    "docs/pilot-003-replication.md": "3a536f09bfb1b49c6580464e55cb91fa25942374947dff9c22b2ddabec2caa2a",
+    "results/pilot-003-journals.json": "faecfc662a6783963ed61a9989ed4a18c0311773a9db655f299b5ac453f08204",
+    "references/phi-model-manifest.json": "590c8f5465bd6d0c9216db820a4d4b06aa71b7dfcdea411ef6069e0f2e74d331"
+  },
+  "versions": {
+    "mlx": "0.32.2",
+    "mlx-lm": "0.31.3",
+    "transformers": "5.17.0"
+  }
+}

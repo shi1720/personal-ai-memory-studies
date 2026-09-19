@@ -1,0 +1,6426 @@
+{
+  "scope": "released cross-domain cohort; exploratory baseline/timestamp audit, not paper-score reproduction",
+  "users": 323,
+  "counts": {
+    "Beauty_and_Personal_Care": 76094,
+    "Books": 79874,
+    "Electronics": 44268,
+    "Home_and_Kitchen": 113880
+  },
+  "unrecognised_domains": {},
+  "single_domain": {
+    "Beauty_and_Personal_Care": {
+      "target_histogram": {
+        "4.0": 282,
+        "5.0": 506,
+        "3.0": 111,
+        "2.0": 37,
+        "1.0": 33
+      },
+      "history_target_boundary_tie_users": 6,
+      "test_items_already_in_history": 20,
+      "baselines": {
+        "constant_1": {
+          "users": 323,
+          "targets": 969,
+          "macro_mae": 3.2291021671826625,
+          "macro_rmse": 3.3868256871728897
+        },
+        "constant_2": {
+          "users": 323,
+          "targets": 969,
+          "macro_mae": 2.2972136222910216,
+          "macro_rmse": 2.4520162929574494
+        },
+        "constant_3": {
+          "users": 323,
+          "targets": 969,
+          "macro_mae": 1.4416924664602684,
+          "macro_rmse": 1.5981800795165317
+        },
+        "constant_4": {
+          "users": 323,
+          "targets": 969,
+          "macro_mae": 0.8152734778121775,
+          "macro_rmse": 1.0468883570840506
+        },
+        "constant_5": {
+          "users": 323,
+          "targets": 969,
+          "macro_mae": 0.7708978328173375,
+          "macro_rmse": 1.2797542333717116
+        },
+        "history_mean": {
+          "users": 323,
+          "targets": 969,
+          "macro_mae": 0.7530024665619766,
+          "macro_rmse": 0.9873930501286841
+        },
+        "history_median": {
+          "users": 323,
+          "targets": 969,
+          "macro_mae": 0.6847265221878225,
+          "macro_rmse": 1.112250018295875
+        }
+      }
+    },
+    "Books": {
+      "target_histogram": {
+        "4.0": 261,
+        "5.0": 547,
+        "2.0": 45,
+        "3.0": 95,
+        "1.0": 21
+      },
+      "history_target_boundary_tie_users": 7,
+      "test_items_already_in_history": 7,
+      "baselines": {
+        "constant_1": {
+          "users": 323,
+          "targets": 969,
+          "macro_mae": 3.308565531475748,
+          "macro_rmse": 3.448874721138079
+        },
+        "constant_2": {
+          "users": 323,
+          "targets": 969,
+          "macro_mae": 2.351909184726522,
+          "macro_rmse": 2.50551507262554
+        },
+        "constant_3": {
+          "users": 323,
+          "targets": 969,
+          "macro_mae": 1.4881320949432404,
+          "macro_rmse": 1.6310961701267863
+        },
+        "constant_4": {
+          "users": 323,
+          "targets": 969,
+          "macro_mae": 0.8204334365325078,
+          "macro_rmse": 1.0214419480571444
+        },
+        "constant_5": {
+          "users": 323,
+          "targets": 969,
+          "macro_mae": 0.6914344685242518,
+          "macro_rmse": 1.194241428815496
+        },
+        "history_mean": {
+          "users": 323,
+          "targets": 969,
+          "macro_mae": 0.738549457857816,
+          "macro_rmse": 0.9611462928342155
+        },
+        "history_median": {
+          "users": 323,
+          "targets": 969,
+          "macro_mae": 0.653250773993808,
+          "macro_rmse": 1.0647266930327957
+        }
+      }
+    },
+    "Electronics": {
+      "target_histogram": {
+        "1.0": 29,
+        "4.0": 237,
+        "5.0": 580,
+        "3.0": 86,
+        "2.0": 37
+      },
+      "history_target_boundary_tie_users": 5,
+      "test_items_already_in_history": 10,
+      "baselines": {
+        "constant_1": {
+          "users": 323,
+          "targets": 969,
+          "macro_mae": 3.343653250773994,
+          "macro_rmse": 3.4887405506163627
+        },
+        "constant_2": {
+          "users": 323,
+          "targets": 969,
+          "macro_mae": 2.4035087719298245,
+          "macro_rmse": 2.5463707758233043
+        },
+        "constant_3": {
+          "users": 323,
+          "targets": 969,
+          "macro_mae": 1.5397316821465428,
+          "macro_rmse": 1.6723329890960676
+        },
+        "constant_4": {
+          "users": 323,
+          "targets": 969,
+          "macro_mae": 0.8534571723426212,
+          "macro_rmse": 1.0532763762996875
+        },
+        "constant_5": {
+          "users": 323,
+          "targets": 969,
+          "macro_mae": 0.6563467492260062,
+          "macro_rmse": 1.1925118965121535
+        },
+        "history_mean": {
+          "users": 323,
+          "targets": 969,
+          "macro_mae": 0.7205581435909928,
+          "macro_rmse": 0.9516650312579571
+        },
+        "history_median": {
+          "users": 323,
+          "targets": 969,
+          "macro_mae": 0.609907120743034,
+          "macro_rmse": 1.066905288066776
+        }
+      }
+    },
+    "Home_and_Kitchen": {
+      "target_histogram": {
+        "5.0": 590,
+        "4.0": 245,
+        "2.0": 23,
+        "3.0": 81,
+        "1.0": 30
+      },
+      "history_target_boundary_tie_users": 7,
+      "test_items_already_in_history": 16,
+      "baselines": {
+        "constant_1": {
+          "users": 323,
+          "targets": 969,
+          "macro_mae": 3.384932920536636,
+          "macro_rmse": 3.5179034942476806
+        },
+        "constant_2": {
+          "users": 323,
+          "targets": 969,
+          "macro_mae": 2.4468524251805985,
+          "macro_rmse": 2.5701710358975665
+        },
+        "constant_3": {
+          "users": 323,
+          "targets": 969,
+          "macro_mae": 1.5562435500515996,
+          "macro_rmse": 1.6840170167470097
+        },
+        "constant_4": {
+          "users": 323,
+          "targets": 969,
+          "macro_mae": 0.8328173374613003,
+          "macro_rmse": 1.0324957489598816
+        },
+        "constant_5": {
+          "users": 323,
+          "targets": 969,
+          "macro_mae": 0.6150670794633643,
+          "macro_rmse": 1.1384997279520779
+        },
+        "history_mean": {
+          "users": 323,
+          "targets": 969,
+          "macro_mae": 0.6810803037306334,
+          "macro_rmse": 0.932985846628067
+        },
+        "history_median": {
+          "users": 323,
+          "targets": 969,
+          "macro_mae": 0.5562435500515995,
+          "macro_rmse": 1.043432455882833
+        }
+      }
+    }
+  },
+  "cross_domain": {
+    "users": 323,
+    "targets": 969,
+    "targets_with_future_sources": 664,
+    "users_with_any_future_sources": 257,
+    "mean_per_target_future_fraction": 0.00847707950010044,
+    "equal_time_target_source_pairs": 0,
+    "targets_with_no_strict_prior_source": 0,
+    "users_with_any_empty_prior": 0,
+    "users_with_all_empty_prior": 0,
+    "baselines": {
+      "unrestricted_source_mean": {
+        "users": 323,
+        "targets": 969,
+        "macro_mae": 0.7300923292829291,
+        "macro_rmse": 0.9452469423305101
+      },
+      "unrestricted_source_median": {
+        "users": 323,
+        "targets": 969,
+        "macro_mae": 0.6031991744066048,
+        "macro_rmse": 1.0420716447027518
+      },
+      "strict_prior_mean_covered": {
+        "users": 323,
+        "targets": 969,
+        "macro_mae": 0.7305372194810049,
+        "macro_rmse": 0.9457203945685474
+      },
+      "strict_prior_mean_fallback3": {
+        "users": 323,
+        "targets": 969,
+        "macro_mae": 0.7305372194810049,
+        "macro_rmse": 0.9457203945685474
+      },
+      "strict_prior_median_covered": {
+        "users": 323,
+        "targets": 969,
+        "macro_mae": 0.6016511867905057,
+        "macro_rmse": 1.0409569305544537
+      },
+      "strict_prior_median_fallback3": {
+        "users": 323,
+        "targets": 969,
+        "macro_mae": 0.6016511867905057,
+        "macro_rmse": 1.0409569305544537
+      }
+    },
+    "temporal_counts_by_user": [
+      {
+        "user_row": 0,
+        "source_events": 752,
+        "future_counts": [
+          14,
+          12,
+          3
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          738,
+          740,
+          749
+        ]
+      },
+      {
+        "user_row": 1,
+        "source_events": 366,
+        "future_counts": [
+          4,
+          4,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          362,
+          362,
+          366
+        ]
+      },
+      {
+        "user_row": 2,
+        "source_events": 1380,
+        "future_counts": [
+          37,
+          35,
+          3
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          1343,
+          1345,
+          1377
+        ]
+      },
+      {
+        "user_row": 3,
+        "source_events": 299,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          299,
+          299,
+          299
+        ]
+      },
+      {
+        "user_row": 4,
+        "source_events": 195,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          195,
+          195,
+          195
+        ]
+      },
+      {
+        "user_row": 5,
+        "source_events": 620,
+        "future_counts": [
+          6,
+          6,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          614,
+          614,
+          619
+        ]
+      },
+      {
+        "user_row": 6,
+        "source_events": 328,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          328,
+          328,
+          328
+        ]
+      },
+      {
+        "user_row": 7,
+        "source_events": 468,
+        "future_counts": [
+          5,
+          5,
+          4
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          463,
+          463,
+          464
+        ]
+      },
+      {
+        "user_row": 8,
+        "source_events": 291,
+        "future_counts": [
+          10,
+          5,
+          2
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          281,
+          286,
+          289
+        ]
+      },
+      {
+        "user_row": 9,
+        "source_events": 432,
+        "future_counts": [
+          10,
+          9,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          422,
+          423,
+          431
+        ]
+      },
+      {
+        "user_row": 10,
+        "source_events": 315,
+        "future_counts": [
+          8,
+          3,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          307,
+          312,
+          315
+        ]
+      },
+      {
+        "user_row": 11,
+        "source_events": 209,
+        "future_counts": [
+          5,
+          2,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          204,
+          207,
+          208
+        ]
+      },
+      {
+        "user_row": 12,
+        "source_events": 2227,
+        "future_counts": [
+          7,
+          7,
+          3
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          2220,
+          2220,
+          2224
+        ]
+      },
+      {
+        "user_row": 13,
+        "source_events": 419,
+        "future_counts": [
+          1,
+          1,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          418,
+          418,
+          418
+        ]
+      },
+      {
+        "user_row": 14,
+        "source_events": 290,
+        "future_counts": [
+          8,
+          8,
+          8
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          282,
+          282,
+          282
+        ]
+      },
+      {
+        "user_row": 15,
+        "source_events": 622,
+        "future_counts": [
+          2,
+          1,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          620,
+          621,
+          622
+        ]
+      },
+      {
+        "user_row": 16,
+        "source_events": 1103,
+        "future_counts": [
+          10,
+          9,
+          6
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          1093,
+          1094,
+          1097
+        ]
+      },
+      {
+        "user_row": 17,
+        "source_events": 951,
+        "future_counts": [
+          9,
+          9,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          942,
+          942,
+          950
+        ]
+      },
+      {
+        "user_row": 18,
+        "source_events": 1047,
+        "future_counts": [
+          5,
+          4,
+          4
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          1042,
+          1043,
+          1043
+        ]
+      },
+      {
+        "user_row": 19,
+        "source_events": 602,
+        "future_counts": [
+          3,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          599,
+          602,
+          602
+        ]
+      },
+      {
+        "user_row": 20,
+        "source_events": 401,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          401,
+          401,
+          401
+        ]
+      },
+      {
+        "user_row": 21,
+        "source_events": 368,
+        "future_counts": [
+          4,
+          2,
+          2
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          364,
+          366,
+          366
+        ]
+      },
+      {
+        "user_row": 22,
+        "source_events": 236,
+        "future_counts": [
+          5,
+          5,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          231,
+          231,
+          235
+        ]
+      },
+      {
+        "user_row": 23,
+        "source_events": 310,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          310,
+          310,
+          310
+        ]
+      },
+      {
+        "user_row": 24,
+        "source_events": 638,
+        "future_counts": [
+          3,
+          3,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          635,
+          635,
+          637
+        ]
+      },
+      {
+        "user_row": 25,
+        "source_events": 629,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          629,
+          629,
+          629
+        ]
+      },
+      {
+        "user_row": 26,
+        "source_events": 347,
+        "future_counts": [
+          2,
+          2,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          345,
+          345,
+          346
+        ]
+      },
+      {
+        "user_row": 27,
+        "source_events": 309,
+        "future_counts": [
+          24,
+          21,
+          21
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          285,
+          288,
+          288
+        ]
+      },
+      {
+        "user_row": 28,
+        "source_events": 574,
+        "future_counts": [
+          2,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          572,
+          574,
+          574
+        ]
+      },
+      {
+        "user_row": 29,
+        "source_events": 272,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          272,
+          272,
+          272
+        ]
+      },
+      {
+        "user_row": 30,
+        "source_events": 964,
+        "future_counts": [
+          2,
+          2,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          962,
+          962,
+          963
+        ]
+      },
+      {
+        "user_row": 31,
+        "source_events": 525,
+        "future_counts": [
+          6,
+          5,
+          2
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          519,
+          520,
+          523
+        ]
+      },
+      {
+        "user_row": 32,
+        "source_events": 760,
+        "future_counts": [
+          8,
+          7,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          752,
+          753,
+          759
+        ]
+      },
+      {
+        "user_row": 33,
+        "source_events": 300,
+        "future_counts": [
+          12,
+          11,
+          5
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          288,
+          289,
+          295
+        ]
+      },
+      {
+        "user_row": 34,
+        "source_events": 237,
+        "future_counts": [
+          4,
+          3,
+          3
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          233,
+          234,
+          234
+        ]
+      },
+      {
+        "user_row": 35,
+        "source_events": 696,
+        "future_counts": [
+          7,
+          1,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          689,
+          695,
+          695
+        ]
+      },
+      {
+        "user_row": 36,
+        "source_events": 712,
+        "future_counts": [
+          3,
+          1,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          709,
+          711,
+          712
+        ]
+      },
+      {
+        "user_row": 37,
+        "source_events": 262,
+        "future_counts": [
+          8,
+          7,
+          7
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          254,
+          255,
+          255
+        ]
+      },
+      {
+        "user_row": 38,
+        "source_events": 461,
+        "future_counts": [
+          14,
+          4,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          447,
+          457,
+          461
+        ]
+      },
+      {
+        "user_row": 39,
+        "source_events": 1627,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          1627,
+          1627,
+          1627
+        ]
+      },
+      {
+        "user_row": 40,
+        "source_events": 376,
+        "future_counts": [
+          19,
+          4,
+          4
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          357,
+          372,
+          372
+        ]
+      },
+      {
+        "user_row": 41,
+        "source_events": 370,
+        "future_counts": [
+          1,
+          1,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          369,
+          369,
+          369
+        ]
+      },
+      {
+        "user_row": 42,
+        "source_events": 441,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          441,
+          441,
+          441
+        ]
+      },
+      {
+        "user_row": 43,
+        "source_events": 283,
+        "future_counts": [
+          1,
+          1,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          282,
+          282,
+          282
+        ]
+      },
+      {
+        "user_row": 44,
+        "source_events": 288,
+        "future_counts": [
+          4,
+          1,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          284,
+          287,
+          287
+        ]
+      },
+      {
+        "user_row": 45,
+        "source_events": 366,
+        "future_counts": [
+          1,
+          1,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          365,
+          365,
+          366
+        ]
+      },
+      {
+        "user_row": 46,
+        "source_events": 388,
+        "future_counts": [
+          1,
+          1,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          387,
+          387,
+          388
+        ]
+      },
+      {
+        "user_row": 47,
+        "source_events": 514,
+        "future_counts": [
+          1,
+          1,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          513,
+          513,
+          514
+        ]
+      },
+      {
+        "user_row": 48,
+        "source_events": 517,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          517,
+          517,
+          517
+        ]
+      },
+      {
+        "user_row": 49,
+        "source_events": 361,
+        "future_counts": [
+          3,
+          3,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          358,
+          358,
+          361
+        ]
+      },
+      {
+        "user_row": 50,
+        "source_events": 383,
+        "future_counts": [
+          1,
+          1,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          382,
+          382,
+          382
+        ]
+      },
+      {
+        "user_row": 51,
+        "source_events": 233,
+        "future_counts": [
+          6,
+          3,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          227,
+          230,
+          233
+        ]
+      },
+      {
+        "user_row": 52,
+        "source_events": 882,
+        "future_counts": [
+          19,
+          8,
+          6
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          863,
+          874,
+          876
+        ]
+      },
+      {
+        "user_row": 53,
+        "source_events": 263,
+        "future_counts": [
+          5,
+          5,
+          2
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          258,
+          258,
+          261
+        ]
+      },
+      {
+        "user_row": 54,
+        "source_events": 281,
+        "future_counts": [
+          3,
+          3,
+          3
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          278,
+          278,
+          278
+        ]
+      },
+      {
+        "user_row": 55,
+        "source_events": 706,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          706,
+          706,
+          706
+        ]
+      },
+      {
+        "user_row": 56,
+        "source_events": 562,
+        "future_counts": [
+          10,
+          6,
+          6
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          552,
+          556,
+          556
+        ]
+      },
+      {
+        "user_row": 57,
+        "source_events": 439,
+        "future_counts": [
+          1,
+          1,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          438,
+          438,
+          438
+        ]
+      },
+      {
+        "user_row": 58,
+        "source_events": 253,
+        "future_counts": [
+          4,
+          4,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          249,
+          249,
+          252
+        ]
+      },
+      {
+        "user_row": 59,
+        "source_events": 249,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          249,
+          249,
+          249
+        ]
+      },
+      {
+        "user_row": 60,
+        "source_events": 209,
+        "future_counts": [
+          2,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          207,
+          209,
+          209
+        ]
+      },
+      {
+        "user_row": 61,
+        "source_events": 658,
+        "future_counts": [
+          2,
+          1,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          656,
+          657,
+          658
+        ]
+      },
+      {
+        "user_row": 62,
+        "source_events": 507,
+        "future_counts": [
+          6,
+          3,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          501,
+          504,
+          506
+        ]
+      },
+      {
+        "user_row": 63,
+        "source_events": 1112,
+        "future_counts": [
+          5,
+          4,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          1107,
+          1108,
+          1111
+        ]
+      },
+      {
+        "user_row": 64,
+        "source_events": 277,
+        "future_counts": [
+          2,
+          1,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          275,
+          276,
+          277
+        ]
+      },
+      {
+        "user_row": 65,
+        "source_events": 2141,
+        "future_counts": [
+          8,
+          8,
+          3
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          2133,
+          2133,
+          2138
+        ]
+      },
+      {
+        "user_row": 66,
+        "source_events": 711,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          711,
+          711,
+          711
+        ]
+      },
+      {
+        "user_row": 67,
+        "source_events": 227,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          227,
+          227,
+          227
+        ]
+      },
+      {
+        "user_row": 68,
+        "source_events": 233,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          233,
+          233,
+          233
+        ]
+      },
+      {
+        "user_row": 69,
+        "source_events": 1109,
+        "future_counts": [
+          26,
+          21,
+          2
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          1083,
+          1088,
+          1107
+        ]
+      },
+      {
+        "user_row": 70,
+        "source_events": 410,
+        "future_counts": [
+          9,
+          9,
+          6
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          401,
+          401,
+          404
+        ]
+      },
+      {
+        "user_row": 71,
+        "source_events": 342,
+        "future_counts": [
+          1,
+          1,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          341,
+          341,
+          342
+        ]
+      },
+      {
+        "user_row": 72,
+        "source_events": 314,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          314,
+          314,
+          314
+        ]
+      },
+      {
+        "user_row": 73,
+        "source_events": 284,
+        "future_counts": [
+          19,
+          3,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          265,
+          281,
+          283
+        ]
+      },
+      {
+        "user_row": 74,
+        "source_events": 310,
+        "future_counts": [
+          1,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          309,
+          310,
+          310
+        ]
+      },
+      {
+        "user_row": 75,
+        "source_events": 241,
+        "future_counts": [
+          6,
+          6,
+          6
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          235,
+          235,
+          235
+        ]
+      },
+      {
+        "user_row": 76,
+        "source_events": 554,
+        "future_counts": [
+          1,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          553,
+          554,
+          554
+        ]
+      },
+      {
+        "user_row": 77,
+        "source_events": 382,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          382,
+          382,
+          382
+        ]
+      },
+      {
+        "user_row": 78,
+        "source_events": 591,
+        "future_counts": [
+          9,
+          5,
+          5
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          582,
+          586,
+          586
+        ]
+      },
+      {
+        "user_row": 79,
+        "source_events": 476,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          476,
+          476,
+          476
+        ]
+      },
+      {
+        "user_row": 80,
+        "source_events": 454,
+        "future_counts": [
+          6,
+          2,
+          2
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          448,
+          452,
+          452
+        ]
+      },
+      {
+        "user_row": 81,
+        "source_events": 965,
+        "future_counts": [
+          1,
+          1,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          964,
+          964,
+          964
+        ]
+      },
+      {
+        "user_row": 82,
+        "source_events": 215,
+        "future_counts": [
+          6,
+          5,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          209,
+          210,
+          214
+        ]
+      },
+      {
+        "user_row": 83,
+        "source_events": 1509,
+        "future_counts": [
+          1,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          1508,
+          1509,
+          1509
+        ]
+      },
+      {
+        "user_row": 84,
+        "source_events": 1233,
+        "future_counts": [
+          19,
+          7,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          1214,
+          1226,
+          1233
+        ]
+      },
+      {
+        "user_row": 85,
+        "source_events": 240,
+        "future_counts": [
+          5,
+          4,
+          2
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          235,
+          236,
+          238
+        ]
+      },
+      {
+        "user_row": 86,
+        "source_events": 1513,
+        "future_counts": [
+          8,
+          3,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          1505,
+          1510,
+          1513
+        ]
+      },
+      {
+        "user_row": 87,
+        "source_events": 212,
+        "future_counts": [
+          5,
+          5,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          207,
+          207,
+          212
+        ]
+      },
+      {
+        "user_row": 88,
+        "source_events": 330,
+        "future_counts": [
+          8,
+          8,
+          3
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          322,
+          322,
+          327
+        ]
+      },
+      {
+        "user_row": 89,
+        "source_events": 789,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          789,
+          789,
+          789
+        ]
+      },
+      {
+        "user_row": 90,
+        "source_events": 432,
+        "future_counts": [
+          4,
+          1,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          428,
+          431,
+          431
+        ]
+      },
+      {
+        "user_row": 91,
+        "source_events": 341,
+        "future_counts": [
+          1,
+          1,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          340,
+          340,
+          341
+        ]
+      },
+      {
+        "user_row": 92,
+        "source_events": 355,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          355,
+          355,
+          355
+        ]
+      },
+      {
+        "user_row": 93,
+        "source_events": 323,
+        "future_counts": [
+          1,
+          1,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          322,
+          322,
+          323
+        ]
+      },
+      {
+        "user_row": 94,
+        "source_events": 971,
+        "future_counts": [
+          8,
+          5,
+          5
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          963,
+          966,
+          966
+        ]
+      },
+      {
+        "user_row": 95,
+        "source_events": 512,
+        "future_counts": [
+          8,
+          7,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          504,
+          505,
+          512
+        ]
+      },
+      {
+        "user_row": 96,
+        "source_events": 214,
+        "future_counts": [
+          3,
+          3,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          211,
+          211,
+          213
+        ]
+      },
+      {
+        "user_row": 97,
+        "source_events": 775,
+        "future_counts": [
+          1,
+          1,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          774,
+          774,
+          775
+        ]
+      },
+      {
+        "user_row": 98,
+        "source_events": 881,
+        "future_counts": [
+          2,
+          2,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          879,
+          879,
+          880
+        ]
+      },
+      {
+        "user_row": 99,
+        "source_events": 307,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          307,
+          307,
+          307
+        ]
+      },
+      {
+        "user_row": 100,
+        "source_events": 651,
+        "future_counts": [
+          1,
+          1,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          650,
+          650,
+          651
+        ]
+      },
+      {
+        "user_row": 101,
+        "source_events": 415,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          415,
+          415,
+          415
+        ]
+      },
+      {
+        "user_row": 102,
+        "source_events": 315,
+        "future_counts": [
+          2,
+          2,
+          2
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          313,
+          313,
+          313
+        ]
+      },
+      {
+        "user_row": 103,
+        "source_events": 571,
+        "future_counts": [
+          7,
+          3,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          564,
+          568,
+          570
+        ]
+      },
+      {
+        "user_row": 104,
+        "source_events": 667,
+        "future_counts": [
+          1,
+          1,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          666,
+          666,
+          666
+        ]
+      },
+      {
+        "user_row": 105,
+        "source_events": 940,
+        "future_counts": [
+          16,
+          15,
+          14
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          924,
+          925,
+          926
+        ]
+      },
+      {
+        "user_row": 106,
+        "source_events": 322,
+        "future_counts": [
+          2,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          320,
+          322,
+          322
+        ]
+      },
+      {
+        "user_row": 107,
+        "source_events": 291,
+        "future_counts": [
+          3,
+          3,
+          3
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          288,
+          288,
+          288
+        ]
+      },
+      {
+        "user_row": 108,
+        "source_events": 1103,
+        "future_counts": [
+          3,
+          2,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          1100,
+          1101,
+          1102
+        ]
+      },
+      {
+        "user_row": 109,
+        "source_events": 345,
+        "future_counts": [
+          7,
+          2,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          338,
+          343,
+          344
+        ]
+      },
+      {
+        "user_row": 110,
+        "source_events": 755,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          755,
+          755,
+          755
+        ]
+      },
+      {
+        "user_row": 111,
+        "source_events": 342,
+        "future_counts": [
+          7,
+          7,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          335,
+          335,
+          341
+        ]
+      },
+      {
+        "user_row": 112,
+        "source_events": 776,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          776,
+          776,
+          776
+        ]
+      },
+      {
+        "user_row": 113,
+        "source_events": 282,
+        "future_counts": [
+          2,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          280,
+          282,
+          282
+        ]
+      },
+      {
+        "user_row": 114,
+        "source_events": 756,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          756,
+          756,
+          756
+        ]
+      },
+      {
+        "user_row": 115,
+        "source_events": 518,
+        "future_counts": [
+          12,
+          12,
+          11
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          506,
+          506,
+          507
+        ]
+      },
+      {
+        "user_row": 116,
+        "source_events": 461,
+        "future_counts": [
+          1,
+          1,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          460,
+          460,
+          460
+        ]
+      },
+      {
+        "user_row": 117,
+        "source_events": 316,
+        "future_counts": [
+          2,
+          2,
+          2
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          314,
+          314,
+          314
+        ]
+      },
+      {
+        "user_row": 118,
+        "source_events": 185,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          185,
+          185,
+          185
+        ]
+      },
+      {
+        "user_row": 119,
+        "source_events": 1099,
+        "future_counts": [
+          5,
+          5,
+          2
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          1094,
+          1094,
+          1097
+        ]
+      },
+      {
+        "user_row": 120,
+        "source_events": 445,
+        "future_counts": [
+          4,
+          3,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          441,
+          442,
+          445
+        ]
+      },
+      {
+        "user_row": 121,
+        "source_events": 2124,
+        "future_counts": [
+          6,
+          6,
+          6
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          2118,
+          2118,
+          2118
+        ]
+      },
+      {
+        "user_row": 122,
+        "source_events": 2643,
+        "future_counts": [
+          38,
+          20,
+          20
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          2605,
+          2623,
+          2623
+        ]
+      },
+      {
+        "user_row": 123,
+        "source_events": 358,
+        "future_counts": [
+          5,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          353,
+          358,
+          358
+        ]
+      },
+      {
+        "user_row": 124,
+        "source_events": 220,
+        "future_counts": [
+          1,
+          1,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          219,
+          219,
+          220
+        ]
+      },
+      {
+        "user_row": 125,
+        "source_events": 846,
+        "future_counts": [
+          9,
+          1,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          837,
+          845,
+          846
+        ]
+      },
+      {
+        "user_row": 126,
+        "source_events": 283,
+        "future_counts": [
+          5,
+          4,
+          4
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          278,
+          279,
+          279
+        ]
+      },
+      {
+        "user_row": 127,
+        "source_events": 216,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          216,
+          216,
+          216
+        ]
+      },
+      {
+        "user_row": 128,
+        "source_events": 188,
+        "future_counts": [
+          1,
+          1,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          187,
+          187,
+          187
+        ]
+      },
+      {
+        "user_row": 129,
+        "source_events": 331,
+        "future_counts": [
+          2,
+          1,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          329,
+          330,
+          330
+        ]
+      },
+      {
+        "user_row": 130,
+        "source_events": 841,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          841,
+          841,
+          841
+        ]
+      },
+      {
+        "user_row": 131,
+        "source_events": 377,
+        "future_counts": [
+          1,
+          1,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          376,
+          376,
+          376
+        ]
+      },
+      {
+        "user_row": 132,
+        "source_events": 334,
+        "future_counts": [
+          22,
+          21,
+          18
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          312,
+          313,
+          316
+        ]
+      },
+      {
+        "user_row": 133,
+        "source_events": 305,
+        "future_counts": [
+          21,
+          6,
+          6
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          284,
+          299,
+          299
+        ]
+      },
+      {
+        "user_row": 134,
+        "source_events": 1722,
+        "future_counts": [
+          19,
+          19,
+          2
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          1703,
+          1703,
+          1720
+        ]
+      },
+      {
+        "user_row": 135,
+        "source_events": 775,
+        "future_counts": [
+          16,
+          10,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          759,
+          765,
+          774
+        ]
+      },
+      {
+        "user_row": 136,
+        "source_events": 646,
+        "future_counts": [
+          5,
+          5,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          641,
+          641,
+          646
+        ]
+      },
+      {
+        "user_row": 137,
+        "source_events": 229,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          229,
+          229,
+          229
+        ]
+      },
+      {
+        "user_row": 138,
+        "source_events": 370,
+        "future_counts": [
+          9,
+          5,
+          5
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          361,
+          365,
+          365
+        ]
+      },
+      {
+        "user_row": 139,
+        "source_events": 460,
+        "future_counts": [
+          7,
+          7,
+          5
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          453,
+          453,
+          455
+        ]
+      },
+      {
+        "user_row": 140,
+        "source_events": 1209,
+        "future_counts": [
+          11,
+          8,
+          6
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          1198,
+          1201,
+          1203
+        ]
+      },
+      {
+        "user_row": 141,
+        "source_events": 275,
+        "future_counts": [
+          3,
+          2,
+          2
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          272,
+          273,
+          273
+        ]
+      },
+      {
+        "user_row": 142,
+        "source_events": 418,
+        "future_counts": [
+          11,
+          10,
+          7
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          407,
+          408,
+          411
+        ]
+      },
+      {
+        "user_row": 143,
+        "source_events": 319,
+        "future_counts": [
+          4,
+          3,
+          2
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          315,
+          316,
+          317
+        ]
+      },
+      {
+        "user_row": 144,
+        "source_events": 737,
+        "future_counts": [
+          3,
+          1,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          734,
+          736,
+          737
+        ]
+      },
+      {
+        "user_row": 145,
+        "source_events": 953,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          953,
+          953,
+          953
+        ]
+      },
+      {
+        "user_row": 146,
+        "source_events": 485,
+        "future_counts": [
+          5,
+          3,
+          3
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          480,
+          482,
+          482
+        ]
+      },
+      {
+        "user_row": 147,
+        "source_events": 346,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          346,
+          346,
+          346
+        ]
+      },
+      {
+        "user_row": 148,
+        "source_events": 3181,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          3181,
+          3181,
+          3181
+        ]
+      },
+      {
+        "user_row": 149,
+        "source_events": 642,
+        "future_counts": [
+          3,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          639,
+          642,
+          642
+        ]
+      },
+      {
+        "user_row": 150,
+        "source_events": 2381,
+        "future_counts": [
+          13,
+          9,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          2368,
+          2372,
+          2380
+        ]
+      },
+      {
+        "user_row": 151,
+        "source_events": 594,
+        "future_counts": [
+          3,
+          3,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          591,
+          591,
+          594
+        ]
+      },
+      {
+        "user_row": 152,
+        "source_events": 385,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          385,
+          385,
+          385
+        ]
+      },
+      {
+        "user_row": 153,
+        "source_events": 456,
+        "future_counts": [
+          5,
+          2,
+          2
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          451,
+          454,
+          454
+        ]
+      },
+      {
+        "user_row": 154,
+        "source_events": 254,
+        "future_counts": [
+          23,
+          22,
+          9
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          231,
+          232,
+          245
+        ]
+      },
+      {
+        "user_row": 155,
+        "source_events": 1155,
+        "future_counts": [
+          8,
+          7,
+          6
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          1147,
+          1148,
+          1149
+        ]
+      },
+      {
+        "user_row": 156,
+        "source_events": 543,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          543,
+          543,
+          543
+        ]
+      },
+      {
+        "user_row": 157,
+        "source_events": 356,
+        "future_counts": [
+          5,
+          3,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          351,
+          353,
+          356
+        ]
+      },
+      {
+        "user_row": 158,
+        "source_events": 223,
+        "future_counts": [
+          2,
+          1,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          221,
+          222,
+          222
+        ]
+      },
+      {
+        "user_row": 159,
+        "source_events": 490,
+        "future_counts": [
+          3,
+          1,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          487,
+          489,
+          489
+        ]
+      },
+      {
+        "user_row": 160,
+        "source_events": 1061,
+        "future_counts": [
+          1,
+          1,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          1060,
+          1060,
+          1060
+        ]
+      },
+      {
+        "user_row": 161,
+        "source_events": 478,
+        "future_counts": [
+          4,
+          2,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          474,
+          476,
+          478
+        ]
+      },
+      {
+        "user_row": 162,
+        "source_events": 738,
+        "future_counts": [
+          42,
+          39,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          696,
+          699,
+          737
+        ]
+      },
+      {
+        "user_row": 163,
+        "source_events": 235,
+        "future_counts": [
+          1,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          234,
+          235,
+          235
+        ]
+      },
+      {
+        "user_row": 164,
+        "source_events": 538,
+        "future_counts": [
+          2,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          536,
+          538,
+          538
+        ]
+      },
+      {
+        "user_row": 165,
+        "source_events": 862,
+        "future_counts": [
+          1,
+          1,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          861,
+          861,
+          861
+        ]
+      },
+      {
+        "user_row": 166,
+        "source_events": 1035,
+        "future_counts": [
+          4,
+          2,
+          2
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          1031,
+          1033,
+          1033
+        ]
+      },
+      {
+        "user_row": 167,
+        "source_events": 3853,
+        "future_counts": [
+          7,
+          7,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          3846,
+          3846,
+          3853
+        ]
+      },
+      {
+        "user_row": 168,
+        "source_events": 834,
+        "future_counts": [
+          8,
+          6,
+          6
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          826,
+          828,
+          828
+        ]
+      },
+      {
+        "user_row": 169,
+        "source_events": 660,
+        "future_counts": [
+          21,
+          15,
+          9
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          639,
+          645,
+          651
+        ]
+      },
+      {
+        "user_row": 170,
+        "source_events": 452,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          452,
+          452,
+          452
+        ]
+      },
+      {
+        "user_row": 171,
+        "source_events": 198,
+        "future_counts": [
+          6,
+          6,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          192,
+          192,
+          197
+        ]
+      },
+      {
+        "user_row": 172,
+        "source_events": 741,
+        "future_counts": [
+          6,
+          4,
+          2
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          735,
+          737,
+          739
+        ]
+      },
+      {
+        "user_row": 173,
+        "source_events": 295,
+        "future_counts": [
+          16,
+          6,
+          4
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          279,
+          289,
+          291
+        ]
+      },
+      {
+        "user_row": 174,
+        "source_events": 720,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          720,
+          720,
+          720
+        ]
+      },
+      {
+        "user_row": 175,
+        "source_events": 470,
+        "future_counts": [
+          1,
+          1,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          469,
+          469,
+          470
+        ]
+      },
+      {
+        "user_row": 176,
+        "source_events": 284,
+        "future_counts": [
+          2,
+          2,
+          2
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          282,
+          282,
+          282
+        ]
+      },
+      {
+        "user_row": 177,
+        "source_events": 681,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          681,
+          681,
+          681
+        ]
+      },
+      {
+        "user_row": 178,
+        "source_events": 1021,
+        "future_counts": [
+          1,
+          1,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          1020,
+          1020,
+          1020
+        ]
+      },
+      {
+        "user_row": 179,
+        "source_events": 369,
+        "future_counts": [
+          2,
+          2,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          367,
+          367,
+          368
+        ]
+      },
+      {
+        "user_row": 180,
+        "source_events": 488,
+        "future_counts": [
+          1,
+          1,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          487,
+          487,
+          487
+        ]
+      },
+      {
+        "user_row": 181,
+        "source_events": 540,
+        "future_counts": [
+          1,
+          1,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          539,
+          539,
+          540
+        ]
+      },
+      {
+        "user_row": 182,
+        "source_events": 737,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          737,
+          737,
+          737
+        ]
+      },
+      {
+        "user_row": 183,
+        "source_events": 194,
+        "future_counts": [
+          4,
+          3,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          190,
+          191,
+          193
+        ]
+      },
+      {
+        "user_row": 184,
+        "source_events": 492,
+        "future_counts": [
+          2,
+          1,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          490,
+          491,
+          491
+        ]
+      },
+      {
+        "user_row": 185,
+        "source_events": 416,
+        "future_counts": [
+          6,
+          5,
+          5
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          410,
+          411,
+          411
+        ]
+      },
+      {
+        "user_row": 186,
+        "source_events": 330,
+        "future_counts": [
+          2,
+          1,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          328,
+          329,
+          329
+        ]
+      },
+      {
+        "user_row": 187,
+        "source_events": 1411,
+        "future_counts": [
+          20,
+          7,
+          5
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          1391,
+          1404,
+          1406
+        ]
+      },
+      {
+        "user_row": 188,
+        "source_events": 198,
+        "future_counts": [
+          6,
+          2,
+          2
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          192,
+          196,
+          196
+        ]
+      },
+      {
+        "user_row": 189,
+        "source_events": 539,
+        "future_counts": [
+          1,
+          1,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          538,
+          538,
+          539
+        ]
+      },
+      {
+        "user_row": 190,
+        "source_events": 325,
+        "future_counts": [
+          8,
+          5,
+          5
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          317,
+          320,
+          320
+        ]
+      },
+      {
+        "user_row": 191,
+        "source_events": 170,
+        "future_counts": [
+          2,
+          2,
+          2
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          168,
+          168,
+          168
+        ]
+      },
+      {
+        "user_row": 192,
+        "source_events": 202,
+        "future_counts": [
+          1,
+          1,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          201,
+          201,
+          202
+        ]
+      },
+      {
+        "user_row": 193,
+        "source_events": 1549,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          1549,
+          1549,
+          1549
+        ]
+      },
+      {
+        "user_row": 194,
+        "source_events": 527,
+        "future_counts": [
+          9,
+          2,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          518,
+          525,
+          527
+        ]
+      },
+      {
+        "user_row": 195,
+        "source_events": 408,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          408,
+          408,
+          408
+        ]
+      },
+      {
+        "user_row": 196,
+        "source_events": 890,
+        "future_counts": [
+          33,
+          31,
+          31
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          857,
+          859,
+          859
+        ]
+      },
+      {
+        "user_row": 197,
+        "source_events": 374,
+        "future_counts": [
+          10,
+          4,
+          2
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          364,
+          370,
+          372
+        ]
+      },
+      {
+        "user_row": 198,
+        "source_events": 481,
+        "future_counts": [
+          7,
+          3,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          474,
+          478,
+          480
+        ]
+      },
+      {
+        "user_row": 199,
+        "source_events": 359,
+        "future_counts": [
+          1,
+          1,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          358,
+          358,
+          359
+        ]
+      },
+      {
+        "user_row": 200,
+        "source_events": 341,
+        "future_counts": [
+          1,
+          1,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          340,
+          340,
+          340
+        ]
+      },
+      {
+        "user_row": 201,
+        "source_events": 255,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "user_row": 202,
+        "source_events": 312,
+        "future_counts": [
+          7,
+          6,
+          4
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          305,
+          306,
+          308
+        ]
+      },
+      {
+        "user_row": 203,
+        "source_events": 300,
+        "future_counts": [
+          6,
+          1,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          294,
+          299,
+          300
+        ]
+      },
+      {
+        "user_row": 204,
+        "source_events": 726,
+        "future_counts": [
+          14,
+          14,
+          14
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          712,
+          712,
+          712
+        ]
+      },
+      {
+        "user_row": 205,
+        "source_events": 430,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          430,
+          430,
+          430
+        ]
+      },
+      {
+        "user_row": 206,
+        "source_events": 2797,
+        "future_counts": [
+          7,
+          4,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          2790,
+          2793,
+          2797
+        ]
+      },
+      {
+        "user_row": 207,
+        "source_events": 784,
+        "future_counts": [
+          14,
+          1,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          770,
+          783,
+          784
+        ]
+      },
+      {
+        "user_row": 208,
+        "source_events": 481,
+        "future_counts": [
+          33,
+          15,
+          15
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          448,
+          466,
+          466
+        ]
+      },
+      {
+        "user_row": 209,
+        "source_events": 1210,
+        "future_counts": [
+          3,
+          2,
+          2
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          1207,
+          1208,
+          1208
+        ]
+      },
+      {
+        "user_row": 210,
+        "source_events": 4166,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          4166,
+          4166,
+          4166
+        ]
+      },
+      {
+        "user_row": 211,
+        "source_events": 655,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          655,
+          655,
+          655
+        ]
+      },
+      {
+        "user_row": 212,
+        "source_events": 624,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          624,
+          624,
+          624
+        ]
+      },
+      {
+        "user_row": 213,
+        "source_events": 356,
+        "future_counts": [
+          1,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          355,
+          356,
+          356
+        ]
+      },
+      {
+        "user_row": 214,
+        "source_events": 402,
+        "future_counts": [
+          3,
+          3,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          399,
+          399,
+          401
+        ]
+      },
+      {
+        "user_row": 215,
+        "source_events": 338,
+        "future_counts": [
+          8,
+          4,
+          4
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          330,
+          334,
+          334
+        ]
+      },
+      {
+        "user_row": 216,
+        "source_events": 334,
+        "future_counts": [
+          3,
+          3,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          331,
+          331,
+          333
+        ]
+      },
+      {
+        "user_row": 217,
+        "source_events": 471,
+        "future_counts": [
+          1,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          470,
+          471,
+          471
+        ]
+      },
+      {
+        "user_row": 218,
+        "source_events": 346,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          346,
+          346,
+          346
+        ]
+      },
+      {
+        "user_row": 219,
+        "source_events": 673,
+        "future_counts": [
+          11,
+          6,
+          6
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          662,
+          667,
+          667
+        ]
+      },
+      {
+        "user_row": 220,
+        "source_events": 202,
+        "future_counts": [
+          2,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          200,
+          202,
+          202
+        ]
+      },
+      {
+        "user_row": 221,
+        "source_events": 507,
+        "future_counts": [
+          1,
+          1,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          506,
+          506,
+          506
+        ]
+      },
+      {
+        "user_row": 222,
+        "source_events": 201,
+        "future_counts": [
+          1,
+          1,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          200,
+          200,
+          201
+        ]
+      },
+      {
+        "user_row": 223,
+        "source_events": 214,
+        "future_counts": [
+          3,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          211,
+          214,
+          214
+        ]
+      },
+      {
+        "user_row": 224,
+        "source_events": 597,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          597,
+          597,
+          597
+        ]
+      },
+      {
+        "user_row": 225,
+        "source_events": 226,
+        "future_counts": [
+          1,
+          1,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          225,
+          225,
+          226
+        ]
+      },
+      {
+        "user_row": 226,
+        "source_events": 448,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          448,
+          448,
+          448
+        ]
+      },
+      {
+        "user_row": 227,
+        "source_events": 2154,
+        "future_counts": [
+          169,
+          77,
+          12
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          1985,
+          2077,
+          2142
+        ]
+      },
+      {
+        "user_row": 228,
+        "source_events": 440,
+        "future_counts": [
+          10,
+          8,
+          4
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          430,
+          432,
+          436
+        ]
+      },
+      {
+        "user_row": 229,
+        "source_events": 617,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          617,
+          617,
+          617
+        ]
+      },
+      {
+        "user_row": 230,
+        "source_events": 690,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          690,
+          690,
+          690
+        ]
+      },
+      {
+        "user_row": 231,
+        "source_events": 652,
+        "future_counts": [
+          11,
+          4,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          641,
+          648,
+          651
+        ]
+      },
+      {
+        "user_row": 232,
+        "source_events": 1637,
+        "future_counts": [
+          2,
+          1,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          1635,
+          1636,
+          1637
+        ]
+      },
+      {
+        "user_row": 233,
+        "source_events": 284,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          284,
+          284,
+          284
+        ]
+      },
+      {
+        "user_row": 234,
+        "source_events": 381,
+        "future_counts": [
+          5,
+          5,
+          3
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          376,
+          376,
+          378
+        ]
+      },
+      {
+        "user_row": 235,
+        "source_events": 438,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          438,
+          438,
+          438
+        ]
+      },
+      {
+        "user_row": 236,
+        "source_events": 383,
+        "future_counts": [
+          7,
+          5,
+          2
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          376,
+          378,
+          381
+        ]
+      },
+      {
+        "user_row": 237,
+        "source_events": 784,
+        "future_counts": [
+          75,
+          19,
+          8
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          709,
+          765,
+          776
+        ]
+      },
+      {
+        "user_row": 238,
+        "source_events": 1286,
+        "future_counts": [
+          65,
+          30,
+          15
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          1221,
+          1256,
+          1271
+        ]
+      },
+      {
+        "user_row": 239,
+        "source_events": 414,
+        "future_counts": [
+          1,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          413,
+          414,
+          414
+        ]
+      },
+      {
+        "user_row": 240,
+        "source_events": 579,
+        "future_counts": [
+          8,
+          6,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          571,
+          573,
+          578
+        ]
+      },
+      {
+        "user_row": 241,
+        "source_events": 1385,
+        "future_counts": [
+          9,
+          7,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          1376,
+          1378,
+          1384
+        ]
+      },
+      {
+        "user_row": 242,
+        "source_events": 499,
+        "future_counts": [
+          17,
+          17,
+          15
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          482,
+          482,
+          484
+        ]
+      },
+      {
+        "user_row": 243,
+        "source_events": 389,
+        "future_counts": [
+          11,
+          3,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          378,
+          386,
+          389
+        ]
+      },
+      {
+        "user_row": 244,
+        "source_events": 435,
+        "future_counts": [
+          4,
+          1,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          431,
+          434,
+          434
+        ]
+      },
+      {
+        "user_row": 245,
+        "source_events": 3108,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          3108,
+          3108,
+          3108
+        ]
+      },
+      {
+        "user_row": 246,
+        "source_events": 869,
+        "future_counts": [
+          1,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          868,
+          869,
+          869
+        ]
+      },
+      {
+        "user_row": 247,
+        "source_events": 664,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          664,
+          664,
+          664
+        ]
+      },
+      {
+        "user_row": 248,
+        "source_events": 327,
+        "future_counts": [
+          10,
+          10,
+          2
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          317,
+          317,
+          325
+        ]
+      },
+      {
+        "user_row": 249,
+        "source_events": 521,
+        "future_counts": [
+          17,
+          16,
+          7
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          504,
+          505,
+          514
+        ]
+      },
+      {
+        "user_row": 250,
+        "source_events": 383,
+        "future_counts": [
+          4,
+          2,
+          2
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          379,
+          381,
+          381
+        ]
+      },
+      {
+        "user_row": 251,
+        "source_events": 1924,
+        "future_counts": [
+          9,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          1915,
+          1924,
+          1924
+        ]
+      },
+      {
+        "user_row": 252,
+        "source_events": 217,
+        "future_counts": [
+          10,
+          10,
+          10
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          207,
+          207,
+          207
+        ]
+      },
+      {
+        "user_row": 253,
+        "source_events": 589,
+        "future_counts": [
+          5,
+          4,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          584,
+          585,
+          588
+        ]
+      },
+      {
+        "user_row": 254,
+        "source_events": 291,
+        "future_counts": [
+          22,
+          19,
+          2
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          269,
+          272,
+          289
+        ]
+      },
+      {
+        "user_row": 255,
+        "source_events": 331,
+        "future_counts": [
+          1,
+          1,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          330,
+          330,
+          330
+        ]
+      },
+      {
+        "user_row": 256,
+        "source_events": 632,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          632,
+          632,
+          632
+        ]
+      },
+      {
+        "user_row": 257,
+        "source_events": 527,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          527,
+          527,
+          527
+        ]
+      },
+      {
+        "user_row": 258,
+        "source_events": 642,
+        "future_counts": [
+          127,
+          117,
+          99
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          515,
+          525,
+          543
+        ]
+      },
+      {
+        "user_row": 259,
+        "source_events": 1134,
+        "future_counts": [
+          21,
+          18,
+          11
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          1113,
+          1116,
+          1123
+        ]
+      },
+      {
+        "user_row": 260,
+        "source_events": 335,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          335,
+          335,
+          335
+        ]
+      },
+      {
+        "user_row": 261,
+        "source_events": 394,
+        "future_counts": [
+          2,
+          2,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          392,
+          392,
+          394
+        ]
+      },
+      {
+        "user_row": 262,
+        "source_events": 1262,
+        "future_counts": [
+          1,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          1261,
+          1262,
+          1262
+        ]
+      },
+      {
+        "user_row": 263,
+        "source_events": 554,
+        "future_counts": [
+          2,
+          2,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          552,
+          552,
+          553
+        ]
+      },
+      {
+        "user_row": 264,
+        "source_events": 253,
+        "future_counts": [
+          3,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          250,
+          253,
+          253
+        ]
+      },
+      {
+        "user_row": 265,
+        "source_events": 334,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          334,
+          334,
+          334
+        ]
+      },
+      {
+        "user_row": 266,
+        "source_events": 508,
+        "future_counts": [
+          1,
+          1,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          507,
+          507,
+          508
+        ]
+      },
+      {
+        "user_row": 267,
+        "source_events": 420,
+        "future_counts": [
+          6,
+          5,
+          5
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          414,
+          415,
+          415
+        ]
+      },
+      {
+        "user_row": 268,
+        "source_events": 581,
+        "future_counts": [
+          4,
+          4,
+          3
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          577,
+          577,
+          578
+        ]
+      },
+      {
+        "user_row": 269,
+        "source_events": 502,
+        "future_counts": [
+          5,
+          3,
+          3
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          497,
+          499,
+          499
+        ]
+      },
+      {
+        "user_row": 270,
+        "source_events": 435,
+        "future_counts": [
+          21,
+          10,
+          9
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          414,
+          425,
+          426
+        ]
+      },
+      {
+        "user_row": 271,
+        "source_events": 190,
+        "future_counts": [
+          3,
+          2,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          187,
+          188,
+          189
+        ]
+      },
+      {
+        "user_row": 272,
+        "source_events": 442,
+        "future_counts": [
+          2,
+          2,
+          2
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          440,
+          440,
+          440
+        ]
+      },
+      {
+        "user_row": 273,
+        "source_events": 409,
+        "future_counts": [
+          5,
+          3,
+          2
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          404,
+          406,
+          407
+        ]
+      },
+      {
+        "user_row": 274,
+        "source_events": 224,
+        "future_counts": [
+          3,
+          2,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          221,
+          222,
+          223
+        ]
+      },
+      {
+        "user_row": 275,
+        "source_events": 557,
+        "future_counts": [
+          2,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          555,
+          557,
+          557
+        ]
+      },
+      {
+        "user_row": 276,
+        "source_events": 1328,
+        "future_counts": [
+          10,
+          6,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          1318,
+          1322,
+          1327
+        ]
+      },
+      {
+        "user_row": 277,
+        "source_events": 472,
+        "future_counts": [
+          3,
+          3,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          469,
+          469,
+          472
+        ]
+      },
+      {
+        "user_row": 278,
+        "source_events": 207,
+        "future_counts": [
+          3,
+          2,
+          2
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          204,
+          205,
+          205
+        ]
+      },
+      {
+        "user_row": 279,
+        "source_events": 746,
+        "future_counts": [
+          2,
+          1,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          744,
+          745,
+          746
+        ]
+      },
+      {
+        "user_row": 280,
+        "source_events": 915,
+        "future_counts": [
+          3,
+          2,
+          2
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          912,
+          913,
+          913
+        ]
+      },
+      {
+        "user_row": 281,
+        "source_events": 833,
+        "future_counts": [
+          4,
+          3,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          829,
+          830,
+          833
+        ]
+      },
+      {
+        "user_row": 282,
+        "source_events": 471,
+        "future_counts": [
+          1,
+          1,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          470,
+          470,
+          470
+        ]
+      },
+      {
+        "user_row": 283,
+        "source_events": 300,
+        "future_counts": [
+          1,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          299,
+          300,
+          300
+        ]
+      },
+      {
+        "user_row": 284,
+        "source_events": 254,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          254,
+          254,
+          254
+        ]
+      },
+      {
+        "user_row": 285,
+        "source_events": 377,
+        "future_counts": [
+          5,
+          5,
+          5
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          372,
+          372,
+          372
+        ]
+      },
+      {
+        "user_row": 286,
+        "source_events": 340,
+        "future_counts": [
+          1,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          339,
+          340,
+          340
+        ]
+      },
+      {
+        "user_row": 287,
+        "source_events": 334,
+        "future_counts": [
+          1,
+          1,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          333,
+          333,
+          333
+        ]
+      },
+      {
+        "user_row": 288,
+        "source_events": 600,
+        "future_counts": [
+          6,
+          1,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          594,
+          599,
+          600
+        ]
+      },
+      {
+        "user_row": 289,
+        "source_events": 626,
+        "future_counts": [
+          3,
+          2,
+          2
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          623,
+          624,
+          624
+        ]
+      },
+      {
+        "user_row": 290,
+        "source_events": 1165,
+        "future_counts": [
+          3,
+          3,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          1162,
+          1162,
+          1164
+        ]
+      },
+      {
+        "user_row": 291,
+        "source_events": 961,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          961,
+          961,
+          961
+        ]
+      },
+      {
+        "user_row": 292,
+        "source_events": 259,
+        "future_counts": [
+          5,
+          2,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          254,
+          257,
+          259
+        ]
+      },
+      {
+        "user_row": 293,
+        "source_events": 1174,
+        "future_counts": [
+          4,
+          3,
+          3
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          1170,
+          1171,
+          1171
+        ]
+      },
+      {
+        "user_row": 294,
+        "source_events": 714,
+        "future_counts": [
+          2,
+          1,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          712,
+          713,
+          714
+        ]
+      },
+      {
+        "user_row": 295,
+        "source_events": 667,
+        "future_counts": [
+          2,
+          2,
+          2
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          665,
+          665,
+          665
+        ]
+      },
+      {
+        "user_row": 296,
+        "source_events": 393,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          393,
+          393,
+          393
+        ]
+      },
+      {
+        "user_row": 297,
+        "source_events": 339,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          339,
+          339,
+          339
+        ]
+      },
+      {
+        "user_row": 298,
+        "source_events": 591,
+        "future_counts": [
+          8,
+          7,
+          6
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          583,
+          584,
+          585
+        ]
+      },
+      {
+        "user_row": 299,
+        "source_events": 704,
+        "future_counts": [
+          4,
+          1,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          700,
+          703,
+          703
+        ]
+      },
+      {
+        "user_row": 300,
+        "source_events": 303,
+        "future_counts": [
+          6,
+          6,
+          3
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          297,
+          297,
+          300
+        ]
+      },
+      {
+        "user_row": 301,
+        "source_events": 634,
+        "future_counts": [
+          7,
+          7,
+          5
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          627,
+          627,
+          629
+        ]
+      },
+      {
+        "user_row": 302,
+        "source_events": 320,
+        "future_counts": [
+          51,
+          50,
+          6
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          269,
+          270,
+          314
+        ]
+      },
+      {
+        "user_row": 303,
+        "source_events": 793,
+        "future_counts": [
+          4,
+          4,
+          2
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          789,
+          789,
+          791
+        ]
+      },
+      {
+        "user_row": 304,
+        "source_events": 491,
+        "future_counts": [
+          14,
+          6,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          477,
+          485,
+          490
+        ]
+      },
+      {
+        "user_row": 305,
+        "source_events": 663,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          663,
+          663,
+          663
+        ]
+      },
+      {
+        "user_row": 306,
+        "source_events": 400,
+        "future_counts": [
+          2,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          398,
+          400,
+          400
+        ]
+      },
+      {
+        "user_row": 307,
+        "source_events": 470,
+        "future_counts": [
+          3,
+          3,
+          2
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          467,
+          467,
+          468
+        ]
+      },
+      {
+        "user_row": 308,
+        "source_events": 531,
+        "future_counts": [
+          16,
+          16,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          515,
+          515,
+          531
+        ]
+      },
+      {
+        "user_row": 309,
+        "source_events": 1862,
+        "future_counts": [
+          9,
+          6,
+          3
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          1853,
+          1856,
+          1859
+        ]
+      },
+      {
+        "user_row": 310,
+        "source_events": 323,
+        "future_counts": [
+          13,
+          13,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          310,
+          310,
+          323
+        ]
+      },
+      {
+        "user_row": 311,
+        "source_events": 689,
+        "future_counts": [
+          5,
+          5,
+          2
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          684,
+          684,
+          687
+        ]
+      },
+      {
+        "user_row": 312,
+        "source_events": 714,
+        "future_counts": [
+          2,
+          2,
+          2
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          712,
+          712,
+          712
+        ]
+      },
+      {
+        "user_row": 313,
+        "source_events": 667,
+        "future_counts": [
+          1,
+          1,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          666,
+          666,
+          666
+        ]
+      },
+      {
+        "user_row": 314,
+        "source_events": 308,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          308,
+          308,
+          308
+        ]
+      },
+      {
+        "user_row": 315,
+        "source_events": 426,
+        "future_counts": [
+          8,
+          1,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          418,
+          425,
+          426
+        ]
+      },
+      {
+        "user_row": 316,
+        "source_events": 399,
+        "future_counts": [
+          10,
+          8,
+          5
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          389,
+          391,
+          394
+        ]
+      },
+      {
+        "user_row": 317,
+        "source_events": 333,
+        "future_counts": [
+          1,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          332,
+          333,
+          333
+        ]
+      },
+      {
+        "user_row": 318,
+        "source_events": 512,
+        "future_counts": [
+          2,
+          2,
+          2
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          510,
+          510,
+          510
+        ]
+      },
+      {
+        "user_row": 319,
+        "source_events": 474,
+        "future_counts": [
+          5,
+          1,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          469,
+          473,
+          474
+        ]
+      },
+      {
+        "user_row": 320,
+        "source_events": 199,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          199,
+          199,
+          199
+        ]
+      },
+      {
+        "user_row": 321,
+        "source_events": 590,
+        "future_counts": [
+          1,
+          1,
+          1
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          589,
+          589,
+          589
+        ]
+      },
+      {
+        "user_row": 322,
+        "source_events": 225,
+        "future_counts": [
+          0,
+          0,
+          0
+        ],
+        "equal_counts": [
+          0,
+          0,
+          0
+        ],
+        "prior_counts": [
+          225,
+          225,
+          225
+        ]
+      }
+    ]
+  },
+  "hashes": {
+    "src/audit_memorycd_baselines.py": "0e48fcda27474fb5b074ff5d28bdc04fd75669b8344758651e10cbb94666a36e",
+    "docs/memorycd-baseline-audit-protocol.md": "6ee1fb0739eb1f509d9b3a00c5cbdd75933340b34c79e5657fe8687d5307253f",
+    "references/memorycd-data-manifest.json": "d8a4987969c13e52088ad704c97a31a63e5d337b58460faef4bb966ad9cb46b8"
+  }
+}

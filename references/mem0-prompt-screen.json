@@ -1,0 +1,17 @@
+{
+  "repository": "mem0ai/mem0",
+  "revision": "a39a802bbc93e85b820078cd3c4dbaf53af25dbe",
+  "purpose": "Read-only prompt review; not a method reproduction",
+  "files": [
+    {
+      "url": "https://raw.githubusercontent.com/mem0ai/mem0/a39a802bbc93e85b820078cd3c4dbaf53af25dbe/mem0/configs/prompts.py",
+      "local_path": "vendor/mem0-prompt-screen/prompts.py",
+      "sha256": "10bc8a34b3b5f0ce24560a2a3190c9112b979a891b981f48393bbd168d915a5c"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/mem0ai/mem0/a39a802bbc93e85b820078cd3c4dbaf53af25dbe/LICENSE",
+      "local_path": "vendor/mem0-prompt-screen/LICENSE",
+      "sha256": "0bbcbe931c353293a2fafce08326181dfeea0e568c566afd4ce8337a70f5e219"
+    }
+  ]
+}

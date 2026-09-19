@@ -1,0 +1,10 @@
+{
+  "dataset": "WZDavid/MemoryCD",
+  "revision": "14b934ce3f76f96b6c3c2efa173525f0da62952e",
+  "file": "users/cross_domain_users_sampled.jsonl.gz",
+  "bytes": 107702727,
+  "sha256": "8edebfecbd7e05e6461c6dfd86296419eca7e1119c1b534985097b7d0bad390a",
+  "retrieved_at": "2026-09-19T14:05:08.731700+00:00",
+  "scope": "noncommercial academic dataset audit; raw records not redistributed",
+  "harness_commit": "4cee5ebbf8a1ac4c933bde147006217e04678370"
+}

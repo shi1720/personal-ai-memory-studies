@@ -1,0 +1,2743 @@
+{
+  "status": "exploratory native-prompt component test; not deployed-system evaluation",
+  "model": "qwen",
+  "planned_cases": 120,
+  "actual_generations": 120,
+  "generation_seconds": 661.9066565009962,
+  "reader_truncations": 22,
+  "writer_summaries": {
+    "native": {
+      "planned": 12,
+      "valid": 12,
+      "truncated": 0,
+      "mean_fact_count": 23,
+      "mean_stored_bytes": 1337.5833333333333
+    },
+    "count_aware": {
+      "planned": 12,
+      "valid": 12,
+      "truncated": 0,
+      "mean_fact_count": 25.5,
+      "mean_stored_bytes": 1524.75
+    }
+  },
+  "summaries": {
+    "full": {
+      "rate": {
+        "planned": 12,
+        "correct": 1,
+        "wrong": 0,
+        "abstained": 0,
+        "invalid": 11,
+        "blocked_writer": 0,
+        "answer_coverage": 0.08333333333333333,
+        "source_truth_accuracy": 0.08333333333333333,
+        "error_given_answered": 0.0,
+        "by_rendering": {
+          "plain": {
+            "planned": 4,
+            "correct": 1,
+            "wrong": 0,
+            "abstained": 0,
+            "invalid": 3,
+            "blocked_writer": 0,
+            "answer_coverage": 0.25,
+            "source_truth_accuracy": 0.25,
+            "error_given_answered": 0.0
+          },
+          "positive_detail": {
+            "planned": 4,
+            "correct": 0,
+            "wrong": 0,
+            "abstained": 0,
+            "invalid": 4,
+            "blocked_writer": 0,
+            "answer_coverage": 0.0,
+            "source_truth_accuracy": 0.0,
+            "error_given_answered": null
+          },
+          "negative_detail": {
+            "planned": 4,
+            "correct": 0,
+            "wrong": 0,
+            "abstained": 0,
+            "invalid": 4,
+            "blocked_writer": 0,
+            "answer_coverage": 0.0,
+            "source_truth_accuracy": 0.0,
+            "error_given_answered": null
+          }
+        }
+      },
+      "event": {
+        "planned": 12,
+        "correct": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "invalid": 0,
+        "blocked_writer": 0,
+        "answer_coverage": 1.0,
+        "source_truth_accuracy": 1.0,
+        "error_given_answered": 0.0,
+        "by_rendering": {
+          "plain": {
+            "planned": 4,
+            "correct": 4,
+            "wrong": 0,
+            "abstained": 0,
+            "invalid": 0,
+            "blocked_writer": 0,
+            "answer_coverage": 1.0,
+            "source_truth_accuracy": 1.0,
+            "error_given_answered": 0.0
+          },
+          "positive_detail": {
+            "planned": 4,
+            "correct": 4,
+            "wrong": 0,
+            "abstained": 0,
+            "invalid": 0,
+            "blocked_writer": 0,
+            "answer_coverage": 1.0,
+            "source_truth_accuracy": 1.0,
+            "error_given_answered": 0.0
+          },
+          "negative_detail": {
+            "planned": 4,
+            "correct": 4,
+            "wrong": 0,
+            "abstained": 0,
+            "invalid": 0,
+            "blocked_writer": 0,
+            "answer_coverage": 1.0,
+            "source_truth_accuracy": 1.0,
+            "error_given_answered": 0.0
+          }
+        }
+      },
+      "mean_evidence_tokens": 527.5,
+      "mean_prompt_tokens": 713.8333333333334
+    },
+    "native": {
+      "rate": {
+        "planned": 12,
+        "correct": 3,
+        "wrong": 2,
+        "abstained": 0,
+        "invalid": 7,
+        "blocked_writer": 0,
+        "answer_coverage": 0.4166666666666667,
+        "source_truth_accuracy": 0.25,
+        "error_given_answered": 0.4,
+        "by_rendering": {
+          "plain": {
+            "planned": 4,
+            "correct": 1,
+            "wrong": 1,
+            "abstained": 0,
+            "invalid": 2,
+            "blocked_writer": 0,
+            "answer_coverage": 0.5,
+            "source_truth_accuracy": 0.25,
+            "error_given_answered": 0.5
+          },
+          "positive_detail": {
+            "planned": 4,
+            "correct": 2,
+            "wrong": 1,
+            "abstained": 0,
+            "invalid": 1,
+            "blocked_writer": 0,
+            "answer_coverage": 0.75,
+            "source_truth_accuracy": 0.5,
+            "error_given_answered": 0.3333333333333333
+          },
+          "negative_detail": {
+            "planned": 4,
+            "correct": 0,
+            "wrong": 0,
+            "abstained": 0,
+            "invalid": 4,
+            "blocked_writer": 0,
+            "answer_coverage": 0.0,
+            "source_truth_accuracy": 0.0,
+            "error_given_answered": null
+          }
+        }
+      },
+      "event": {
+        "planned": 12,
+        "correct": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "invalid": 0,
+        "blocked_writer": 0,
+        "answer_coverage": 1.0,
+        "source_truth_accuracy": 1.0,
+        "error_given_answered": 0.0,
+        "by_rendering": {
+          "plain": {
+            "planned": 4,
+            "correct": 4,
+            "wrong": 0,
+            "abstained": 0,
+            "invalid": 0,
+            "blocked_writer": 0,
+            "answer_coverage": 1.0,
+            "source_truth_accuracy": 1.0,
+            "error_given_answered": 0.0
+          },
+          "positive_detail": {
+            "planned": 4,
+            "correct": 4,
+            "wrong": 0,
+            "abstained": 0,
+            "invalid": 0,
+            "blocked_writer": 0,
+            "answer_coverage": 1.0,
+            "source_truth_accuracy": 1.0,
+            "error_given_answered": 0.0
+          },
+          "negative_detail": {
+            "planned": 4,
+            "correct": 4,
+            "wrong": 0,
+            "abstained": 0,
+            "invalid": 0,
+            "blocked_writer": 0,
+            "answer_coverage": 1.0,
+            "source_truth_accuracy": 1.0,
+            "error_given_answered": 0.0
+          }
+        }
+      },
+      "mean_evidence_tokens": 382.6666666666667,
+      "mean_prompt_tokens": 570
+    },
+    "count_aware": {
+      "rate": {
+        "planned": 12,
+        "correct": 7,
+        "wrong": 2,
+        "abstained": 0,
+        "invalid": 3,
+        "blocked_writer": 0,
+        "answer_coverage": 0.75,
+        "source_truth_accuracy": 0.5833333333333334,
+        "error_given_answered": 0.2222222222222222,
+        "by_rendering": {
+          "plain": {
+            "planned": 4,
+            "correct": 3,
+            "wrong": 1,
+            "abstained": 0,
+            "invalid": 0,
+            "blocked_writer": 0,
+            "answer_coverage": 1.0,
+            "source_truth_accuracy": 0.75,
+            "error_given_answered": 0.25
+          },
+          "positive_detail": {
+            "planned": 4,
+            "correct": 2,
+            "wrong": 1,
+            "abstained": 0,
+            "invalid": 1,
+            "blocked_writer": 0,
+            "answer_coverage": 0.75,
+            "source_truth_accuracy": 0.5,
+            "error_given_answered": 0.3333333333333333
+          },
+          "negative_detail": {
+            "planned": 4,
+            "correct": 2,
+            "wrong": 0,
+            "abstained": 0,
+            "invalid": 2,
+            "blocked_writer": 0,
+            "answer_coverage": 0.5,
+            "source_truth_accuracy": 0.5,
+            "error_given_answered": 0.0
+          }
+        }
+      },
+      "event": {
+        "planned": 12,
+        "correct": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "invalid": 0,
+        "blocked_writer": 0,
+        "answer_coverage": 1.0,
+        "source_truth_accuracy": 1.0,
+        "error_given_answered": 0.0,
+        "by_rendering": {
+          "plain": {
+            "planned": 4,
+            "correct": 4,
+            "wrong": 0,
+            "abstained": 0,
+            "invalid": 0,
+            "blocked_writer": 0,
+            "answer_coverage": 1.0,
+            "source_truth_accuracy": 1.0,
+            "error_given_answered": 0.0
+          },
+          "positive_detail": {
+            "planned": 4,
+            "correct": 4,
+            "wrong": 0,
+            "abstained": 0,
+            "invalid": 0,
+            "blocked_writer": 0,
+            "answer_coverage": 1.0,
+            "source_truth_accuracy": 1.0,
+            "error_given_answered": 0.0
+          },
+          "negative_detail": {
+            "planned": 4,
+            "correct": 4,
+            "wrong": 0,
+            "abstained": 0,
+            "invalid": 0,
+            "blocked_writer": 0,
+            "answer_coverage": 1.0,
+            "source_truth_accuracy": 1.0,
+            "error_given_answered": 0.0
+          }
+        }
+      },
+      "mean_evidence_tokens": 424.5833333333333,
+      "mean_prompt_tokens": 611.9166666666666
+    },
+    "ledger": {
+      "rate": {
+        "planned": 12,
+        "correct": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "invalid": 0,
+        "blocked_writer": 0,
+        "answer_coverage": 1.0,
+        "source_truth_accuracy": 1.0,
+        "error_given_answered": 0.0,
+        "by_rendering": {
+          "plain": {
+            "planned": 4,
+            "correct": 4,
+            "wrong": 0,
+            "abstained": 0,
+            "invalid": 0,
+            "blocked_writer": 0,
+            "answer_coverage": 1.0,
+            "source_truth_accuracy": 1.0,
+            "error_given_answered": 0.0
+          },
+          "positive_detail": {
+            "planned": 4,
+            "correct": 4,
+            "wrong": 0,
+            "abstained": 0,
+            "invalid": 0,
+            "blocked_writer": 0,
+            "answer_coverage": 1.0,
+            "source_truth_accuracy": 1.0,
+            "error_given_answered": 0.0
+          },
+          "negative_detail": {
+            "planned": 4,
+            "correct": 4,
+            "wrong": 0,
+            "abstained": 0,
+            "invalid": 0,
+            "blocked_writer": 0,
+            "answer_coverage": 1.0,
+            "source_truth_accuracy": 1.0,
+            "error_given_answered": 0.0
+          }
+        }
+      },
+      "event": {
+        "planned": 12,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 12,
+        "invalid": 0,
+        "blocked_writer": 0,
+        "answer_coverage": 0.0,
+        "source_truth_accuracy": 0.0,
+        "error_given_answered": null,
+        "by_rendering": {
+          "plain": {
+            "planned": 4,
+            "correct": 0,
+            "wrong": 0,
+            "abstained": 4,
+            "invalid": 0,
+            "blocked_writer": 0,
+            "answer_coverage": 0.0,
+            "source_truth_accuracy": 0.0,
+            "error_given_answered": null
+          },
+          "positive_detail": {
+            "planned": 4,
+            "correct": 0,
+            "wrong": 0,
+            "abstained": 4,
+            "invalid": 0,
+            "blocked_writer": 0,
+            "answer_coverage": 0.0,
+            "source_truth_accuracy": 0.0,
+            "error_given_answered": null
+          },
+          "negative_detail": {
+            "planned": 4,
+            "correct": 0,
+            "wrong": 0,
+            "abstained": 4,
+            "invalid": 0,
+            "blocked_writer": 0,
+            "answer_coverage": 0.0,
+            "source_truth_accuracy": 0.0,
+            "error_given_answered": null
+          }
+        }
+      },
+      "mean_evidence_tokens": 45.5,
+      "mean_prompt_tokens": 231.83333333333334
+    }
+  },
+  "paired": {
+    "native": {
+      "rate": {
+        "full_correct": 1,
+        "retained_correct": 0,
+        "losses": {
+          "wrong": 1,
+          "abstained": 0,
+          "invalid": 0,
+          "blocked_writer": 0
+        },
+        "reverse_gains": 3,
+        "pairs": [
+          {
+            "journal": "extract-00",
+            "full": "invalid",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-01",
+            "full": "invalid",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-02",
+            "full": "invalid",
+            "compressed": "invalid"
+          },
+          {
+            "journal": "extract-03",
+            "full": "invalid",
+            "compressed": "invalid"
+          },
+          {
+            "journal": "extract-04",
+            "full": "invalid",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-05",
+            "full": "invalid",
+            "compressed": "invalid"
+          },
+          {
+            "journal": "extract-06",
+            "full": "correct",
+            "compressed": "wrong"
+          },
+          {
+            "journal": "extract-07",
+            "full": "invalid",
+            "compressed": "invalid"
+          },
+          {
+            "journal": "extract-08",
+            "full": "invalid",
+            "compressed": "invalid"
+          },
+          {
+            "journal": "extract-09",
+            "full": "invalid",
+            "compressed": "invalid"
+          },
+          {
+            "journal": "extract-10",
+            "full": "invalid",
+            "compressed": "wrong"
+          },
+          {
+            "journal": "extract-11",
+            "full": "invalid",
+            "compressed": "invalid"
+          }
+        ]
+      },
+      "event": {
+        "full_correct": 12,
+        "retained_correct": 12,
+        "losses": {
+          "wrong": 0,
+          "abstained": 0,
+          "invalid": 0,
+          "blocked_writer": 0
+        },
+        "reverse_gains": 0,
+        "pairs": [
+          {
+            "journal": "extract-00",
+            "full": "correct",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-01",
+            "full": "correct",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-02",
+            "full": "correct",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-03",
+            "full": "correct",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-04",
+            "full": "correct",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-05",
+            "full": "correct",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-06",
+            "full": "correct",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-07",
+            "full": "correct",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-08",
+            "full": "correct",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-09",
+            "full": "correct",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-10",
+            "full": "correct",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-11",
+            "full": "correct",
+            "compressed": "correct"
+          }
+        ]
+      }
+    },
+    "count_aware": {
+      "rate": {
+        "full_correct": 1,
+        "retained_correct": 0,
+        "losses": {
+          "wrong": 1,
+          "abstained": 0,
+          "invalid": 0,
+          "blocked_writer": 0
+        },
+        "reverse_gains": 7,
+        "pairs": [
+          {
+            "journal": "extract-00",
+            "full": "invalid",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-01",
+            "full": "invalid",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-02",
+            "full": "invalid",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-03",
+            "full": "invalid",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-04",
+            "full": "invalid",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-05",
+            "full": "invalid",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-06",
+            "full": "correct",
+            "compressed": "wrong"
+          },
+          {
+            "journal": "extract-07",
+            "full": "invalid",
+            "compressed": "invalid"
+          },
+          {
+            "journal": "extract-08",
+            "full": "invalid",
+            "compressed": "invalid"
+          },
+          {
+            "journal": "extract-09",
+            "full": "invalid",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-10",
+            "full": "invalid",
+            "compressed": "wrong"
+          },
+          {
+            "journal": "extract-11",
+            "full": "invalid",
+            "compressed": "invalid"
+          }
+        ]
+      },
+      "event": {
+        "full_correct": 12,
+        "retained_correct": 12,
+        "losses": {
+          "wrong": 0,
+          "abstained": 0,
+          "invalid": 0,
+          "blocked_writer": 0
+        },
+        "reverse_gains": 0,
+        "pairs": [
+          {
+            "journal": "extract-00",
+            "full": "correct",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-01",
+            "full": "correct",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-02",
+            "full": "correct",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-03",
+            "full": "correct",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-04",
+            "full": "correct",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-05",
+            "full": "correct",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-06",
+            "full": "correct",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-07",
+            "full": "correct",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-08",
+            "full": "correct",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-09",
+            "full": "correct",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-10",
+            "full": "correct",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-11",
+            "full": "correct",
+            "compressed": "correct"
+          }
+        ]
+      }
+    },
+    "ledger": {
+      "rate": {
+        "full_correct": 1,
+        "retained_correct": 1,
+        "losses": {
+          "wrong": 0,
+          "abstained": 0,
+          "invalid": 0,
+          "blocked_writer": 0
+        },
+        "reverse_gains": 11,
+        "pairs": [
+          {
+            "journal": "extract-00",
+            "full": "invalid",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-01",
+            "full": "invalid",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-02",
+            "full": "invalid",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-03",
+            "full": "invalid",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-04",
+            "full": "invalid",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-05",
+            "full": "invalid",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-06",
+            "full": "correct",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-07",
+            "full": "invalid",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-08",
+            "full": "invalid",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-09",
+            "full": "invalid",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-10",
+            "full": "invalid",
+            "compressed": "correct"
+          },
+          {
+            "journal": "extract-11",
+            "full": "invalid",
+            "compressed": "correct"
+          }
+        ]
+      },
+      "event": {
+        "full_correct": 12,
+        "retained_correct": 0,
+        "losses": {
+          "wrong": 0,
+          "abstained": 12,
+          "invalid": 0,
+          "blocked_writer": 0
+        },
+        "reverse_gains": 0,
+        "pairs": [
+          {
+            "journal": "extract-00",
+            "full": "correct",
+            "compressed": "abstained"
+          },
+          {
+            "journal": "extract-01",
+            "full": "correct",
+            "compressed": "abstained"
+          },
+          {
+            "journal": "extract-02",
+            "full": "correct",
+            "compressed": "abstained"
+          },
+          {
+            "journal": "extract-03",
+            "full": "correct",
+            "compressed": "abstained"
+          },
+          {
+            "journal": "extract-04",
+            "full": "correct",
+            "compressed": "abstained"
+          },
+          {
+            "journal": "extract-05",
+            "full": "correct",
+            "compressed": "abstained"
+          },
+          {
+            "journal": "extract-06",
+            "full": "correct",
+            "compressed": "abstained"
+          },
+          {
+            "journal": "extract-07",
+            "full": "correct",
+            "compressed": "abstained"
+          },
+          {
+            "journal": "extract-08",
+            "full": "correct",
+            "compressed": "abstained"
+          },
+          {
+            "journal": "extract-09",
+            "full": "correct",
+            "compressed": "abstained"
+          },
+          {
+            "journal": "extract-10",
+            "full": "correct",
+            "compressed": "abstained"
+          },
+          {
+            "journal": "extract-11",
+            "full": "correct",
+            "compressed": "abstained"
+          }
+        ]
+      }
+    }
+  },
+  "reader_measurements": [
+    {
+      "journal": "extract-00",
+      "context": "full",
+      "kind": "rate",
+      "rendering": "plain",
+      "outcome": "invalid",
+      "evidence_tokens": 498,
+      "evidence_bytes": 1673,
+      "prompt_tokens": 679,
+      "truncated": true
+    },
+    {
+      "journal": "extract-00",
+      "context": "full",
+      "kind": "event",
+      "rendering": "plain",
+      "outcome": "correct",
+      "evidence_tokens": 498,
+      "evidence_bytes": 1673,
+      "prompt_tokens": 688,
+      "truncated": false
+    },
+    {
+      "journal": "extract-00",
+      "context": "native",
+      "kind": "rate",
+      "rendering": "plain",
+      "outcome": "correct",
+      "evidence_tokens": 357,
+      "evidence_bytes": 1349,
+      "prompt_tokens": 539,
+      "truncated": false
+    },
+    {
+      "journal": "extract-00",
+      "context": "native",
+      "kind": "event",
+      "rendering": "plain",
+      "outcome": "correct",
+      "evidence_tokens": 357,
+      "evidence_bytes": 1349,
+      "prompt_tokens": 548,
+      "truncated": false
+    },
+    {
+      "journal": "extract-00",
+      "context": "count_aware",
+      "kind": "rate",
+      "rendering": "plain",
+      "outcome": "correct",
+      "evidence_tokens": 357,
+      "evidence_bytes": 1349,
+      "prompt_tokens": 539,
+      "truncated": false
+    },
+    {
+      "journal": "extract-00",
+      "context": "count_aware",
+      "kind": "event",
+      "rendering": "plain",
+      "outcome": "correct",
+      "evidence_tokens": 357,
+      "evidence_bytes": 1349,
+      "prompt_tokens": 548,
+      "truncated": false
+    },
+    {
+      "journal": "extract-00",
+      "context": "ledger",
+      "kind": "rate",
+      "rendering": "plain",
+      "outcome": "correct",
+      "evidence_tokens": 45,
+      "evidence_bytes": 146,
+      "prompt_tokens": 226,
+      "truncated": false
+    },
+    {
+      "journal": "extract-00",
+      "context": "ledger",
+      "kind": "event",
+      "rendering": "plain",
+      "outcome": "abstained",
+      "evidence_tokens": 45,
+      "evidence_bytes": 146,
+      "prompt_tokens": 235,
+      "truncated": false
+    },
+    {
+      "journal": "extract-01",
+      "context": "full",
+      "kind": "rate",
+      "rendering": "positive_detail",
+      "outcome": "invalid",
+      "evidence_tokens": 522,
+      "evidence_bytes": 1790,
+      "prompt_tokens": 704,
+      "truncated": true
+    },
+    {
+      "journal": "extract-01",
+      "context": "full",
+      "kind": "event",
+      "rendering": "positive_detail",
+      "outcome": "correct",
+      "evidence_tokens": 522,
+      "evidence_bytes": 1790,
+      "prompt_tokens": 712,
+      "truncated": false
+    },
+    {
+      "journal": "extract-01",
+      "context": "native",
+      "kind": "rate",
+      "rendering": "positive_detail",
+      "outcome": "correct",
+      "evidence_tokens": 381,
+      "evidence_bytes": 1466,
+      "prompt_tokens": 564,
+      "truncated": false
+    },
+    {
+      "journal": "extract-01",
+      "context": "native",
+      "kind": "event",
+      "rendering": "positive_detail",
+      "outcome": "correct",
+      "evidence_tokens": 381,
+      "evidence_bytes": 1466,
+      "prompt_tokens": 572,
+      "truncated": false
+    },
+    {
+      "journal": "extract-01",
+      "context": "count_aware",
+      "kind": "rate",
+      "rendering": "positive_detail",
+      "outcome": "correct",
+      "evidence_tokens": 381,
+      "evidence_bytes": 1466,
+      "prompt_tokens": 564,
+      "truncated": false
+    },
+    {
+      "journal": "extract-01",
+      "context": "count_aware",
+      "kind": "event",
+      "rendering": "positive_detail",
+      "outcome": "correct",
+      "evidence_tokens": 381,
+      "evidence_bytes": 1466,
+      "prompt_tokens": 572,
+      "truncated": false
+    },
+    {
+      "journal": "extract-01",
+      "context": "ledger",
+      "kind": "rate",
+      "rendering": "positive_detail",
+      "outcome": "correct",
+      "evidence_tokens": 45,
+      "evidence_bytes": 146,
+      "prompt_tokens": 227,
+      "truncated": false
+    },
+    {
+      "journal": "extract-01",
+      "context": "ledger",
+      "kind": "event",
+      "rendering": "positive_detail",
+      "outcome": "abstained",
+      "evidence_tokens": 45,
+      "evidence_bytes": 146,
+      "prompt_tokens": 235,
+      "truncated": false
+    },
+    {
+      "journal": "extract-02",
+      "context": "full",
+      "kind": "rate",
+      "rendering": "negative_detail",
+      "outcome": "invalid",
+      "evidence_tokens": 534,
+      "evidence_bytes": 1742,
+      "prompt_tokens": 716,
+      "truncated": true
+    },
+    {
+      "journal": "extract-02",
+      "context": "full",
+      "kind": "event",
+      "rendering": "negative_detail",
+      "outcome": "correct",
+      "evidence_tokens": 534,
+      "evidence_bytes": 1742,
+      "prompt_tokens": 724,
+      "truncated": false
+    },
+    {
+      "journal": "extract-02",
+      "context": "native",
+      "kind": "rate",
+      "rendering": "negative_detail",
+      "outcome": "invalid",
+      "evidence_tokens": 417,
+      "evidence_bytes": 1466,
+      "prompt_tokens": 600,
+      "truncated": true
+    },
+    {
+      "journal": "extract-02",
+      "context": "native",
+      "kind": "event",
+      "rendering": "negative_detail",
+      "outcome": "correct",
+      "evidence_tokens": 417,
+      "evidence_bytes": 1466,
+      "prompt_tokens": 608,
+      "truncated": false
+    },
+    {
+      "journal": "extract-02",
+      "context": "count_aware",
+      "kind": "rate",
+      "rendering": "negative_detail",
+      "outcome": "correct",
+      "evidence_tokens": 393,
+      "evidence_bytes": 1418,
+      "prompt_tokens": 576,
+      "truncated": false
+    },
+    {
+      "journal": "extract-02",
+      "context": "count_aware",
+      "kind": "event",
+      "rendering": "negative_detail",
+      "outcome": "correct",
+      "evidence_tokens": 393,
+      "evidence_bytes": 1418,
+      "prompt_tokens": 584,
+      "truncated": false
+    },
+    {
+      "journal": "extract-02",
+      "context": "ledger",
+      "kind": "rate",
+      "rendering": "negative_detail",
+      "outcome": "correct",
+      "evidence_tokens": 46,
+      "evidence_bytes": 142,
+      "prompt_tokens": 228,
+      "truncated": false
+    },
+    {
+      "journal": "extract-02",
+      "context": "ledger",
+      "kind": "event",
+      "rendering": "negative_detail",
+      "outcome": "abstained",
+      "evidence_tokens": 46,
+      "evidence_bytes": 142,
+      "prompt_tokens": 236,
+      "truncated": false
+    },
+    {
+      "journal": "extract-03",
+      "context": "full",
+      "kind": "rate",
+      "rendering": "plain",
+      "outcome": "invalid",
+      "evidence_tokens": 510,
+      "evidence_bytes": 1709,
+      "prompt_tokens": 692,
+      "truncated": true
+    },
+    {
+      "journal": "extract-03",
+      "context": "full",
+      "kind": "event",
+      "rendering": "plain",
+      "outcome": "correct",
+      "evidence_tokens": 510,
+      "evidence_bytes": 1709,
+      "prompt_tokens": 700,
+      "truncated": false
+    },
+    {
+      "journal": "extract-03",
+      "context": "native",
+      "kind": "rate",
+      "rendering": "plain",
+      "outcome": "invalid",
+      "evidence_tokens": 345,
+      "evidence_bytes": 1241,
+      "prompt_tokens": 528,
+      "truncated": true
+    },
+    {
+      "journal": "extract-03",
+      "context": "native",
+      "kind": "event",
+      "rendering": "plain",
+      "outcome": "correct",
+      "evidence_tokens": 345,
+      "evidence_bytes": 1241,
+      "prompt_tokens": 536,
+      "truncated": false
+    },
+    {
+      "journal": "extract-03",
+      "context": "count_aware",
+      "kind": "rate",
+      "rendering": "plain",
+      "outcome": "correct",
+      "evidence_tokens": 653,
+      "evidence_bytes": 2315,
+      "prompt_tokens": 836,
+      "truncated": false
+    },
+    {
+      "journal": "extract-03",
+      "context": "count_aware",
+      "kind": "event",
+      "rendering": "plain",
+      "outcome": "correct",
+      "evidence_tokens": 653,
+      "evidence_bytes": 2315,
+      "prompt_tokens": 844,
+      "truncated": false
+    },
+    {
+      "journal": "extract-03",
+      "context": "ledger",
+      "kind": "rate",
+      "rendering": "plain",
+      "outcome": "correct",
+      "evidence_tokens": 45,
+      "evidence_bytes": 146,
+      "prompt_tokens": 227,
+      "truncated": false
+    },
+    {
+      "journal": "extract-03",
+      "context": "ledger",
+      "kind": "event",
+      "rendering": "plain",
+      "outcome": "abstained",
+      "evidence_tokens": 45,
+      "evidence_bytes": 146,
+      "prompt_tokens": 235,
+      "truncated": false
+    },
+    {
+      "journal": "extract-04",
+      "context": "full",
+      "kind": "rate",
+      "rendering": "positive_detail",
+      "outcome": "invalid",
+      "evidence_tokens": 546,
+      "evidence_bytes": 1778,
+      "prompt_tokens": 729,
+      "truncated": true
+    },
+    {
+      "journal": "extract-04",
+      "context": "full",
+      "kind": "event",
+      "rendering": "positive_detail",
+      "outcome": "correct",
+      "evidence_tokens": 546,
+      "evidence_bytes": 1778,
+      "prompt_tokens": 736,
+      "truncated": false
+    },
+    {
+      "journal": "extract-04",
+      "context": "native",
+      "kind": "rate",
+      "rendering": "positive_detail",
+      "outcome": "correct",
+      "evidence_tokens": 429,
+      "evidence_bytes": 1502,
+      "prompt_tokens": 613,
+      "truncated": false
+    },
+    {
+      "journal": "extract-04",
+      "context": "native",
+      "kind": "event",
+      "rendering": "positive_detail",
+      "outcome": "correct",
+      "evidence_tokens": 429,
+      "evidence_bytes": 1502,
+      "prompt_tokens": 620,
+      "truncated": false
+    },
+    {
+      "journal": "extract-04",
+      "context": "count_aware",
+      "kind": "rate",
+      "rendering": "positive_detail",
+      "outcome": "correct",
+      "evidence_tokens": 407,
+      "evidence_bytes": 1465,
+      "prompt_tokens": 591,
+      "truncated": false
+    },
+    {
+      "journal": "extract-04",
+      "context": "count_aware",
+      "kind": "event",
+      "rendering": "positive_detail",
+      "outcome": "correct",
+      "evidence_tokens": 407,
+      "evidence_bytes": 1465,
+      "prompt_tokens": 598,
+      "truncated": false
+    },
+    {
+      "journal": "extract-04",
+      "context": "ledger",
+      "kind": "rate",
+      "rendering": "positive_detail",
+      "outcome": "correct",
+      "evidence_tokens": 46,
+      "evidence_bytes": 142,
+      "prompt_tokens": 229,
+      "truncated": false
+    },
+    {
+      "journal": "extract-04",
+      "context": "ledger",
+      "kind": "event",
+      "rendering": "positive_detail",
+      "outcome": "abstained",
+      "evidence_tokens": 46,
+      "evidence_bytes": 142,
+      "prompt_tokens": 236,
+      "truncated": false
+    },
+    {
+      "journal": "extract-05",
+      "context": "full",
+      "kind": "rate",
+      "rendering": "negative_detail",
+      "outcome": "invalid",
+      "evidence_tokens": 558,
+      "evidence_bytes": 1814,
+      "prompt_tokens": 742,
+      "truncated": true
+    },
+    {
+      "journal": "extract-05",
+      "context": "full",
+      "kind": "event",
+      "rendering": "negative_detail",
+      "outcome": "correct",
+      "evidence_tokens": 558,
+      "evidence_bytes": 1814,
+      "prompt_tokens": 748,
+      "truncated": false
+    },
+    {
+      "journal": "extract-05",
+      "context": "native",
+      "kind": "rate",
+      "rendering": "negative_detail",
+      "outcome": "invalid",
+      "evidence_tokens": 308,
+      "evidence_bytes": 597,
+      "prompt_tokens": 493,
+      "truncated": true
+    },
+    {
+      "journal": "extract-05",
+      "context": "native",
+      "kind": "event",
+      "rendering": "negative_detail",
+      "outcome": "correct",
+      "evidence_tokens": 308,
+      "evidence_bytes": 597,
+      "prompt_tokens": 499,
+      "truncated": false
+    },
+    {
+      "journal": "extract-05",
+      "context": "count_aware",
+      "kind": "rate",
+      "rendering": "negative_detail",
+      "outcome": "correct",
+      "evidence_tokens": 417,
+      "evidence_bytes": 1418,
+      "prompt_tokens": 602,
+      "truncated": false
+    },
+    {
+      "journal": "extract-05",
+      "context": "count_aware",
+      "kind": "event",
+      "rendering": "negative_detail",
+      "outcome": "correct",
+      "evidence_tokens": 417,
+      "evidence_bytes": 1418,
+      "prompt_tokens": 608,
+      "truncated": false
+    },
+    {
+      "journal": "extract-05",
+      "context": "ledger",
+      "kind": "rate",
+      "rendering": "negative_detail",
+      "outcome": "correct",
+      "evidence_tokens": 46,
+      "evidence_bytes": 145,
+      "prompt_tokens": 230,
+      "truncated": false
+    },
+    {
+      "journal": "extract-05",
+      "context": "ledger",
+      "kind": "event",
+      "rendering": "negative_detail",
+      "outcome": "abstained",
+      "evidence_tokens": 46,
+      "evidence_bytes": 145,
+      "prompt_tokens": 236,
+      "truncated": false
+    },
+    {
+      "journal": "extract-06",
+      "context": "full",
+      "kind": "rate",
+      "rendering": "plain",
+      "outcome": "correct",
+      "evidence_tokens": 510,
+      "evidence_bytes": 1625,
+      "prompt_tokens": 692,
+      "truncated": false
+    },
+    {
+      "journal": "extract-06",
+      "context": "full",
+      "kind": "event",
+      "rendering": "plain",
+      "outcome": "correct",
+      "evidence_tokens": 510,
+      "evidence_bytes": 1625,
+      "prompt_tokens": 701,
+      "truncated": false
+    },
+    {
+      "journal": "extract-06",
+      "context": "native",
+      "kind": "rate",
+      "rendering": "plain",
+      "outcome": "wrong",
+      "evidence_tokens": 393,
+      "evidence_bytes": 1349,
+      "prompt_tokens": 576,
+      "truncated": false
+    },
+    {
+      "journal": "extract-06",
+      "context": "native",
+      "kind": "event",
+      "rendering": "plain",
+      "outcome": "correct",
+      "evidence_tokens": 393,
+      "evidence_bytes": 1349,
+      "prompt_tokens": 585,
+      "truncated": false
+    },
+    {
+      "journal": "extract-06",
+      "context": "count_aware",
+      "kind": "rate",
+      "rendering": "plain",
+      "outcome": "wrong",
+      "evidence_tokens": 369,
+      "evidence_bytes": 1301,
+      "prompt_tokens": 552,
+      "truncated": true
+    },
+    {
+      "journal": "extract-06",
+      "context": "count_aware",
+      "kind": "event",
+      "rendering": "plain",
+      "outcome": "correct",
+      "evidence_tokens": 369,
+      "evidence_bytes": 1301,
+      "prompt_tokens": 561,
+      "truncated": false
+    },
+    {
+      "journal": "extract-06",
+      "context": "ledger",
+      "kind": "rate",
+      "rendering": "plain",
+      "outcome": "correct",
+      "evidence_tokens": 46,
+      "evidence_bytes": 142,
+      "prompt_tokens": 228,
+      "truncated": false
+    },
+    {
+      "journal": "extract-06",
+      "context": "ledger",
+      "kind": "event",
+      "rendering": "plain",
+      "outcome": "abstained",
+      "evidence_tokens": 46,
+      "evidence_bytes": 142,
+      "prompt_tokens": 237,
+      "truncated": false
+    },
+    {
+      "journal": "extract-07",
+      "context": "full",
+      "kind": "rate",
+      "rendering": "positive_detail",
+      "outcome": "invalid",
+      "evidence_tokens": 546,
+      "evidence_bytes": 1778,
+      "prompt_tokens": 729,
+      "truncated": true
+    },
+    {
+      "journal": "extract-07",
+      "context": "full",
+      "kind": "event",
+      "rendering": "positive_detail",
+      "outcome": "correct",
+      "evidence_tokens": 546,
+      "evidence_bytes": 1778,
+      "prompt_tokens": 738,
+      "truncated": false
+    },
+    {
+      "journal": "extract-07",
+      "context": "native",
+      "kind": "rate",
+      "rendering": "positive_detail",
+      "outcome": "invalid",
+      "evidence_tokens": 447,
+      "evidence_bytes": 1538,
+      "prompt_tokens": 631,
+      "truncated": true
+    },
+    {
+      "journal": "extract-07",
+      "context": "native",
+      "kind": "event",
+      "rendering": "positive_detail",
+      "outcome": "correct",
+      "evidence_tokens": 447,
+      "evidence_bytes": 1538,
+      "prompt_tokens": 640,
+      "truncated": false
+    },
+    {
+      "journal": "extract-07",
+      "context": "count_aware",
+      "kind": "rate",
+      "rendering": "positive_detail",
+      "outcome": "invalid",
+      "evidence_tokens": 408,
+      "evidence_bytes": 1474,
+      "prompt_tokens": 592,
+      "truncated": true
+    },
+    {
+      "journal": "extract-07",
+      "context": "count_aware",
+      "kind": "event",
+      "rendering": "positive_detail",
+      "outcome": "correct",
+      "evidence_tokens": 408,
+      "evidence_bytes": 1474,
+      "prompt_tokens": 601,
+      "truncated": false
+    },
+    {
+      "journal": "extract-07",
+      "context": "ledger",
+      "kind": "rate",
+      "rendering": "positive_detail",
+      "outcome": "correct",
+      "evidence_tokens": 46,
+      "evidence_bytes": 145,
+      "prompt_tokens": 229,
+      "truncated": false
+    },
+    {
+      "journal": "extract-07",
+      "context": "ledger",
+      "kind": "event",
+      "rendering": "positive_detail",
+      "outcome": "abstained",
+      "evidence_tokens": 46,
+      "evidence_bytes": 145,
+      "prompt_tokens": 238,
+      "truncated": false
+    },
+    {
+      "journal": "extract-08",
+      "context": "full",
+      "kind": "rate",
+      "rendering": "negative_detail",
+      "outcome": "invalid",
+      "evidence_tokens": 522,
+      "evidence_bytes": 1790,
+      "prompt_tokens": 704,
+      "truncated": true
+    },
+    {
+      "journal": "extract-08",
+      "context": "full",
+      "kind": "event",
+      "rendering": "negative_detail",
+      "outcome": "correct",
+      "evidence_tokens": 522,
+      "evidence_bytes": 1790,
+      "prompt_tokens": 712,
+      "truncated": false
+    },
+    {
+      "journal": "extract-08",
+      "context": "native",
+      "kind": "rate",
+      "rendering": "negative_detail",
+      "outcome": "invalid",
+      "evidence_tokens": 381,
+      "evidence_bytes": 1466,
+      "prompt_tokens": 564,
+      "truncated": true
+    },
+    {
+      "journal": "extract-08",
+      "context": "native",
+      "kind": "event",
+      "rendering": "negative_detail",
+      "outcome": "correct",
+      "evidence_tokens": 381,
+      "evidence_bytes": 1466,
+      "prompt_tokens": 572,
+      "truncated": false
+    },
+    {
+      "journal": "extract-08",
+      "context": "count_aware",
+      "kind": "rate",
+      "rendering": "negative_detail",
+      "outcome": "invalid",
+      "evidence_tokens": 381,
+      "evidence_bytes": 1466,
+      "prompt_tokens": 564,
+      "truncated": true
+    },
+    {
+      "journal": "extract-08",
+      "context": "count_aware",
+      "kind": "event",
+      "rendering": "negative_detail",
+      "outcome": "correct",
+      "evidence_tokens": 381,
+      "evidence_bytes": 1466,
+      "prompt_tokens": 572,
+      "truncated": false
+    },
+    {
+      "journal": "extract-08",
+      "context": "ledger",
+      "kind": "rate",
+      "rendering": "negative_detail",
+      "outcome": "correct",
+      "evidence_tokens": 45,
+      "evidence_bytes": 146,
+      "prompt_tokens": 227,
+      "truncated": false
+    },
+    {
+      "journal": "extract-08",
+      "context": "ledger",
+      "kind": "event",
+      "rendering": "negative_detail",
+      "outcome": "abstained",
+      "evidence_tokens": 45,
+      "evidence_bytes": 146,
+      "prompt_tokens": 235,
+      "truncated": false
+    },
+    {
+      "journal": "extract-09",
+      "context": "full",
+      "kind": "rate",
+      "rendering": "plain",
+      "outcome": "invalid",
+      "evidence_tokens": 528,
+      "evidence_bytes": 1679,
+      "prompt_tokens": 711,
+      "truncated": true
+    },
+    {
+      "journal": "extract-09",
+      "context": "full",
+      "kind": "event",
+      "rendering": "plain",
+      "outcome": "correct",
+      "evidence_tokens": 528,
+      "evidence_bytes": 1679,
+      "prompt_tokens": 720,
+      "truncated": false
+    },
+    {
+      "journal": "extract-09",
+      "context": "native",
+      "kind": "rate",
+      "rendering": "plain",
+      "outcome": "invalid",
+      "evidence_tokens": 363,
+      "evidence_bytes": 1211,
+      "prompt_tokens": 547,
+      "truncated": true
+    },
+    {
+      "journal": "extract-09",
+      "context": "native",
+      "kind": "event",
+      "rendering": "plain",
+      "outcome": "correct",
+      "evidence_tokens": 363,
+      "evidence_bytes": 1211,
+      "prompt_tokens": 556,
+      "truncated": false
+    },
+    {
+      "journal": "extract-09",
+      "context": "count_aware",
+      "kind": "rate",
+      "rendering": "plain",
+      "outcome": "correct",
+      "evidence_tokens": 507,
+      "evidence_bytes": 1499,
+      "prompt_tokens": 691,
+      "truncated": false
+    },
+    {
+      "journal": "extract-09",
+      "context": "count_aware",
+      "kind": "event",
+      "rendering": "plain",
+      "outcome": "correct",
+      "evidence_tokens": 507,
+      "evidence_bytes": 1499,
+      "prompt_tokens": 700,
+      "truncated": false
+    },
+    {
+      "journal": "extract-09",
+      "context": "ledger",
+      "kind": "rate",
+      "rendering": "plain",
+      "outcome": "correct",
+      "evidence_tokens": 46,
+      "evidence_bytes": 145,
+      "prompt_tokens": 229,
+      "truncated": false
+    },
+    {
+      "journal": "extract-09",
+      "context": "ledger",
+      "kind": "event",
+      "rendering": "plain",
+      "outcome": "abstained",
+      "evidence_tokens": 46,
+      "evidence_bytes": 145,
+      "prompt_tokens": 238,
+      "truncated": false
+    },
+    {
+      "journal": "extract-10",
+      "context": "full",
+      "kind": "rate",
+      "rendering": "positive_detail",
+      "outcome": "invalid",
+      "evidence_tokens": 528,
+      "evidence_bytes": 1808,
+      "prompt_tokens": 710,
+      "truncated": true
+    },
+    {
+      "journal": "extract-10",
+      "context": "full",
+      "kind": "event",
+      "rendering": "positive_detail",
+      "outcome": "correct",
+      "evidence_tokens": 528,
+      "evidence_bytes": 1808,
+      "prompt_tokens": 718,
+      "truncated": false
+    },
+    {
+      "journal": "extract-10",
+      "context": "native",
+      "kind": "rate",
+      "rendering": "positive_detail",
+      "outcome": "wrong",
+      "evidence_tokens": 360,
+      "evidence_bytes": 1334,
+      "prompt_tokens": 543,
+      "truncated": false
+    },
+    {
+      "journal": "extract-10",
+      "context": "native",
+      "kind": "event",
+      "rendering": "positive_detail",
+      "outcome": "correct",
+      "evidence_tokens": 360,
+      "evidence_bytes": 1334,
+      "prompt_tokens": 551,
+      "truncated": false
+    },
+    {
+      "journal": "extract-10",
+      "context": "count_aware",
+      "kind": "rate",
+      "rendering": "positive_detail",
+      "outcome": "wrong",
+      "evidence_tokens": 432,
+      "evidence_bytes": 1622,
+      "prompt_tokens": 615,
+      "truncated": false
+    },
+    {
+      "journal": "extract-10",
+      "context": "count_aware",
+      "kind": "event",
+      "rendering": "positive_detail",
+      "outcome": "correct",
+      "evidence_tokens": 432,
+      "evidence_bytes": 1622,
+      "prompt_tokens": 623,
+      "truncated": false
+    },
+    {
+      "journal": "extract-10",
+      "context": "ledger",
+      "kind": "rate",
+      "rendering": "positive_detail",
+      "outcome": "correct",
+      "evidence_tokens": 45,
+      "evidence_bytes": 146,
+      "prompt_tokens": 227,
+      "truncated": false
+    },
+    {
+      "journal": "extract-10",
+      "context": "ledger",
+      "kind": "event",
+      "rendering": "positive_detail",
+      "outcome": "abstained",
+      "evidence_tokens": 45,
+      "evidence_bytes": 146,
+      "prompt_tokens": 235,
+      "truncated": false
+    },
+    {
+      "journal": "extract-11",
+      "context": "full",
+      "kind": "rate",
+      "rendering": "negative_detail",
+      "outcome": "invalid",
+      "evidence_tokens": 528,
+      "evidence_bytes": 1808,
+      "prompt_tokens": 709,
+      "truncated": true
+    },
+    {
+      "journal": "extract-11",
+      "context": "full",
+      "kind": "event",
+      "rendering": "negative_detail",
+      "outcome": "correct",
+      "evidence_tokens": 528,
+      "evidence_bytes": 1808,
+      "prompt_tokens": 718,
+      "truncated": false
+    },
+    {
+      "journal": "extract-11",
+      "context": "native",
+      "kind": "rate",
+      "rendering": "negative_detail",
+      "outcome": "invalid",
+      "evidence_tokens": 411,
+      "evidence_bytes": 1532,
+      "prompt_tokens": 593,
+      "truncated": true
+    },
+    {
+      "journal": "extract-11",
+      "context": "native",
+      "kind": "event",
+      "rendering": "negative_detail",
+      "outcome": "correct",
+      "evidence_tokens": 411,
+      "evidence_bytes": 1532,
+      "prompt_tokens": 602,
+      "truncated": false
+    },
+    {
+      "journal": "extract-11",
+      "context": "count_aware",
+      "kind": "rate",
+      "rendering": "negative_detail",
+      "outcome": "invalid",
+      "evidence_tokens": 390,
+      "evidence_bytes": 1504,
+      "prompt_tokens": 572,
+      "truncated": true
+    },
+    {
+      "journal": "extract-11",
+      "context": "count_aware",
+      "kind": "event",
+      "rendering": "negative_detail",
+      "outcome": "correct",
+      "evidence_tokens": 390,
+      "evidence_bytes": 1504,
+      "prompt_tokens": 581,
+      "truncated": false
+    },
+    {
+      "journal": "extract-11",
+      "context": "ledger",
+      "kind": "rate",
+      "rendering": "negative_detail",
+      "outcome": "correct",
+      "evidence_tokens": 45,
+      "evidence_bytes": 146,
+      "prompt_tokens": 226,
+      "truncated": false
+    },
+    {
+      "journal": "extract-11",
+      "context": "ledger",
+      "kind": "event",
+      "rendering": "negative_detail",
+      "outcome": "abstained",
+      "evidence_tokens": 45,
+      "evidence_bytes": 146,
+      "prompt_tokens": 235,
+      "truncated": false
+    }
+  ],
+  "writer_inspection": [
+    {
+      "journal": "extract-00",
+      "context": "native",
+      "valid": true,
+      "truncated": false,
+      "fact_count": 24,
+      "stored_bytes": 1349,
+      "facts": [
+        "Attended swimming session on Day 01 and enjoyed it",
+        "Attended swimming session on Day 02 and enjoyed it",
+        "Attended cycling session on Day 03 and enjoyed it",
+        "Attended swimming session on Day 04 and enjoyed it",
+        "Attended cycling session on Day 05 and enjoyed it",
+        "Attended swimming session on Day 06 and enjoyed it",
+        "Attended cycling session on Day 07 and enjoyed it",
+        "Attended swimming session on Day 08 and enjoyed it",
+        "Attended cycling session on Day 09 and enjoyed it",
+        "Attended swimming session on Day 10 and enjoyed it",
+        "Attended swimming session on Day 11 and did not enjoy it",
+        "Attended swimming session on Day 12 and enjoyed it",
+        "Attended swimming session on Day 13 and enjoyed it",
+        "Attended cycling session on Day 14 and did not enjoy it",
+        "Attended cycling session on Day 15 and did not enjoy it",
+        "Attended swimming session on Day 16 and did not enjoy it",
+        "Attended cycling session on Day 17 and did not enjoy it",
+        "Attended cycling session on Day 18 and enjoyed it",
+        "Attended cycling session on Day 19 and did not enjoy it",
+        "Attended cycling session on Day 20 and enjoyed it",
+        "Attended cycling session on Day 21 and did not enjoy it",
+        "Attended cycling session on Day 22 and did not enjoy it",
+        "Attended swimming session on Day 23 and enjoyed it",
+        "Attended swimming session on Day 24 and did not enjoy it"
+      ]
+    },
+    {
+      "journal": "extract-00",
+      "context": "count_aware",
+      "valid": true,
+      "truncated": false,
+      "fact_count": 24,
+      "stored_bytes": 1349,
+      "facts": [
+        "Attended swimming session on Day 01 and enjoyed it",
+        "Attended swimming session on Day 02 and enjoyed it",
+        "Attended cycling session on Day 03 and enjoyed it",
+        "Attended swimming session on Day 04 and enjoyed it",
+        "Attended cycling session on Day 05 and enjoyed it",
+        "Attended swimming session on Day 06 and enjoyed it",
+        "Attended cycling session on Day 07 and enjoyed it",
+        "Attended swimming session on Day 08 and enjoyed it",
+        "Attended cycling session on Day 09 and enjoyed it",
+        "Attended swimming session on Day 10 and enjoyed it",
+        "Attended swimming session on Day 11 and did not enjoy it",
+        "Attended swimming session on Day 12 and enjoyed it",
+        "Attended swimming session on Day 13 and enjoyed it",
+        "Attended cycling session on Day 14 and did not enjoy it",
+        "Attended cycling session on Day 15 and did not enjoy it",
+        "Attended swimming session on Day 16 and did not enjoy it",
+        "Attended cycling session on Day 17 and did not enjoy it",
+        "Attended cycling session on Day 18 and enjoyed it",
+        "Attended cycling session on Day 19 and did not enjoy it",
+        "Attended cycling session on Day 20 and enjoyed it",
+        "Attended cycling session on Day 21 and did not enjoy it",
+        "Attended cycling session on Day 22 and did not enjoy it",
+        "Attended swimming session on Day 23 and enjoyed it",
+        "Attended swimming session on Day 24 and did not enjoy it"
+      ]
+    },
+    {
+      "journal": "extract-01",
+      "context": "native",
+      "valid": true,
+      "truncated": false,
+      "fact_count": 24,
+      "stored_bytes": 1466,
+      "facts": [
+        "Attended painting session on Day 01 and did not enjoy it",
+        "Attended painting session on Day 02 and enjoyed it",
+        "Attended painting session on Day 03 and did not enjoy it",
+        "Attended pottery session on Day 04 and did not enjoy it",
+        "Attended pottery session on Day 05 and enjoyed it",
+        "Attended pottery session on Day 06 and enjoyed it",
+        "Attended painting session on Day 07 and enjoyed it",
+        "Attended painting session on Day 08 and enjoyed it",
+        "Attended pottery session on Day 09 and enjoyed it",
+        "Attended pottery session on Day 10 and did not enjoy it",
+        "Attended painting session on Day 11 and did not enjoy it",
+        "Attended pottery session on Day 12 and enjoyed it. A blue mural covered the entrance wall",
+        "Attended pottery session on Day 13 and enjoyed it. A brass clock stood beside the window",
+        "Attended pottery session on Day 14 and enjoyed it",
+        "Attended painting session on Day 15 and did not enjoy it",
+        "Attended pottery session on Day 16 and enjoyed it",
+        "Attended painting session on Day 17 and did not enjoy it",
+        "Attended painting session on Day 18 and enjoyed it",
+        "Attended pottery session on Day 19 and did not enjoy it",
+        "Attended painting session on Day 20 and did not enjoy it",
+        "Attended painting session on Day 21 and enjoyed it",
+        "Attended painting session on Day 22 and enjoyed it",
+        "Attended pottery session on Day 23 and enjoyed it. A purple umbrella rested by the door",
+        "Attended pottery session on Day 24 and enjoyed it"
+      ]
+    },
+    {
+      "journal": "extract-01",
+      "context": "count_aware",
+      "valid": true,
+      "truncated": false,
+      "fact_count": 24,
+      "stored_bytes": 1466,
+      "facts": [
+        "Attended painting session on Day 01 and did not enjoy it",
+        "Attended painting session on Day 02 and enjoyed it",
+        "Attended painting session on Day 03 and did not enjoy it",
+        "Attended pottery session on Day 04 and did not enjoy it",
+        "Attended pottery session on Day 05 and enjoyed it",
+        "Attended pottery session on Day 06 and enjoyed it",
+        "Attended painting session on Day 07 and enjoyed it",
+        "Attended painting session on Day 08 and enjoyed it",
+        "Attended pottery session on Day 09 and enjoyed it",
+        "Attended pottery session on Day 10 and did not enjoy it",
+        "Attended painting session on Day 11 and did not enjoy it",
+        "Attended pottery session on Day 12 and enjoyed it. A blue mural covered the entrance wall",
+        "Attended pottery session on Day 13 and enjoyed it. A brass clock stood beside the window",
+        "Attended pottery session on Day 14 and enjoyed it",
+        "Attended painting session on Day 15 and did not enjoy it",
+        "Attended pottery session on Day 16 and enjoyed it",
+        "Attended painting session on Day 17 and did not enjoy it",
+        "Attended painting session on Day 18 and enjoyed it",
+        "Attended pottery session on Day 19 and did not enjoy it",
+        "Attended painting session on Day 20 and did not enjoy it",
+        "Attended painting session on Day 21 and enjoyed it",
+        "Attended painting session on Day 22 and enjoyed it",
+        "Attended pottery session on Day 23 and enjoyed it. A purple umbrella rested by the door",
+        "Attended pottery session on Day 24 and enjoyed it"
+      ]
+    },
+    {
+      "journal": "extract-02",
+      "context": "native",
+      "valid": true,
+      "truncated": false,
+      "fact_count": 24,
+      "stored_bytes": 1466,
+      "facts": [
+        "Attended a pilates session on Day 01 and enjoyed it",
+        "Attended a pilates session on Day 02 and did not enjoy it",
+        "Attended a yoga session on Day 03 and enjoyed it",
+        "Attended a yoga session on Day 04 and enjoyed it",
+        "Attended a pilates session on Day 05 and enjoyed it",
+        "Attended a pilates session on Day 06 and did not enjoy it, a purple umbrella rested by the door",
+        "Attended a yoga session on Day 07 and enjoyed it",
+        "Attended a pilates session on Day 08 and enjoyed it",
+        "Attended a pilates session on Day 09 and did not enjoy it",
+        "Attended a pilates session on Day 10 and did not enjoy it",
+        "Attended a yoga session on Day 11 and did not enjoy it, a brass clock stood beside the window",
+        "Attended a pilates session on Day 12 and did not enjoy it",
+        "Attended a pilates session on Day 13 and enjoyed it",
+        "Attended a yoga session on Day 14 and did not enjoy it",
+        "Attended a yoga session on Day 15 and enjoyed it",
+        "Attended a yoga session on Day 16 and enjoyed it",
+        "Attended a yoga session on Day 17 and enjoyed it",
+        "Attended a pilates session on Day 18 and enjoyed it",
+        "Attended a yoga session on Day 19 and enjoyed it",
+        "Attended a yoga session on Day 20 and enjoyed it",
+        "Attended a yoga session on Day 21 and enjoyed it",
+        "Attended a pilates session on Day 22 and did not enjoy it, a blue mural covered the entrance wall",
+        "Attended a yoga session on Day 23 and did not enjoy it",
+        "Attended a pilates session on Day 24 and enjoyed it"
+      ]
+    },
+    {
+      "journal": "extract-02",
+      "context": "count_aware",
+      "valid": true,
+      "truncated": false,
+      "fact_count": 24,
+      "stored_bytes": 1418,
+      "facts": [
+        "Attended pilates session on Day 01 and enjoyed it",
+        "Attended pilates session on Day 02 and did not enjoy it",
+        "Attended yoga session on Day 03 and enjoyed it",
+        "Attended yoga session on Day 04 and enjoyed it",
+        "Attended pilates session on Day 05 and enjoyed it",
+        "Attended pilates session on Day 06 and did not enjoy it, a purple umbrella rested by the door",
+        "Attended yoga session on Day 07 and enjoyed it",
+        "Attended pilates session on Day 08 and enjoyed it",
+        "Attended pilates session on Day 09 and did not enjoy it",
+        "Attended pilates session on Day 10 and did not enjoy it",
+        "Attended yoga session on Day 11 and did not enjoy it, a brass clock stood beside the window",
+        "Attended pilates session on Day 12 and did not enjoy it",
+        "Attended pilates session on Day 13 and enjoyed it",
+        "Attended yoga session on Day 14 and did not enjoy it",
+        "Attended yoga session on Day 15 and enjoyed it",
+        "Attended yoga session on Day 16 and enjoyed it",
+        "Attended yoga session on Day 17 and enjoyed it",
+        "Attended pilates session on Day 18 and enjoyed it",
+        "Attended yoga session on Day 19 and enjoyed it",
+        "Attended yoga session on Day 20 and enjoyed it",
+        "Attended yoga session on Day 21 and enjoyed it",
+        "Attended pilates session on Day 22 and did not enjoy it, a blue mural covered the entrance wall",
+        "Attended yoga session on Day 23 and did not enjoy it",
+        "Attended pilates session on Day 24 and enjoyed it"
+      ]
+    },
+    {
+      "journal": "extract-03",
+      "context": "native",
+      "valid": true,
+      "truncated": false,
+      "fact_count": 24,
+      "stored_bytes": 1241,
+      "facts": [
+        "Attended pottery session on Day 01, did not enjoy",
+        "Attended pottery session on Day 02, did not enjoy",
+        "Attended pottery session on Day 03, did not enjoy",
+        "Attended painting session on Day 04, enjoyed",
+        "Attended painting session on Day 05, did not enjoy",
+        "Attended painting session on Day 06, enjoyed",
+        "Attended painting session on Day 07, enjoyed",
+        "Attended painting session on Day 08, enjoyed",
+        "Attended painting session on Day 09, enjoyed",
+        "Attended pottery session on Day 10, did not enjoy",
+        "Attended painting session on Day 11, did not enjoy",
+        "Attended pottery session on Day 12, did not enjoy",
+        "Attended pottery session on Day 13, did not enjoy",
+        "Attended pottery session on Day 14, did not enjoy",
+        "Attended pottery session on Day 15, did not enjoy",
+        "Attended pottery session on Day 16, enjoyed",
+        "Attended painting session on Day 17, did not enjoy",
+        "Attended pottery session on Day 18, enjoyed",
+        "Attended painting session on Day 19, did not enjoy",
+        "Attended pottery session on Day 20, enjoyed",
+        "Attended pottery session on Day 21, did not enjoy",
+        "Attended painting session on Day 22, enjoyed",
+        "Attended painting session on Day 23, did not enjoy",
+        "Attended painting session on Day 24, did not enjoy"
+      ]
+    },
+    {
+      "journal": "extract-03",
+      "context": "count_aware",
+      "valid": true,
+      "truncated": false,
+      "fact_count": 42,
+      "stored_bytes": 2315,
+      "facts": [
+        "Attended pottery session on Day 01, did not enjoy it",
+        "Attended pottery session on Day 02, did not enjoy it",
+        "Attended pottery session on Day 03, did not enjoy it",
+        "Attended pottery session on Day 04, did not enjoy it",
+        "Attended pottery session on Day 05, did not enjoy it",
+        "Attended pottery session on Day 06, did not enjoy it",
+        "Attended pottery session on Day 07, did not enjoy it",
+        "Attended pottery session on Day 08, did not enjoy it",
+        "Attended pottery session on Day 09, did not enjoy it",
+        "Attended pottery session on Day 10, did not enjoy it",
+        "Attended pottery session on Day 11, did not enjoy it",
+        "Attended pottery session on Day 12, did not enjoy it",
+        "Attended pottery session on Day 13, did not enjoy it",
+        "Attended pottery session on Day 14, did not enjoy it",
+        "Attended pottery session on Day 15, did not enjoy it",
+        "Attended pottery session on Day 16, enjoyed it",
+        "Attended pottery session on Day 17, did not enjoy it",
+        "Attended pottery session on Day 18, enjoyed it",
+        "Attended pottery session on Day 19, did not enjoy it",
+        "Attended pottery session on Day 20, enjoyed it",
+        "Attended pottery session on Day 21, did not enjoy it",
+        "Attended pottery session on Day 22, enjoyed it",
+        "Attended pottery session on Day 23, did not enjoy it",
+        "Attended pottery session on Day 24, did not enjoy it",
+        "Attended painting session on Day 04, enjoyed it",
+        "Attended painting session on Day 05, did not enjoy it",
+        "Attended painting session on Day 06, enjoyed it",
+        "Attended painting session on Day 07, enjoyed it",
+        "Attended painting session on Day 08, enjoyed it",
+        "Attended painting session on Day 09, enjoyed it",
+        "Attended painting session on Day 11, did not enjoy it",
+        "Attended painting session on Day 12, did not enjoy it",
+        "Attended painting session on Day 13, did not enjoy it",
+        "Attended painting session on Day 14, did not enjoy it",
+        "Attended painting session on Day 15, did not enjoy it",
+        "Attended painting session on Day 16, enjoyed it",
+        "Attended painting session on Day 17, did not enjoy it",
+        "Attended painting session on Day 18, did not enjoy it",
+        "Attended painting session on Day 19, did not enjoy it",
+        "Attended painting session on Day 22, enjoyed it",
+        "Attended painting session on Day 23, did not enjoy it",
+        "Attended painting session on Day 24, did not enjoy it"
+      ]
+    },
+    {
+      "journal": "extract-04",
+      "context": "native",
+      "valid": true,
+      "truncated": false,
+      "fact_count": 24,
+      "stored_bytes": 1502,
+      "facts": [
+        "Attended a yoga session on Day 01 and enjoyed it",
+        "Attended a pilates session on Day 02 and enjoyed it",
+        "Attended a pilates session on Day 03 and did not enjoy it",
+        "Attended a yoga session on Day 04 and did not enjoy it",
+        "Attended a pilates session on Day 05 and did not enjoy it",
+        "Attended a yoga session on Day 06 and did not enjoy it",
+        "Attended a pilates session on Day 07 and enjoyed it, a brass clock stood beside the window",
+        "Attended a pilates session on Day 08 and did not enjoy it",
+        "Attended a yoga session on Day 09 and did not enjoy it",
+        "Attended a pilates session on Day 10 and did not enjoy it",
+        "Attended a pilates session on Day 11 and enjoyed it, a blue mural covered the entrance wall",
+        "Attended a pilates session on Day 12 and enjoyed it",
+        "Attended a yoga session on Day 13 and enjoyed it",
+        "Attended a pilates session on Day 14 and enjoyed it, a purple umbrella rested by the door",
+        "Attended a pilates session on Day 15 and did not enjoy it",
+        "Attended a yoga session on Day 16 and did not enjoy it",
+        "Attended a pilates session on Day 17 and enjoyed it",
+        "Attended a yoga session on Day 18 and did not enjoy it",
+        "Attended a yoga session on Day 19 and did not enjoy it",
+        "Attended a yoga session on Day 20 and enjoyed it",
+        "Attended a yoga session on Day 21 and did not enjoy it",
+        "Attended a pilates session on Day 22 and did not enjoy it",
+        "Attended a yoga session on Day 23 and did not enjoy it",
+        "Attended a yoga session on Day 24 and did not enjoy it"
+      ]
+    },
+    {
+      "journal": "extract-04",
+      "context": "count_aware",
+      "valid": true,
+      "truncated": false,
+      "fact_count": 24,
+      "stored_bytes": 1465,
+      "facts": [
+        "Attended yoga session on Day 01 and enjoyed it",
+        "Attended pilates session on Day 02 and enjoyed it",
+        "Attended pilates session on Day 03 and did not enjoy it",
+        "Attended yoga session on Day 04 and did not enjoy it",
+        "Attended pilates session on Day 05 and did not enjoy it",
+        "Attended yoga session on Day 06 and did not enjoy it",
+        "Attended pilates session on Day 07 and enjoyed it, with a brass clock beside the window",
+        "Attended pilates session on Day 08 and did not enjoy it",
+        "Attended yoga session on Day 09 and did not enjoy it",
+        "Attended pilates session on Day 10 and did not enjoy it",
+        "Attended pilates session on Day 11 and enjoyed it, with a blue mural covering the entrance wall",
+        "Attended pilates session on Day 12 and enjoyed it",
+        "Attended yoga session on Day 13 and enjoyed it",
+        "Attended pilates session on Day 14 and enjoyed it, with a purple umbrella resting by the door",
+        "Attended pilates session on Day 15 and did not enjoy it",
+        "Attended yoga session on Day 16 and did not enjoy it",
+        "Attended pilates session on Day 17 and enjoyed it",
+        "Attended yoga session on Day 18 and did not enjoy it",
+        "Attended yoga session on Day 19 and did not enjoy it",
+        "Attended yoga session on Day 20 and enjoyed it",
+        "Attended yoga session on Day 21 and did not enjoy it",
+        "Attended pilates session on Day 22 and did not enjoy it",
+        "Attended yoga session on Day 23 and did not enjoy it",
+        "Attended yoga session on Day 24 and did not enjoy it"
+      ]
+    },
+    {
+      "journal": "extract-05",
+      "context": "native",
+      "valid": true,
+      "truncated": false,
+      "fact_count": 9,
+      "stored_bytes": 597,
+      "facts": [
+        "Attended chess sessions on days: 01, 03, 04, 05, 07, 09, 12, 14, 18, 20, 22, 23",
+        "Attended badminton sessions on days: 02, 06, 08, 11, 13, 15, 16, 17, 19, 21, 24",
+        "Did not enjoy chess session on days: 01, 02, 03, 04, 07, 14, 20, 21, 24",
+        "Enjoyed chess session on days: 05, 09, 12, 18, 22, 23",
+        "Did not enjoy badminton session on days: 02, 06, 11, 13, 15, 16, 17, 19, 21, 24",
+        "Enjoyed badminton session on days: 06, 08, 10",
+        "On day 11: a blue mural covered the entrance wall",
+        "On day 13: a purple umbrella rested by the door",
+        "On day 17: a brass clock stood beside the window"
+      ]
+    },
+    {
+      "journal": "extract-05",
+      "context": "count_aware",
+      "valid": true,
+      "truncated": false,
+      "fact_count": 24,
+      "stored_bytes": 1418,
+      "facts": [
+        "Attended chess session on Day 01, did not enjoy it",
+        "Attended badminton session on Day 02, did not enjoy it",
+        "Attended chess session on Day 03, did not enjoy it",
+        "Attended chess session on Day 04, did not enjoy it",
+        "Attended chess session on Day 05, enjoyed it",
+        "Attended badminton session on Day 06, enjoyed it",
+        "Attended chess session on Day 07, did not enjoy it",
+        "Attended badminton session on Day 08, enjoyed it",
+        "Attended chess session on Day 09, enjoyed it",
+        "Attended badminton session on Day 10, enjoyed it",
+        "Attended badminton session on Day 11, did not enjoy it, a blue mural covered the entrance wall",
+        "Attended chess session on Day 12, enjoyed it",
+        "Attended badminton session on Day 13, did not enjoy it, a purple umbrella rested by the door",
+        "Attended chess session on Day 14, did not enjoy it",
+        "Attended badminton session on Day 15, did not enjoy it",
+        "Attended badminton session on Day 16, did not enjoy it",
+        "Attended badminton session on Day 17, did not enjoy it, a brass clock stood beside the window",
+        "Attended chess session on Day 18, enjoyed it",
+        "Attended badminton session on Day 19, did not enjoy it",
+        "Attended chess session on Day 20, did not enjoy it",
+        "Attended badminton session on Day 21, did not enjoy it",
+        "Attended chess session on Day 22, enjoyed it",
+        "Attended chess session on Day 23, enjoyed it",
+        "Attended badminton session on Day 24, did not enjoy it"
+      ]
+    },
+    {
+      "journal": "extract-06",
+      "context": "native",
+      "valid": true,
+      "truncated": false,
+      "fact_count": 24,
+      "stored_bytes": 1349,
+      "facts": [
+        "Attended a yoga session on Day 01 and did not enjoy it",
+        "Attended a yoga session on Day 02 and enjoyed it",
+        "Attended a yoga session on Day 03 and did not enjoy it",
+        "Attended a pilates session on Day 04 and enjoyed it",
+        "Attended a pilates session on Day 05 and enjoyed it",
+        "Attended a pilates session on Day 06 and enjoyed it",
+        "Attended a pilates session on Day 07 and did not enjoy it",
+        "Attended a yoga session on Day 08 and enjoyed it",
+        "Attended a pilates session on Day 09 and did not enjoy it",
+        "Attended a yoga session on Day 10 and enjoyed it",
+        "Attended a yoga session on Day 11 and enjoyed it",
+        "Attended a pilates session on Day 12 and enjoyed it",
+        "Attended a yoga session on Day 13 and did not enjoy it",
+        "Attended a pilates session on Day 14 and did not enjoy it",
+        "Attended a pilates session on Day 15 and enjoyed it",
+        "Attended a pilates session on Day 16 and enjoyed it",
+        "Attended a pilates session on Day 17 and enjoyed it",
+        "Attended a yoga session on Day 18 and did not enjoy it",
+        "Attended a yoga session on Day 19 and enjoyed it",
+        "Attended a pilates session on Day 20 and enjoyed it",
+        "Attended a yoga session on Day 21 and did not enjoy it",
+        "Attended a yoga session on Day 22 and did not enjoy it",
+        "Attended a pilates session on Day 23 and enjoyed it",
+        "Attended a yoga session on Day 24 and enjoyed it"
+      ]
+    },
+    {
+      "journal": "extract-06",
+      "context": "count_aware",
+      "valid": true,
+      "truncated": false,
+      "fact_count": 24,
+      "stored_bytes": 1301,
+      "facts": [
+        "Attended yoga session on Day 01 and did not enjoy it",
+        "Attended yoga session on Day 02 and enjoyed it",
+        "Attended yoga session on Day 03 and did not enjoy it",
+        "Attended pilates session on Day 04 and enjoyed it",
+        "Attended pilates session on Day 05 and enjoyed it",
+        "Attended pilates session on Day 06 and enjoyed it",
+        "Attended pilates session on Day 07 and did not enjoy it",
+        "Attended yoga session on Day 08 and enjoyed it",
+        "Attended pilates session on Day 09 and did not enjoy it",
+        "Attended yoga session on Day 10 and enjoyed it",
+        "Attended yoga session on Day 11 and enjoyed it",
+        "Attended pilates session on Day 12 and enjoyed it",
+        "Attended yoga session on Day 13 and did not enjoy it",
+        "Attended pilates session on Day 14 and did not enjoy it",
+        "Attended pilates session on Day 15 and enjoyed it",
+        "Attended pilates session on Day 16 and enjoyed it",
+        "Attended pilates session on Day 17 and enjoyed it",
+        "Attended yoga session on Day 18 and did not enjoy it",
+        "Attended yoga session on Day 19 and enjoyed it",
+        "Attended pilates session on Day 20 and enjoyed it",
+        "Attended yoga session on Day 21 and did not enjoy it",
+        "Attended yoga session on Day 22 and did not enjoy it",
+        "Attended pilates session on Day 23 and enjoyed it",
+        "Attended yoga session on Day 24 and enjoyed it"
+      ]
+    },
+    {
+      "journal": "extract-07",
+      "context": "native",
+      "valid": true,
+      "truncated": false,
+      "fact_count": 27,
+      "stored_bytes": 1538,
+      "facts": [
+        "Attended a chess session on Day 01 and enjoyed it",
+        "Attended a chess session on Day 02 and enjoyed it",
+        "Attended a badminton session on Day 03 and enjoyed it",
+        "Attended a chess session on Day 04 and enjoyed it",
+        "Attended a badminton session on Day 05 and enjoyed it",
+        "Attended a chess session on Day 06 and enjoyed it",
+        "A brass clock stood beside the window on Day 06",
+        "Attended a badminton session on Day 07 and enjoyed it",
+        "Attended a chess session on Day 08 and enjoyed it",
+        "A purple umbrella rested by the door on Day 08",
+        "Attended a badminton session on Day 09 and did not enjoy it",
+        "Attended a chess session on Day 10 and enjoyed it",
+        "Attended a chess session on Day 11 and did not enjoy it",
+        "Attended a badminton session on Day 12 and enjoyed it",
+        "Attended a chess session on Day 13 and enjoyed it",
+        "Attended a badminton session on Day 14 and did not enjoy it",
+        "Attended a badminton session on Day 15 and did not enjoy it",
+        "Attended a chess session on Day 16 and did not enjoy it",
+        "Attended a badminton session on Day 17 and did not enjoy it",
+        "Attended a badminton session on Day 18 and did not enjoy it",
+        "Attended a chess session on Day 19 and did not enjoy it",
+        "Attended a badminton session on Day 20 and did not enjoy it",
+        "Attended a badminton session on Day 21 and enjoyed it",
+        "Attended a badminton session on Day 22 and enjoyed it",
+        "Attended a chess session on Day 23 and enjoyed it",
+        "Attended a chess session on Day 24 and enjoyed it",
+        "A blue mural covered the entrance wall on Day 01"
+      ]
+    },
+    {
+      "journal": "extract-07",
+      "context": "count_aware",
+      "valid": true,
+      "truncated": false,
+      "fact_count": 24,
+      "stored_bytes": 1474,
+      "facts": [
+        "Attended chess session on Day 01 and enjoyed it, with a blue mural covering the entrance wall",
+        "Attended chess session on Day 02 and enjoyed it",
+        "Attended badminton session on Day 03 and enjoyed it",
+        "Attended chess session on Day 04 and enjoyed it",
+        "Attended badminton session on Day 05 and enjoyed it",
+        "Attended chess session on Day 06 and enjoyed it, with a brass clock standing beside the window",
+        "Attended badminton session on Day 07 and enjoyed it",
+        "Attended chess session on Day 08 and enjoyed it, with a purple umbrella resting by the door",
+        "Attended badminton session on Day 09 and did not enjoy it",
+        "Attended chess session on Day 10 and enjoyed it",
+        "Attended chess session on Day 11 and did not enjoy it",
+        "Attended badminton session on Day 12 and enjoyed it",
+        "Attended chess session on Day 13 and enjoyed it",
+        "Attended badminton session on Day 14 and did not enjoy it",
+        "Attended badminton session on Day 15 and did not enjoy it",
+        "Attended chess session on Day 16 and did not enjoy it",
+        "Attended badminton session on Day 17 and did not enjoy it",
+        "Attended badminton session on Day 18 and did not enjoy it",
+        "Attended chess session on Day 19 and did not enjoy it",
+        "Attended badminton session on Day 20 and did not enjoy it",
+        "Attended badminton session on Day 21 and enjoyed it",
+        "Attended badminton session on Day 22 and enjoyed it",
+        "Attended chess session on Day 23 and enjoyed it",
+        "Attended chess session on Day 24 and enjoyed it"
+      ]
+    },
+    {
+      "journal": "extract-08",
+      "context": "native",
+      "valid": true,
+      "truncated": false,
+      "fact_count": 24,
+      "stored_bytes": 1466,
+      "facts": [
+        "Attended cycling session on Day 01 and enjoyed it",
+        "Attended cycling session on Day 02 and enjoyed it",
+        "Attended swimming session on Day 03 and enjoyed it",
+        "Attended swimming session on Day 04 and enjoyed it",
+        "Attended cycling session on Day 05 and enjoyed it",
+        "Attended swimming session on Day 06 and enjoyed it",
+        "Attended swimming session on Day 07 and enjoyed it",
+        "Attended swimming session on Day 08 and did not enjoy it",
+        "Attended cycling session on Day 09 and enjoyed it",
+        "Attended cycling session on Day 10 and did not enjoy it. A purple umbrella rested by the door",
+        "Attended swimming session on Day 11 and enjoyed it",
+        "Attended cycling session on Day 12 and enjoyed it",
+        "Attended cycling session on Day 13 and did not enjoy it",
+        "Attended swimming session on Day 14 and enjoyed it",
+        "Attended cycling session on Day 15 and enjoyed it",
+        "Attended swimming session on Day 16 and did not enjoy it",
+        "Attended cycling session on Day 17 and did not enjoy it. A brass clock stood beside the window",
+        "Attended cycling session on Day 18 and enjoyed it",
+        "Attended swimming session on Day 19 and did not enjoy it. A blue mural covered the entrance wall",
+        "Attended cycling session on Day 20 and enjoyed it",
+        "Attended cycling session on Day 21 and enjoyed it",
+        "Attended swimming session on Day 22 and did not enjoy it",
+        "Attended swimming session on Day 23 and did not enjoy it",
+        "Attended swimming session on Day 24 and did not enjoy it"
+      ]
+    },
+    {
+      "journal": "extract-08",
+      "context": "count_aware",
+      "valid": true,
+      "truncated": false,
+      "fact_count": 24,
+      "stored_bytes": 1466,
+      "facts": [
+        "Attended cycling session on Day 01 and enjoyed it",
+        "Attended cycling session on Day 02 and enjoyed it",
+        "Attended swimming session on Day 03 and enjoyed it",
+        "Attended swimming session on Day 04 and enjoyed it",
+        "Attended cycling session on Day 05 and enjoyed it",
+        "Attended swimming session on Day 06 and enjoyed it",
+        "Attended swimming session on Day 07 and enjoyed it",
+        "Attended swimming session on Day 08 and did not enjoy it",
+        "Attended cycling session on Day 09 and enjoyed it",
+        "Attended cycling session on Day 10 and did not enjoy it, a purple umbrella rested by the door",
+        "Attended swimming session on Day 11 and enjoyed it",
+        "Attended cycling session on Day 12 and enjoyed it",
+        "Attended cycling session on Day 13 and did not enjoy it",
+        "Attended swimming session on Day 14 and enjoyed it",
+        "Attended cycling session on Day 15 and enjoyed it",
+        "Attended swimming session on Day 16 and did not enjoy it",
+        "Attended cycling session on Day 17 and did not enjoy it, a brass clock stood beside the window",
+        "Attended cycling session on Day 18 and enjoyed it",
+        "Attended swimming session on Day 19 and did not enjoy it, a blue mural covered the entrance wall",
+        "Attended cycling session on Day 20 and enjoyed it",
+        "Attended cycling session on Day 21 and enjoyed it",
+        "Attended swimming session on Day 22 and did not enjoy it",
+        "Attended swimming session on Day 23 and did not enjoy it",
+        "Attended swimming session on Day 24 and did not enjoy it"
+      ]
+    },
+    {
+      "journal": "extract-09",
+      "context": "native",
+      "valid": true,
+      "truncated": false,
+      "fact_count": 24,
+      "stored_bytes": 1211,
+      "facts": [
+        "Attended badminton session on Day 01, did not enjoy",
+        "Attended chess session on Day 02, enjoyed",
+        "Attended badminton session on Day 03, did not enjoy",
+        "Attended chess session on Day 04, enjoyed",
+        "Attended chess session on Day 05, did not enjoy",
+        "Attended chess session on Day 06, enjoyed",
+        "Attended chess session on Day 07, did not enjoy",
+        "Attended chess session on Day 08, did not enjoy",
+        "Attended badminton session on Day 09, did not enjoy",
+        "Attended chess session on Day 10, did not enjoy",
+        "Attended chess session on Day 11, enjoyed",
+        "Attended badminton session on Day 12, did not enjoy",
+        "Attended chess session on Day 13, enjoyed",
+        "Attended badminton session on Day 14, did not enjoy",
+        "Attended chess session on Day 15, did not enjoy",
+        "Attended badminton session on Day 16, enjoyed",
+        "Attended badminton session on Day 17, did not enjoy",
+        "Attended badminton session on Day 18, enjoyed",
+        "Attended badminton session on Day 19, enjoyed",
+        "Attended badminton session on Day 20, enjoyed",
+        "Attended badminton session on Day 21, enjoyed",
+        "Attended badminton session on Day 22, enjoyed",
+        "Attended chess session on Day 23, did not enjoy",
+        "Attended chess session on Day 24, enjoyed"
+      ]
+    },
+    {
+      "journal": "extract-09",
+      "context": "count_aware",
+      "valid": true,
+      "truncated": false,
+      "fact_count": 24,
+      "stored_bytes": 1499,
+      "facts": [
+        "V01 | Day 01: Attended a badminton session and did not enjoy it",
+        "V02 | Day 02: Attended a chess session and enjoyed it",
+        "V03 | Day 03: Attended a badminton session and did not enjoy it",
+        "V04 | Day 04: Attended a chess session and enjoyed it",
+        "V05 | Day 05: Attended a chess session and did not enjoy it",
+        "V06 | Day 06: Attended a chess session and enjoyed it",
+        "V07 | Day 07: Attended a chess session and did not enjoy it",
+        "V08 | Day 08: Attended a chess session and did not enjoy it",
+        "V09 | Day 09: Attended a badminton session and did not enjoy it",
+        "V10 | Day 10: Attended a chess session and did not enjoy it",
+        "V11 | Day 11: Attended a chess session and enjoyed it",
+        "V12 | Day 12: Attended a badminton session and did not enjoy it",
+        "V13 | Day 13: Attended a chess session and enjoyed it",
+        "V14 | Day 14: Attended a badminton session and did not enjoy it",
+        "V15 | Day 15: Attended a chess session and did not enjoy it",
+        "V16 | Day 16: Attended a badminton session and enjoyed it",
+        "V17 | Day 17: Attended a badminton session and did not enjoy it",
+        "V18 | Day 18: Attended a badminton session and enjoyed it",
+        "V19 | Day 19: Attended a badminton session and enjoyed it",
+        "V20 | Day 20: Attended a badminton session and enjoyed it",
+        "V21 | Day 21: Attended a badminton session and enjoyed it",
+        "V22 | Day 22: Attended a badminton session and enjoyed it",
+        "V23 | Day 23: Attended a chess session and did not enjoy it",
+        "V24 | Day 24: Attended a chess session and enjoyed it"
+      ]
+    },
+    {
+      "journal": "extract-10",
+      "context": "native",
+      "valid": true,
+      "truncated": false,
+      "fact_count": 24,
+      "stored_bytes": 1334,
+      "facts": [
+        "Attended swimming session on Day 01, did not enjoy",
+        "Attended cycling session on Day 02, did not enjoy",
+        "Attended swimming session on Day 03, did not enjoy",
+        "Attended swimming session on Day 04, enjoyed, blue mural covered the entrance wall",
+        "Attended cycling session on Day 05, did not enjoy",
+        "Attended swimming session on Day 06, enjoyed, brass clock stood beside the window",
+        "Attended cycling session on Day 07, did not enjoy",
+        "Attended cycling session on Day 08, enjoyed",
+        "Attended swimming session on Day 09, enjoyed",
+        "Attended cycling session on Day 10, enjoyed",
+        "Attended cycling session on Day 11, enjoyed",
+        "Attended swimming session on Day 12, enjoyed, purple umbrella rested by the door",
+        "Attended cycling session on Day 13, did not enjoy",
+        "Attended cycling session on Day 14, did not enjoy",
+        "Attended swimming session on Day 15, did not enjoy",
+        "Attended cycling session on Day 16, enjoyed",
+        "Attended cycling session on Day 17, did not enjoy",
+        "Attended cycling session on Day 18, enjoyed",
+        "Attended swimming session on Day 19, did not enjoy",
+        "Attended swimming session on Day 20, enjoyed",
+        "Attended swimming session on Day 21, enjoyed",
+        "Attended swimming session on Day 22, did not enjoy",
+        "Attended cycling session on Day 23, enjoyed",
+        "Attended swimming session on Day 24, did not enjoy"
+      ]
+    },
+    {
+      "journal": "extract-10",
+      "context": "count_aware",
+      "valid": true,
+      "truncated": false,
+      "fact_count": 24,
+      "stored_bytes": 1622,
+      "facts": [
+        "Day 01: Attended a swimming session, did not enjoy the session",
+        "Day 02: Attended a cycling session, did not enjoy the session",
+        "Day 03: Attended a swimming session, did not enjoy the session",
+        "Day 04: Attended a swimming session, enjoyed the session, blue mural covered the entrance wall",
+        "Day 05: Attended a cycling session, did not enjoy the session",
+        "Day 06: Attended a swimming session, enjoyed the session, brass clock stood beside the window",
+        "Day 07: Attended a cycling session, did not enjoy the session",
+        "Day 08: Attended a cycling session, enjoyed the session",
+        "Day 09: Attended a swimming session, enjoyed the session",
+        "Day 10: Attended a cycling session, enjoyed the session",
+        "Day 11: Attended a cycling session, enjoyed the session",
+        "Day 12: Attended a swimming session, enjoyed the session, purple umbrella rested by the door",
+        "Day 13: Attended a cycling session, did not enjoy the session",
+        "Day 14: Attended a cycling session, did not enjoy the session",
+        "Day 15: Attended a swimming session, did not enjoy the session",
+        "Day 16: Attended a cycling session, enjoyed the session",
+        "Day 17: Attended a cycling session, did not enjoy the session",
+        "Day 18: Attended a cycling session, enjoyed the session",
+        "Day 19: Attended a swimming session, did not enjoy the session",
+        "Day 20: Attended a swimming session, enjoyed the session",
+        "Day 21: Attended a swimming session, enjoyed the session",
+        "Day 22: Attended a swimming session, did not enjoy the session",
+        "Day 23: Attended a cycling session, enjoyed the session",
+        "Day 24: Attended a swimming session, did not enjoy the session"
+      ]
+    },
+    {
+      "journal": "extract-11",
+      "context": "native",
+      "valid": true,
+      "truncated": false,
+      "fact_count": 24,
+      "stored_bytes": 1532,
+      "facts": [
+        "Attended a painting session on Day 01 and enjoyed it",
+        "Attended a pottery session on Day 02 and enjoyed it",
+        "Attended a pottery session on Day 03 and did not enjoy it",
+        "Attended a pottery session on Day 04 and did not enjoy it, a blue mural covered the entrance wall",
+        "Attended a painting session on Day 05 and enjoyed it",
+        "Attended a painting session on Day 06 and enjoyed it",
+        "Attended a pottery session on Day 07 and enjoyed it",
+        "Attended a pottery session on Day 08 and did not enjoy it",
+        "Attended a painting session on Day 09 and did not enjoy it",
+        "Attended a pottery session on Day 10 and enjoyed it",
+        "Attended a painting session on Day 11 and did not enjoy it, a brass clock stood beside the window",
+        "Attended a painting session on Day 12 and enjoyed it",
+        "Attended a painting session on Day 13 and enjoyed it",
+        "Attended a painting session on Day 14 and enjoyed it",
+        "Attended a pottery session on Day 15 and enjoyed it",
+        "Attended a painting session on Day 16 and did not enjoy it",
+        "Attended a painting session on Day 17 and did not enjoy it",
+        "Attended a pottery session on Day 18 and enjoyed it",
+        "Attended a pottery session on Day 19 and enjoyed it",
+        "Attended a pottery session on Day 20 and did not enjoy it",
+        "Attended a painting session on Day 21 and did not enjoy it",
+        "Attended a pottery session on Day 22 and did not enjoy it, a purple umbrella rested by the door",
+        "Attended a pottery session on Day 23 and did not enjoy it",
+        "Attended a painting session on Day 24 and did not enjoy it"
+      ]
+    },
+    {
+      "journal": "extract-11",
+      "context": "count_aware",
+      "valid": true,
+      "truncated": false,
+      "fact_count": 24,
+      "stored_bytes": 1504,
+      "facts": [
+        "Attended painting session on Day 01 and enjoyed it",
+        "Attended pottery session on Day 02 and enjoyed it",
+        "Attended pottery session on Day 03 and did not enjoy it",
+        "Attended pottery session on Day 04 and did not enjoy it, with a blue mural covering the entrance wall",
+        "Attended painting session on Day 05 and enjoyed it",
+        "Attended painting session on Day 06 and enjoyed it",
+        "Attended pottery session on Day 07 and enjoyed it",
+        "Attended pottery session on Day 08 and did not enjoy it",
+        "Attended painting session on Day 09 and did not enjoy it",
+        "Attended pottery session on Day 10 and enjoyed it",
+        "Attended painting session on Day 11 and did not enjoy it, with a brass clock standing beside the window",
+        "Attended painting session on Day 12 and enjoyed it",
+        "Attended painting session on Day 13 and enjoyed it",
+        "Attended painting session on Day 14 and enjoyed it",
+        "Attended pottery session on Day 15 and enjoyed it",
+        "Attended painting session on Day 16 and did not enjoy it",
+        "Attended painting session on Day 17 and did not enjoy it",
+        "Attended pottery session on Day 18 and enjoyed it",
+        "Attended pottery session on Day 19 and enjoyed it",
+        "Attended pottery session on Day 20 and did not enjoy it",
+        "Attended painting session on Day 21 and did not enjoy it",
+        "Attended pottery session on Day 22 and did not enjoy it, with a purple umbrella resting by the door",
+        "Attended pottery session on Day 23 and did not enjoy it",
+        "Attended painting session on Day 24 and did not enjoy it"
+      ]
+    }
+  ],
+  "hashes": {
+    "trace": "ed16123bb78f65917628e790774722230a94200e2963b82e4c764552e978de2a",
+    "gold": "0928e5d7c16fdd80d69cb63fd9c1344b814a41471259448425baf900ab0ca2bb",
+    "analysis": "7b1822abc3f3bdd6884046b1f90f4c8b93afc273430d152888bd70080b6f3a4b"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "repository": "https://api.github.com/repos/bowen-upenn/PersonaMem-v2",
+  "revision": "d29d91d016add354e459dfeb0d24af08bc402e2a",
+  "purpose": "Read-only inference protocol inspection. Not executed or redistributed.",
+  "files": [
+    {
+      "name": "inference.py",
+      "sha256": "d78b15cb58ad4e9219b90a0ff7713dc3bff997e69df8664889a6cc7fc323484f",
+      "url": "https://raw.githubusercontent.com/bowen-upenn/PersonaMem-v2/d29d91d016add354e459dfeb0d24af08bc402e2a/inference.py"
+    },
+    {
+      "name": "inference_utils.py",
+      "sha256": "5e4c30037a7d044ef31128ecfa27e1af212f9b6a310fce104f4eb3f87f3ef955",
+      "url": "https://raw.githubusercontent.com/bowen-upenn/PersonaMem-v2/d29d91d016add354e459dfeb0d24af08bc402e2a/inference_utils.py"
+    },
+    {
+      "name": "README.md",
+      "sha256": "83b56299f477da99c179c2a23c03fedeeb946570388298b326820043edd8542c",
+      "url": "https://raw.githubusercontent.com/bowen-upenn/PersonaMem-v2/d29d91d016add354e459dfeb0d24af08bc402e2a/README.md"
+    },
+    {
+      "name": "query_llm.py",
+      "sha256": "a96d7407124b7f330b16fe18b56685fdefb6f5ff4a2b29761df283917a2912bb",
+      "url": "https://raw.githubusercontent.com/bowen-upenn/PersonaMem-v2/d29d91d016add354e459dfeb0d24af08bc402e2a/query_llm.py"
+    },
+    {
+      "name": "verl_custom/data_preprocess_rft.py",
+      "sha256": "fe4aa163a1c142a747215d43a2354e1b4bc56f0486369a1f61236e2fda472516",
+      "url": "https://raw.githubusercontent.com/bowen-upenn/PersonaMem-v2/d29d91d016add354e459dfeb0d24af08bc402e2a/verl_custom/data_preprocess_rft.py"
+    },
+    {
+      "name": "MemAgent/data/data_preprocess.py",
+      "sha256": "0acc1a168c0b91e9adce797cb6667a9d20ce0774f6a12c8edcfec0fd2dd2bbbb",
+      "url": "https://raw.githubusercontent.com/bowen-upenn/PersonaMem-v2/d29d91d016add354e459dfeb0d24af08bc402e2a/MemAgent/data/data_preprocess.py"
+    }
+  ]
+}
