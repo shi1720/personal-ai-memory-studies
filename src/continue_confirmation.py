@@ -66,7 +66,7 @@ def main():
         if server.poll() is None:server.send_signal(signal.SIGINT);server.wait(timeout=30)
         log.close()
     for script,name in [('analyze_confirmation.py','confirmation-analysis.log'),('analyze_movie_validation.py','movie-validation-analysis.log'),
-                        ('independent_result_check.py','independent-calculation.log'),('build_confirmation_figures.py','confirmation-figures.log'),('build_confirmation_tables.py','confirmation-tables.log')]:
+                        ('independent_result_check.py','independent-calculation.log'),('confirmation_auxiliary_report.py','confirmation-auxiliary.log'),('build_confirmation_figures.py','confirmation-figures.log'),('build_confirmation_tables.py','confirmation-tables.log')]:
         command(['/usr/bin/python3','src/'+script],name)
     print('Both domains complete; frozen analyses, independent calculation, figures and tables finished.',flush=True)
 

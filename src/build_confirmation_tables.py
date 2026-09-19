@@ -62,6 +62,14 @@ def main():
     supplement.append(table(['Domain','Model','Stage / evidence','Calls','Prompt tokens','Output tokens'],rows,
       'Recorded model usage, excluding separately reported preflights and development. Native writing counts responses recorded by the native provider callback; reader calls count attempted condition calls. Token totals do not measure full storage or commercial cost.',
       'tab:resources','lllrrr'))
+    aux=load('confirmation-auxiliary-report.json')
+    rows=[]
+    for domain,systems in aux['numerical_tie_sensitivity'].items():
+        for system,r in systems.items():
+            rows.append([domain.title(),escape(system),str(r['eligible_users']),f(r['strict_normal_mean']),f(r['strict_augmented_mean']),f(r['near_tie_mean']),str(r['users_with_strict_solver_disagreement'])])
+    supplement.append(table(['Domain','System','Users','Normal','Augmented','Near-tie','Disagreements'],rows,
+      'Post-freeze numerical precision sensitivity, specified before accuracy inspection. Columns show mean pairwise concordance from the original normal-equation solve, augmented least squares, and a common tie tolerance of 1e-10. Disagreements count users whose strict concordance differs between solvers. Primary MAE comparisons are unchanged.',
+      'tab:precision','llrrrrr'))
     (PAPER/'supplementary-tables.tex').write_text('\n\n'.join(supplement)+'\n')
     print('Generated tables for',targets,'Coat and 3200 MovieLens targets')
 

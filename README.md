@@ -2,9 +2,17 @@
 
 Research owner and intended paper author: Shivam Gupta.
 
-**Research in progress. No completed conference paper or validated new method
-is claimed.** This repository makes exploratory experiments, negative findings
-and reproducibility limits inspectable.
+**Research in progress.** The two-domain held-out validation is running on 200
+users per domain with two readers. Its protocols and primary analysis were
+published before reserved-user inference at commit
+[2f0d896](https://github.com/shi1720/personal-ai-memory-studies/commit/2f0d896).
+The complete manuscript is being prepared from the finished measurements.
+No completed paper, external peer review or validated new algorithm is claimed.
+
+Read the [Coat protocol](docs/confirmation-protocol.md),
+[MovieLens protocol](docs/movie-validation-protocol.md),
+[reproduction guide](docs/confirmation-reproduction.md), and
+[execution record](docs/confirmation-execution-record.md).
 
 Start with the [native memory study](docs/coat-memory-development-results.md),
 its [results figure](results/figures/coat-memory-development.png), and the
@@ -28,9 +36,10 @@ Recorded environment paths describe that runtime and are not a portable
 one-command installation. Recreate preflights with local paths in a separate
 working copy before attempting fresh inference. Preserve published results.
 
-Local Git freezes document development ordering. They were not publicly
-registered before data collection. This release must not be described as
-external preregistration.
+The earlier exploratory studies used local Git freezes, not public
+preregistration. The later two-domain validation has a separate public
+pre-inference freeze at commit 2f0d896. Do not retroactively apply that freeze
+to the exploratory studies.
 
 ## Study status
 
