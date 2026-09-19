@@ -1,0 +1,2426 @@
+{
+  "scope": "post-freeze auxiliary input audit, no model predictions or accuracy inspected",
+  "coat": {
+    "users": 200,
+    "constant_histories": 0,
+    "unchanged_permutations": 0,
+    "mean_changed_assignments": 16.335,
+    "minimum_changed_assignments": 6,
+    "maximum_changed_assignments": 22,
+    "records": [
+      {
+        "user_row": 242,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 15
+      },
+      {
+        "user_row": 22,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 107,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 59,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 266,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 120,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 13
+      },
+      {
+        "user_row": 232,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 9
+      },
+      {
+        "user_row": 239,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 13
+      },
+      {
+        "user_row": 133,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 13
+      },
+      {
+        "user_row": 0,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 261,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 15
+      },
+      {
+        "user_row": 97,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 71,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 146,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 110,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 21
+      },
+      {
+        "user_row": 70,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 21
+      },
+      {
+        "user_row": 29,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 27,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 287,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 98,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 13
+      },
+      {
+        "user_row": 32,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 13
+      },
+      {
+        "user_row": 149,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 190,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 92,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 182,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 130,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 21
+      },
+      {
+        "user_row": 126,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 246,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 276,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 233,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 198,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 186,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 175,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 157,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 36,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 201,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 128,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 49,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 21,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 20
+      },
+      {
+        "user_row": 112,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 21
+      },
+      {
+        "user_row": 199,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 10
+      },
+      {
+        "user_row": 61,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 15
+      },
+      {
+        "user_row": 87,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 74,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 125,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 171,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 20
+      },
+      {
+        "user_row": 167,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 78,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 10
+      },
+      {
+        "user_row": 124,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 207,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 137,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 164,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 220,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 13
+      },
+      {
+        "user_row": 257,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 155,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 277,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 15
+      },
+      {
+        "user_row": 279,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 12
+      },
+      {
+        "user_row": 136,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 148,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 83,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 241,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 117,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 168,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 235,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 67,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 147,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 213,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 218,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 177,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 21
+      },
+      {
+        "user_row": 90,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 267,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 5,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 20
+      },
+      {
+        "user_row": 44,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 22
+      },
+      {
+        "user_row": 114,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 13
+      },
+      {
+        "user_row": 135,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 4,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 15
+      },
+      {
+        "user_row": 195,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 154,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 9
+      },
+      {
+        "user_row": 47,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 259,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 12
+      },
+      {
+        "user_row": 76,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 13
+      },
+      {
+        "user_row": 254,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 203,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 100,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 140,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 139,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 72,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 15
+      },
+      {
+        "user_row": 1,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 80,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 15
+      },
+      {
+        "user_row": 123,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 20
+      },
+      {
+        "user_row": 55,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 229,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 40,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 268,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 53,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 20
+      },
+      {
+        "user_row": 209,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 12
+      },
+      {
+        "user_row": 101,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 10
+      },
+      {
+        "user_row": 64,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 251,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 156,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 9
+      },
+      {
+        "user_row": 37,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 13
+      },
+      {
+        "user_row": 109,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 12
+      },
+      {
+        "user_row": 173,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 20
+      },
+      {
+        "user_row": 204,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 7,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 15
+      },
+      {
+        "user_row": 60,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 39,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 192,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 12
+      },
+      {
+        "user_row": 243,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 20
+      },
+      {
+        "user_row": 158,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 22
+      },
+      {
+        "user_row": 77,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 13
+      },
+      {
+        "user_row": 274,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 84,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 197,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 21
+      },
+      {
+        "user_row": 216,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 211,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 138,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 6
+      },
+      {
+        "user_row": 18,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 118,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 248,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 264,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 286,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 13
+      },
+      {
+        "user_row": 95,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 11,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 161,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 52,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 227,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 21
+      },
+      {
+        "user_row": 104,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 62,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 115,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 13
+      },
+      {
+        "user_row": 189,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 169,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 237,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 145,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 162,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 163,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 230,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 91,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 20
+      },
+      {
+        "user_row": 179,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 20,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 17,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 15
+      },
+      {
+        "user_row": 212,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 249,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 121,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 12
+      },
+      {
+        "user_row": 41,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 93,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 63,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 151,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 15
+      },
+      {
+        "user_row": 283,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 22
+      },
+      {
+        "user_row": 176,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 15
+      },
+      {
+        "user_row": 48,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 56,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 116,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 285,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 10,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 88,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 14,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 247,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 11
+      },
+      {
+        "user_row": 58,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 20
+      },
+      {
+        "user_row": 214,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 82,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 15
+      },
+      {
+        "user_row": 240,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 79,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 15
+      },
+      {
+        "user_row": 215,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 50,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 11
+      },
+      {
+        "user_row": 54,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 65,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 208,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 272,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 15
+      },
+      {
+        "user_row": 221,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 46,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 15
+      },
+      {
+        "user_row": 13,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 99,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 10
+      },
+      {
+        "user_row": 142,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 132,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 108,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 8
+      },
+      {
+        "user_row": 284,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 224,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 20
+      },
+      {
+        "user_row": 25,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 28,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 13
+      },
+      {
+        "user_row": 281,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 12,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 20
+      },
+      {
+        "user_row": 30,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 263,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 22
+      },
+      {
+        "user_row": 170,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 11
+      },
+      {
+        "user_row": 278,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 174,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 262,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 12
+      },
+      {
+        "user_row": 184,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 217,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 9
+      },
+      {
+        "user_row": 143,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 23,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 202,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 12
+      },
+      {
+        "user_row": 51,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 256,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 193,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 15
+      },
+      {
+        "user_row": 85,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 45,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 57,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 252,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 14
+      }
+    ],
+    "new_targets": 2960
+  },
+  "movielens": {
+    "users": 200,
+    "constant_histories": 0,
+    "unchanged_permutations": 0,
+    "mean_changed_assignments": 16.085,
+    "minimum_changed_assignments": 4,
+    "maximum_changed_assignments": 22,
+    "records": [
+      {
+        "user_row": 57,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 20
+      },
+      {
+        "user_row": 831,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 22
+      },
+      {
+        "user_row": 806,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 28,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 735,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 852,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 322,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 637,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 20
+      },
+      {
+        "user_row": 790,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 15
+      },
+      {
+        "user_row": 591,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 12
+      },
+      {
+        "user_row": 488,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 828,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 62,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 193,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 923,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 97,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 848,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 9
+      },
+      {
+        "user_row": 719,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 279,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 20
+      },
+      {
+        "user_row": 16,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 303,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 738,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 530,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 905,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 13
+      },
+      {
+        "user_row": 599,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 257,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 411,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 44,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 265,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 463,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 21
+      },
+      {
+        "user_row": 114,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 21
+      },
+      {
+        "user_row": 500,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 496,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 83,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 404,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 11
+      },
+      {
+        "user_row": 468,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 568,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 615,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 275,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 13
+      },
+      {
+        "user_row": 25,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 686,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 665,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 12
+      },
+      {
+        "user_row": 708,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 20
+      },
+      {
+        "user_row": 704,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 370,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 534,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 12
+      },
+      {
+        "user_row": 893,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 795,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 714,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 12
+      },
+      {
+        "user_row": 424,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 15
+      },
+      {
+        "user_row": 826,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 12
+      },
+      {
+        "user_row": 135,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 13
+      },
+      {
+        "user_row": 890,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 608,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 204,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 746,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 589,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 1,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 399,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 9
+      },
+      {
+        "user_row": 489,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 352,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 145,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 445,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 851,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 882,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 15
+      },
+      {
+        "user_row": 256,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 792,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 13
+      },
+      {
+        "user_row": 590,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 22
+      },
+      {
+        "user_row": 640,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 647,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 913,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 126,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 21
+      },
+      {
+        "user_row": 903,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 793,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 625,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 13
+      },
+      {
+        "user_row": 684,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 253,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 381,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 313,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 176,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 20
+      },
+      {
+        "user_row": 869,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 756,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 518,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 15
+      },
+      {
+        "user_row": 388,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 12
+      },
+      {
+        "user_row": 287,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 15
+      },
+      {
+        "user_row": 854,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 137,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 15
+      },
+      {
+        "user_row": 346,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 84,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 12
+      },
+      {
+        "user_row": 911,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 56,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 13
+      },
+      {
+        "user_row": 710,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 7
+      },
+      {
+        "user_row": 96,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 128,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 243,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 397,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 586,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 787,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 20
+      },
+      {
+        "user_row": 3,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 15
+      },
+      {
+        "user_row": 902,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 21
+      },
+      {
+        "user_row": 22,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 15
+      },
+      {
+        "user_row": 159,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 508,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 561,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 20
+      },
+      {
+        "user_row": 249,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 12
+      },
+      {
+        "user_row": 340,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 593,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 15
+      },
+      {
+        "user_row": 698,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 20
+      },
+      {
+        "user_row": 65,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 11
+      },
+      {
+        "user_row": 833,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 20
+      },
+      {
+        "user_row": 177,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 15
+      },
+      {
+        "user_row": 223,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 20
+      },
+      {
+        "user_row": 548,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 523,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 11
+      },
+      {
+        "user_row": 406,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 15
+      },
+      {
+        "user_row": 601,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 20
+      },
+      {
+        "user_row": 10,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 9
+      },
+      {
+        "user_row": 507,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 4
+      },
+      {
+        "user_row": 373,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 514,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 707,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 15
+      },
+      {
+        "user_row": 70,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 15
+      },
+      {
+        "user_row": 197,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 620,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 186,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 573,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 9
+      },
+      {
+        "user_row": 836,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 835,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 13
+      },
+      {
+        "user_row": 426,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 20
+      },
+      {
+        "user_row": 543,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 11
+      },
+      {
+        "user_row": 556,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 13
+      },
+      {
+        "user_row": 112,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 638,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 486,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 189,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 20
+      },
+      {
+        "user_row": 174,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 13
+      },
+      {
+        "user_row": 579,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 26,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 15
+      },
+      {
+        "user_row": 5,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 18,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 20
+      },
+      {
+        "user_row": 633,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 13
+      },
+      {
+        "user_row": 494,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 215,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 144,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 15
+      },
+      {
+        "user_row": 552,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 152,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 11
+      },
+      {
+        "user_row": 233,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 741,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 151,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 840,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 13
+      },
+      {
+        "user_row": 89,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 113,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 327,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 778,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 270,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 15
+      },
+      {
+        "user_row": 643,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 12
+      },
+      {
+        "user_row": 667,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 207,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 100,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 361,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 357,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 550,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 102,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 21
+      },
+      {
+        "user_row": 487,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 230,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 20
+      },
+      {
+        "user_row": 476,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 262,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 908,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 527,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 162,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 10
+      },
+      {
+        "user_row": 595,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 734,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 440,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 936,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 682,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 380,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 796,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 15
+      },
+      {
+        "user_row": 804,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 9
+      },
+      {
+        "user_row": 323,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 15
+      },
+      {
+        "user_row": 125,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 299,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 314,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 506,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 92,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 871,
+        "history_items": 24,
+        "distinct_rating_values": 3,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 619,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 157,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 269,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 660,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 19
+      },
+      {
+        "user_row": 385,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 393,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 15
+      },
+      {
+        "user_row": 774,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 255,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 21
+      },
+      {
+        "user_row": 38,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      },
+      {
+        "user_row": 868,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 16
+      },
+      {
+        "user_row": 480,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 14
+      },
+      {
+        "user_row": 896,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 18
+      },
+      {
+        "user_row": 284,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 15
+      },
+      {
+        "user_row": 290,
+        "history_items": 24,
+        "distinct_rating_values": 4,
+        "changed_assignments": 20
+      },
+      {
+        "user_row": 216,
+        "history_items": 24,
+        "distinct_rating_values": 5,
+        "changed_assignments": 17
+      }
+    ],
+    "new_targets": 3200
+  },
+  "source_sha256": "492ec73af2af1a5cb0f5ad9dd1c33bbe80ea1dba0d7e23b5cba5e8100211baa0"
+}

@@ -1,0 +1,56 @@
+{
+  "scope": "targeted primary-source reading; not an exhaustive systematic review",
+  "access_date": "2026-09-20",
+  "records": [
+    {
+      "title": "Can Large Language Models Understand Preferences in Personalized Recommendation?",
+      "url": "https://arxiv.org/html/2501.13391v1",
+      "read": "Abstract, introduction, Sections 2 and 3; official implementation README",
+      "relevance": "Direct prior critique of rating error and user/item bias; user-group rankings differ from within-user historical-assignment intervention; no first-to-disentangle claim."
+    },
+    {
+      "title": "Language-Based User Profiles for Recommendation",
+      "url": "https://arxiv.org/abs/2402.15623",
+      "primary_full_text": "https://www.cs.cornell.edu/people/tj/publications/zhou_etal_24a.pdf",
+      "read": "Abstract, Sections 3 and 4, beginning of Section 5, prompt appendices and parser fallback",
+      "relevance": "Encoder/decoder profile generation, rating prediction and numerical comparators already established. Author publication page identifies WSDM workshop 2024. PDF has unfilled ACM template metadata; bibliographic entry uses arXiv version instead."
+    },
+    {
+      "title": "End-to-end Training for Recommendation with Language-based User Profiles",
+      "url": "https://arxiv.org/abs/2410.18870",
+      "primary_full_text": "https://roegen-recsys2024.github.io/papers/recsys2024-workshops_paper_204.pdf",
+      "read": "Primary workshop abstract and method overview; not all experiments",
+      "relevance": "End-to-end optimization of language-based profiles is prior work, not a contribution here."
+    },
+    {
+      "title": "All Models are Wrong, but Many are Useful",
+      "url": "https://www.jmlr.org/papers/volume20/18-760/18-760.pdf",
+      "read": "Abstract and introduction; scope limited to established permutation-based reliance connection",
+      "relevance": "The intervention borrows established permutation-importance logic; no new general importance estimator or exact conditional randomization test is claimed."
+    },
+    {
+      "title": "MemoryCD",
+      "url": "https://arxiv.org/abs/2603.25973",
+      "read": "Primary abstract and methods from earlier recorded audit; official released code and data audit separately recorded",
+      "relevance": "Real user-history rating prediction already exists. Current second domain is independent MovieLens, not the already-inspected MemoryCD cohort."
+    },
+    {
+      "title": "Does Your Agent's Memory Survive a Model Upgrade?",
+      "url": "https://arxiv.org/html/2609.05339v1",
+      "read": "Earlier recorded Sections 2.1-2.3,3.1-3.6,4.1-4.3 and selected appendices; current primary abstract refresh",
+      "relevance": "Generic writer-reader swaps and stage diagnostics are not novel."
+    },
+    {
+      "title": "Recommendations as Treatments",
+      "url": "https://proceedings.mlr.press/v48/schnabel16.html",
+      "read": "Primary citation and abstract; earlier author-release Coat archive audit",
+      "relevance": "Observation processes and random target elicitation must be distinguished."
+    },
+    {
+      "title": "MovieLens 100K official documentation",
+      "url": "https://files.grouplens.org/datasets/movielens/ml-100k-README.txt",
+      "read": "Source counts, field definitions, terms, and citation",
+      "relevance": "Publisher checksum verified; ratings and derived prompts not redistributed."
+    }
+  ]
+}

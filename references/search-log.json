@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-19",
+  "date": "2026-09-20",
   "engine": "web tool search",
   "scope": "exploratory targeted screen, not systematic review",
   "exact_queries_current_stage": [
@@ -201,7 +201,17 @@
     "\"memory benchmark\" \"user identity\" evaluation",
     "CAPA personalization coding agents history shuffled benchmark arxiv",
     "\"Know It, Act on It\" arxiv",
-    "\"personalized memory\" \"risk\" \"decision\" \"sufficient\""
+    "\"personalized memory\" \"risk\" \"decision\" \"sufficient\"",
+    "\"personalization\" \"memory\" \"rating\" \"permutation\" LLM",
+    "\"recommendation\" \"rating distribution\" \"shuffle\" user preferences evaluation",
+    "\"LLM\" \"personalization\" \"rating bias\" benchmark",
+    "\"personalization\" \"rating\" \"calibration\" memory benchmark",
+    "\"agent memory\" \"within-user\" permutation",
+    "\"personal memory\" \"permutation\" ratings",
+    "\"memory\" \"marginal-preserving\" LLM",
+    "\"rating\" \"shuffled history\" LLM personalization",
+    "site.cs.cornell.edu \"Language-Based User Profiles\" Dai Zhou Joachims",
+    "site:icml.cc 2026 position papers evaluation empirical research paper reviewer guidelines"
   ],
   "earlier_query_families_reconstructed_from_notes": [
     "temporal personal memory, drift and clarification",
