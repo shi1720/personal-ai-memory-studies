@@ -6,7 +6,7 @@ This study has three reproducibility levels. They have different resource and da
 
 The public artifact contains per-user error summaries, run metadata, source/model hashes, and code. It excludes original rating archives, model weights, full rating prompts, generated memory text, and local databases.
 
-Install `requirements-analysis.txt` in a fresh environment. Run the unit tests with `python -m unittest discover -s tests`. Once completed study results are present, `python src/build_confirmation_figures.py` and `python src/build_confirmation_tables.py` rebuild the figures and LaTeX table inputs. Both verify recorded analysis hashes and the independent-calculation report before using the measurements. This is regeneration from released measurements, not new model inference.
+Install `requirements-analysis.txt` in a fresh environment. Run the unit tests with `python -m unittest discover -s tests`. Once completed study results are present, `python src/verify_published_results.py` independently recomputes the aggregate summaries and all ten paired bootstrap comparisons from the released per-user error records. It needs no source data, model weights or private responses. This checks arithmetic, not the original model predictions against targets. `python src/build_confirmation_figures.py` and `python src/build_confirmation_tables.py` rebuild the figures and LaTeX table inputs. Both verify recorded analysis hashes and the independent-calculation report before using the measurements. This is regeneration from released measurements, not new model inference.
 
 The original manuscript uses the official ICML 2026 style in preprint mode. Install `requirements-paper.txt` for the Python PDF checker and install the Tectonic and Poppler binaries separately. Tectonic 0.17.0 builds `paper/main.tex` and `paper/anonymous.tex`. Styling does not indicate an ICML submission or acceptance. A future submission must use that venue cycle's actual style and policies.
 
@@ -20,6 +20,8 @@ The frozen scoring commands are:
 python src/analyze_confirmation.py
 python src/analyze_movie_validation.py
 python src/independent_result_check.py
+python src/confirmation_auxiliary_report.py
+python src/verify_published_results.py
 ```
 
 They require the original locally retained raw responses and writer traces under `data/confirmation-v1/evaluation` and `data/movie-validation-v1/evaluation`. Those traces contain source rating records or their derivatives and are not redistributed in this repository. The source archives alone are therefore insufficient to reproduce exact recorded model outputs. Every raw trace is hashed in the released run metadata.
