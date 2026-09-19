@@ -13,3 +13,5 @@ MovieLens acquisition initially rejected the publisher checksum because the pars
 Secondary MSE decomposition and the joint family of ten comparisons were fixed before evaluation. The MovieLens user split and development selection were first generated before adding this secondary diagnostic; their source protocol hash therefore points to that earlier local protocol version. The frozen lock records the final protocol used for inference and analysis. User selection, item selection, prompts, primary contrasts and penalty grid did not change.
 
 Independent validation here means previously unused users and a second data domain. It does not mean an independent institution has replicated the experiment or peer reviewed the paper. A separate calculation will recompute reported metrics without importing the study's metric implementation.
+
+An earlier whole-archive Coat integrity audit reported rating distributions and overlap before the predictive split. Independent users here means held out from predictive model fitting, tuning and scoring; it does not mean the public archive was never descriptively inspected. The final manuscript states this explicitly.

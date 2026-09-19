@@ -1,0 +1,7 @@
+# Numerical precision check
+
+During preparation of the separate verification implementation, before evaluation accuracy was inspected, a fitting-user check compared augmented least squares against the frozen normal-equation ridge solver. On the first ten fitting users, maximum prediction differences were below 1e-14. One user's strict pairwise concordance differed by 0.0068493151 because theoretically tied predictions differed at floating-point precision.
+
+The frozen primary MAE analysis and frozen exact-tie secondary metric are unchanged. The separate checker verifies continuous metrics and primary contrasts using the augmented fit. For strict floating-point pairwise decisions it additionally reconstructs the original normal-equation computation independently, without importing project helper code. It reports both solvers' strict concordance and a descriptive sensitivity treating prediction differences within 1e-10 as ties. The two solvers must agree under that tolerance. This auxiliary sensitivity was added after the public freeze, while evaluation accuracy remained uninspected. It is not a new primary hypothesis or a retroactive change to the declared metric.
+
+The completed `results/independent-calculation-check.json` records every numerical user-system row, both strict concordances, the tolerance-based concordance and maximum prediction drift. Discrepancies are reported rather than being silently called exact independent replication.

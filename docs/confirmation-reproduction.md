@@ -8,7 +8,7 @@ The public artifact contains per-user error summaries, run metadata, source/mode
 
 Install `requirements-analysis.txt` in a fresh environment. Run the unit tests with `python -m unittest discover -s tests`. Once completed study results are present, `python src/build_confirmation_figures.py` and `python src/build_confirmation_tables.py` rebuild the figures and LaTeX table inputs. Both verify recorded analysis hashes and the independent-calculation report before using the measurements. This is regeneration from released measurements, not new model inference.
 
-The original manuscript uses the official ICML 2026 style in preprint mode. Tectonic 0.17.0 builds `paper/main.tex` and `paper/anonymous.tex`. Styling does not indicate an ICML submission or acceptance. A future submission must use that venue cycle's actual style and policies.
+The original manuscript uses the official ICML 2026 style in preprint mode. Install `requirements-paper.txt` for the Python PDF checker and install the Tectonic and Poppler binaries separately. Tectonic 0.17.0 builds `paper/main.tex` and `paper/anonymous.tex`. Styling does not indicate an ICML submission or acceptance. A future submission must use that venue cycle's actual style and policies.
 
 ## 2. Recompute from original raw responses
 
