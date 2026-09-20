@@ -143,3 +143,25 @@ prototype, not evidence that model inference or the complete cohort is valid.
 The data-support screen is deliberately looser: duplicate-text and real token
 budget checks can still remove preliminary candidates. Freeze all final rules
 and disclose the resulting population before confirmation inference.
+
+
+## Completed input preparation
+
+The Musical Instruments archives are now complete and hash-verified. The fixed-date
+screen found 2,091 candidate users among 3,017,439 reviews. Subsequent outcome-isolated
+preparation retained 1,224 users: 60 development, 200 reserved confirmation and
+964 donors. Rejections were 674 with a review under five words, 54 with fewer
+than 240 historical words total, 42 with duplicated normalized history text,
+and 97 exceeding the fixed token limits. These are sequential rejection categories.
+
+Historical review text is preserved without truncation. Maximum complete reader
+input counts are 7,924 for Qwen and 7,630 for Phi. The separate input-preparation
+review verifies identity disjointness, saved hashes, chronological panels and
+target field restrictions. Donor inputs contain histories only, although donor
+eligibility shares the same future-activity and catalog-availability screen.
+No model predictions or target scores were used in these selection decisions.
+
+The next gate is the three-case development resource preflight, documented in
+`docs/language-extension-resource-preflight.md`. Prepared inputs alone do not
+establish memory quality, output validity, sufficient statistical precision or
+new research novelty. The completed paper and original evaluation remain separate.

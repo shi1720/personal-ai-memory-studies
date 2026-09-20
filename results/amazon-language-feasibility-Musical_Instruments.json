@@ -1,0 +1,50 @@
+{
+  "scope": "Label-blind cohort feasibility; no predictions, tuning or target scoring",
+  "category": "Musical_Instruments",
+  "source_files": [
+    {
+      "file": "data/amazon-language-extension/Musical_Instruments.jsonl.gz",
+      "source": "https://mcauleylab.ucsd.edu/public_datasets/data/amazon_2023/raw/review_categories/Musical_Instruments.jsonl.gz",
+      "bytes": 458632324,
+      "sha256": "0e7bf61672d2a984b153d6999ac7321fb4b29642f05c04496f54507437bbbfee"
+    },
+    {
+      "file": "data/amazon-language-extension/meta_Musical_Instruments.jsonl.gz",
+      "source": "https://mcauleylab.ucsd.edu/public_datasets/data/amazon_2023/raw/meta_categories/meta_Musical_Instruments.jsonl.gz",
+      "bytes": 155378934,
+      "sha256": "26a08fb09c39f9afc0982e7c101967df23a08ccdb0832657a3fe1af89e67c29d"
+    }
+  ],
+  "review_rows": 3017439,
+  "users": 1762679,
+  "users_at_least_15_review_rows": 10164,
+  "previously_audited_users_excluded_from_candidates": 72,
+  "metadata_rows": 213593,
+  "titled_catalog_items": 213577,
+  "eligibility_counts_after_known_user_exclusion": {
+    "eligible": 2091,
+    "empty_history_review": 2,
+    "fewer_than_12_prior_and_3_later_items": 7613,
+    "fewer_than_15_distinct_items": 386
+  },
+  "eligible_users": 2091,
+  "enough_for_60_development_and_200_confirmation_before_context_filter": true,
+  "history_characters_min": 24,
+  "history_characters_max": 54257,
+  "candidate_windows_sha256": "1fb677a05f0cc19e29db2f54d89021142311a3d088faf64b7ce46bdfa56f4df3",
+  "candidate_windows_redistributed": false,
+  "rating_values_used_for_selection": false,
+  "prediction_inputs_constructed": false,
+  "model_inference_calls": 0,
+  "cutoff_utc": "2022-01-01T00:00:00Z",
+  "selection": "Last 12 first-time parent-item events strictly before fixed cutoff and first 3 strictly after; all 15 titled; nonempty earlier review texts",
+  "limitations": [
+    "Observed reviews, not randomized exposure or latent preference labels",
+    "Catalog is a retrospective snapshot, not point-in-time certified",
+    "No context-length or model-format feasibility established yet",
+    "Exact parent item IDs deduplicated, not every product alias",
+    "Exact review-text duplication is not yet checked by this support screen",
+    "Known audited user IDs excluded; identity across unknown source aliases is not established"
+  ],
+  "code_sha256": "c28efc99cb1be6f8d223ba520c0bee96f9541f5cd842f17006d2d182d4b7441b"
+}
