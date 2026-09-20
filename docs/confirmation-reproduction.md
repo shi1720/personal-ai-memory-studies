@@ -6,7 +6,7 @@ This study has three reproducibility levels. They have different resource and da
 
 The public artifact contains per-user error summaries, run metadata, source/model hashes, and code. It excludes original rating archives, model weights, full rating prompts, generated memory text, and local databases.
 
-Install `requirements-analysis.txt` in a fresh environment. Run the unit tests with `python -m unittest discover -s tests`. Once completed study results are present, `python src/verify_published_results.py` independently recomputes the aggregate summaries and all ten paired bootstrap comparisons from the released per-user error records. It needs no source data, model weights or private responses. This checks arithmetic, not the original model predictions against targets. `python src/build_confirmation_figures.py` and `python src/build_confirmation_tables.py` rebuild the figures and LaTeX table inputs. Both verify recorded analysis hashes and the independent-calculation report before using the measurements. This is regeneration from released measurements, not new model inference.
+Install `requirements-analysis.txt` in a fresh environment. Run the unit tests with `python -m unittest discover -s tests`. `python src/verify_published_results.py` independently recomputes the aggregate summaries and all ten paired bootstrap comparisons from the released per-user error records. It needs no source data, model weights or private responses. This checks arithmetic, not the original model predictions against targets. `python src/build_confirmation_figures.py` and `python src/build_confirmation_tables.py` rebuild the figures and LaTeX table inputs. Both verify recorded analysis hashes and the independent-calculation report before using the measurements. This is regeneration from released measurements, not new model inference.
 
 The original manuscript uses the official ICML 2026 style in preprint mode. Install `requirements-paper.txt` for the Python PDF checker and install the Tectonic and Poppler binaries separately. Tectonic 0.17.0 builds `paper/main.tex` and `paper/anonymous.tex`. Styling does not indicate an ICML submission or acceptance. A future submission must use that venue cycle's actual style and policies.
 
@@ -14,7 +14,7 @@ The original manuscript uses the official ICML 2026 style in preprint mode. Inst
 
 Obtain the licensed archives using `python src/fetch_confirmation_data.py`. This verifies publisher-source SHA-256 values without modifying released split files or lock files. Read the dataset terms before use. Do not run the development-selection script over the published metadata merely to fetch data.
 
-The frozen scoring commands are:
+The original scoring runtime is recorded in `references/confirmation-analysis-environment.json`: Python 3.9.6, NumPy 1.26.4 and Matplotlib 3.9.4. This differs from the separately recorded Python 3.12 inference environment. The frozen scoring commands are:
 
 ```sh
 python src/analyze_confirmation.py
@@ -45,7 +45,7 @@ Serve Qwen on loopback port 8317 with temperature zero, maximum 2,048 output tok
 
 The Coat reader-only preflight records for both models are also required by the runner. They were generated with `src/confirmation_preflight.py` using fitting-user resource-preflight stores, before the native sequential preflight. A fresh checkout must reproduce those fitting-user stores rather than claim that the released format outcomes validate a different local runtime.
 
-After Qwen is fully complete, stop its server and serve the pinned Phi model with the same server settings. Then run the MovieLens Phi preflight, the Coat Phi evaluation, and the MovieLens Phi evaluation. Phi reads the already-created Qwen memory stores. No accuracy analysis is performed until both datasets and models have finished. The complete-run guards enforce this ordering. Then run the three scoring/checking commands above and regenerate the paper figures and tables.
+After Qwen is fully complete, stop its server and serve the pinned Phi model with the same server settings. Then run the MovieLens Phi preflight, the Coat Phi evaluation, and the MovieLens Phi evaluation. Phi reads the already-created Qwen memory stores. No accuracy analysis is performed until both datasets and models have finished. The complete-run guards enforce this ordering. Then run the scoring, auxiliary-report, and checking commands above and regenerate the paper figures and tables.
 
 The continuation script in `src/continue_confirmation.py` is a local orchestration aid that waits for explicitly supplied owned process IDs, switches models, and executes those steps. It does not recover arbitrary failed jobs, silently retry generations, or manage cloud resources.
 

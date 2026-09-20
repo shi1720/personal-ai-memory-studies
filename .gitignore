@@ -8,3 +8,9 @@ __pycache__/
 .DS_Store
 .env*
 .venv-analysis/
+
+# Local manuscript build logs and live handoff notes
+output/pdf/*.log
+output/pdf/*-build.txt
+docs/confirmation-live-handoff.md
+output/pdf/*.blg

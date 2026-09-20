@@ -26,3 +26,9 @@ jobs:
         run: python -m unittest discover -s tests
       - name: Recreate figure from released measurements
         run: python src/plot_coat_memory_development.py
+      - name: Verify final published statistics
+        if: ${{ hashFiles('results/confirmation-analysis.json', 'results/movie-validation-analysis.json') != '' }}
+        run: |
+          python src/verify_published_results.py
+          python src/build_confirmation_figures.py
+          python src/build_confirmation_tables.py

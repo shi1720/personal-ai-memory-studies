@@ -1,0 +1,191 @@
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{hyperref}
+\usepackage{xurl}
+\usepackage[preprint]{icml2026}
+\usepackage{enumitem}
+\usepackage{multirow}
+\usepackage{xcolor}
+\definecolor{inkblue}{HTML}{234A75}
+\hypersetup{colorlinks=true,citecolor=inkblue,urlcolor=inkblue,linkcolor=inkblue}
+\newtheorem{proposition}{Proposition}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Full}{\mathrm{full}}
+\newcommand{\Perm}{\mathrm{perm}}
+\newcommand{\Mem}{\mathrm{mem}}
+\icmltitlerunning{Auditing Personal AI Memory with Rating-Preserving Controls}
+\input{results.tex}
+\begin{document}
+\twocolumn[
+\icmltitle{Auditing Personal AI Memory\\with Rating-Preserving Controls}
+\begin{icmlauthorlist}
+\ifdefined\anonymouscopy
+\icmlauthor{Anonymous Author}{anon}
+\else
+\icmlauthor{Shivam Gupta}{personal}
+\fi
+\end{icmlauthorlist}
+\ifdefined\anonymouscopy
+\icmlaffiliation{anon}{Affiliation withheld in this review copy}
+\icmlcorrespondingauthor{Anonymous Author}{withheld}
+\else
+\icmlaffiliation{personal}{Independent research}
+\icmlcorrespondingauthor{Shivam Gupta}{shivam1720406@gmail.com}
+\fi
+\icmlkeywords{personalization, agent memory, language models, evaluation, recommendation}
+\vskip 0.3in
+]
+\printAffiliationsAndNotice{}
+\hypersetup{pdftitle={Auditing Personal AI Memory with Rating-Preserving Controls},pdfsubject={Research preprint. Not submitted or peer reviewed.}}
+\begin{abstract}
+\input{abstract.tex}
+\end{abstract}
+
+\section{Introduction}
+A personal AI should use past experience to make better decisions for a particular person. A memory system that lowers rating-prediction error appears to meet that requirement. Yet the improvement can arise from a much simpler behavior: learning that a person usually gives low or high ratings. This adaptation is useful, but it does not establish that the system knows which items that person prefers. The distinction is already recognized in recommendation evaluation \citep{tan2025preferences}. It becomes especially important when a memory writer transforms detailed experience into a natural-language profile and a separate model reads that profile.
+
+There are three different places where this pipeline can succeed or fail. The source history may contain useful item-specific associations. The writer may preserve or distort those associations. The reader may then use the retained information effectively or fall back on broad rating tendencies. Comparing an extracted memory against no history confounds these stages. A fluent description can be useful even if it mainly preserves a user's rating level; conversely, a reader can underperform despite receiving the entire source history.
+
+This paper studies these distinctions through controlled interventions on real, observed ratings. Our central control permutes rating values \emph{within the same user's history}, holding the rated items, their attributes, the history length, and the exact rating multiset fixed. The contrast asks whether the correct item-rating assignment improves prediction under a fixed reader. It does not replace a person's history with another person's, and it does not assert that all personalization has been removed. Together with a full-history comparison, a native memory writer, and matched statistical readers, this yields a diagnostic study of extraction and evidence use.
+
+The empirical contribution is a publicly frozen evaluation on 200 users in each of two domains, held out from predictive development. Coat provides randomly elicited target ratings after self-selected histories; MovieLens provides a second domain with self-selected observed ratings and genre-only inputs. Two quantized open-weight readers are evaluated without tuning on the evaluation users. On Coat, both readers also receive the same memories produced by a pinned native Mem0 pipeline. We report every predeclared comparison, malformed outputs, statistical baselines with matching information, and construction costs. The paired design localizes effects to specific changes in source evidence, memory construction, and reader choice.
+
+\input{introduction-findings.tex}
+
+\section{What the Controls Identify}
+\begin{figure*}[t]
+\centering
+\includegraphics[width=.96\textwidth]{../results/figures/confirmation/design.pdf}
+\caption{The same source history supports three evidence controls and, on Coat, native memory extraction. Target outcomes never enter construction or prediction. Each reader receives the same new target list in every condition. A separate ridge reader uses the same observed history and metadata.}
+\label{fig:design}
+\end{figure*}
+\subsection{Setting and interventions}
+For user $u$, let $H_u=\{(i_j,x_j,y_j)\}_{j=1}^{m}$ be the observed history, with item identifier $i_j$, metadata $x_j$, and rating $y_j\in[1,5]$. Let $Q_u$ contain the identifiers and metadata of new target items. Target outcomes $Y_u$ are withheld from every prediction prompt and memory write. A reader $f$, including its declared parser and fallback policy, returns a vector $f(C,Q_u)$ from evidence $C$. A writer $W$ constructs natural-language memory $W(H_u)$ before the targets are presented.
+
+For a permutation $\pi_u$ of the $m$ historical positions, define
+\begin{equation}
+ H_u^{\pi}=\{(i_j,x_j,y_{\pi_u(j)})\}_{j=1}^{m}.
+\end{equation}
+The permutation preserves all rated items and their attributes, as well as the complete empirical distribution of the historical ratings. It changes only their assignment to items. Item order remains fixed. We compare $C=\varnothing,H_u,H_u^\pi$, and, on Coat, $W(H_u)$. The same target list, reader, decoding settings, and output parser apply to every condition.
+
+For a target-prediction vector $z$, define $\ell_u(z)=|Q_u|^{-1}\sum_{i\in Q_u}|z_i-y_{ui}|$. The reader loss is
+\begin{equation}
+ L_u(C)=\ell_u(f(C,Q_u)).
+\end{equation}
+The three primary contrasts, averaged across evaluation users, are
+\begin{align}
+ A_f &= \E_u[L_u(H_u^\pi)-L_u(H_u)],\\
+ X_f &= \E_u[L_u(W(H_u))-L_u(H_u)],\\
+ N_f &= \E_u[L_u(H_u)-\ell_u(g(H_u,Q_u))].
+\end{align}
+Here $g$ is a fixed, development-selected history-only ridge reader. Positive $A_f$ means the correct assignments help this reader. Positive $X_f$ means the tested extraction pipeline increases error relative to the original history. Positive $N_f$ means the numerical reader has lower error. Only $A_f$ and $N_f$ are replicated in MovieLens; memory extraction is evaluated in Coat alone.
+
+These are controlled changes to a system's \emph{inputs}, not causal interventions on human taste. One seeded permutation is sampled per user. The estimator therefore includes variation across users and their sampled permutations; it is not an exhaustive permutation test for each individual. A negligible $A_f$ does not prove that the reader ignores all associations: heterogeneous benefits and harms can cancel. A positive $A_f$ can reflect shared item effects as well as user-specific tendencies; it does not isolate the latter or identify an optimal preference model. Likewise, $X_f$ is a pipeline effect. It includes changes in representation, length, and reading behavior, not just literal information loss.
+
+\subsection{Why a no-history comparison is insufficient}
+A reader that uses only the rating multiset and the set of item attributes is invariant to the intervention above. For any such reader, $f(H_u,Q_u)=f(H_u^\pi,Q_u)$ and hence $A_f=0$. Nevertheless, it can improve substantially over no history. Consider balanced target attributes $x\in\{-1,1\}$ and ratings
+\begin{equation}
+ y=3+a_u+b_u x,
+\end{equation}
+where $a_u\in\{-1,1\}$ and $b_u\in\{-\tfrac12,\tfrac12\}$. A history with balanced attributes reveals its mean $3+a_u$. A mean-only reader reduces target MSE from $1.25$ to $0.25$ and MAE from $1$ to $0.5$ while assigning every target the same score. Its pairwise concordance, with ties receiving half credit, remains $0.5$. Permuting the history ratings leaves that prediction unchanged.
+
+This elementary example is an interpretive check, not a new statistical theorem. It shows why the full versus no-history gain and the association contrast answer different questions. Nor is rating-level adaptation inherently a flaw: calibration can be valuable for a user-facing system. The error is to interpret it as evidence of item-specific understanding without a control.
+
+\subsection{Complementary diagnostics}
+For each user's target errors $e_{ui}=\hat y_{ui}-y_{ui}$, the exact identity
+\begin{equation}
+ \frac1{n_u}\sum_i e_{ui}^2
+ =\bar e_u^2+\frac1{n_u}\sum_i(e_{ui}-\bar e_u)^2
+ \label{eq:decomposition}
+\end{equation}
+separates squared mean error from centered residual error. We use this only as a descriptive evaluation diagnostic. The target mean is never available to a deployed predictor or used to calibrate its outputs. Centered residual error remains sensitive to the scale and shape of predictions; it is not a pure measure of preference understanding.
+
+We also compute concordance over unequal-rated target pairs within each user. A concordant ordering receives one, a reversed ordering zero, and a prediction tie one half. These values are averaged within users first. Users whose targets all have the same rating are excluded only from this secondary metric. This score evaluates the ordering induced by rating predictions; it is not a separate pairwise-prompting experiment.
+
+\section{Experimental Design}
+\subsection{Datasets and independent users}
+\textbf{Coat.} The released Coat shopping experiment contains 290 users and 300 items \citep{schnabel2016recommendations}. Each user has 24 self-selected historical ratings and 16 randomly elicited test ratings. We remove any target item already present in that user's history. New items are new to the supplied user history, not necessarily unseen elsewhere in the released catalog. A fixed SHA-256 ordering assigns 60 users to fitting, 30 to development, and 200 to evaluation. The primary numerical and language-model conditions use only the evaluated user's own history. Fitting-user outcomes are used solely by supplementary population-assisted baselines, which are explicitly separated from the equal-information comparison. The main evaluation contains \CoatTargets{} new target ratings.
+
+Item attributes are the released categorical indicators with the front-page exposure indicator excluded. The language models receive the named active attributes and anonymous item IDs. The statistical reader uses the same 31 indicators plus an intercept. We do not use user demographics or propensity weights. Random elicitation of the original test items improves the target-sampling design, but conditioning on new items and the small historical user population still restrict the estimand. There is no usable within-user chronology, so this is not a prospective longitudinal test.
+
+\textbf{MovieLens.} We obtain the official MovieLens 100K archive \citep{harper2015movielens}, verify its publisher checksum, and retain users with at least 40 distinct observed ratings. Of 645 eligible users, a separately seeded SHA-256 ordering allocates 60 to fitting, 30 to development, and 200 to evaluation. For each selected user, a fixed hash ordering of observed user-item pairs selects 24 history items and the next 16 targets. The evaluation therefore contains 3,200 target ratings. Both model families and the numerical readers see only anonymous IDs and 19 genre indicators, with an added intercept for ridge. Titles, reviews, timestamps, and demographics are omitted.
+
+This is a deliberately narrow metadata test. The MovieLens target split samples \emph{observed} ratings, not random exposure and not future interactions. We never label an unobserved item as disliked. The domain differs from Coat both in content and in observation process, so replication across them must not be interpreted as a controlled causal test of exposure bias. Both archives are public and may be represented in model pretraining; removing titles does not eliminate that risk.
+
+\begin{table}[t]
+\caption{Evaluation design. Each domain has a separate 30-user development set and 200-user evaluation set. Calls exclude fitting-user preflights.}
+\label{tab:design}
+\centering\small
+\begin{tabular}{lrr}
+\toprule
+& Coat & MovieLens\\
+\midrule
+History ratings / user & 24 & 24\\
+New target ratings & \CoatTargets{} & 3,200\\
+Numerical dimensions & 32 & 20\\
+Reader conditions & 4 & 3\\
+Reader models & 2 & 2\\
+Native writer calls & 200 & 0\\
+Reader calls & 1,600 & 1,200\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Native writing and controlled reading}
+We use Qwen3-4B-Instruct-2507 and Phi-4, in pinned 4-bit MLX conversions, as readers \citep{qwen2025card,phi2024card}. Qwen also writes the Coat memories through Mem0 2.1.0 \citep{chhikara2025mem0}. This is an implementation-level experiment with the open-source pipeline, not a reproduction of Mem0's published benchmark numbers. A fresh local store is created for every user. One complete structured history is submitted through the native extraction path with a 2,048-token generation limit. The active additive-extraction prompt is not replaced by a task-specific summarizer. The source revision, actual requests, responses, and finish reasons are recorded.
+
+Every stored memory text is supplied to each reader, sorted for deterministic presentation. The export limit is raised and checked against the number of stored entries so that the default listing limit does not silently truncate the evidence. This design isolates memory construction and reading from query-time retrieval. It does not test Mem0's retrieval quality, graph memory, incremental updates, or long-term consolidation. A failed writer is retained in the evaluation and supplies an empty-memory message. Both readers receive the same Qwen-written store; the experiment does not include a Phi writer.
+
+Each reader predicts all of a user's new target ratings in one JSON array. The model-specific native chat template is used with temperature zero, top\_p one, and a 256-token output limit. The instruction explicitly permits fractional ratings, includes dislikes and low ratings, and treats memory text as data. Conditions rotate in order across users. Inference is sequential on a 24-GiB Apple Silicon machine following an out-of-memory fitting-user concurrency check. Exact prompts and runtime versions are provided in the artifact.
+
+\subsection{Matched numerical readers}
+For history design matrix $X_u$ and rating vector $y_u$, the primary comparator fits
+\begin{equation}
+ \hat\beta_u=\arg\min_{\beta\in\R^d}
+ \|y_u-3\mathbf1-X_u\beta\|_2^2+\lambda\|\beta\|_2^2,
+\end{equation}
+then returns $\mathrm{clip}_{[1,5]}(3+x_i^\top\hat\beta_u)$. All coefficients, including the intercept, are penalized. The prior is the fixed scale midpoint, not a test-derived estimate. The penalty is selected separately in each domain from $\{0.1,1,10,100\}$ by development user-macro MAE, with larger penalties breaking ties. Selection gives $\lambda=1$ for Coat and $\lambda=10$ for MovieLens. Evaluation outcomes do not train these predictors or select their hyperparameters.
+
+We also report history mean, history median, and ridge fit to the same permuted history. The mean and median are exactly invariant to the permutation. They provide a concrete reference for rating-level adaptation. Supplementary Coat baselines use population priors estimated from the 60 fitting users; these have additional information and are not part of the primary equal-history comparison. Matching refers to supplied user history and metadata, not pretraining, inductive bias, parameter count, or compute. Neither the ridge model nor these standard controls are introduced as new algorithms.
+
+\subsection{Failures, uncertainty, and protocol freeze}
+The primary loss is user-macro MAE across all 200 users in each domain. An answer is valid only if generation stops normally and the parser returns exactly one finite numeric value in $[1,5]$ per target. A narrow Markdown-code-fence wrapper is tolerated; explanations, missing values, extra values, and booleans are rejected. There are no retries or label-dependent repairs. Invalid reader outputs use the fixed constant prediction 3 in the operational evaluation. We also report valid-only summaries and paired common-valid contrasts so that the fallback cannot conceal a change in conclusion.
+
+The family of ten primary comparisons consists of $A_f$, $X_f$, and $N_f$ for both readers on Coat, plus $A_f$ and $N_f$ for both readers on MovieLens. We use 10,000 paired-user bootstrap resamples with a fixed seed. Ordinary 95\% percentile intervals accompany family-adjusted percentile intervals with $\alpha=0.05/10$. These are approximate bootstrap intervals, not exact finite-sample coverage guarantees. Users are the resampling unit; individual ratings and correlated target pairs are not treated as independent samples. The intervals describe variation across users conditional on the released item catalog and fixed systems. They do not cover new item catalogs, different model quantizations, prompts, model seeds, or benchmark populations.
+
+Prompts, data splits, analysis code, fallback rules, primary contrasts, and hyperparameters were publicly committed before reserved-user inference. Accuracy was withheld until both models completed both domains. Format preflights used fitting users only. We additionally reconstruct inputs and recompute primary metrics and confidence intervals in a separate implementation; ridge is independently checked with an augmented least-squares solver. This provides a computational cross-check, not an external laboratory replication.
+
+\section{Results}
+\input{findings.tex}
+
+\section{Discussion}
+\input{discussion.tex}
+
+\section{Related Work}
+Language-based user profiles already separate an encoder from a downstream recommendation decoder \citep{zhou2024language}. End-to-end profile optimization is also established \citep{gao2025langptune}. Our study does not introduce natural-language profiles or compare against a trained state-of-the-art recommender. It examines a fixed native memory pipeline and fixed readers using controls that distinguish extraction from use of within-history rating associations.
+
+PerRecBench explicitly shows that aggregate rating metrics can hide weak personalization and proposes user-group rankings for a shared item \citep{tan2025preferences}. Our intervention keeps the same user, target set, rated-item support, and rating distribution while changing historical assignments. These are complementary estimands: our pairwise diagnostic does not remove global item-quality effects in the way PerRecBench's shared-item grouping is designed to do. The broad critique of rating error is prior work, not a novelty claim here.
+
+MemoryCD evaluates long-context user memory from real review histories, including numerical rating prediction \citep{zhang2026memorycd}. Our short, metadata-only histories and two-domain controlled experiment answer a narrower question and are not a replacement for that benchmark. Mem0 supplies the native construction mechanism \citep{chhikara2025mem0}; retrieval is deliberately bypassed by reading every stored text. Work on memory portability already studies writer-reader changes and extraction versus retrieval failures \citep{goyal2026portability}. Holding one writer fixed while changing readers in this study should therefore be viewed as a control, not as a new portability problem.
+
+Permutation-based reliance is an established approach to measuring the predictive use of information \citep{fisher2019reliance}. Our control applies that logic to historical rating assignments while preserving user-level marginals. We do not claim a new general permutation-importance method, an exact conditional randomization test, or causal identification of human preferences.
+
+Finally, the observation process matters independently of model architecture. Coat originated in work on recommendation selection bias \citep{schnabel2016recommendations}. We use its randomly elicited targets without claiming that observational movie ratings identify the same quantity. Our results are conditional on the released data and specified sampling rules, rather than a statement about intrinsic human preferences in unobserved situations.
+
+\section{Conclusion}
+\input{conclusion.tex}
+
+\section*{Impact Statement}
+This work concerns evaluation of personal AI memory using public research datasets. Better diagnostic controls can reduce unsupported claims that a system understands an individual. They do not justify inferring sensitive characteristics, retaining private histories without consent, or deploying a profile for consequential decisions. User demographics were not used. Source ratings and generated memory text are not redistributed; the release contains code, manifests, aggregate results, and user-level error summaries. No new human-subject data were collected. Results apply to the tested metadata tasks and should not be presented as evidence about all users or commercial memory systems.
+
+\bibliography{references}
+\bibliographystyle{icml2026}
+\clearpage
+\appendix
+\input{appendix.tex}
+\end{document}

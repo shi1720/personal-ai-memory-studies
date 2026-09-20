@@ -1,0 +1,7 @@
+{
+  "source_sha256": "906174b666648fdafabba595cfa60c5df07f5540f543daf2890d750f6abb4da8",
+  "analysis_hashes": {
+    "results/confirmation-analysis.json": "7f8de9bde6a93e018594cf6122452eb304a61fc6f7518924576ade26a04ba6c4",
+    "results/movie-validation-analysis.json": "bb68bb637f701b2112d729d382deaf525187732e18181b4d947fb89efa5de195"
+  }
+}

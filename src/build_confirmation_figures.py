@@ -30,7 +30,7 @@ def diagram():
         if text:ax.text(x+w/2,y+h/2,text,ha='center',va='center',fontsize=size)
     def arrow(a,b,color='#677986'):
         ax.add_patch(FancyArrowPatch(a,b,arrowstyle='-|>',mutation_scale=9,lw=.9,color=color))
-    box(.1,1.75,1.65,1.4,'24 observed\nitem-rating pairs\n\nTargets withheld',size=7.3)
+    box(.1,1.75,1.65,1.4,'24 observed\nitem-rating pairs\n\nTarget outcomes\nwithheld',size=7.3)
     boxes=[('Full history',3.7,None),('Permuted ratings',2.65,'Same items and rating multiset'),('Native memory',1.6,'Coat only; fixed Qwen writer'),('No history',.55,None)]
     for text,y,sub in boxes:
         box(2.95,y,2.35,.8,'',color='#EAF2F6' if text!='Native memory' else '#F4EEE8')

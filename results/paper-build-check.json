@@ -1,0 +1,32 @@
+{
+  "pdfs": [
+    {
+      "file": "output/pdf/Shivam_Gupta_Personal_AI_Memory_Paper.pdf",
+      "pages": 14,
+      "main_text_last_page": 8,
+      "sha256": "124bdaecabb2399ca6b521fa65fcdbdab560f55f4c199d0bbb968158f30e3efb",
+      "bytes": 149814
+    },
+    {
+      "file": "output/pdf/Personal_AI_Memory_Anonymous.pdf",
+      "pages": 14,
+      "main_text_last_page": 8,
+      "sha256": "e293a94a1c4f910ef3fa859a8d9d8f1f3ef425efa575309a4b25fe48e86fff08",
+      "bytes": 148845
+    }
+  ],
+  "source_hashes": {
+    "paper/abstract.tex": "e9ac831446136c922165e76c31e9aeceb1912e868d4cd59cd05b1adb1d4e86f7",
+    "paper/anonymous.tex": "d2f26ecd04b9ba6b26978b48b226f4b94a624c391fc7019fcb190f14c9b7e63c",
+    "paper/appendix.tex": "aaf1b2604b65ea5997db07b4460bc0b498a13d49f875ff450b8c56df071cc79b",
+    "paper/conclusion.tex": "28a720a9dadf5aa6a9d5c7b1df091acb746fd72ea0a8e626d59f619dba0771dc",
+    "paper/discussion.tex": "f0424d0049ed8565dd837f0cfe8a0cdfa88f2ac04a3a48e64722d99db3898e0d",
+    "paper/findings.tex": "6c0a97a9234155093e942963ce4d0aa09b9f76076065f9eb29c72ebeffb69c3a",
+    "paper/introduction-findings.tex": "bdae9af8c977884741eb8abad59a6207ba2ca365fe546374f20c9ed9fce48c55",
+    "paper/main-results-table.tex": "1191a8aaeef796dee9ebec2311af380ee6336735635f6b3ab25667bf47e4a4e0",
+    "paper/main.tex": "bb817d2926c748175d2e401b238c06035602097b17752525bcb24a48e1940fb0",
+    "paper/results.tex": "33289b5b7452ef82112bb28554e0419c349fe7fca6b091ad041b9c72f516695d",
+    "paper/supplementary-tables.tex": "ed7e3b7eb3f3eea29d53f263f3bf7dfba3d4dd01249c32d09c4661e1042de3b9"
+  },
+  "status": "compiled and text/layout constraints checked; visual inspection separately required"
+}

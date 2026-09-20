@@ -1,0 +1,11 @@
+{
+  "purpose": "Recorded analysis and typesetting-check environment; model serving uses the separately recorded Python 3.12 environment",
+  "python": "3.9.6",
+  "platform": "macOS-27.0-arm64-arm-64bit",
+  "packages": {
+    "numpy": "1.26.4",
+    "matplotlib": "3.9.4",
+    "scipy": "1.13.1",
+    "pypdf": "6.7.3"
+  }
+}

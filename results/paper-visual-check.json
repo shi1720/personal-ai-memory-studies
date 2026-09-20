@@ -1,0 +1,55 @@
+{
+  "scope": "Visual inspection of both final rendered manuscripts, plus text, metadata and annotation checks",
+  "pdfs": [
+    {
+      "file": "output/pdf/Shivam_Gupta_Personal_AI_Memory_Paper.pdf",
+      "sha256": "124bdaecabb2399ca6b521fa65fcdbdab560f55f4c199d0bbb968158f30e3efb",
+      "pages_inspected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "file": "output/pdf/Personal_AI_Memory_Anonymous.pdf",
+      "sha256": "e293a94a1c4f910ef3fa859a8d9d8f1f3ef425efa575309a4b25fe48e86fff08",
+      "pages_inspected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    }
+  ],
+  "checks": {
+    "clipped_text_or_overlapping_objects": false,
+    "unresolved_citations_or_references": false,
+    "overfull_tex_boxes": false,
+    "named_author_and_email_present": true,
+    "anonymous_text_metadata_and_link_annotations_checked": true,
+    "impact_statement_finishes_by_page_8": true,
+    "figures_and_tables_legible": true
+  },
+  "status": "passed"
+}

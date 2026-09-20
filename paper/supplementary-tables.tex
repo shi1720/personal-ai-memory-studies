@@ -1,0 +1,159 @@
+\begin{table*}[t]
+\centering\small
+\caption{Coat complete metric summary. Pairwise concordance averages eligible users; ties receive half credit. All primary operational summaries include every user. Valid-only subsets can differ. Population and Pop. rows use additional fitting-user data; their equations are in Appendix~\ref{app:population}.}
+\label{tab:metrics-coat}
+\begin{tabular}{lrrrrrr}
+\toprule
+System & MAE & RMSE & Signed error & Pairwise & Valid-only MAE & Valid\\
+\midrule
+History mean & 0.991 & 1.166 & 0.406 & 0.500 & 0.991 & 200/200\\
+History median & 0.923 & 1.220 & 0.251 & 0.500 & 0.923 & 200/200\\
+History-only ridge & 0.914 & 1.136 & 0.330 & 0.637 & 0.914 & 200/200\\
+Phi / full & 0.910 & 1.249 & 0.214 & 0.599 & 0.888 & 185/200\\
+Phi / memory & 1.059 & 1.347 & 0.452 & 0.562 & 1.035 & 184/200\\
+Phi / none & 1.236 & 1.463 & 0.764 & 0.500 & 1.259 & 177/200\\
+Phi / permuted & 1.115 & 1.439 & 0.429 & 0.496 & 1.097 & 180/200\\
+Population features & 1.068 & 1.246 & -0.065 & 0.569 & 1.068 & 200/200\\
+Population mean & 1.080 & 1.249 & -0.058 & 0.500 & 1.080 & 200/200\\
+Qwen / full & 1.074 & 1.424 & 0.541 & 0.550 & 1.074 & 200/200\\
+Qwen / memory & 1.158 & 1.513 & 0.581 & 0.538 & 1.157 & 198/200\\
+Qwen / none & 1.694 & 2.023 & 1.421 & 0.504 & 1.695 & 199/200\\
+Qwen / permuted & 1.218 & 1.561 & 0.603 & 0.487 & 1.218 & 200/200\\
+Ridge / permuted & 1.129 & 1.374 & 0.470 & 0.482 & 1.129 & 200/200\\
+Pop. + residual ridge & 0.858 & 1.086 & 0.208 & 0.661 & 0.858 & 200/200\\
+Pop. + user offset & 0.962 & 1.128 & 0.243 & 0.569 & 0.962 & 200/200\\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[t]
+\centering\small
+\caption{Coat predeclared primary contrasts and paired common-valid sensitivity. The all-user intervals use alpha 0.005 for the family of ten comparisons; the descriptive common-valid intervals shown here are ordinary 95\% intervals. Positive effects follow the definitions in the main text.}
+\label{tab:contrasts-coat}
+\begin{tabular}{lrrrrr}
+\toprule
+Contrast & All users & Adjusted interval & Common valid & 95\% interval & Users\\
+\midrule
+Qwen / extraction & 0.084 & [0.012, 0.160] & 0.084 & [0.032, 0.138] & 198\\
+Qwen / association & 0.144 & [0.072, 0.215] & 0.144 & [0.094, 0.195] & 200\\
+Qwen / numerical reader & 0.160 & [0.095, 0.225] & 0.160 & [0.116, 0.206] & 200\\
+Phi / extraction & 0.149 & [0.072, 0.229] & 0.147 & [0.096, 0.200] & 171\\
+Phi / association & 0.205 & [0.119, 0.295] & 0.220 & [0.153, 0.287] & 168\\
+Phi / numerical reader & -0.004 & [-0.067, 0.059] & -0.025 & [-0.067, 0.016] & 185\\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[t]
+\centering\small
+\caption{MovieLens complete metric summary. Pairwise concordance averages eligible users; ties receive half credit. All primary operational summaries include every user. Valid-only subsets can differ.}
+\label{tab:metrics-movielens}
+\begin{tabular}{lrrrrrr}
+\toprule
+System & MAE & RMSE & Signed error & Pairwise & Valid-only MAE & Valid\\
+\midrule
+Scale midpoint & 0.984 & 1.234 & -0.541 & 0.500 & 0.984 & 200/200\\
+History mean & 0.839 & 1.054 & 0.030 & 0.500 & 0.839 & 200/200\\
+History median & 0.817 & 1.127 & 0.121 & 0.500 & 0.817 & 200/200\\
+History-only ridge & 0.845 & 1.042 & -0.109 & 0.558 & 0.845 & 200/200\\
+Phi / full & 0.921 & 1.213 & -0.035 & 0.551 & 0.921 & 199/200\\
+Phi / none & 0.986 & 1.234 & -0.538 & 0.499 & 0.985 & 141/200\\
+Phi / permuted & 0.950 & 1.258 & -0.049 & 0.508 & 0.948 & 199/200\\
+Qwen / full & 0.937 & 1.271 & 0.130 & 0.520 & 0.930 & 195/200\\
+Qwen / none & 1.029 & 1.313 & 0.175 & 0.487 & 1.029 & 197/200\\
+Qwen / permuted & 0.957 & 1.293 & 0.111 & 0.493 & 0.958 & 196/200\\
+Ridge / permuted & 0.865 & 1.067 & -0.110 & 0.501 & 0.865 & 200/200\\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[t]
+\centering\small
+\caption{MovieLens predeclared primary contrasts and paired common-valid sensitivity. The all-user intervals use alpha 0.005 for the family of ten comparisons; the descriptive common-valid intervals shown here are ordinary 95\% intervals. Positive effects follow the definitions in the main text.}
+\label{tab:contrasts-movielens}
+\begin{tabular}{lrrrrr}
+\toprule
+Contrast & All users & Adjusted interval & Common valid & 95\% interval & Users\\
+\midrule
+Qwen / association & 0.020 & [-0.022, 0.062] & 0.025 & [-0.006, 0.056] & 193\\
+Qwen / numerical reader & 0.091 & [0.049, 0.135] & 0.087 & [0.056, 0.116] & 195\\
+Phi / association & 0.029 & [-0.011, 0.069] & 0.027 & [-0.001, 0.055] & 198\\
+Phi / numerical reader & 0.076 & [0.038, 0.117] & 0.075 & [0.049, 0.103] & 199\\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\subsection{Construction and Reading Resources}
+Table~\ref{tab:resources} separates native construction from reading costs. Counts exclude development and fitting-user preflights; prompt totals include the target list and shared instructions.
+
+\begin{table*}[t]
+\centering\small
+\caption{Recorded model usage, excluding separately reported preflights and development. Native writing counts responses recorded by the native provider callback; reader calls count attempted condition calls. Token totals do not measure full storage or commercial cost.}
+\label{tab:resources}
+\begin{tabular}{lllrrr}
+\toprule
+Domain & Model & Stage / evidence & Calls & Prompt tokens & Output tokens\\
+\midrule
+Coat & Qwen & Native writing & 200 & 1,782,117 & 191,987\\
+Coat & Qwen & none & 200 & 118,318 & 9,109\\
+Coat & Qwen & full & 200 & 299,835 & 9,080\\
+Coat & Qwen & permuted & 200 & 299,835 & 9,080\\
+Coat & Qwen & memory & 200 & 237,828 & 9,074\\
+Coat & Phi & none & 200 & 111,798 & 16,400\\
+Coat & Phi & full & 200 & 283,715 & 13,806\\
+Coat & Phi & permuted & 200 & 283,715 & 14,685\\
+Coat & Phi & memory & 200 & 220,576 & 14,011\\
+MovieLens & Qwen & none & 200 & 111,444 & 14,677\\
+MovieLens & Qwen & full & 200 & 264,856 & 9,797\\
+MovieLens & Qwen & permuted & 200 & 264,856 & 9,806\\
+MovieLens & Phi & none & 200 & 104,444 & 18,601\\
+MovieLens & Phi & full & 200 & 248,256 & 13,951\\
+MovieLens & Phi & permuted & 200 & 248,256 & 14,089\\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\subsection{Output Reliability}
+Table~\ref{tab:format-failures} partitions every invalid reader response into disjoint categories. Table~\ref{tab:precision} reports the separate numerical near-tie sensitivity; it does not alter the primary MAE analysis.
+
+\begin{table*}[t]
+\centering\small
+\caption{Output failures out of 200 attempts per row. Non-stop counts responses whose generation did not end normally, including token-limit termination. Transport counts attempts without a model response. Contract counts normally stopped responses that fail the exact-array parser. Categories are disjoint and sum to Invalid. All are retained through the constant-3 fallback.}
+\label{tab:format-failures}
+\begin{tabular}{lllrrrr}
+\toprule
+Domain & Reader & Evidence & Invalid & Non-stop & Transport & Contract\\
+\midrule
+Coat & Qwen & full & 0 & 0 & 0 & 0\\
+Coat & Qwen & memory & 2 & 0 & 0 & 2\\
+Coat & Qwen & none & 1 & 0 & 0 & 1\\
+Coat & Qwen & permuted & 0 & 0 & 0 & 0\\
+Coat & Phi & full & 15 & 10 & 0 & 5\\
+Coat & Phi & memory & 16 & 9 & 0 & 7\\
+Coat & Phi & none & 23 & 0 & 0 & 23\\
+Coat & Phi & permuted & 20 & 14 & 0 & 6\\
+MovieLens & Qwen & full & 5 & 0 & 0 & 5\\
+MovieLens & Qwen & none & 3 & 0 & 0 & 3\\
+MovieLens & Qwen & permuted & 4 & 0 & 0 & 4\\
+MovieLens & Phi & full & 1 & 1 & 0 & 0\\
+MovieLens & Phi & none & 59 & 0 & 0 & 59\\
+MovieLens & Phi & permuted & 1 & 1 & 0 & 0\\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[t]
+\centering\small
+\caption{Post-freeze numerical precision sensitivity, specified before accuracy inspection. Columns show mean pairwise concordance from the original normal-equation solve, augmented least squares, and a common tie tolerance of 1e-10. Disagreements count users whose strict concordance differs between solvers. Primary MAE comparisons are unchanged.}
+\label{tab:precision}
+\begin{tabular}{llrrrrr}
+\toprule
+Domain & System & Users & Normal & Augmented & Near-tie & Disagreements\\
+\midrule
+Coat & History-only ridge & 199 & 0.637462 & 0.637287 & 0.637462 & 17\\
+Coat & Ridge / permuted & 199 & 0.481885 & 0.481725 & 0.481859 & 24\\
+MovieLens & History-only ridge & 200 & 0.557539 & 0.557547 & 0.557539 & 2\\
+MovieLens & Ridge / permuted & 200 & 0.501437 & 0.501458 & 0.501437 & 3\\
+\bottomrule
+\end{tabular}
+\end{table*}

@@ -1,0 +1,22 @@
+\begin{table*}[t]
+\centering\small
+\caption{Operational user-macro MAE and valid-output coverage. Invalid reader arrays use the predeclared constant-3 fallback. Numerical methods always produce valid predictions. Native memory is evaluated on Coat only. Lower MAE is better.}
+\label{tab:main-results}
+\begin{tabular}{lrrrr}
+\toprule
+System / evidence & Coat MAE & Valid & MovieLens MAE & Valid\\
+\midrule
+History mean & 0.991 & 200/200 & 0.839 & 200/200\\
+History median & 0.923 & 200/200 & 0.817 & 200/200\\
+History-only ridge & 0.914 & 200/200 & 0.845 & 200/200\\
+Qwen / no history & 1.694 & 199/200 & 1.029 & 197/200\\
+Qwen / full history & 1.074 & 200/200 & 0.937 & 195/200\\
+Qwen / permuted history & 1.218 & 200/200 & 0.957 & 196/200\\
+Qwen / native memory & 1.158 & 198/200 & -- & --\\
+Phi / no history & 1.236 & 177/200 & 0.986 & 141/200\\
+Phi / full history & 0.910 & 185/200 & 0.921 & 199/200\\
+Phi / permuted history & 1.115 & 180/200 & 0.950 & 199/200\\
+Phi / native memory & 1.059 & 184/200 & -- & --\\
+\bottomrule
+\end{tabular}
+\end{table*}

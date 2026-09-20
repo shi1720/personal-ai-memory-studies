@@ -1,0 +1,22 @@
+{
+  "scope": "Released-summary arithmetic and bootstrap verification; not fresh inference or external replication",
+  "checks": [
+    {
+      "report": "confirmation-analysis.json",
+      "sha256": "7f8de9bde6a93e018594cf6122452eb304a61fc6f7518924576ade26a04ba6c4",
+      "user_system_rows": 3200,
+      "systems": 16,
+      "primary_contrasts": 6,
+      "status": "passed"
+    },
+    {
+      "report": "movie-validation-analysis.json",
+      "sha256": "bb68bb637f701b2112d729d382deaf525187732e18181b4d947fb89efa5de195",
+      "user_system_rows": 2200,
+      "systems": 11,
+      "primary_contrasts": 4,
+      "status": "passed"
+    }
+  ],
+  "source_sha256": "ae1c50f892308cb23299902a75ce5aa704ca42766e066c2ca02ecc4ba53bf5e6"
+}
