@@ -32,4 +32,16 @@ See the README and `docs/confirmation-reproduction.md` for separate instructions
 
 The initial exploratory release notes and manifest are preserved under `release-history/initial-exploratory/`. Their recorded hashes describe that earlier snapshot, not the present files. Earlier pilot studies remain historical material and are not pooled with the final evaluation.
 
+## Preserved unfinished extension
+
+The language-rich research branch has been merged into `main` to preserve its
+history, protocols, engineering preflights, code, and synthetic tests. The author
+stopped the experiment, and its local model files were removed. It has no
+completed confirmation results and is not part of the paper's evidence. No
+further inference is running or scheduled. Historical prospective protocols
+describe proposed work, not authorization to restart it. See
+`docs/language-extension-status.md` for this boundary. The merged release
+manifest covers these preserved files as well as the completed paper; inclusion
+in that manifest does not change their scientific status.
+
 No raw rating archives, model weights, full observed-user prompts, generated memory texts, local databases, API credentials, or local environment directories are included. Existing third-party notices and dataset/model rights remain separate from the repository's code license.

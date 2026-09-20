@@ -6,6 +6,13 @@ A completed controlled study of native memory extraction, historical-association
 
 [Read the paper](output/pdf/Shivam_Gupta_Personal_AI_Memory_Paper.pdf) · [TMLR submission manuscript](output/pdf/Personal_AI_Memory_TMLR_Submission.pdf) · [Anonymous supplement](output/submission/Personal_AI_Memory_Anonymous_Artifact.zip) · [Submission notes](docs/submission-readiness.md) · [Reproduction guide](docs/confirmation-reproduction.md) · [Complete results](docs/confirmation-results.md)
 
+**Separate extension: stopped and unfinished.** This repository also preserves
+the language-rich extension's protocols, engineering preflights, source code,
+and synthetic tests. The author stopped that experiment before it produced a
+completed confirmation study. Its code and preflight checks are not additional
+findings for the paper. The local model files were removed, and no further
+inference is running or scheduled. See the [extension status](docs/language-extension-status.md).
+
 ## What this study adds
 
 A memory system can improve on no history while still performing worse than the source history it received. We audit that gap using the native Mem0 extraction path, complete-memory reading, and a control that permutes ratings within each user's history. The control preserves the exact rating multiset, rated items, attributes, history length, and item order. It changes which historical item receives which rating.
@@ -35,7 +42,7 @@ Both protocols, selected penalties, splits, inference code, and analysis locks w
 
 Coat provides 200 evaluation users and 2,960 new-to-history target ratings from a randomly elicited test set. MovieLens provides a separate 200-user metadata-only validation with 3,200 observed-rating targets. MovieLens is not a chronological or random-exposure evaluation. Qwen3-4B-Instruct-2507 writes Coat memory through pinned Mem0 2.1.0; Qwen and Phi-4 read it. MovieLens tests full, permuted, and absent history without a native writer.
 
-A separate implementation checks all **2,800 reader inputs**, **4,600 user-system records**, and **ten primary contrasts** directly against the original local responses and source archives. Its maximum continuous-metric discrepancy is below **2.1e-14**. A further verifier regenerates aggregates and bootstrap intervals from all **5,400 released per-user error summaries**, without source data or models. The measurement suite has **113 passing tests**. These are computational checks and held-out validation, not external laboratory replication or peer review.
+A separate implementation checks all **2,800 reader inputs**, **4,600 user-system records**, and **ten primary contrasts** directly against the original local responses and source archives. Its maximum continuous-metric discrepancy is below **2.1e-14**. A further verifier regenerates aggregates and bootstrap intervals from all **5,400 released per-user error summaries**, without source data or models. The completed paper's measurement suite had **113 passing tests** at release; the combined repository additionally tests the unfinished extension's code. These are computational checks and held-out validation, not external laboratory replication or peer review.
 
 Key records:
 
