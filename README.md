@@ -1,10 +1,10 @@
-# Auditing Personal AI Memory with Rating-Preserving Controls
+# A Controlled Audit of Personal AI Memory for Rating Prediction
 
 **Shivam Gupta · Research preprint · September 2026**
 
 A completed controlled study of native memory extraction, historical-association use, and reader choice. The evaluation covers **400 held-out user profiles, 6,160 target ratings, two datasets, two quantized language-model readers, and 3,000 model calls**. The code, protocols, per-user error summaries, figures, and paper are released here.
 
-[Read the paper](output/pdf/Shivam_Gupta_Personal_AI_Memory_Paper.pdf) · [Anonymous manuscript](output/pdf/Personal_AI_Memory_Anonymous.pdf) · [Reproduction guide](docs/confirmation-reproduction.md) · [Complete results](docs/confirmation-results.md)
+[Read the paper](output/pdf/Shivam_Gupta_Personal_AI_Memory_Paper.pdf) · [TMLR submission manuscript](output/pdf/Personal_AI_Memory_TMLR_Submission.pdf) · [Anonymous supplement](output/submission/Personal_AI_Memory_Anonymous_Artifact.zip) · [Submission notes](docs/submission-readiness.md) · [Reproduction guide](docs/confirmation-reproduction.md) · [Complete results](docs/confirmation-results.md)
 
 ## What this study adds
 
@@ -35,7 +35,7 @@ Both protocols, selected penalties, splits, inference code, and analysis locks w
 
 Coat provides 200 evaluation users and 2,960 new-to-history target ratings from a randomly elicited test set. MovieLens provides a separate 200-user metadata-only validation with 3,200 observed-rating targets. MovieLens is not a chronological or random-exposure evaluation. Qwen3-4B-Instruct-2507 writes Coat memory through pinned Mem0 2.1.0; Qwen and Phi-4 read it. MovieLens tests full, permuted, and absent history without a native writer.
 
-A separate implementation checks all **2,800 reader inputs**, **4,600 user-system records**, and **ten primary contrasts** directly against the original local responses and source archives. Its maximum continuous-metric discrepancy is below **2.1e-14**. A further verifier regenerates aggregates and bootstrap intervals from all **5,400 released per-user error summaries**, without source data or models. The measurement suite has **110 passing tests**. These are computational checks and held-out validation, not external laboratory replication or peer review.
+A separate implementation checks all **2,800 reader inputs**, **4,600 user-system records**, and **ten primary contrasts** directly against the original local responses and source archives. Its maximum continuous-metric discrepancy is below **2.1e-14**. A further verifier regenerates aggregates and bootstrap intervals from all **5,400 released per-user error summaries**, without source data or models. The measurement suite has **113 passing tests**. These are computational checks and held-out validation, not external laboratory replication or peer review.
 
 Key records:
 
@@ -58,7 +58,9 @@ python src/build_confirmation_tables.py
 
 These commands check and regenerate released measurements. They do not rerun the language models. Exact raw-response scoring and fresh inference have additional data, licensing, hardware, and dependency requirements described in the [reproduction guide](docs/confirmation-reproduction.md). The original inference used Apple Silicon and MLX; this is not a portable CUDA package.
 
-To build both PDFs, install `requirements-paper.txt` and Tectonic, then run `python src/build_research_paper.py`. The builder checks references, overflow, page limits, anonymity of the manuscript copy, and analysis hashes. Both PDFs have 14 pages including references and supplementary material; the main text and impact statement fit within eight pages. Official ICML 2026 styles are used in preprint mode with their notices preserved.
+To build all three PDFs, install `requirements-paper.txt` and Tectonic, then run `python src/build_research_paper.py`. The builder checks references, overflow, page limits, anonymity of the manuscript copy, and analysis hashes. The named ICML preprint and anonymous ICML review copy each have 14 pages, with main text and impact statement within eight pages. The anonymous TMLR copy has 17 pages. Official styles and notices are preserved. Every page of all three PDFs was visually inspected. The ICML 2026 submission deadline has passed; that review copy is a formatting reference, not an eligible current submission. The TMLR manuscript is prepared for the author’s submission decision, not submitted.
+
+A post-review numerical check repeated each primary operational bootstrap with 200,000 resamples under each of two new seeds. All ten zero-exclusion conclusions were unchanged. This uses the same data and does not replace the frozen primary intervals. See the [internal review response](docs/reviews/response-to-internal-review.md). Internal AI reviews are not external peer review.
 
 ## Scope and release status
 

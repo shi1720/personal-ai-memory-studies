@@ -39,7 +39,8 @@ def main():
         for n,h in r['hashes'].items():assert hashlib.sha256((ROOT/n).read_bytes()).hexdigest()==h
     targets=reports['Coat']['summaries']['history_ridge']['targets']
     (PAPER/'results.tex').write_text(r'\newcommand{\CoatTargets}{'+format(targets,',')+'}\n')
-    systems=[('history_mean','History mean'),('history_median','History median'),('history_ridge','History-only ridge'),
+    aux=load('confirmation-auxiliary-report.json')
+    systems=[('constant_3','Scale midpoint'),('shuffled_history_ridge','Ridge / permuted'),('history_mean','History mean'),('history_median','History median'),('history_ridge','History-only ridge'),
              ('qwen_no_history','Qwen / no history'),('qwen_full_history','Qwen / full history'),('qwen_shuffled_history','Qwen / permuted history'),('qwen_native_memory','Qwen / native memory'),
              ('phi_no_history','Phi / no history'),('phi_full_history','Phi / full history'),('phi_shuffled_history','Phi / permuted history'),('phi_native_memory','Phi / native memory')]
     rows=[]
@@ -47,10 +48,12 @@ def main():
         row=[label]
         for domain in reports:
             s=reports[domain]['summaries'].get(key)
+            if domain=='Coat' and key=='constant_3':
+                s={'operational':{'mae':aux['coat_midpoint_reference']['mae']},'valid_users':200}
             row.extend([f(s['operational']['mae']),f"{s['valid_users']}/200"] if s else ['--','--'])
         rows.append(row)
     (PAPER/'main-results-table.tex').write_text(table(['System / evidence','Coat MAE','Valid','MovieLens MAE','Valid'],rows,
-       'Operational user-macro MAE and valid-output coverage. Invalid reader arrays use the predeclared constant-3 fallback. Numerical methods always produce valid predictions. Native memory is evaluated on Coat only. Lower MAE is better.',
+       'Operational user-macro MAE and valid-output coverage. Invalid reader arrays use the predeclared constant-3 fallback. Numerical methods always produce valid predictions. Native memory is evaluated on Coat only. Lower MAE is better. The Coat midpoint row is an auxiliary descriptive reference; ridge permutation is a frozen secondary control.',
        'tab:main-results','lrrrr')+'\n')
     supplement=[]
     for domain,r in reports.items():

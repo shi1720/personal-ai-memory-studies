@@ -1,11 +1,13 @@
 \begin{table*}[t]
 \centering\small
-\caption{Operational user-macro MAE and valid-output coverage. Invalid reader arrays use the predeclared constant-3 fallback. Numerical methods always produce valid predictions. Native memory is evaluated on Coat only. Lower MAE is better.}
+\caption{Operational user-macro MAE and valid-output coverage. Invalid reader arrays use the predeclared constant-3 fallback. Numerical methods always produce valid predictions. Native memory is evaluated on Coat only. Lower MAE is better. The Coat midpoint row is an auxiliary descriptive reference; ridge permutation is a frozen secondary control.}
 \label{tab:main-results}
 \begin{tabular}{lrrrr}
 \toprule
 System / evidence & Coat MAE & Valid & MovieLens MAE & Valid\\
 \midrule
+Scale midpoint & 1.236 & 200/200 & 0.984 & 200/200\\
+Ridge / permuted & 1.129 & 200/200 & 0.865 & 200/200\\
 History mean & 0.991 & 200/200 & 0.839 & 200/200\\
 History median & 0.923 & 200/200 & 0.817 & 200/200\\
 History-only ridge & 0.914 & 200/200 & 0.845 & 200/200\\

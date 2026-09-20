@@ -1,0 +1,33 @@
+{
+  "artifact": "output/submission/Personal_AI_Memory_Anonymous_Artifact.zip",
+  "sha256": "0d0f3179c96948bb9c9e0ac918d75813857175eb1b6bf390267f038f7d14a23a",
+  "members": 11,
+  "anonymous_text_scan": "passed",
+  "fresh_extraction_verification": [
+    {
+      "report": "confirmation-analysis.json",
+      "sha256": "7f8de9bde6a93e018594cf6122452eb304a61fc6f7518924576ade26a04ba6c4",
+      "user_system_rows": 3200,
+      "systems": 16,
+      "primary_contrasts": 6,
+      "status": "passed"
+    },
+    {
+      "report": "movie-validation-analysis.json",
+      "sha256": "bb68bb637f701b2112d729d382deaf525187732e18181b4d947fb89efa5de195",
+      "user_system_rows": 2200,
+      "systems": 11,
+      "primary_contrasts": 4,
+      "status": "passed"
+    }
+  ],
+  "tests": "OK",
+  "test_count": 8,
+  "assertion_disabled_execution": "rejected",
+  "optional_bootstrap_stability_reproduction": "exact match excluding environment metadata",
+  "validation_environment": {
+    "python": "3.9.6",
+    "numpy": "1.26.4"
+  },
+  "scope": "Anonymous summary arithmetic package, not fresh inference"
+}

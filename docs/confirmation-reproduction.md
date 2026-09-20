@@ -8,7 +8,7 @@ The public artifact contains per-user error summaries, run metadata, source/mode
 
 Install `requirements-analysis.txt` in a fresh environment. Run the unit tests with `python -m unittest discover -s tests`. `python src/verify_published_results.py` independently recomputes the aggregate summaries and all ten paired bootstrap comparisons from the released per-user error records. It needs no source data, model weights or private responses. This checks arithmetic, not the original model predictions against targets. `python src/build_confirmation_figures.py` and `python src/build_confirmation_tables.py` rebuild the figures and LaTeX table inputs. Both verify recorded analysis hashes and the independent-calculation report before using the measurements. This is regeneration from released measurements, not new model inference.
 
-The original manuscript uses the official ICML 2026 style in preprint mode. Install `requirements-paper.txt` for the Python PDF checker and install the Tectonic and Poppler binaries separately. Tectonic 0.17.0 builds `paper/main.tex` and `paper/anonymous.tex`. Styling does not indicate an ICML submission or acceptance. A future submission must use that venue cycle's actual style and policies.
+The shared manuscript builds a named ICML 2026 preprint, an anonymous ICML 2026 review copy, and an anonymous TMLR submission copy. Install `requirements-paper.txt` for the Python PDF checker and install the Tectonic and Poppler binaries separately. Run `python src/build_research_paper.py`. Tectonic 0.17.0 builds `paper/main.tex`, `paper/anonymous.tex`, and `paper/tmlr-submission.tex`. Official TMLR style files are pinned to revision `7bf90efe3a0debbba703c05c43f3ff7e4d4a2992`; licenses and sources are recorded in `paper/THIRD-PARTY.md`. Styling does not indicate an ICML submission or acceptance. A future submission must use that venue cycle's actual style and policies.
 
 ## 2. Recompute from original raw responses
 
@@ -56,3 +56,11 @@ Commit `2f0d896` in the public repository is the pre-inference protocol/code pub
 The initial MovieLens split manifest hashes the protocol before its secondary MSE diagnostic paragraph was added. `docs/movie-validation-split-protocol.md` reconstructs that exact earlier text, verified against the recorded hash. The final lock hashes the full protocol used for evaluation. User/item splits and primary comparisons did not change.
 
 Expected limitations include quantized local models, two historical metadata domains, one native writer, no query-time retrieval comparison, and no new longitudinal human study. A successful computational reproduction establishes consistency with this experiment, not universal validity of a personal AI architecture.
+
+## Anonymous review supplement and post-review audit
+
+`output/submission/Personal_AI_Memory_Anonymous_Artifact.zip` is the deliberately limited anonymous supplement. Extract it into a fresh directory and follow its README with Python 3.9 through 3.12 and NumPy 1.26.4. Its verifier recomputes all 5,400 summary rows and all ten operational and common-valid primary comparisons; eight package tests pass. It requires no models, raw ratings, API credentials, or inference. It checks summary arithmetic, not original predictions against targets. Do not substitute the full named public repository for this supplement in anonymous review.
+
+`python src/build_anonymous_artifact.py` regenerates the ZIP and executes it in a fresh extraction. The builder checks identifying text, hashes, tests, assertion-disabled rejection, and numerical stability reproduction. It leaves original analysis reports untouched.
+
+`python src/review_bootstrap_stability.py` reruns each of ten operational contrasts with 200,000 resamples under two additional seeds. Its separate report records post-review Monte Carlo endpoint stability on the same released users. All ordinary and adjusted zero-exclusion conclusions are unchanged. The original 10,000-resample primary results are not replaced.

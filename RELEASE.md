@@ -1,10 +1,10 @@
 # Completed paper release
 
-**Auditing Personal AI Memory with Rating-Preserving Controls**
+**A Controlled Audit of Personal AI Memory for Rating Prediction**
 
 Shivam Gupta, independent research. September 2026.
 
-This release contains the completed named and anonymous manuscripts, all final evaluation reports, the frozen inference and analysis protocols, source code, vector figures, and reproducibility checks. Both PDFs contain 14 pages, with the main text and impact statement within eight pages. The work is a research preprint, not submitted or peer reviewed.
+This release contains the polished named preprint, anonymous ICML review-format copy, anonymous TMLR submission-format manuscript, executable anonymous supplement, final evaluation reports, frozen protocols, source code, vector figures, and reproducibility checks. The named and ICML copies have 14 pages with main text and impact within eight pages. The TMLR copy has 17 pages. The work has not been submitted or externally peer reviewed. See `docs/submission-readiness.md` for file selection, venue fit, and author responsibilities.
 
 ## Evidence
 
@@ -13,8 +13,10 @@ This release contains the completed named and anonymous manuscripts, all final e
 - Ten predeclared paired comparisons, each based on 200 users, with 10,000 bootstrap resamples and family adjustment.
 - Separate calculation check of 4,600 user-system records, all 2,800 reader inputs, and every primary contrast. Maximum continuous-metric discrepancy below 2.1e-14.
 - Additional verification of all 5,400 released error summaries without source data or models.
-- 110 local measurement tests passed. GitHub Actions runs the suite, summary verifier, and figure/table generators in a fresh Linux environment.
-- Both final PDFs rendered and visually inspected on every page; no unresolved references, overfull boxes, clipped tables, or identifying metadata in the anonymous manuscript.
+- 113 local measurement tests passed. GitHub Actions runs the suite, summary verifier, and figure/table generators in a fresh Linux environment.
+- All three final PDFs rendered and visually inspected across all 45 pages; no unresolved references, overfull boxes, clipped tables, or identifying metadata in the anonymous manuscript.
+
+Three internal AI review perspectives informed revisions to scope, prior work, baseline interpretation, practical guidance, and artifact provenance. A new anonymous ZIP passes eight tests and verifies 5,400 summary rows after extraction. A post-review same-data bootstrap audit using 200,000 resamples under each of two seeds preserves all ten primary conclusions. This is numerical stability, not additional independent data. The manuscript is technically prepared in TMLR format; selective conference competitiveness and acceptance are not claimed.
 
 The frozen primary analyses are unchanged. Public commit `2f0d896` preceded reserved-user inference. The final release includes post-freeze computational checks that were developed before accuracy inspection. `docs/confirmation-execution-record.md` documents the boundaries and the final reporting-dependency fix.
 

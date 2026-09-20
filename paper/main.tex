@@ -6,7 +6,15 @@
 \usepackage{amsmath,amssymb,amsthm}
 \usepackage{hyperref}
 \usepackage{xurl}
+\ifdefined\tmlrcopy
+\usepackage{tmlr}
+\else
+\ifdefined\anonymouscopy
+\usepackage{icml2026}
+\else
 \usepackage[preprint]{icml2026}
+\fi
+\fi
 \usepackage{enumitem}
 \usepackage{multirow}
 \usepackage{xcolor}
@@ -18,11 +26,19 @@
 \newcommand{\Full}{\mathrm{full}}
 \newcommand{\Perm}{\mathrm{perm}}
 \newcommand{\Mem}{\mathrm{mem}}
-\icmltitlerunning{Auditing Personal AI Memory with Rating-Preserving Controls}
+\ifdefined\tmlrcopy
+\title{A Controlled Audit of Personal AI Memory\\for Rating Prediction}
+\author{Anonymous authors}
+\else
+\icmltitlerunning{A Controlled Audit of Personal AI Memory for Rating Prediction}
+\fi
 \input{results.tex}
 \begin{document}
+\ifdefined\tmlrcopy
+\maketitle
+\else
 \twocolumn[
-\icmltitle{Auditing Personal AI Memory\\with Rating-Preserving Controls}
+\icmltitle{A Controlled Audit of Personal AI Memory\\for Rating Prediction}
 \begin{icmlauthorlist}
 \ifdefined\anonymouscopy
 \icmlauthor{Anonymous Author}{anon}
@@ -41,7 +57,11 @@
 \vskip 0.3in
 ]
 \printAffiliationsAndNotice{}
-\hypersetup{pdftitle={Auditing Personal AI Memory with Rating-Preserving Controls},pdfsubject={Research preprint. Not submitted or peer reviewed.}}
+\fi
+\hypersetup{pdftitle={A Controlled Audit of Personal AI Memory for Rating Prediction},pdfsubject={Research preprint. Not submitted or peer reviewed.}}
+\ifdefined\anonymouscopy
+\hypersetup{pdfauthor={Anonymous Authors},pdfsubject={Prepared anonymous manuscript. Not submitted or peer reviewed.}}
+\fi
 \begin{abstract}
 \input{abstract.tex}
 \end{abstract}
@@ -53,7 +73,7 @@ There are three different places where this pipeline can succeed or fail. The so
 
 This paper studies these distinctions through controlled interventions on real, observed ratings. Our central control permutes rating values \emph{within the same user's history}, holding the rated items, their attributes, the history length, and the exact rating multiset fixed. The contrast asks whether the correct item-rating assignment improves prediction under a fixed reader. It does not replace a person's history with another person's, and it does not assert that all personalization has been removed. Together with a full-history comparison, a native memory writer, and matched statistical readers, this yields a diagnostic study of extraction and evidence use.
 
-The empirical contribution is a publicly frozen evaluation on 200 users in each of two domains, held out from predictive development. Coat provides randomly elicited target ratings after self-selected histories; MovieLens provides a second domain with self-selected observed ratings and genre-only inputs. Two quantized open-weight readers are evaluated without tuning on the evaluation users. On Coat, both readers also receive the same memories produced by a pinned native Mem0 pipeline. We report every predeclared comparison, malformed outputs, statistical baselines with matching information, and construction costs. The paired design localizes effects to specific changes in source evidence, memory construction, and reader choice.
+The empirical contribution is a publicly frozen evaluation on 200 users in each of two domains, held out from predictive development. Coat provides randomly elicited target ratings after self-selected histories; MovieLens provides a second domain with self-selected observed ratings and genre-only inputs. Two quantized open-weight readers are evaluated without tuning on the evaluation users. On Coat, both readers also receive the same memories produced by a pinned native Mem0 pipeline. We report every predeclared comparison, malformed outputs, statistical baselines with matching information, and construction costs. The paired design measures how these specific changes in source evidence, memory construction, and reader choice affect operational error.
 
 \input{introduction-findings.tex}
 
@@ -65,7 +85,7 @@ The empirical contribution is a publicly frozen evaluation on 200 users in each 
 \label{fig:design}
 \end{figure*}
 \subsection{Setting and interventions}
-For user $u$, let $H_u=\{(i_j,x_j,y_j)\}_{j=1}^{m}$ be the observed history, with item identifier $i_j$, metadata $x_j$, and rating $y_j\in[1,5]$. Let $Q_u$ contain the identifiers and metadata of new target items. Target outcomes $Y_u$ are withheld from every prediction prompt and memory write. A reader $f$, including its declared parser and fallback policy, returns a vector $f(C,Q_u)$ from evidence $C$. A writer $W$ constructs natural-language memory $W(H_u)$ before the targets are presented.
+Figure~\ref{fig:design} summarizes the audit. For user $u$, let $H_u=\{(i_j,x_j,y_j)\}_{j=1}^{m}$ be the observed history, with item identifier $i_j$, metadata $x_j$, and rating $y_j\in[1,5]$. Let $Q_u$ contain the identifiers and metadata of new target items. Target outcomes $Y_u$ are withheld from every prediction prompt and memory write. A reader $f$, including its declared parser and fallback policy, returns a vector $f(C,Q_u)$ from evidence $C$. A writer $W$ constructs natural-language memory $W(H_u)$ before the targets are presented.
 
 For a permutation $\pi_u$ of the $m$ historical positions, define
 \begin{equation}
@@ -141,7 +161,7 @@ We use Qwen3-4B-Instruct-2507 and Phi-4, in pinned 4-bit MLX conversions, as rea
 
 Every stored memory text is supplied to each reader, sorted for deterministic presentation. The export limit is raised and checked against the number of stored entries so that the default listing limit does not silently truncate the evidence. This design isolates memory construction and reading from query-time retrieval. It does not test Mem0's retrieval quality, graph memory, incremental updates, or long-term consolidation. A failed writer is retained in the evaluation and supplies an empty-memory message. Both readers receive the same Qwen-written store; the experiment does not include a Phi writer.
 
-Each reader predicts all of a user's new target ratings in one JSON array. The model-specific native chat template is used with temperature zero, top\_p one, and a 256-token output limit. The instruction explicitly permits fractional ratings, includes dislikes and low ratings, and treats memory text as data. Conditions rotate in order across users. Inference is sequential on a 24-GiB Apple Silicon machine following an out-of-memory fitting-user concurrency check. Exact prompts and runtime versions are provided in the artifact.
+Each reader predicts all of a user's new target ratings in one JSON array. This tests numerical fidelity from short structured histories, not conversational recall or semantic memory utility. The model-specific native chat template is used with temperature zero, top\_p one, and a 256-token output limit. The instruction explicitly permits fractional ratings, includes dislikes and low ratings, and treats memory text as data. Conditions rotate in order across users. Inference is sequential on a 24-GiB Apple Silicon machine following an out-of-memory fitting-user concurrency check. Exact prompts and runtime versions are provided in the artifact.
 
 \subsection{Matched numerical readers}
 For history design matrix $X_u$ and rating vector $y_u$, the primary comparator fits
@@ -167,7 +187,7 @@ Prompts, data splits, analysis code, fallback rules, primary contrasts, and hype
 \input{discussion.tex}
 
 \section{Related Work}
-Language-based user profiles already separate an encoder from a downstream recommendation decoder \citep{zhou2024language}. End-to-end profile optimization is also established \citep{gao2025langptune}. Our study does not introduce natural-language profiles or compare against a trained state-of-the-art recommender. It examines a fixed native memory pipeline and fixed readers using controls that distinguish extraction from use of within-history rating associations.
+Language-based user profiles already separate an encoder from a downstream recommendation decoder, compare generated profiles with direct reading of source rating histories, and study input-length tradeoffs \citep{zhou2024language}. End-to-end profile optimization is also established \citep{gao2025langptune}. Our study does not introduce natural-language profiles or compare against a trained state-of-the-art recommender. Its distinct empirical focus is a fixed native agent-memory construction path, combined with within-user assignment controls, matched numerical readers, and complete output-failure accounting.
 
 PerRecBench explicitly shows that aggregate rating metrics can hide weak personalization and proposes user-group rankings for a shared item \citep{tan2025preferences}. Our intervention keeps the same user, target set, rated-item support, and rating distribution while changing historical assignments. These are complementary estimands: our pairwise diagnostic does not remove global item-quality effects in the way PerRecBench's shared-item grouping is designed to do. The broad critique of rating error is prior work, not a novelty claim here.
 
@@ -184,7 +204,7 @@ Finally, the observation process matters independently of model architecture. Co
 This work concerns evaluation of personal AI memory using public research datasets. Better diagnostic controls can reduce unsupported claims that a system understands an individual. They do not justify inferring sensitive characteristics, retaining private histories without consent, or deploying a profile for consequential decisions. User demographics were not used. Source ratings and generated memory text are not redistributed; the release contains code, manifests, aggregate results, and user-level error summaries. No new human-subject data were collected. Results apply to the tested metadata tasks and should not be presented as evidence about all users or commercial memory systems.
 
 \bibliography{references}
-\bibliographystyle{icml2026}
+\ifdefined\tmlrcopy\bibliographystyle{tmlr}\else\bibliographystyle{icml2026}\fi
 \clearpage
 \appendix
 \input{appendix.tex}

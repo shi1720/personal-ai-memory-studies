@@ -1,0 +1,989 @@
+{
+  "scope": "Post-review exploratory numerical Monte Carlo endpoint-stability audit; uses the same released held-out summaries, not fresh validation data. Does not replace or modify frozen primary results.",
+  "settings": {
+    "seeds": [
+      20260921,
+      20260922
+    ],
+    "replicates_per_seed_per_contrast": 200000,
+    "batch_size": 2000,
+    "sampling_unit": "paired user difference",
+    "generator": "NumPy default_rng (PCG64)",
+    "percentile_method": "linear",
+    "tail_probabilities": {
+      "interval_95": [
+        0.025,
+        0.975
+      ],
+      "family_adjusted_interval": [
+        0.0025,
+        0.9975
+      ]
+    },
+    "family_size": 10
+  },
+  "environment": {
+    "python": "3.9.6",
+    "numpy": "1.26.4"
+  },
+  "input_sha256": {
+    "results/confirmation-analysis.json": "7f8de9bde6a93e018594cf6122452eb304a61fc6f7518924576ade26a04ba6c4",
+    "results/movie-validation-analysis.json": "bb68bb637f701b2112d729d382deaf525187732e18181b4d947fb89efa5de195"
+  },
+  "source_sha256": "7a0666c84f72f1bab28608258f33bf85304bb868f275c2c9017ef7481d716715",
+  "comparisons": [
+    {
+      "domain": "Coat",
+      "contrast": "qwen_extraction",
+      "left": "qwen_native_memory",
+      "right": "qwen_full_history",
+      "users": 200,
+      "mean": 0.08406364468864469,
+      "frozen": {
+        "seed": 20260920,
+        "replicates": 10000,
+        "interval_95": [
+          0.033682532051282056,
+          0.1373340659340659
+        ],
+        "family_adjusted_interval": [
+          0.012340463598901098,
+          0.16016324690934083
+        ],
+        "zero_status": {
+          "interval_95": "positive",
+          "family_adjusted_interval": "positive"
+        }
+      },
+      "auxiliary_runs": [
+        {
+          "seed": 20260921,
+          "replicates": 200000,
+          "intervals": {
+            "interval_95": [
+              0.03317186927655677,
+              0.13662963026556776
+            ],
+            "family_adjusted_interval": [
+              0.01202539091117216,
+              0.16007769974816857
+            ]
+          },
+          "zero_status": {
+            "interval_95": "positive",
+            "family_adjusted_interval": "positive"
+          },
+          "matches_frozen_zero_status": {
+            "interval_95": true,
+            "family_adjusted_interval": true
+          },
+          "endpoint_change_from_frozen": {
+            "interval_95": [
+              -0.0005106627747252859,
+              -0.000704435668498149
+            ],
+            "family_adjusted_interval": [
+              -0.0003150726877289376,
+              -8.554716117226135e-05
+            ]
+          }
+        },
+        {
+          "seed": 20260922,
+          "replicates": 200000,
+          "intervals": {
+            "interval_95": [
+              0.032994711538461535,
+              0.13653440361721608
+            ],
+            "family_adjusted_interval": [
+              0.011607342605311356,
+              0.15971094951923084
+            ]
+          },
+          "zero_status": {
+            "interval_95": "positive",
+            "family_adjusted_interval": "positive"
+          },
+          "matches_frozen_zero_status": {
+            "interval_95": true,
+            "family_adjusted_interval": true
+          },
+          "endpoint_change_from_frozen": {
+            "interval_95": [
+              -0.0006878205128205209,
+              -0.0007996623168498307
+            ],
+            "family_adjusted_interval": [
+              -0.000733120993589742,
+              -0.00045229739010999026
+            ]
+          }
+        }
+      ],
+      "maximum_absolute_endpoint_change_between_auxiliary_seeds": {
+        "interval_95": 0.00017715773809523494,
+        "family_adjusted_interval": 0.0004180483058608044
+      }
+    },
+    {
+      "domain": "Coat",
+      "contrast": "qwen_association",
+      "left": "qwen_shuffled_history",
+      "right": "qwen_full_history",
+      "users": 200,
+      "mean": 0.14434180402930405,
+      "frozen": {
+        "seed": 20260920,
+        "replicates": 10000,
+        "interval_95": [
+          0.09366303228021979,
+          0.19488593749999994
+        ],
+        "family_adjusted_interval": [
+          0.07237565991300367,
+          0.21521423935439596
+        ],
+        "zero_status": {
+          "interval_95": "positive",
+          "family_adjusted_interval": "positive"
+        }
+      },
+      "auxiliary_runs": [
+        {
+          "seed": 20260921,
+          "replicates": 200000,
+          "intervals": {
+            "interval_95": [
+              0.09428676167582418,
+              0.19546153846153844
+            ],
+            "family_adjusted_interval": [
+              0.07301107829670331,
+              0.21860760588369965
+            ]
+          },
+          "zero_status": {
+            "interval_95": "positive",
+            "family_adjusted_interval": "positive"
+          },
+          "matches_frozen_zero_status": {
+            "interval_95": true,
+            "family_adjusted_interval": true
+          },
+          "endpoint_change_from_frozen": {
+            "interval_95": [
+              0.0006237293956043999,
+              0.0005756009615384972
+            ],
+            "family_adjusted_interval": [
+              0.0006354183836996402,
+              0.003393366529303693
+            ]
+          }
+        },
+        {
+          "seed": 20260922,
+          "replicates": 200000,
+          "intervals": {
+            "interval_95": [
+              0.09448415178571429,
+              0.19573466117216115
+            ],
+            "family_adjusted_interval": [
+              0.07297709420787547,
+              0.21838787145146527
+            ]
+          },
+          "zero_status": {
+            "interval_95": "positive",
+            "family_adjusted_interval": "positive"
+          },
+          "matches_frozen_zero_status": {
+            "interval_95": true,
+            "family_adjusted_interval": true
+          },
+          "endpoint_change_from_frozen": {
+            "interval_95": [
+              0.0008211195054945025,
+              0.0008487236721612113
+            ],
+            "family_adjusted_interval": [
+              0.0006014342948718054,
+              0.0031736320970693066
+            ]
+          }
+        }
+      ],
+      "maximum_absolute_endpoint_change_between_auxiliary_seeds": {
+        "interval_95": 0.0002731227106227141,
+        "family_adjusted_interval": 0.00021973443223438638
+      }
+    },
+    {
+      "domain": "Coat",
+      "contrast": "qwen_numerical_reader",
+      "left": "qwen_full_history",
+      "right": "history_ridge",
+      "users": 200,
+      "mean": 0.16004529096303777,
+      "frozen": {
+        "seed": 20260920,
+        "replicates": 10000,
+        "interval_95": [
+          0.11551765986833848,
+          0.20589152297535782
+        ],
+        "family_adjusted_interval": [
+          0.0954220591943537,
+          0.22485668896335595
+        ],
+        "zero_status": {
+          "interval_95": "positive",
+          "family_adjusted_interval": "positive"
+        }
+      },
+      "auxiliary_runs": [
+        {
+          "seed": 20260921,
+          "replicates": 200000,
+          "intervals": {
+            "interval_95": [
+              0.11448590110391565,
+              0.20687058367668373
+            ],
+            "family_adjusted_interval": [
+              0.09571901597241679,
+              0.2273712317514631
+            ]
+          },
+          "zero_status": {
+            "interval_95": "positive",
+            "family_adjusted_interval": "positive"
+          },
+          "matches_frozen_zero_status": {
+            "interval_95": true,
+            "family_adjusted_interval": true
+          },
+          "endpoint_change_from_frozen": {
+            "interval_95": [
+              -0.0010317587644228243,
+              0.0009790607013259178
+            ],
+            "family_adjusted_interval": [
+              0.0002969567780630872,
+              0.0025145427881071436
+            ]
+          }
+        },
+        {
+          "seed": 20260922,
+          "replicates": 200000,
+          "intervals": {
+            "interval_95": [
+              0.11424993591819195,
+              0.20672706754930723
+            ],
+            "family_adjusted_interval": [
+              0.09495596878094073,
+              0.22797231964316375
+            ]
+          },
+          "zero_status": {
+            "interval_95": "positive",
+            "family_adjusted_interval": "positive"
+          },
+          "matches_frozen_zero_status": {
+            "interval_95": true,
+            "family_adjusted_interval": true
+          },
+          "endpoint_change_from_frozen": {
+            "interval_95": [
+              -0.0012677239501465293,
+              0.0008355445739494094
+            ],
+            "family_adjusted_interval": [
+              -0.00046609041341297286,
+              0.0031156306798078015
+            ]
+          }
+        }
+      ],
+      "maximum_absolute_endpoint_change_between_auxiliary_seeds": {
+        "interval_95": 0.00023596518572370495,
+        "family_adjusted_interval": 0.00076304719147606
+      }
+    },
+    {
+      "domain": "Coat",
+      "contrast": "phi_extraction",
+      "left": "phi_native_memory",
+      "right": "phi_full_history",
+      "users": 200,
+      "mean": 0.148931891025641,
+      "frozen": {
+        "seed": 20260920,
+        "replicates": 10000,
+        "interval_95": [
+          0.09645672218406594,
+          0.2043148208562271
+        ],
+        "family_adjusted_interval": [
+          0.07174557177197802,
+          0.22888635989011
+        ],
+        "zero_status": {
+          "interval_95": "positive",
+          "family_adjusted_interval": "positive"
+        }
+      },
+      "auxiliary_runs": [
+        {
+          "seed": 20260921,
+          "replicates": 200000,
+          "intervals": {
+            "interval_95": [
+              0.09450665636446885,
+              0.20362882326007326
+            ],
+            "family_adjusted_interval": [
+              0.07054187499999999,
+              0.22705615642170335
+            ]
+          },
+          "zero_status": {
+            "interval_95": "positive",
+            "family_adjusted_interval": "positive"
+          },
+          "matches_frozen_zero_status": {
+            "interval_95": true,
+            "family_adjusted_interval": true
+          },
+          "endpoint_change_from_frozen": {
+            "interval_95": [
+              -0.0019500658195970855,
+              -0.0006859975961538423
+            ],
+            "family_adjusted_interval": [
+              -0.0012036967719780273,
+              -0.0018302034684066493
+            ]
+          }
+        },
+        {
+          "seed": 20260922,
+          "replicates": 200000,
+          "intervals": {
+            "interval_95": [
+              0.09453765739468864,
+              0.20308990670787544
+            ],
+            "family_adjusted_interval": [
+              0.07114439302884616,
+              0.22627359632554947
+            ]
+          },
+          "zero_status": {
+            "interval_95": "positive",
+            "family_adjusted_interval": "positive"
+          },
+          "matches_frozen_zero_status": {
+            "interval_95": true,
+            "family_adjusted_interval": true
+          },
+          "endpoint_change_from_frozen": {
+            "interval_95": [
+              -0.0019190647893772977,
+              -0.001224914148351658
+            ],
+            "family_adjusted_interval": [
+              -0.0006011787431318555,
+              -0.0026127635645605274
+            ]
+          }
+        }
+      ],
+      "maximum_absolute_endpoint_change_between_auxiliary_seeds": {
+        "interval_95": 0.0005389165521978156,
+        "family_adjusted_interval": 0.0007825600961538781
+      }
+    },
+    {
+      "domain": "Coat",
+      "contrast": "phi_association",
+      "left": "phi_shuffled_history",
+      "right": "phi_full_history",
+      "users": 200,
+      "mean": 0.2052438186813187,
+      "frozen": {
+        "seed": 20260920,
+        "replicates": 10000,
+        "interval_95": [
+          0.14356084592490842,
+          0.26785796130952383
+        ],
+        "family_adjusted_interval": [
+          0.11904151499542125,
+          0.2952088521634616
+        ],
+        "zero_status": {
+          "interval_95": "positive",
+          "family_adjusted_interval": "positive"
+        }
+      },
+      "auxiliary_runs": [
+        {
+          "seed": 20260921,
+          "replicates": 200000,
+          "intervals": {
+            "interval_95": [
+              0.14346128949175824,
+              0.2676784798534798
+            ],
+            "family_adjusted_interval": [
+              0.11757438186813185,
+              0.29469477564102564
+            ]
+          },
+          "zero_status": {
+            "interval_95": "positive",
+            "family_adjusted_interval": "positive"
+          },
+          "matches_frozen_zero_status": {
+            "interval_95": true,
+            "family_adjusted_interval": true
+          },
+          "endpoint_change_from_frozen": {
+            "interval_95": [
+              -9.955643315018303e-05,
+              -0.00017948145604401722
+            ],
+            "family_adjusted_interval": [
+              -0.0014671331272893967,
+              -0.0005140765224359578
+            ]
+          }
+        },
+        {
+          "seed": 20260922,
+          "replicates": 200000,
+          "intervals": {
+            "interval_95": [
+              0.14407091632326008,
+              0.2676850074404762
+            ],
+            "family_adjusted_interval": [
+              0.11722942937271061,
+              0.29520902214972533
+            ]
+          },
+          "zero_status": {
+            "interval_95": "positive",
+            "family_adjusted_interval": "positive"
+          },
+          "matches_frozen_zero_status": {
+            "interval_95": true,
+            "family_adjusted_interval": true
+          },
+          "endpoint_change_from_frozen": {
+            "interval_95": [
+              0.0005100703983516586,
+              -0.00017295386904764287
+            ],
+            "family_adjusted_interval": [
+              -0.001812085622710638,
+              1.6998626373165848e-07
+            ]
+          }
+        }
+      ],
+      "maximum_absolute_endpoint_change_between_auxiliary_seeds": {
+        "interval_95": 0.0006096268315018416,
+        "family_adjusted_interval": 0.0005142465086996895
+      }
+    },
+    {
+      "domain": "Coat",
+      "contrast": "phi_numerical_reader",
+      "left": "phi_full_history",
+      "right": "history_ridge",
+      "users": 200,
+      "mean": -0.004034837242090424,
+      "frozen": {
+        "seed": 20260920,
+        "replicates": 10000,
+        "interval_95": [
+          -0.048178220117337155,
+          0.03981148956562851
+        ],
+        "family_adjusted_interval": [
+          -0.06667948911480852,
+          0.05922843476320619
+        ],
+        "zero_status": {
+          "interval_95": "includes_zero",
+          "family_adjusted_interval": "includes_zero"
+        }
+      },
+      "auxiliary_runs": [
+        {
+          "seed": 20260921,
+          "replicates": 200000,
+          "intervals": {
+            "interval_95": [
+              -0.04757596706708931,
+              0.04056736616463362
+            ],
+            "family_adjusted_interval": [
+              -0.06620864666330999,
+              0.0603573536589413
+            ]
+          },
+          "zero_status": {
+            "interval_95": "includes_zero",
+            "family_adjusted_interval": "includes_zero"
+          },
+          "matches_frozen_zero_status": {
+            "interval_95": true,
+            "family_adjusted_interval": true
+          },
+          "endpoint_change_from_frozen": {
+            "interval_95": [
+              0.0006022530502478446,
+              0.000755876599005112
+            ],
+            "family_adjusted_interval": [
+              0.0004708424514985321,
+              0.0011289188957351107
+            ]
+          }
+        },
+        {
+          "seed": 20260922,
+          "replicates": 200000,
+          "intervals": {
+            "interval_95": [
+              -0.04754311769467561,
+              0.04010399001894374
+            ],
+            "family_adjusted_interval": [
+              -0.06563015438305386,
+              0.06007981026872289
+            ]
+          },
+          "zero_status": {
+            "interval_95": "includes_zero",
+            "family_adjusted_interval": "includes_zero"
+          },
+          "matches_frozen_zero_status": {
+            "interval_95": true,
+            "family_adjusted_interval": true
+          },
+          "endpoint_change_from_frozen": {
+            "interval_95": [
+              0.0006351024226615432,
+              0.00029250045331523367
+            ],
+            "family_adjusted_interval": [
+              0.0010493347317546559,
+              0.0008513755055166994
+            ]
+          }
+        }
+      ],
+      "maximum_absolute_endpoint_change_between_auxiliary_seeds": {
+        "interval_95": 0.0004633761456898783,
+        "family_adjusted_interval": 0.0005784922802561238
+      }
+    },
+    {
+      "domain": "MovieLens",
+      "contrast": "qwen_association",
+      "left": "qwen_shuffled_history",
+      "right": "qwen_full_history",
+      "users": 200,
+      "mean": 0.0203125,
+      "frozen": {
+        "seed": 20260920,
+        "replicates": 10000,
+        "interval_95": [
+          -0.010320312499999993,
+          0.0509375
+        ],
+        "family_adjusted_interval": [
+          -0.0221875,
+          0.06218828125000016
+        ],
+        "zero_status": {
+          "interval_95": "includes_zero",
+          "family_adjusted_interval": "includes_zero"
+        }
+      },
+      "auxiliary_runs": [
+        {
+          "seed": 20260921,
+          "replicates": 200000,
+          "intervals": {
+            "interval_95": [
+              -0.010625,
+              0.050625
+            ],
+            "family_adjusted_interval": [
+              -0.0240625,
+              0.0634375
+            ]
+          },
+          "zero_status": {
+            "interval_95": "includes_zero",
+            "family_adjusted_interval": "includes_zero"
+          },
+          "matches_frozen_zero_status": {
+            "interval_95": true,
+            "family_adjusted_interval": true
+          },
+          "endpoint_change_from_frozen": {
+            "interval_95": [
+              -0.0003046875000000081,
+              -0.00031249999999999334
+            ],
+            "family_adjusted_interval": [
+              -0.0018750000000000017,
+              0.0012492187499998364
+            ]
+          }
+        },
+        {
+          "seed": 20260922,
+          "replicates": 200000,
+          "intervals": {
+            "interval_95": [
+              -0.010625,
+              0.050625
+            ],
+            "family_adjusted_interval": [
+              -0.0240625,
+              0.0634375
+            ]
+          },
+          "zero_status": {
+            "interval_95": "includes_zero",
+            "family_adjusted_interval": "includes_zero"
+          },
+          "matches_frozen_zero_status": {
+            "interval_95": true,
+            "family_adjusted_interval": true
+          },
+          "endpoint_change_from_frozen": {
+            "interval_95": [
+              -0.0003046875000000081,
+              -0.00031249999999999334
+            ],
+            "family_adjusted_interval": [
+              -0.0018750000000000017,
+              0.0012492187499998364
+            ]
+          }
+        }
+      ],
+      "maximum_absolute_endpoint_change_between_auxiliary_seeds": {
+        "interval_95": 0.0,
+        "family_adjusted_interval": 0.0
+      }
+    },
+    {
+      "domain": "MovieLens",
+      "contrast": "qwen_numerical_reader",
+      "left": "qwen_full_history",
+      "right": "history_ridge",
+      "users": 200,
+      "mean": 0.0912655631186201,
+      "frozen": {
+        "seed": 20260920,
+        "replicates": 10000,
+        "interval_95": [
+          0.061974493196285785,
+          0.12198959427619412
+        ],
+        "family_adjusted_interval": [
+          0.04914933833081747,
+          0.1354413039702122
+        ],
+        "zero_status": {
+          "interval_95": "positive",
+          "family_adjusted_interval": "positive"
+        }
+      },
+      "auxiliary_runs": [
+        {
+          "seed": 20260921,
+          "replicates": 200000,
+          "intervals": {
+            "interval_95": [
+              0.06125999362449282,
+              0.1214978915401176
+            ],
+            "family_adjusted_interval": [
+              0.048494152833058954,
+              0.13467344052072053
+            ]
+          },
+          "zero_status": {
+            "interval_95": "positive",
+            "family_adjusted_interval": "positive"
+          },
+          "matches_frozen_zero_status": {
+            "interval_95": true,
+            "family_adjusted_interval": true
+          },
+          "endpoint_change_from_frozen": {
+            "interval_95": [
+              -0.0007144995717929675,
+              -0.0004917027360765158
+            ],
+            "family_adjusted_interval": [
+              -0.0006551854977585175,
+              -0.0007678634494916736
+            ]
+          }
+        },
+        {
+          "seed": 20260922,
+          "replicates": 200000,
+          "intervals": {
+            "interval_95": [
+              0.06146816046674203,
+              0.12162350390592355
+            ],
+            "family_adjusted_interval": [
+              0.048502914063636944,
+              0.13508219687426914
+            ]
+          },
+          "zero_status": {
+            "interval_95": "positive",
+            "family_adjusted_interval": "positive"
+          },
+          "matches_frozen_zero_status": {
+            "interval_95": true,
+            "family_adjusted_interval": true
+          },
+          "endpoint_change_from_frozen": {
+            "interval_95": [
+              -0.000506332729543757,
+              -0.0003660903702705637
+            ],
+            "family_adjusted_interval": [
+              -0.0006464242671805273,
+              -0.00035910709594305645
+            ]
+          }
+        }
+      ],
+      "maximum_absolute_endpoint_change_between_auxiliary_seeds": {
+        "interval_95": 0.00020816684224921056,
+        "family_adjusted_interval": 0.00040875635354861717
+      }
+    },
+    {
+      "domain": "MovieLens",
+      "contrast": "phi_association",
+      "left": "phi_shuffled_history",
+      "right": "phi_full_history",
+      "users": 200,
+      "mean": 0.029375,
+      "frozen": {
+        "seed": 20260920,
+        "replicates": 10000,
+        "interval_95": [
+          0.00109375,
+          0.05640625
+        ],
+        "family_adjusted_interval": [
+          -0.010625,
+          0.06937539062500009
+        ],
+        "zero_status": {
+          "interval_95": "positive",
+          "family_adjusted_interval": "includes_zero"
+        }
+      },
+      "auxiliary_runs": [
+        {
+          "seed": 20260921,
+          "replicates": 200000,
+          "intervals": {
+            "interval_95": [
+              0.0015625,
+              0.056875
+            ],
+            "family_adjusted_interval": [
+              -0.0109375,
+              0.06859375
+            ]
+          },
+          "zero_status": {
+            "interval_95": "positive",
+            "family_adjusted_interval": "includes_zero"
+          },
+          "matches_frozen_zero_status": {
+            "interval_95": true,
+            "family_adjusted_interval": true
+          },
+          "endpoint_change_from_frozen": {
+            "interval_95": [
+              0.00046875,
+              0.0004687500000000039
+            ],
+            "family_adjusted_interval": [
+              -0.00031249999999999854,
+              -0.0007816406250000935
+            ]
+          }
+        },
+        {
+          "seed": 20260922,
+          "replicates": 200000,
+          "intervals": {
+            "interval_95": [
+              0.00140625,
+              0.05671875
+            ],
+            "family_adjusted_interval": [
+              -0.010625,
+              0.068125
+            ]
+          },
+          "zero_status": {
+            "interval_95": "positive",
+            "family_adjusted_interval": "includes_zero"
+          },
+          "matches_frozen_zero_status": {
+            "interval_95": true,
+            "family_adjusted_interval": true
+          },
+          "endpoint_change_from_frozen": {
+            "interval_95": [
+              0.00031249999999999984,
+              0.0003125000000000003
+            ],
+            "family_adjusted_interval": [
+              0.0,
+              -0.0012503906250000835
+            ]
+          }
+        }
+      ],
+      "maximum_absolute_endpoint_change_between_auxiliary_seeds": {
+        "interval_95": 0.0001562500000000036,
+        "family_adjusted_interval": 0.00046874999999999
+      }
+    },
+    {
+      "domain": "MovieLens",
+      "contrast": "phi_numerical_reader",
+      "left": "phi_full_history",
+      "right": "history_ridge",
+      "users": 200,
+      "mean": 0.0756405631186201,
+      "frozen": {
+        "seed": 20260920,
+        "replicates": 10000,
+        "interval_95": [
+          0.04880294115054389,
+          0.1031131012421897
+        ],
+        "family_adjusted_interval": [
+          0.03836481666026355,
+          0.11702066959512675
+        ],
+        "zero_status": {
+          "interval_95": "positive",
+          "family_adjusted_interval": "positive"
+        }
+      },
+      "auxiliary_runs": [
+        {
+          "seed": 20260921,
+          "replicates": 200000,
+          "intervals": {
+            "interval_95": [
+              0.04906915128487942,
+              0.1029675024511564
+            ],
+            "family_adjusted_interval": [
+              0.03818494565496066,
+              0.11537525979152903
+            ]
+          },
+          "zero_status": {
+            "interval_95": "positive",
+            "family_adjusted_interval": "positive"
+          },
+          "matches_frozen_zero_status": {
+            "interval_95": true,
+            "family_adjusted_interval": true
+          },
+          "endpoint_change_from_frozen": {
+            "interval_95": [
+              0.0002662101343355247,
+              -0.0001455987910332912
+            ],
+            "family_adjusted_interval": [
+              -0.0001798710053028882,
+              -0.0016454098035977166
+            ]
+          }
+        },
+        {
+          "seed": 20260922,
+          "replicates": 200000,
+          "intervals": {
+            "interval_95": [
+              0.0490223680811467,
+              0.10308247074658919
+            ],
+            "family_adjusted_interval": [
+              0.03799862636467563,
+              0.11526263622989666
+            ]
+          },
+          "zero_status": {
+            "interval_95": "positive",
+            "family_adjusted_interval": "positive"
+          },
+          "matches_frozen_zero_status": {
+            "interval_95": true,
+            "family_adjusted_interval": true
+          },
+          "endpoint_change_from_frozen": {
+            "interval_95": [
+              0.00021942693060280488,
+              -3.063049560050879e-05
+            ],
+            "family_adjusted_interval": [
+              -0.0003661902955879176,
+              -0.0017580333652300884
+            ]
+          }
+        }
+      ],
+      "maximum_absolute_endpoint_change_between_auxiliary_seeds": {
+        "interval_95": 0.00011496829543278242,
+        "family_adjusted_interval": 0.00018631929028502942
+      }
+    }
+  ],
+  "summary": {
+    "primary_operational_contrasts": 10,
+    "auxiliary_bootstrap_runs": 20,
+    "all_zero_exclusion_statuses_match_frozen": true,
+    "maximum_absolute_endpoint_change_from_frozen": {
+      "interval_95": 0.0019500658195970855,
+      "family_adjusted_interval": 0.003393366529303693
+    },
+    "maximum_absolute_endpoint_change_between_auxiliary_seeds": {
+      "interval_95": 0.0006096268315018416,
+      "family_adjusted_interval": 0.0007825600961538781
+    }
+  }
+}
