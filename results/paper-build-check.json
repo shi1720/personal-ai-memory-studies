@@ -2,21 +2,21 @@
   "pdfs": [
     {
       "file": "output/pdf/Shivam_Gupta_Personal_AI_Memory_Paper.pdf",
-      "pages": 14,
+      "pages": 15,
       "main_text_last_page": 8,
       "template": "ICML preprint",
       "all_fonts_embedded": true,
-      "sha256": "2cde765954dbc4a0ceb7519a5bc6449ec3cf8266dc68e778c7738119f235df81",
-      "bytes": 152476
+      "sha256": "df2d73fae0414142b1dc4b055fd6453fa445a1e3f835e1b21c4a56c0bd96ee78",
+      "bytes": 154495
     },
     {
       "file": "output/pdf/Personal_AI_Memory_Anonymous.pdf",
-      "pages": 14,
+      "pages": 15,
       "main_text_last_page": 8,
       "template": "ICML 2026 review",
       "all_fonts_embedded": true,
-      "sha256": "9a9bc7083ee02ba0f75447cfd4aad355c78eef0a1b6bab6b4b4ab7e270f6cd78",
-      "bytes": 154723
+      "sha256": "e325c2def11d153eab58ea695ecd431b0e645ca10eab658ab276212e8b3d649f",
+      "bytes": 156907
     },
     {
       "file": "output/pdf/Personal_AI_Memory_TMLR_Submission.pdf",
@@ -24,8 +24,8 @@
       "main_text_last_page": 9,
       "template": "TMLR review",
       "all_fonts_embedded": true,
-      "sha256": "9e33f7983f95d718195eaf6bbe1be8288e0035db389ea7975b0823b7d41ddd3a",
-      "bytes": 162354
+      "sha256": "6d3f93c3331a1f59a63c4300a453d882c33e1d2f4c25f50cff07436ad5e09649",
+      "bytes": 163967
     }
   ],
   "source_hashes": {
@@ -37,7 +37,7 @@
     "paper/findings.tex": "398249c4cd8c990898ff121f6db0a9cd17c9e439d33b6c56d08fbb3ef73db171",
     "paper/introduction-findings.tex": "bdae9af8c977884741eb8abad59a6207ba2ca365fe546374f20c9ed9fce48c55",
     "paper/main-results-table.tex": "06ae49292366be5b5026796e3b52588e8cfe5d777e0879361fc37d5b0ed569d4",
-    "paper/main.tex": "7120d26371147df164413447dfe5e32138f3ba010fd01eecce8fb6b52b73582b",
+    "paper/main.tex": "8a6b12495bd485148f910f7194958179c2dbdbf61f09a9fa675e2cf1104371f1",
     "paper/results.tex": "33289b5b7452ef82112bb28554e0419c349fe7fca6b091ad041b9c72f516695d",
     "paper/supplementary-tables.tex": "ed7e3b7eb3f3eea29d53f263f3bf7dfba3d4dd01249c32d09c4661e1042de3b9",
     "paper/tmlr-submission.tex": "09076a1073f2ab244c8f51047061366458b3ceadfa1ae49d1988e133b10f30cb"
