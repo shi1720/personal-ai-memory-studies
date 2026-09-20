@@ -1,0 +1,49 @@
+{
+  "scope": "Label-blind cohort feasibility; no predictions, tuning or target scoring",
+  "category": "Digital_Music",
+  "source_files": [
+    {
+      "file": "data/amazon-language-extension/Digital_Music.jsonl.gz",
+      "source": "https://mcauleylab.ucsd.edu/public_datasets/data/amazon_2023/raw/review_categories/Digital_Music.jsonl.gz",
+      "bytes": 26071111,
+      "sha256": "a598c5448cd55e9c1044aa8e1cb198642d5339190ae12b950397fc7b666c3f23"
+    },
+    {
+      "file": "data/amazon-language-extension/meta_Digital_Music.jsonl.gz",
+      "source": "https://mcauleylab.ucsd.edu/public_datasets/data/amazon_2023/raw/meta_categories/meta_Digital_Music.jsonl.gz",
+      "bytes": 13815359,
+      "sha256": "78ee3b1dc5e80dc0a20ac3221987e85b80977b17d6b61a84932f811c7ced921d"
+    }
+  ],
+  "review_rows": 130434,
+  "users": 100952,
+  "users_at_least_15_review_rows": 202,
+  "previously_audited_users_excluded_from_candidates": 1,
+  "metadata_rows": 70537,
+  "titled_catalog_items": 70530,
+  "eligibility_counts_after_known_user_exclusion": {
+    "eligible": 18,
+    "fewer_than_12_prior_and_3_later_items": 180,
+    "fewer_than_15_distinct_items": 3
+  },
+  "eligible_users": 18,
+  "enough_for_60_development_and_200_confirmation_before_context_filter": false,
+  "history_characters_min": 837,
+  "history_characters_max": 54012,
+  "candidate_windows_sha256": "de5c374e492b93a78b7838ddc52569128ad511c3645aa16e49091413fb4919ae",
+  "candidate_windows_redistributed": false,
+  "rating_values_used_for_selection": false,
+  "prediction_inputs_constructed": false,
+  "model_inference_calls": 0,
+  "cutoff_utc": "2022-01-01T00:00:00Z",
+  "selection": "Last 12 first-time parent-item events strictly before fixed cutoff and first 3 strictly after; all 15 titled; nonempty earlier review texts",
+  "limitations": [
+    "Observed reviews, not randomized exposure or latent preference labels",
+    "Catalog is a retrospective snapshot, not point-in-time certified",
+    "No context-length or model-format feasibility established yet",
+    "Exact parent item IDs deduplicated, not every product alias",
+    "Exact review-text duplication is not yet checked by this support screen",
+    "Known audited user IDs excluded; identity across unknown source aliases is not established"
+  ],
+  "code_sha256": "c28efc99cb1be6f8d223ba520c0bee96f9541f5cd842f17006d2d182d4b7441b"
+}
