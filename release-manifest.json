@@ -1,6 +1,6 @@
 {
   "release_scope": "Polished research preprint, anonymous TMLR submission-format package and controlled evaluation; not submitted or externally peer reviewed",
-  "source_development_commit": "85f7075d529ffff5729cae56d31ee0365217eb52",
+  "source_development_commit": "2a4131ce1f5ec0ad9d704f112e5fd5ee02778436",
   "source_commit_note": "Local development provenance for the final manuscript revision, not public preregistration. Only listed files are included; the unfinished language extension is excluded.",
   "public_pre_inference_freeze": "2f0d896",
   "excluded": [
@@ -12,7 +12,7 @@
     "credentials"
   ],
   "files": {
-    ".github/workflows/research-checks.yml": "3ea54e8211c5d122e90586da7ce216b39f58b26f157a839d51cfa92c2f1cd12a",
+    ".github/workflows/research-checks.yml": "821b356db05c31bf04d31b9a30b41800db58d5de3f2ba6c2c433583ff5aff041",
     ".gitignore": "1532d3cbdc6f4e9ec35b6bc256257fc56ecea333bf1046a8890d98b514a2ee89",
     "ARCHIVE.md": "43a07cc7b6ecae8d234b33f39d71e4b85bf198cbd959f635ed8c9b6f3b07add6",
     "LICENSE": "76150e715bcd746234483f9ad0a69bc28dd60c21ef8b8e34338973e5176370cb",
@@ -80,9 +80,9 @@
     "docs/venue.md": "f5aa4021ad8624128e25d28fdabb6046e1b9f4876e33c3884412123d2b14bc22",
     "licenses/THIRD-PARTY-NOTICES.md": "f3b7a4bf347569917438593a3e9f44f0f26fdf5de369054bcc9958af5f293058",
     "licenses/mem0-Apache-2.0.txt": "0bbcbe931c353293a2fafce08326181dfeea0e568c566afd4ce8337a70f5e219",
-    "output/pdf/Personal_AI_Memory_Anonymous.pdf": "e325c2def11d153eab58ea695ecd431b0e645ca10eab658ab276212e8b3d649f",
-    "output/pdf/Personal_AI_Memory_TMLR_Submission.pdf": "6d3f93c3331a1f59a63c4300a453d882c33e1d2f4c25f50cff07436ad5e09649",
-    "output/pdf/Shivam_Gupta_Personal_AI_Memory_Paper.pdf": "df2d73fae0414142b1dc4b055fd6453fa445a1e3f835e1b21c4a56c0bd96ee78",
+    "output/pdf/Personal_AI_Memory_Anonymous.pdf": "827f1a9cacbbaa458a81f559171a5f13b212c2e4838ec1f05f08d4c26c9ad562",
+    "output/pdf/Personal_AI_Memory_TMLR_Submission.pdf": "ccb21caca8d4f6250c0e6bcc0a32832caec71586a2a909477d5f832a47ebe1be",
+    "output/pdf/Shivam_Gupta_Personal_AI_Memory_Paper.pdf": "7574a6673b8ffeae49c73e38f0114e67325ef02b5214dcb6ae4cc15a98b7a688",
     "output/submission/Personal_AI_Memory_Anonymous_Artifact.zip": "0d0f3179c96948bb9c9e0ac918d75813857175eb1b6bf390267f038f7d14a23a",
     "paper/THIRD-PARTY.md": "518b80371d6bd1eaccaee0b118bcd66ac88d81f1b48be27e9f1ed705b157ecf5",
     "paper/TMLR-STYLE-LICENSE.txt": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
@@ -94,7 +94,7 @@
     "paper/conclusion.tex": "28a720a9dadf5aa6a9d5c7b1df091acb746fd72ea0a8e626d59f619dba0771dc",
     "paper/discussion.tex": "109c2babc2d5400d5fe20dc2d8b2719512957051312b9e1e623736090e0d11de",
     "paper/fancyhdr.sty": "9130c52f91087abc6d223164ffa587e207e3257fcbcd069ef09ecb5391043f14",
-    "paper/findings.tex": "398249c4cd8c990898ff121f6db0a9cd17c9e439d33b6c56d08fbb3ef73db171",
+    "paper/findings.tex": "369f3946399de9618c286f2a94d5ab8f18db4e64dcca678cb7d75195b8828f3e",
     "paper/icml2026.bst": "0ec3d5eb9b02efb7e0b44a32f3775882f42a743d0bdc618f34e6936309b98764",
     "paper/icml2026.sty": "7cdcf90f6a59c5219e7f15c88f7ed09fcaf598dad91e6cdddc4dc3cb0e397a95",
     "paper/introduction-findings.tex": "bdae9af8c977884741eb8abad59a6207ba2ca365fe546374f20c9ed9fce48c55",
@@ -202,7 +202,7 @@
     "results/movie-validation-lock.json": "21588d47e561b3eb4089e2198013b4136bebe2683cc6e1fef8adbf5ac3c9a508",
     "results/movie-validation-preflight-phi.json": "7218ec28224c8171dbcd6a0277308182a8a7f9227d2124ee02bbae2394d6d9c5",
     "results/movie-validation-preflight-qwen.json": "56d43f70c4df1d599aff9d5ab4aacbc7c999d7ad38fdf2d18e58e688f6576945",
-    "results/paper-build-check.json": "b583a53d12986bbd7f0ebe531cf30b83ebbe53887b57341095e924859a7c5cb7",
+    "results/paper-build-check.json": "ea16e619f99890c6709269afb2a937b195ea8f0bce929205478a98630c4d2233",
     "results/paper-visual-check.json": "75df55f9ff79b10fbf6f73603f3878660dfdbe6e6da09329e94f8ba92fcac89e",
     "results/pilot-001-retrieval.json": "369fb09637e90108ca6391c9ac141af9cac195e99c9486dbd0126baf4d93fc11",
     "results/pilot-002-analysis.json": "19b316394d1fb8eb85327c6a565116aa3f9edb58a624519c203321a12653ea4b",
@@ -347,6 +347,6 @@
     "tests/test_retention_pilot.py": "6db353411bd96a307761cd72b1a80283b25947a963a13b1f511c4669450b383f",
     "tests/test_retrieval.py": "7a1bfb5202cbc1dd70fdd4c43460bfacea69c6c539cbd0946a69ad9eb8841dfb",
     "tests/test_review_bootstrap_stability.py": "1a949a9b66c1a1c2d23e9564b4d97aac5580f1993782b692e6a798a2ce2e206b",
-    "docs/reviews/final-delivery-check.md": "3ec62550689640f875f0e7741b01e98b9ca42a5597f3753092cb9f42be1bc5a0"
+    "docs/reviews/final-delivery-check.md": "96314762aaafa8a22e2fb7892c27c84ac6043dd0226c21f15a2813b737be6640"
   }
 }
