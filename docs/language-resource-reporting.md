@@ -56,6 +56,11 @@ must not be presented as successful compression. Any prompt-size comparison
 between a memory condition and full history should report all-user operational
 values and, separately, the subset with a valid writer. Label the subset as
 descriptive; do not replace the all-user accuracy estimand with it.
+The current per-condition subset summaries are not themselves paired savings:
+full history has no required writer and therefore includes every user. Any
+later paired prompt-size comparison must apply the same memory-valid user mask
+to both the memory and full-history condition before calculating a difference.
+Do not subtract aggregates from differently composed subsets.
 
 ## Elapsed time
 
@@ -105,3 +110,22 @@ and completed-report hashes. Publish aggregate measurements, settings, missing
 usage counts and failure categories, without review text, target ratings, user
 identifiers or private model traces. Partial engineering observations remain
 clearly partial and cannot be relabeled as final accuracy results.
+
+## Implementation
+
+After all development stages are complete, run:
+
+```sh
+python3 src/summarize_language_development_resources.py
+```
+
+The command verifies completed inference provenance and all stage handoffs
+before adapting raw records. It attributes every audited request to exactly
+one planned cell, checks reused response identities, reparses writer and reader
+validity, and rejects unassigned audits. The pure `summarize_resources` function
+then checks the full 1,080-cell grid and aggregates by model, condition and
+preflight/new provenance. The output is
+`results/language-development-resources.json`, with input and source hashes.
+It never opens the label artifact or computes accuracy. An existing differing
+output is not overwritten. Tests use invented artifacts only; they do not
+constitute a resource measurement from the live experiment.
